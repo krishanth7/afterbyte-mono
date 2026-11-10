@@ -1,9 +1,7 @@
-# Font outputs
+# Font files
 
-There are no installable fonts in this directory yet.
+## Vantablack Gothic — Regular 0.1.0 alpha
 
-Planned release artifacts:
-- AfterbyteMono-Regular.ttf
-- AfterbyteMono-Regular.woff2
+The [vantablack-gothic](vantablack-gothic) directory contains the installable TTF, web WOFF2, CSS, MIT license copy, and SHA-256 checksums. These are real fonts compiled from original polygon sources.
 
-These names describe intended outputs, not existing downloads. Generate binaries from reviewed editable sources only. Include the chosen font license, version, source revision, coverage information, build instructions, and checksums with every published release.
+See the [main README](../README.md) for downloads, usage, coverage, and alpha limits. No Afterbyte Mono binaries exist yet.

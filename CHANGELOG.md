@@ -1,17 +1,25 @@
 # Changelog
 
-## Unreleased
+## 0.1.0 alpha — 2026-11-10
 
 ### Added
-- Security and accessibility policies; expanded community and contribution guidance.
-- Design-proposal and accessibility issue forms, with security-reporting guidance.
-- Vantablack Gothic four-part specification, 95-glyph metric contract, proofing text, and contract validator.
+- Original Vantablack Gothic proportional Regular font with 95 printable ASCII mappings and .notdef.
+- Reproducible FontTools TTF/WOFF2 build from original polygon recipes and normalized JSON sources.
+- CSS, embedded MIT license metadata, font license copy, and SHA-256 checksums.
+- Actual-font outline hero and light/dark glyph sheets in the README.
+- Binary, geometry, shaping, raster, and source-contract validators.
+- Direct polygon-source compilation through --from-source.
 
-- Afterbyte Mono project identity and SVG brand banner.
-- Project overview with explicit development status.
-- Original glyph design brief, proofing text, and staged roadmap.
-- Source and output directory guidance.
-- Contribution guide, community expectations, issue templates, and pull request template.
-- MIT license for the initial repository materials.
+### Changed
+- README now presents the latest implemented Vantablack Gothic alpha with downloads and usage.
+- The root MIT license is explicitly selected for original font outlines and binaries.
+- The specification records implementation decisions and alpha optical adjustments.
+- Community docs and automated checks now describe the working alpha.
 
-No font source outlines, binaries, releases, packages, or build pipeline are included yet.
+### Limitations
+No hinting, shipped kerning, extended Unicode coverage, extra weights, variable axes, cross-platform installation audit, or independent certification. The downloadable alpha is committed to main; no tagged release is claimed.
+
+## Initial repository setup — 2026-11-10
+- Afterbyte Mono identity, design brief, proofing text, roadmap, and contribution templates.
+- Security and accessibility policies.
+- Vantablack Gothic four-part specification and machine-readable design contract.

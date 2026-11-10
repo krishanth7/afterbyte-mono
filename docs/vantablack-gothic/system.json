@@ -2,8 +2,8 @@
   "schema_version": 1,
   "family": "Vantablack Gothic",
   "style": "Regular",
-  "status": "specification-only",
-  "outline_status": "not-implemented",
+  "status": "alpha",
+  "outline_status": "implemented-alpha",
   "metrics": {
     "units_per_em": 1000,
     "cap_height": 780,
@@ -95,7 +95,7 @@
       "advance": 250,
       "left_sidebearing": null,
       "right_sidebearing": null,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "!",
@@ -103,7 +103,7 @@
       "advance": 158,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "\"",
@@ -111,7 +111,7 @@
       "advance": 250,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "#",
@@ -119,7 +119,7 @@
       "advance": 460,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "$",
@@ -127,7 +127,7 @@
       "advance": 430,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "%",
@@ -135,7 +135,7 @@
       "advance": 620,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "&",
@@ -143,7 +143,7 @@
       "advance": 510,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "'",
@@ -151,7 +151,7 @@
       "advance": 158,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "(",
@@ -159,7 +159,7 @@
       "advance": 230,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": ")",
@@ -167,7 +167,7 @@
       "advance": 230,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "*",
@@ -175,7 +175,7 @@
       "advance": 350,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "+",
@@ -183,15 +183,15 @@
       "advance": 400,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": ",",
       "codepoint": 44,
-      "advance": 180,
+      "advance": 158,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "-",
@@ -199,7 +199,7 @@
       "advance": 320,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": ".",
@@ -207,7 +207,7 @@
       "advance": 158,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "/",
@@ -215,7 +215,7 @@
       "advance": 360,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "0",
@@ -223,7 +223,7 @@
       "advance": 430,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "1",
@@ -231,7 +231,7 @@
       "advance": 250,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "2",
@@ -239,7 +239,7 @@
       "advance": 400,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "3",
@@ -247,7 +247,7 @@
       "advance": 400,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "4",
@@ -255,7 +255,7 @@
       "advance": 420,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "5",
@@ -263,7 +263,7 @@
       "advance": 400,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "6",
@@ -271,7 +271,7 @@
       "advance": 430,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "7",
@@ -279,7 +279,7 @@
       "advance": 380,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "8",
@@ -287,7 +287,7 @@
       "advance": 430,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "9",
@@ -295,7 +295,7 @@
       "advance": 430,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": ":",
@@ -303,15 +303,15 @@
       "advance": 158,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": ";",
       "codepoint": 59,
-      "advance": 180,
+      "advance": 158,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "<",
@@ -319,7 +319,7 @@
       "advance": 360,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "=",
@@ -327,7 +327,7 @@
       "advance": 400,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": ">",
@@ -335,7 +335,7 @@
       "advance": 360,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "?",
@@ -343,7 +343,7 @@
       "advance": 360,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "@",
@@ -351,7 +351,7 @@
       "advance": 660,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "A",
@@ -359,7 +359,7 @@
       "advance": 460,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "B",
@@ -367,7 +367,7 @@
       "advance": 440,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "C",
@@ -375,7 +375,7 @@
       "advance": 430,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "D",
@@ -383,7 +383,7 @@
       "advance": 460,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "E",
@@ -391,7 +391,7 @@
       "advance": 390,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "F",
@@ -399,7 +399,7 @@
       "advance": 370,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "G",
@@ -407,7 +407,7 @@
       "advance": 460,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "H",
@@ -415,7 +415,7 @@
       "advance": 450,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "I",
@@ -423,7 +423,7 @@
       "advance": 158,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "J",
@@ -431,7 +431,7 @@
       "advance": 330,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "K",
@@ -439,7 +439,7 @@
       "advance": 440,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "L",
@@ -447,7 +447,7 @@
       "advance": 360,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "M",
@@ -455,7 +455,7 @@
       "advance": 620,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "N",
@@ -463,7 +463,7 @@
       "advance": 470,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "O",
@@ -471,7 +471,7 @@
       "advance": 460,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "P",
@@ -479,7 +479,7 @@
       "advance": 420,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "Q",
@@ -487,7 +487,7 @@
       "advance": 480,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "R",
@@ -495,7 +495,7 @@
       "advance": 450,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "S",
@@ -503,7 +503,7 @@
       "advance": 420,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "T",
@@ -511,7 +511,7 @@
       "advance": 410,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "U",
@@ -519,7 +519,7 @@
       "advance": 450,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "V",
@@ -527,7 +527,7 @@
       "advance": 460,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "W",
@@ -535,7 +535,7 @@
       "advance": 660,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "X",
@@ -543,7 +543,7 @@
       "advance": 460,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "Y",
@@ -551,7 +551,7 @@
       "advance": 450,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "Z",
@@ -559,7 +559,7 @@
       "advance": 400,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "[",
@@ -567,7 +567,7 @@
       "advance": 220,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "\\",
@@ -575,7 +575,7 @@
       "advance": 360,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "]",
@@ -583,7 +583,7 @@
       "advance": 220,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "^",
@@ -591,7 +591,7 @@
       "advance": 360,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "_",
@@ -599,7 +599,7 @@
       "advance": 430,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "`",
@@ -607,7 +607,7 @@
       "advance": 180,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "a",
@@ -615,7 +615,7 @@
       "advance": 400,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "b",
@@ -623,7 +623,7 @@
       "advance": 410,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "c",
@@ -631,7 +631,7 @@
       "advance": 360,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "d",
@@ -639,7 +639,7 @@
       "advance": 410,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "e",
@@ -647,7 +647,7 @@
       "advance": 400,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "f",
@@ -655,7 +655,7 @@
       "advance": 250,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "g",
@@ -663,7 +663,7 @@
       "advance": 410,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "h",
@@ -671,7 +671,7 @@
       "advance": 410,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "i",
@@ -679,7 +679,7 @@
       "advance": 158,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "j",
@@ -687,7 +687,7 @@
       "advance": 190,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "k",
@@ -695,7 +695,7 @@
       "advance": 380,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "l",
@@ -703,7 +703,7 @@
       "advance": 158,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "m",
@@ -711,7 +711,7 @@
       "advance": 600,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "n",
@@ -719,7 +719,7 @@
       "advance": 410,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "o",
@@ -727,7 +727,7 @@
       "advance": 410,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "p",
@@ -735,7 +735,7 @@
       "advance": 410,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "q",
@@ -743,7 +743,7 @@
       "advance": 410,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "r",
@@ -751,7 +751,7 @@
       "advance": 270,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "s",
@@ -759,7 +759,7 @@
       "advance": 360,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "t",
@@ -767,7 +767,7 @@
       "advance": 260,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "u",
@@ -775,7 +775,7 @@
       "advance": 410,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "v",
@@ -783,7 +783,7 @@
       "advance": 400,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "w",
@@ -791,7 +791,7 @@
       "advance": 580,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "x",
@@ -799,7 +799,7 @@
       "advance": 400,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "y",
@@ -807,7 +807,7 @@
       "advance": 400,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "z",
@@ -815,7 +815,7 @@
       "advance": 350,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "{",
@@ -823,7 +823,7 @@
       "advance": 260,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "|",
@@ -831,7 +831,7 @@
       "advance": 158,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "}",
@@ -839,7 +839,7 @@
       "advance": 260,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     },
     {
       "character": "~",
@@ -847,7 +847,8 @@
       "advance": 430,
       "left_sidebearing": 24,
       "right_sidebearing": 24,
-      "status": "planned"
+      "status": "alpha-outline"
     }
-  ]
+  ],
+  "version": "0.1.0"
 }

@@ -1,0 +1,9 @@
+/* Vantablack Gothic 0.1.0 alpha. Copyright (c) 2026 Krishanth. MIT license. */
+@font-face {
+  font-family: "Vantablack Gothic";
+  src: url("./VantablackGothic-Regular.woff2") format("woff2"),
+       url("./VantablackGothic-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}

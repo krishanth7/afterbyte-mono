@@ -1,43 +1,32 @@
 # Roadmap
 
-This roadmap describes planned work. Unchecked items are not implemented.
+## Vantablack Gothic
 
-## 0 — Repository foundation
-- [x] Establish name, tagline, and project identity.
-- [x] Add design brief and specimen text.
-- [x] Add contribution and issue templates.
-- [x] Document provenance, licensing boundaries, and release requirements.
+### 0.1.0 alpha — implemented
+- [x] Original polygon recipes and 95 printable ASCII mappings plus .notdef.
+- [x] Proportional advances, integer/45-degree outlines, and core line metrics.
+- [x] MIT license explicitly selected for original font sources and binaries.
+- [x] TTF and WOFF2 build, CSS, editable JSON, and checksums.
+- [x] Actual-font hero, light/dark glyph sheets, and README downloads.
+- [x] Source geometry, binary equivalence, shaping, and raster smoke checks.
+- [x] Reproducible local builds and an automated check workflow.
 
-## 1 — Original glyph design
-- [ ] Choose and document a dedicated font license.
-- [ ] Lock grid, baseline, metrics, and source format.
-- [ ] Design control glyphs and approve readability.
-- [ ] Complete printable ASCII and .notdef.
-- [ ] Review originality and provenance of every source contribution.
+### Next alpha
+- [ ] Refine optical spacing, narrow apertures, S/5 distinction, and mixed-case rhythm.
+- [ ] Measure and ship kerning pairs.
+- [ ] Evaluate hinting and small-size behavior.
+- [ ] Test installation and rendering on Windows, macOS, Linux, and multiple browser engines.
+- [ ] Run independent font validation and a specimen accessibility audit.
+- [ ] Add accented Latin, currency symbols, smart punctuation, and documented language coverage.
+- [ ] Prepare a tagged alpha release with sources, binaries, license, checksums, and known issues.
 
-Exit: editable original sources, complete initial coverage, documented metrics.
+### Later
+Additional weights, tabular figures, and variable axes require separate design and engineering work. No release date is committed.
 
-## 2 — Reproducible font build
-- [ ] Select and pin build dependencies.
-- [ ] Implement documented TTF and WOFF2 builds from sources.
-- [ ] Add automated checks for coverage, shared advance widths, naming, and required tables.
-- [ ] Record versions and reproducibility instructions.
+## Afterbyte Mono
 
-Exit: a clean checkout can produce validated font files.
+This earlier pixel monospace study remains at the concept stage. It has no installable font binaries. Its [design brief](docs/DESIGN.md) records the intended direction.
 
-## 3 — Specimen and alpha
-- [ ] Create an interactive specimen using the actual font.
-- [ ] Verify native grid sizes, light/dark rendering, and code samples.
-- [ ] Test installation and web loading across target platforms.
-- [ ] Publish an explicitly labeled alpha with known limitations.
-
-Exit: installable, testable alpha plus license and release notes.
-
-## 4 — Public release
-- [ ] Resolve alpha readability and rendering issues.
-- [ ] Prepare screenshots, installation instructions, and versioned downloads.
-- [ ] Publish v1.0.0 with checksums, license, sources, and changelog.
-- [ ] Share real examples and collect user feedback.
-
-## Later exploration
-Extended Latin, box drawing, more symbols, additional weights, and optional ligatures depend on demand and design feasibility.
+## Shared repository
+- [x] License, code of conduct, contribution guide, security policy, and accessibility guidance.
+- [x] PR template and glyph, rendering, proposal, and accessibility issue templates.

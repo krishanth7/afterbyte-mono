@@ -1,5 +1,5 @@
-VANTABLACK GOTHIC — TEXT PROOFING PLAN
-No rendered typeface specimen exists yet.
+VANTABLACK GOTHIC — 0.1.0 ALPHA PROOFING TEXT
+Actual-font README specimens are available in assets/vantablack-gothic.
 
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 abcdefghijklmnopqrstuvwxyz

@@ -1,7 +1,13 @@
 # Font sources
 
-Original editable glyph sources will live here after the source format, grid, metrics, and font license are agreed.
+## Vantablack Gothic
 
-No glyph outlines are present yet.
+[vantablack-gothic/glyphs.json](vantablack-gothic/glyphs.json) contains normalized original contours for the 96-glyph alpha: 95 printable ASCII characters plus .notdef.
 
-Before accepting sources, document the format, tool versions, authorship, license, baseline, ascender, descender, advance width, pixel scale, and build entry point. Avoid editor-specific absolute paths and machine-dependent settings.
+Original recipe source: [build_vantablack.py](../tools/build_vantablack.py). Metrics: [system.json](../docs/vantablack-gothic/system.json). All original font sources and binaries are under the root MIT license.
+
+The default build regenerates this JSON from recipes. To compile directly edited JSON without overwriting it, use `python tools/build_vantablack.py --from-source`. Update the metric contract when changing advances, validate, and regenerate specimens.
+
+## Afterbyte Mono
+
+The earlier pixel monospace concept is still unbuilt. Its separate [design brief](../docs/DESIGN.md) remains a planning document.

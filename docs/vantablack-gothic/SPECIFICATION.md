@@ -1,5 +1,7 @@
 # Vantablack Gothic — Programmatic Font System
-Version: 0.1 design specification · Status: specification only · Maintainer: Krishanth
+Version: 0.1.0 alpha · Status: implemented alpha with original outlines · Maintainer: Krishanth
+
+Current implementation decisions and optical adjustments are recorded in [ALPHA.md](ALPHA.md). Morphology below is the design direction; shipped geometry and advances are in the source JSON and system.json.
 
 ## 1. Concept Overview
 
@@ -11,7 +13,7 @@ The visual mood board consists of blackened steel panels, monolithic service tow
 This is a distinct design study housed alongside Afterbyte Mono. Afterbyte remains a pixel monospace concept; Vantablack is proportional and hyper-condensed. “Variable-width” here means different glyph advances, not an implemented OpenType variable font or a wdth axis.
 
 ### Design scope
-The initial target is one static Regular style containing 95 printable ASCII characters plus an unencoded .notdef. Additional symbols and languages require their own coverage reviews. No font binaries, drawn alphabet, affiliation with a material manufacturer, trademark clearance, or production readiness is claimed by this specification.
+The initial alpha contains one static Regular style with 95 printable ASCII characters plus an unencoded .notdef, compiled as TTF and WOFF2 from original polygon outlines. Additional symbols and languages require their own coverage reviews. No affiliation with a material manufacturer, trademark clearance, or production readiness is claimed.
 
 ### Intended reading conditions
 Design first for 80–240 CSS px in the initial specimen. Also proof at 32, 48, and 64 px as stress tests. This is an initial test range, not a validated minimum size. At 1000 UPEM, a 15-unit separation is only 0.72 px at 48 px and 1.2 px at 80 px. The gaps and narrow apertures must be judged in actual rasterized output.
@@ -47,10 +49,10 @@ All outline coordinates are integer font units, with y increasing upward.
 | Minimum interglyph clearance | 15 | Must pass contour collision checks after kerning |
 | Baseline numerals | 0–780 | Proportional lining figures initially |
 
-The outline extent −200…820 spans 1020 units and can exceed a 1000-unit em. Do not scale this extent down to 1000. For a TrueType build, keep head.unitsPerEm = 1000; set OS/2.sTypoAscender = 820, sTypoDescender = −200, sTypoLineGap = 0, hhea.ascent = 820, hhea.descent = −200, and hhea.lineGap = 0. Start usWinAscent = 820 and usWinDescent = 200; expand Windows clipping metrics if later reviewed glyph bounds exceed them. Set sxHeight = 580 and sCapHeight = 780 where supported. All are proposed output-table values to validate, not existing binaries.
+The outline extent −200…820 spans 1020 units and can exceed a 1000-unit em. Do not scale this extent down to 1000. For a TrueType build, keep head.unitsPerEm = 1000; set OS/2.sTypoAscender = 820, sTypoDescender = −200, sTypoLineGap = 0, hhea.ascent = 820, hhea.descent = −200, and hhea.lineGap = 0. Start usWinAscent = 820 and usWinDescent = 200; expand Windows clipping metrics if later reviewed glyph bounds exceed them. Set sxHeight = 580 and sCapHeight = 780 where supported. These values are written into the current alpha and checked by the binary validator.
 
 ### Proportional advance widths
-The companion [system.json](system.json) enumerates every initial character and its proposed advance. Ink width = advance − 48 for ordinary non-space glyphs. Space has no contours and advances 250 units. These are starting masters, subject to reviewed changes documented in both files.
+The companion [system.json](system.json) enumerates every initial character and its proposed advance. Ink width = advance − 48 for ordinary non-space glyphs. Space has no contours and advances 250 units. These are starting masters, subject to reviewed changes documented in both files. The alpha glyphs are implemented; system.json records their shipped advances. Narrow punctuation uses the measured widths recorded in ALPHA.md.
 
 | Set | Character: advance in units |
 | --- | --- |
@@ -70,7 +72,7 @@ The companion [system.json](system.json) enumerates every initial character and 
 5. Interpret slashed crossbars as 45°-clipped bar ends, not long sloping bars. E/F/H/A detach the middle bar from its adjacent stems by a 15-unit horizontal gap; the A bar fits inside the leg envelope.
 6. A 15-unit connection gap is an axis-measured subtraction. It is not the same measurement as a 15-unit perpendicular diagonal clearance.
 7. Build counters by subtracting inner polygons from solids. Normalize winding, remove overlaps and self-intersections, and reject zero-area contours.
-8. Default lowercase crossbar zone is y = 360…470; uppercase crossbar zone is y = 335…445. Use higher waists on a/e through their y = 360…470 bars. Lowercase dot blocks occupy y = 670…780.
+8. Default lowercase crossbar zone is y = 360…470; uppercase crossbar zone is y = 335…445. The initial alpha adjusts a/e bars to y = 300…410 to preserve an upper counter; see ALPHA.md. Lowercase dot blocks occupy y = 670…780.
 9. Start open-letter apertures at 30 units vertical clearance, then proof C/G/c/e/s. This narrow opening is distinct from the 15-unit crossbar detachments.
 10. No unreviewed negative bearings, synthetic bold, automatic smoothing, or automatic global condensation. Preserve integer coordinate constraints after every Boolean operation.
 
@@ -114,11 +116,11 @@ Evaluate clearance over the entire outline, especially diagonal overhangs and Q 
 ### Lowercase a–z
 | Glyph | Structural recipe and distinguishing detail |
 | --- | --- |
-| a | Single-storey high-waisted angular bowl, right stem, small upper-right aperture. Counter and y=360…470 waist must remain separate from e. |
+| a | High-waist angular two-chamber construction and full right stem. The alpha bar is y=300…410; its closed lower counter distinguishes it from e. |
 | b | Ascender to 820; chamfered body chamber to 580 on the right. Lower junction receives a shallow trap. |
 | c | Lowercase open octagon with matching clipped terminals and 30-unit initial aperture. |
 | d | Mirror the b chamber with right ascender; redraw the junction rather than mechanically reflecting spacing. |
-| e | Angular bowl with high y=360…470 horizontal bar and pinched right aperture. Bar connects the spine; right opening distinguishes it from a. |
+| e | Angular bowl with high alpha y=300…410 horizontal bar and pinched lower-right aperture. Bar connects the spine; right opening distinguishes it from a. |
 | f | Narrow 820-unit ascender with clipped head and horizontal arm near x-height. No ornamental hook. |
 | g | Single-storey body with descending right stem and angular lower return to −200; maintain two visibly separate zones. |
 | h | 820-unit left ascender and stepped shoulder to a 580-unit right stem; rectangular internal opening. |
@@ -183,67 +185,62 @@ Initial coverage includes all ASCII punctuation listed in system.json. Planned e
 
 ## 4. Implementation Blueprint
 
-### Step 1 — Freeze the design contract
-Review this document and system.json together. Record unresolved optical choices as issues. The JSON stores numeric targets and 95 planned glyph records, not outlines. Select and document a font-asset license before accepting drawn glyph sources. The current MIT repository license continues to cover the specification and support scripts.
-
-### Step 2 — Define reproducible sources
-Use one UTF-8 JSON record per glyph or one UFO source after selecting the compiler. Record Unicode, glyph name, advance, contour points, counter operations, and provenance. A suggested polygon record is:
-
-```json
-{
-  "glyph_name": "example",
-  "unicode": null,
-  "advance": 450,
-  "status": "draft",
-  "contours": [
-    {"role": "outer", "points": [[24, 0], [134, 0], [134, 780], [24, 780]]}
-  ]
-}
-```
-
-This isolated rectangle only illustrates the record format; it is not a complete letter or font sample. Distinguish clockwise solids from counter contours after Boolean subtraction. Keep source coordinates in font units, not SVG screen coordinates.
-
-### Step 3 — Implement reusable geometry
-Create rectangle, equal-offset chamfered-box, diagonal-band, triangle-trap, union, and subtraction primitives. Validate every source edge: horizontal, vertical, or abs(dx)=abs(dy). Quantize Boolean intersection results to the integer grid, then recheck direction and topology; rounding can invalidate a formerly valid diagonal.
-
-For the first exact prototype, construct H at advance 450: left stem x=24…134, right stem x=316…426, both y=0…780; detached bar spans x=149…301, y=335…445. Its clipped corners must remain inside that box. This leaves the required 15-unit gaps to both stems and 24-unit bearings. Use O, A, Q, a, e, 0, and 1 as the remaining control glyphs.
-
-### Step 4 — Choose the compiler
-Recommended path: original polygon JSON → normalized contours → UFO or direct TrueType outlines → TTF → WOFF2. FontForge is one possible compiler; a FontTools-based compiler is an alternative. Pin tool versions only after a successful build and capture the actual dependency lock.
-
-FontForge's documented Python API supplies font creation, character creation, outline pens, overlap removal, direction correction, validation, saving, and generation. Reference: [FontForge Python API](https://fontforge.org/docs/scripting/python/fontforge.html).
-
-A FontForge adapter should:
-- Create the family with em=1000 and independent typographic/hhea metrics. FontForge ascent/descent define the em split: use 800/200 to total 1000, then set the OS/2 and hhea ascender/descender values explicitly to 820/−200. Verify generated tables; do not set ascent=820 and descent=200 and accidentally create a 1020-unit em.
-- Set familyname, fullname, fontname (VantablackGothic-Regular), weight, version, copyright, and the selected license metadata.
-- Create .notdef first and each supported Unicode character with createChar; draw closed contours via glyphPen; set glyph.width to the proposed proportional advance.
-- Normalize overlap and winding with removeOverlap and correctDirection, then validate and inspect results.
-- Save editable sources and generate the TTF only after outline coverage and validation pass.
-- Convert to WOFF2 with a toolchain supporting it, then reopen and compare cmap, metrics, names, and outlines.
-
-This is a pipeline specification, not a runnable font compiler or a claim that FontForge has been installed and tested.
-
-### Step 5 — Implement spacing and shaping
-Use advance widths from JSON as initial horizontal metrics. Set post.isFixedPitch=0. Keep default shaping proportional. Add only measured pair kerning through a GPOS kern feature; do not create a fake variable-width axis. If tabular figures are later drawn, implement tnum as a separately reviewed alternate set.
-
-### Step 6 — Validate source and binaries
-The included command below validates the design contract and documentation links only:
+### Step 1 — Reproduce the current alpha
+Use Python 3.12 and install the pinned dependencies from requirements-font.txt in an isolated environment. Run these commands from the repository root:
 
 ```sh
-python3 tools/validate_vantablack_spec.py
+python tools/build_vantablack.py
+python tools/validate_vantablack_spec.py
+python tools/validate_vantablack_font.py
 ```
 
-It cannot validate outlines that have not been drawn. A future build must additionally reject:
-- Missing .notdef, duplicate Unicode mappings, unsupported advertised coverage, and empty non-space glyphs.
-- Incorrect UPEM, mismatched cap/x-height metadata, clipping line metrics, or fixed-pitch flags.
-- Open contours, self-intersections, zero-area contours, wrong winding, unsupported edge angles, and unintended overlaps.
-- Advance widths inconsistent with source records or bearings below the reviewed limits.
-- Crossbar gaps that merge, Q tails outside the clip envelope, unreadable 0/O and 1/I/l pairs, and kerning collisions.
-- Missing font-license metadata, malformed required tables, or WOFF2 round-trip discrepancies.
+The default build executes original geometric recipes, writes normalized polygon sources to sources/vantablack-gothic/glyphs.json, and compiles TTF and WOFF2. The initial font sources and binaries are explicitly MIT licensed. Third-party dependencies retain their own licenses.
 
-Use an independent font validator and actual text shaping/rendering in addition to the compiler's own validation. Run proof sheets on Windows, macOS, Linux, and at least two browser engines before claiming cross-platform support.
+### Step 2 — Edit the geometric sources
+The build uses rectangle, chamfered-box, octagonal-ring, axis/45-degree centerline, Boolean-union, and counter-subtraction primitives. It never loads third-party font outlines. Control metrics come from system.json.
 
-### Step 7 — Build the specimen and release
-Use actual font files in a specimen with live editable text, size and spacing controls, light/dark backgrounds, and an explicit fallback-font loading state. Include mixed case, all punctuation, telemetry columns, and ambiguous pairs at every proof size. Keep native text, visible keyboard focus, labelled controls, reduced-motion support, and a conventional fallback face.
+Each generated source record stores glyph_name, Unicode codepoint, advance, and contour records with role and integer coordinate points. Outer contours wind clockwise and counters wind counterclockwise.
 
-Release an alpha only after original outlines and build validation exist. Bundle source revision, build instructions, versioned binaries, glyph coverage, font license, known limitations, and SHA-256 checksums. Do not publish placeholder binaries or present system-font art as a completed Vantablack specimen.
+To modify the recipe system, edit tools/build_vantablack.py and regenerate normally. To edit the normalized polygon JSON directly, compile it without regeneration:
+
+```sh
+python tools/build_vantablack.py --from-source
+python tools/validate_vantablack_font.py
+```
+
+A default rebuild overwrites edited polygon snapshots. Keep source advances synchronized with system.json. Direct contour edits also require rerendered specimens and regenerated checksums.
+
+### Step 3 — Compile and name the font
+The implemented compiler uses FontTools FontBuilder and TTGlyphPen. It installs a .notdef first, adds all 95 printable ASCII mappings, draws closed polygon contours, and sets proportional hmtx metrics. Required name, cmap, head, hhea, OS/2, post, glyf, loca, and maxp tables are written.
+
+The family is Vantablack Gothic; style Regular; PostScript name VantablackGothic-Regular. Version 0.100 is marked alpha 0.1.0 in the name table. The complete MIT license is embedded in name ID 13, with a repository license URL in ID 14. fsType=0 introduces no embedding restriction. post.isFixedPitch=0 and no fvar axis is written.
+
+The hhea and OS/2 metrics follow the matrix. A fixed OpenType timestamp makes repeated builds reproducible. WOFF2 is compiled from the same font data using Brotli. SHA256SUMS records both binary hashes.
+
+### Step 4 — Preserve the polygon contract
+Boolean operations can introduce fractional intersections. Source normalization rounds to integer units; the actual source validator then checks every edge and fails on any direction other than axis or exact 45°. The alpha's W/w center join and question-mark return were adjusted to avoid half-unit artifacts; see [ALPHA.md](ALPHA.md).
+
+The exact H control uses advance 450: left stem x=24…134, right stem x=316…426, both y=0…780; detached crossbar inside x=149…301, y=335…445. Its two 15-unit gaps are validated against the source geometry.
+
+### Step 5 — Verify actual font output
+The contract validator checks design metrics and documentation links. The font validator independently opens TTF and WOFF2 and checks:
+- Required tables, exact ASCII coverage, .notdef order, names, license, and proportional metrics.
+- Source/compiled point agreement and TTF/WOFF2 outline equivalence.
+- Integer coordinates, permitted edge directions, nonzero contours, winding, valid polygon topology, and no overlapping filled components.
+- Side bearings, clipping limits, cap/x-height metadata, and the H micro-gaps.
+- Distinct outline shapes for 0/O, 1/I, I/l, i/l, S/5, and a/e.
+- HarfBuzz shaping of all ASCII characters without missing glyphs.
+- Nonempty FreeType rendering of each non-space ASCII character at 32/48/64/80/120/240 px.
+- Published binary checksums.
+
+These checks do not establish optical readability, independent validation certification, successful OS installation, or accessibility conformance. Alpha binaries have no hinting or shipped kerning.
+
+### Step 6 — Generate actual specimens
+Run `python tools/render_vantablack.py`. The SVG hero and light/dark sheets are drawn from the compiled TTF using outline paths, so README display lettering does not depend on a locally installed font. SVGs contain descriptive titles and descriptions; README also includes a text equivalent. Optional PNG review proofs are generated alongside them.
+
+The renderer uses a Linux DejaVu Sans Mono system font for small metadata labels only. It is not used for Vantablack display lettering.
+
+### Step 7 — Continue toward release
+Current downloadable files are an alpha committed to main, not a tagged v1.0 release. Next work: optical refinement, measured kerning, hinting evaluation, broader Unicode coverage, browser and OS installation proofing, and independent validation. Publish a tagged release only with versioned source, binaries, license, coverage, checksums, and known limitations.
+
+FontForge remains an optional future adapter; the present build does not require it. Its font-creation, outline-pen, and validation API is documented in the [official FontForge Python reference](https://fontforge.org/docs/scripting/python/fontforge.html). The implemented FontTools helper is described in the [upstream FontBuilder source](https://github.com/fonttools/fonttools/blob/main/Lib/fontTools/fontBuilder.py).

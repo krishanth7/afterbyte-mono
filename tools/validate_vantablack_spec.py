@@ -49,8 +49,8 @@ def validate():
                 errors.append(label + ": proposed bearings must be 24/24.")
             if glyph["advance"] - left - right < geometry["stem_width"]:
                 errors.append(label + ": ink budget is narrower than one structural stem.")
-    if data["status"] != "specification-only" or data["outline_status"] != "not-implemented":
-        errors.append("Update this validator and its documented scope before claiming outlines exist.")
+    if data["status"] != "alpha" or data["outline_status"] != "implemented-alpha":
+        errors.append("Expected the implemented alpha contract; review changes to the supported status.")
     link_count = 0
     for document in ROOT.rglob("*.md"):
         if ".git" in document.parts:
@@ -70,7 +70,7 @@ def validate():
             print("ERROR:", error, file=sys.stderr)
         return 1
     print(f"PASS: {len(glyphs)} ASCII metric records; geometry/line-metric contract; {link_count} local Markdown links.")
-    print("Scope: no font outlines, binaries, shaping, or rendered accessibility have been validated.")
+    print("Run tools/validate_vantablack_font.py for binary, source geometry, shaping, and raster checks.")
     return 0
 
 

@@ -29,7 +29,7 @@ Afterbyte Mono and Vantablack Gothic are separate design studies. Vantablack's d
 
 For Vantablack, test 32/48/64 px as stress cases and 80/120/240 px as initial display cases. At 48 px a 15-unit gap is 0.72 px; disappearance must be recorded rather than described as universal readability. Check 0/O, 1/I/l, rn/m, c/e, punctuation, and multilingual fallbacks.
 
-These checks are planned; no rendered font has been audited yet.
+The alpha has local FreeType raster smoke checks at the listed sizes and visual review of actual-font light/dark sheets. These are not a full accessibility audit or proof of small-size readability.
 
 ## Report a barrier
 

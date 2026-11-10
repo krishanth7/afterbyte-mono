@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+<title id="title">Vantablack Gothic — actual font specimen</title><desc id="desc">VANTABLACK GOTHIC in the original alpha font. Proportional, angular, condensed display type. Regular 0.1.0 alpha; 95 printable ASCII characters; 1000 UPEM.</desc>
+<rect x="0" y="0" width="1600" height="900" fill="#090C0F"/>
+<rect x="64" y="0" width="1" height="900" fill="#151B20"/>
+<rect x="144" y="0" width="1" height="900" fill="#151B20"/>
+<rect x="224" y="0" width="1" height="900" fill="#151B20"/>
+<rect x="304" y="0" width="1" height="900" fill="#151B20"/>
+<rect x="384" y="0" width="1" height="900" fill="#151B20"/>
+<rect x="464" y="0" width="1" height="900" fill="#151B20"/>
+<rect x="544" y="0" width="1" height="900" fill="#151B20"/>
+<rect x="624" y="0" width="1" height="900" fill="#151B20"/>
+<rect x="704" y="0" width="1" height="900" fill="#151B20"/>
+<rect x="784" y="0" width="1" height="900" fill="#151B20"/>
+<rect x="864" y="0" width="1" height="900" fill="#151B20"/>
+<rect x="944" y="0" width="1" height="900" fill="#151B20"/>
+<rect x="1024" y="0" width="1" height="900" fill="#151B20"/>
+<rect x="1104" y="0" width="1" height="900" fill="#151B20"/>
+<rect x="1184" y="0" width="1" height="900" fill="#151B20"/>
+<rect x="1264" y="0" width="1" height="900" fill="#151B20"/>
+<rect x="1344" y="0" width="1" height="900" fill="#151B20"/>
+<rect x="1424" y="0" width="1" height="900" fill="#151B20"/>
+<rect x="1504" y="0" width="1" height="900" fill="#151B20"/>
+<rect x="1584" y="0" width="1" height="900" fill="#151B20"/>
+<rect x="0" y="70" width="1600" height="1" fill="#151B20"/>
+<rect x="0" y="150" width="1600" height="1" fill="#151B20"/>
+<rect x="0" y="230" width="1600" height="1" fill="#151B20"/>
+<rect x="0" y="310" width="1600" height="1" fill="#151B20"/>
+<rect x="0" y="390" width="1600" height="1" fill="#151B20"/>
+<rect x="0" y="470" width="1600" height="1" fill="#151B20"/>
+<rect x="0" y="550" width="1600" height="1" fill="#151B20"/>
+<rect x="0" y="630" width="1600" height="1" fill="#151B20"/>
+<rect x="0" y="710" width="1600" height="1" fill="#151B20"/>
+<rect x="0" y="790" width="1600" height="1" fill="#151B20"/>
+<rect x="0" y="870" width="1600" height="1" fill="#151B20"/>
+<rect x="64" y="60" width="10" height="26" fill="#D9FF54"/>
+<text x="92" y="81" fill="#E6E9EA" font-family="monospace" font-size="19" letter-spacing="2">AFTERBYTE / TYPE LAB</text>
+<text x="1010" y="81" fill="#D9FF54" font-family="monospace" font-size="18" letter-spacing="2">ORIGINAL OUTLINES / 0.1.0 ALPHA</text>
+<g aria-label="VANTABLACK" fill="#E6E9EA" transform="translate(60 350) scale(0.3 -0.3)">
+<path transform="translate(0 0)" d="M24 780H134V252L230 156L326 252V780H436V206L230 0L24 206Z"/>
+<path transform="translate(460 0)" d="M24 574 230 780 436 574V0H326V528L230 624L134 528V0H24ZM149 350V430L164 445H296L311 430V350L296 335H164Z"/>
+<path transform="translate(920 0)" d="M134 0H24V780H134V569L336 367V780H446V0H336V211L134 413Z"/>
+<path transform="translate(1390 0)" d="M260 0H150V670H54L24 700V750L54 780H356L386 750V700L356 670H260Z"/>
+<path transform="translate(1800 0)" d="M24 574 230 780 436 574V0H326V528L230 624L134 528V0H24ZM149 350V430L164 445H296L311 430V350L296 335H164Z"/>
+<path transform="translate(2260 0)" d="M24 780H361L416 725V55L361 0H24ZM276 445 306 475V640L276 670H164L134 640V475L164 445ZM306 140V305L276 335H164L134 305V140L164 110H276Z"/>
+<path transform="translate(2700 0)" d="M24 0V780H134V110H306L336 80V30L306 0Z"/>
+<path transform="translate(3060 0)" d="M24 574 230 780 436 574V0H326V528L230 624L134 528V0H24ZM149 350V430L164 445H296L311 430V350L296 335H164Z"/>
+<path transform="translate(3520 0)" d="M24 725 79 780H351L406 725V460L351 405H296V640L266 670H164L134 640V140L164 110H266L296 140V375H351L406 320V55L351 0H79L24 55Z"/>
+<path transform="translate(3950 0)" d="M306 0V85L134 257V0H24V780H134V523L306 695V780H416V641L392 617H384L157 390L384 163H392L416 139V0Z"/>
+</g>
+<g aria-label="GOTHIC" fill="#E6E9EA" transform="translate(60 638) scale(0.3 -0.3)">
+<path transform="translate(0 0)" d="M436 55 381 0H79L24 55V725L79 780H381L436 725V460L381 405H326V640L296 670H164L134 640V140L164 110H296L326 140V280H230V390H436Z"/>
+<path transform="translate(460 0)" d="M24 55V725L79 780H381L436 725V55L381 0H79ZM296 110 326 140V640L296 670H164L134 640V140L164 110Z"/>
+<path transform="translate(920 0)" d="M260 0H150V670H54L24 700V750L54 780H356L386 750V700L356 670H260Z"/>
+<path transform="translate(1330 0)" d="M24 780H134V0H24ZM149 430 164 445H286L301 430V350L286 335H164L149 350ZM426 780V0H316V780Z"/>
+<path transform="translate(1780 0)" d="M24 0V780H134V0Z"/>
+<path transform="translate(1938 0)" d="M24 725 79 780H351L406 725V460L351 405H296V640L266 670H164L134 640V140L164 110H266L296 140V375H351L406 320V55L351 0H79L24 55Z"/>
+</g>
+<rect x="1050" y="425" width="470" height="208" fill="#151C21"/>
+<g aria-label="REGULAR" fill="#D9FF54" transform="translate(1080 493) scale(0.062 -0.062)">
+<path transform="translate(0 0)" d="M316 0V75L134 257V0H24V780H371L426 725V390L371 335H212L394 153H402L426 129V0ZM164 445H286L316 475V640L286 670H164L134 640V475Z"/>
+<path transform="translate(450 0)" d="M24 0V780H336L366 750V700L336 670H134V110H336L366 80V30L336 0ZM149 430 164 445H351L366 430V350L351 335H164L149 350Z"/>
+<path transform="translate(840 0)" d="M436 55 381 0H79L24 55V725L79 780H381L436 725V460L381 405H326V640L296 670H164L134 640V140L164 110H296L326 140V280H230V390H436Z"/>
+<path transform="translate(1300 0)" d="M24 0V780H134V670H164L134 640V140L164 110H286L316 140V640L286 670H316V780H426V0Z"/>
+<path transform="translate(1750 0)" d="M24 0V780H134V110H306L336 80V30L306 0Z"/>
+<path transform="translate(2110 0)" d="M24 574 230 780 436 574V0H326V528L230 624L134 528V0H24ZM149 350V430L164 445H296L311 430V350L296 335H164Z"/>
+<path transform="translate(2570 0)" d="M316 0V75L134 257V0H24V780H371L426 725V390L371 335H212L394 153H402L426 129V0ZM164 445H286L316 475V640L286 670H164L134 640V475Z"/>
+</g>
+<text x="1080" y="541" fill="#E6E9EA" font-family="monospace" font-size="17" letter-spacing="2">1000 UPEM / 780 CAP</text>
+<text x="1080" y="579" fill="#E6E9EA" font-family="monospace" font-size="17" letter-spacing="2">PROPORTIONAL / ASCII</text>
+<text x="1080" y="610" fill="#E6E9EA" font-family="monospace" font-size="17" letter-spacing="2">TTF + WOFF2</text>
+<rect x="64" y="710" width="1472" height="2" fill="#D9FF54"/>
+<g aria-label="MONOLITHIC FORM. DIGITAL SEVERITY." fill="#E6E9EA" transform="translate(64 790) scale(0.068 -0.068)">
+<path transform="translate(0 0)" d="M134 0H24V780H134V612L310 436L486 612V780H596V0H486V456L310 280L134 456Z"/>
+<path transform="translate(620 0)" d="M24 55V725L79 780H381L436 725V55L381 0H79ZM296 110 326 140V640L296 670H164L134 640V140L164 110Z"/>
+<path transform="translate(1080 0)" d="M134 0H24V780H134V569L336 367V780H446V0H336V211L134 413Z"/>
+<path transform="translate(1550 0)" d="M24 55V725L79 780H381L436 725V55L381 0H79ZM296 110 326 140V640L296 670H164L134 640V140L164 110Z"/>
+<path transform="translate(2010 0)" d="M24 0V780H134V110H306L336 80V30L306 0Z"/>
+<path transform="translate(2370 0)" d="M24 0V780H134V0Z"/>
+<path transform="translate(2528 0)" d="M260 0H150V670H54L24 700V750L54 780H356L386 750V700L356 670H260Z"/>
+<path transform="translate(2938 0)" d="M24 780H134V0H24ZM149 430 164 445H286L301 430V350L286 335H164L149 350ZM426 780V0H316V780Z"/>
+<path transform="translate(3388 0)" d="M24 0V780H134V0Z"/>
+<path transform="translate(3546 0)" d="M24 725 79 780H351L406 725V460L351 405H296V640L266 670H164L134 640V140L164 110H266L296 140V375H351L406 320V55L351 0H79L24 55Z"/>
+<path transform="translate(4226 0)" d="M134 0H24V780H316L346 750V700L316 670H134ZM149 430 164 445H331L346 430V350L331 335H164L149 350Z"/>
+<path transform="translate(4596 0)" d="M24 55V725L79 780H381L436 725V55L381 0H79ZM296 110 326 140V640L296 670H164L134 640V140L164 110Z"/>
+<path transform="translate(5056 0)" d="M316 0V75L134 257V0H24V780H371L426 725V390L371 335H212L394 153H402L426 129V0ZM164 445H286L316 475V640L286 670H164L134 640V475Z"/>
+<path transform="translate(5506 0)" d="M134 0H24V780H134V612L310 436L486 612V780H596V0H486V456L310 280L134 456Z"/>
+<path transform="translate(6126 0)" d="M24 0V110H134V0Z"/>
+<path transform="translate(6534 0)" d="M24 0V780H381L436 725V55L381 0ZM134 140 164 110H296L326 140V640L296 670H164L134 640Z"/>
+<path transform="translate(6994 0)" d="M24 0V780H134V0Z"/>
+<path transform="translate(7152 0)" d="M436 55 381 0H79L24 55V725L79 780H381L436 725V460L381 405H326V640L296 670H164L134 640V140L164 110H296L326 140V280H230V390H436Z"/>
+<path transform="translate(7612 0)" d="M24 0V780H134V0Z"/>
+<path transform="translate(7770 0)" d="M260 0H150V670H54L24 700V750L54 780H356L386 750V700L356 670H260Z"/>
+<path transform="translate(8180 0)" d="M24 574 230 780 436 574V0H326V528L230 624L134 528V0H24ZM149 350V430L164 445H296L311 430V350L296 335H164Z"/>
+<path transform="translate(8640 0)" d="M24 0V780H134V110H306L336 80V30L306 0Z"/>
+<path transform="translate(9250 0)" d="M396 24 372 0H24V110H286V335H48L24 359V756L48 780H396V670H134V445H372L396 421Z"/>
+<path transform="translate(9670 0)" d="M24 0V780H336L366 750V700L336 670H134V110H336L366 80V30L336 0ZM149 430 164 445H351L366 430V350L351 335H164L149 350Z"/>
+<path transform="translate(10060 0)" d="M24 780H134V252L230 156L326 252V780H436V206L230 0L24 206Z"/>
+<path transform="translate(10520 0)" d="M24 0V780H336L366 750V700L336 670H134V110H336L366 80V30L336 0ZM149 430 164 445H351L366 430V350L351 335H164L149 350Z"/>
+<path transform="translate(10910 0)" d="M316 0V75L134 257V0H24V780H371L426 725V390L371 335H212L394 153H402L426 129V0ZM164 445H286L316 475V640L286 670H164L134 640V475Z"/>
+<path transform="translate(11360 0)" d="M24 0V780H134V0Z"/>
+<path transform="translate(11518 0)" d="M260 0H150V670H54L24 700V750L54 780H356L386 750V700L356 670H260Z"/>
+<path transform="translate(11928 0)" d="M280 0H170V445L24 591V780H134V637L225 546L316 637V780H426V591L280 445Z"/>
+<path transform="translate(12378 0)" d="M24 0V110H134V0Z"/>
+</g>
+<text x="64" y="851" fill="#7E8993" font-family="monospace" font-size="17" letter-spacing="2">DESIGNED BY KRISHANTH</text>
+<text x="1090" y="851" fill="#7E8993" font-family="monospace" font-size="15" letter-spacing="2">RENDERED FROM THE COMPILED FONT</text>
+</svg>

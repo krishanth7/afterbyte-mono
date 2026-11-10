@@ -2,7 +2,7 @@
 
 ## Supported material
 
-This repository currently contains specifications, documentation, artwork, and a design-contract validation script. There are no supported font releases or installable packages yet. Only the latest main branch is maintained; no response-time guarantee is made.
+This repository contains original font sources, build and validation scripts, artwork, documentation, and downloadable Vantablack Gothic 0.1.0 alpha binaries. Only the latest alpha on main is maintained. No tagged stable release or response-time guarantee is claimed.
 
 ## Reporting a vulnerability
 
