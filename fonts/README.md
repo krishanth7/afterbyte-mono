@@ -1,7 +1,11 @@
 # Font files
 
-## Vantablack Gothic — Regular 0.1.0 alpha
+## Current: Afterbyte Mono Regular / 0.2.0 alpha
 
-The [vantablack-gothic](vantablack-gothic) directory contains the installable TTF, web WOFF2, CSS, MIT license copy, and SHA-256 checksums. These are real fonts compiled from original polygon sources.
+[afterbyte-mono](afterbyte-mono) contains the fixed-width TTF, WOFF2, CSS, MIT license copy, exact Unicode coverage, and checksums.
 
-See the [main README](../README.md) for downloads, usage, coverage, and alpha limits. No Afterbyte Mono binaries exist yet.
+Use the [main README](../README.md) for downloads and native-size guidance.
+
+## Earlier proportional experiment
+
+[vantablack-gothic](vantablack-gothic) preserves the previous display alpha. It is separate from Afterbyte Mono and is not the current primary family.

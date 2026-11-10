@@ -1,5 +1,20 @@
 # Changelog
 
+## 0.2.0 alpha — 2026-11-10
+
+### Changed
+- Afterbyte Mono replaces the Gothic direction as the primary family and README identity.
+- Original light pixel monospace design with 196 Unicode mappings and a fixed 900-unit advance.
+- Professional actual-font hero, light/dark specimens, native-size proofs, download table, and usage documentation.
+
+### Added
+- Original pixel-matrix sources, TTF/WOFF2 build, CSS, coverage, license metadata, and checksums.
+- Selected accented Latin, currencies, arrows, status symbols, box drawing, and shade characters.
+- Source occupancy, fixed-pitch, shaping, native raster, binary equivalence, and reproducibility checks.
+
+### Preserved
+- The earlier Vantablack Gothic experiment remains in separate directories for project history.
+
 ## 0.1.0 alpha — 2026-11-10
 
 ### Added

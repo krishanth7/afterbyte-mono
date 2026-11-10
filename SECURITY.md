@@ -2,20 +2,18 @@
 
 ## Supported material
 
-This repository contains original font sources, build and validation scripts, artwork, documentation, and downloadable Vantablack Gothic 0.1.0 alpha binaries. Only the latest alpha on main is maintained. No tagged stable release or response-time guarantee is claimed.
+The current maintained branch is main. Afterbyte Mono Regular 0.2.0 alpha is the primary font; earlier experimental files remain in the repository. There is no stable security-support guarantee or promised response time.
 
-## Reporting a vulnerability
+## Reporting
 
-Do not publish exploit details, credentials, private documents, or malicious font files in public issues.
+Do not publish exploit details, credentials, private information, or malicious font payloads in public issues.
 
-If GitHub shows **Report a vulnerability** under this repository's Security tab, use that private reporting flow. Private vulnerability reporting is not asserted to be enabled by this document. If that option is unavailable, open a minimal public issue asking the maintainer to arrange a private reporting channel, without describing the vulnerability, attaching a payload, or identifying affected private systems.
+If GitHub shows **Report a vulnerability** in this repository's Security tab, use that private reporting flow. This document does not assert that private reporting is enabled. Otherwise, open a minimal public issue asking the maintainer to arrange a private contact channel, without vulnerability details or attachments.
 
-Once a private channel is arranged, include the affected commit, environment, impact, minimal reproduction, and suggested remediation. Keep a report private while a fix and disclosure are coordinated.
+Once a private channel exists, include affected revision, environment, impact, and a minimal reproduction. Coordinate disclosure with the maintainer.
 
 ## Scope
 
-Report unsafe build scripts, dependency compromise, unintended file access, malicious source processing, and font-generation or specimen code vulnerabilities. Ordinary glyph requests, readability problems, missing coverage, and rendering differences belong in normal issue templates unless they have a concrete security impact.
+Relevant reports include unsafe build scripts, malicious source processing, dependency compromise, unintended file access, and concrete font-generation or specimen vulnerabilities.
 
-## Contributor expectations
-
-Do not commit credentials, execute untrusted source contributions without inspection, or redistribute malicious binaries. Future dependency and font parsing work must validate inputs and document supported versions.
+Readability, missing glyphs, and ordinary rendering differences belong in normal issue forms unless they have a specific security impact. Do not commit secrets or execute unreviewed source contributions.

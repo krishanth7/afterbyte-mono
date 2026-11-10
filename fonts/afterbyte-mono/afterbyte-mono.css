@@ -1,0 +1,9 @@
+/* Afterbyte Mono Regular 0.2.0 alpha. Copyright (c) 2026 Krishanth. MIT. */
+@font-face {
+  font-family: "Afterbyte Mono";
+  src: url("./AfterbyteMono-Regular.woff2") format("woff2"),
+       url("./AfterbyteMono-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

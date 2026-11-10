@@ -1,32 +1,30 @@
 # Roadmap
 
-## Vantablack Gothic
+## Afterbyte Mono — current primary family
 
-### 0.1.0 alpha — implemented
-- [x] Original polygon recipes and 95 printable ASCII mappings plus .notdef.
-- [x] Proportional advances, integer/45-degree outlines, and core line metrics.
-- [x] MIT license explicitly selected for original font sources and binaries.
-- [x] TTF and WOFF2 build, CSS, editable JSON, and checksums.
-- [x] Actual-font hero, light/dark glyph sheets, and README downloads.
-- [x] Source geometry, binary equivalence, shaping, and raster smoke checks.
-- [x] Reproducible local builds and an automated check workflow.
+### 0.2.0 alpha
+- [x] Original light pixel monospace alphabet, figures, and punctuation.
+- [x] 196 Unicode characters, including selected accents and technical symbols.
+- [x] Fixed-width TTF/WOFF2, CSS, license metadata, coverage file, and checksums.
+- [x] Source matrix editor workflow and reproducible generation.
+- [x] Actual-font hero, light/dark specimens, and native-grid proofs.
+- [x] Geometry, occupancy, shaping, binary, raster, and link validators.
 
 ### Next alpha
-- [ ] Refine optical spacing, narrow apertures, S/5 distinction, and mixed-case rhythm.
-- [ ] Measure and ship kerning pairs.
-- [ ] Evaluate hinting and small-size behavior.
-- [ ] Test installation and rendering on Windows, macOS, Linux, and multiple browser engines.
-- [ ] Run independent font validation and a specimen accessibility audit.
-- [ ] Add accented Latin, currency symbols, smart punctuation, and documented language coverage.
-- [ ] Prepare a tagged alpha release with sources, binaries, license, checksums, and known issues.
+- [ ] Collect ambiguity and readability reports from real code and UI examples.
+- [ ] Test installation on Windows, macOS, and Linux.
+- [ ] Test multiple browser engines, zoom factors, and display scales.
+- [ ] Run independent font validation.
+- [ ] Expand accented Latin and symbol coverage through reviewed requests.
+- [ ] Prepare tagged alpha assets and clear release notes.
+- [ ] Review editor/terminal compatibility and document measured results.
 
-### Later
-Additional weights, tabular figures, and variable axes require separate design and engineering work. No release date is committed.
+### Future
+Additional styles, broader scripts, and distribution packages require separate design, implementation, and testing. No launch date or adoption count is promised.
 
-## Afterbyte Mono
+## Earlier experiment
 
-This earlier pixel monospace study remains at the concept stage. It has no installable font binaries. Its [design brief](docs/DESIGN.md) records the intended direction.
+Vantablack Gothic 0.1.0 remains in its own source/font directories as project history. It is no longer the primary visual or download in the README. Existing files and validators are retained.
 
-## Shared repository
-- [x] License, code of conduct, contribution guide, security policy, and accessibility guidance.
-- [x] PR template and glyph, rendering, proposal, and accessibility issue templates.
+## Community
+License, contribution guidelines, code of conduct, security policy, accessibility guidance, issue forms, and PR template remain in place.

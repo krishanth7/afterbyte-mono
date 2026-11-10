@@ -1,148 +1,157 @@
 <div align="center">
 
-<img src="assets/vantablack-gothic/hero.svg" alt="Vantablack Gothic — actual alpha font rendering: VANTABLACK GOTHIC. Monolithic form. Digital severity." width="100%">
+<img src="assets/afterbyte-mono/hero.svg" alt="Afterbyte Mono — actual font specimen. Clear signals. Human-readable systems. Original pixel monospace for intelligent interfaces." width="100%">
 
-# Vantablack Gothic
+# Afterbyte Mono
 
-**Monolithic form. Digital severity.**
+**A pixel monospace for intelligent interfaces.**
 
-An original, angular, hyper-condensed proportional display typeface by **[Krishanth](https://github.com/krishanth7)**.
+![Version](https://img.shields.io/badge/version-0.2.0_alpha-006577?style=flat-square)
+[![Font quality checks](https://github.com/krishanth7/afterbyte-mono/actions/workflows/specification.yml/badge.svg)](https://github.com/krishanth7/afterbyte-mono/actions/workflows/specification.yml)
+[![MIT license](https://img.shields.io/badge/license-MIT-334A5B?style=flat-square)](LICENSE)
 
-![Version: 0.1.0 alpha](https://img.shields.io/badge/version-0.1.0_alpha-D9FF54?style=flat-square&labelColor=090C0F)
-![Style: Regular](https://img.shields.io/badge/style-Regular-E6E9EA?style=flat-square&labelColor=090C0F)
-![License: MIT](https://img.shields.io/badge/license-MIT-82B1FF?style=flat-square&labelColor=090C0F)
-
-**[Download TTF](https://github.com/krishanth7/afterbyte-mono/raw/refs/heads/main/fonts/vantablack-gothic/VantablackGothic-Regular.ttf)** · **[Download WOFF2](https://github.com/krishanth7/afterbyte-mono/raw/refs/heads/main/fonts/vantablack-gothic/VantablackGothic-Regular.woff2)** · [Design specification](docs/vantablack-gothic/SPECIFICATION.md) · [Editable outlines](sources/vantablack-gothic/glyphs.json)
+**[Download TTF](https://github.com/krishanth7/afterbyte-mono/raw/refs/heads/main/fonts/afterbyte-mono/AfterbyteMono-Regular.ttf)** · **[Download WOFF2](https://github.com/krishanth7/afterbyte-mono/raw/refs/heads/main/fonts/afterbyte-mono/AfterbyteMono-Regular.woff2)** · [Specimen](#specimen) · [Usage](#usage) · [Development](#development)
 
 </div>
 
-## The latest font in this repository
+## Overview
 
-Vantablack Gothic turns letters into tall architectural masses: heavy beams, octagonal bowls, hard 45° cuts, tight spacing, and detached crossbars. It is designed for expressive headlines, fictional aerospace telemetry, industrial identities, and sci-fi HUD art direction.
+Afterbyte Mono combines the clarity of a pixel grid with the measured character of a cinematic technical interface. Light, consistent strokes, open counters, and a balanced lowercase alphabet keep the typeface approachable. A slashed zero, distinct `1 I l`, precise punctuation, and useful interface symbols give it a technical identity.
 
-**Regular 0.1.0 alpha is available now:** 95 printable ASCII characters plus a visible missing-glyph symbol, in installable TTF and web-ready WOFF2 formats. Both are built from original polygon recipes; no third-party font outlines are included.
+Designed for code samples, terminal-inspired layouts, dashboards, creative tools, and futuristic HUDs. Every spacing glyph shares the same advance, including figures, punctuation, accented letters, and interface symbols.
 
-The repository keeps its original `afterbyte-mono` address. **Vantablack Gothic is proportional**, while the earlier [Afterbyte Mono concept](docs/DESIGN.md) remains a separate, unbuilt pixel monospace study.
+**Current build:** Regular · 0.2.0 alpha · 196 Unicode characters · TTF and WOFF2 · original pixel sources.
 
-## See the actual typeface
+Created and maintained by [Krishanth](https://github.com/krishanth7). This is the primary font in this repository. The earlier proportional display experiment is preserved in the [project history](CHANGELOG.md).
 
-The hero and specimen images below contain paths extracted from the compiled Vantablack Gothic font. They do not substitute a system font for the display lettering. GitHub README text itself uses GitHub's fonts; custom fonts cannot be applied to the Markdown body.
+## Specimen
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/vantablack-gothic/glyphs-dark.svg">
-  <img src="assets/vantablack-gothic/glyphs-light.svg" alt="Actual Vantablack Gothic glyphs: uppercase A–Z, lowercase a–z, digits 0–9, all ASCII punctuation, and ambiguity checks for 0/O, 1/I/l, a/e, and detached crossbars." width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/afterbyte-mono/specimen-dark.svg">
+  <img src="assets/afterbyte-mono/specimen-light.svg" alt="Actual Afterbyte Mono: uppercase and lowercase alphabets; slashed zero and distinct 1/I/l; punctuation; accented Latin; currencies; arrows; code at 16, 32 and 48 px; connected box drawing." width="100%">
 </picture>
 
-Text equivalents for accessible inspection and testing:
+Every letter in the hero and specimen is drawn from the compiled Afterbyte Mono font. The SVGs contain outline paths, so they display without requiring the font to be installed. GitHub uses its own font for the surrounding README text.
+
+[Full proofing text](specimen/afterbyte-mono.txt) · [Exact coverage](fonts/afterbyte-mono/coverage.txt) · [Editable pixel matrices](sources/afterbyte-mono/pixels.json)
 
 ```text
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 abcdefghijklmnopqrstuvwxyz
-0123456789
-!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~
-0 O o  1 I l i |  rn m  cl d  a e  H E F A
+0123456789   0O   1Il   rn m
+ÄÖÜ äöü ß   ÀÉÎÑ   æ ø   € £ ¥ ₹
+← → ↑ ↓ ↔ ↕   ✓ ■ □
 ```
 
-## Font style
+## Downloads
 
-| Property | Current alpha |
+| File | Use |
 | --- | --- |
-| Family / style | Vantablack Gothic / Regular |
-| Classification | Proportional condensed display sans |
-| Em scale | 1000 UPEM |
-| Cap / x-height | 780 / 580 units |
-| Ascender / descender | 820 / −200 units |
-| Structural stems | 110 units |
-| Default side bearings | 24 units |
-| Detached crossbar gaps | 15 units |
-| Outlines | Integer-coordinate polygons; axis and 45° edges |
-| Coverage | U+0020–U+007E; 95 printable ASCII characters |
-| Files | TTF, WOFF2, CSS, editable polygon JSON |
-| License | MIT, including the original font binaries and sources |
+| [AfterbyteMono-Regular.ttf](https://github.com/krishanth7/afterbyte-mono/raw/refs/heads/main/fonts/afterbyte-mono/AfterbyteMono-Regular.ttf) | Desktop applications, editors, and local installation |
+| [AfterbyteMono-Regular.woff2](https://github.com/krishanth7/afterbyte-mono/raw/refs/heads/main/fonts/afterbyte-mono/AfterbyteMono-Regular.woff2) | Self-hosted websites and applications |
+| [afterbyte-mono.css](fonts/afterbyte-mono/afterbyte-mono.css) | Ready-to-use font-face declaration |
+| [SHA256SUMS](fonts/afterbyte-mono/SHA256SUMS) | Verify binary integrity |
+| [pixels.json](sources/afterbyte-mono/pixels.json) | Original editable character matrices |
 
-**Signature forms:** octagonal O, a 45° Q tail, a centered vertical bar in zero, a flagged 1, sharp V/W apexes, and floating E/F/H/A crossbars.
+The links point to the latest files on `main`. A tagged stable release and package-manager distribution have not been published.
 
-## Install and use
+## Usage
 
-**Desktop:** download the TTF, open it in your operating system's font viewer, and choose Install. Select **Vantablack Gothic — Regular** in your design application. Installation behavior has not been audited across operating systems.
+### Desktop
 
-**Web:** copy the [font directory](fonts/vantablack-gothic) into your project. Its [CSS file](fonts/vantablack-gothic/vantablack-gothic.css) loads WOFF2 with TTF fallback:
+Download the TTF, open it in your operating system's font viewer, and choose Install. Select **Afterbyte Mono — Regular** in your application.
+
+Start with **16, 32, 48, or 64 px** for clean alignment to the source pixel grid. Other sizes are valid, but may introduce antialiasing or uneven apparent strokes. Browser zoom, display scaling, and an application's rasterizer can also affect the result.
+
+### Web
+
+Copy the [font directory](fonts/afterbyte-mono) to your project and load its CSS, or add:
 
 ```css
 @font-face {
-  font-family: "Vantablack Gothic";
-  src: url("./VantablackGothic-Regular.woff2") format("woff2"),
-       url("./VantablackGothic-Regular.ttf") format("truetype");
-  font-style: normal;
+  font-family: "Afterbyte Mono";
+  src: url("./AfterbyteMono-Regular.woff2") format("woff2"),
+       url("./AfterbyteMono-Regular.ttf") format("truetype");
   font-weight: 400;
+  font-style: normal;
   font-display: swap;
 }
 
-.display-title {
-  font-family: "Vantablack Gothic", sans-serif;
-  font-size: clamp(5rem, 12vw, 15rem);
+.technical-text {
+  font-family: "Afterbyte Mono", monospace;
+  font-size: 16px;
   font-weight: 400;
-  line-height: 1.05;
+  line-height: 1.5;
   letter-spacing: 0;
+  font-synthesis: none;
 }
 ```
 
-The relative URLs resolve from your CSS file's location. Serve fonts with your own website; do not use GitHub's raw-file URL as a production font CDN.
+Resolve the font URLs relative to your CSS file. Serve the files from your own application; GitHub's download URLs are not a production font CDN.
 
-## Alpha scope and limitations
+For connected box-drawing rows, use `line-height: 1` and `letter-spacing: 0`. The line glyphs fill their cell boundaries. For normal text, increase line height to suit the reading context.
 
-This is a working first alpha, with room for optical refinement. Use it at display sizes; start around 80 px and inspect the actual layout. A 15-unit gap is only 0.72 px at 48 px, so fine details may disappear at smaller sizes.
+## Coverage and design
 
-- No hinting, shipped kerning, ligatures, additional weights, or variable-font axes.
-- No accented Latin, Telugu, German umlauts, smart quotes, rupee sign, or other extended Unicode glyphs yet. Supply a fallback font.
-- No completed cross-platform installation audit, independent font certification, or accessibility conformance audit.
-- Use a conventional readable face for body copy, instructions, errors, and critical information.
+| Property | Value |
+| --- | --- |
+| Family / style | Afterbyte Mono / Regular |
+| Spacing | True monospace; 900-unit advance |
+| Grid / em | 100-unit square pixels / 1600 UPEM |
+| Native size | 16 px; integer multiples align to the pixel grid |
+| Cap / x-height | 1000 / 700 units |
+| Ascender / descender | 1300 / −300 units |
+| Coverage | 196 Unicode characters + visible missing-glyph symbol |
+| Shape language | Light single-pixel strokes; stepped contours; open forms |
+| Source and binary license | MIT |
 
-See the [alpha design decisions](docs/vantablack-gothic/ALPHA.md) and [accessibility guidance](ACCESSIBILITY.md).
+Included: all 95 printable ASCII characters, selected accented Latin letters, German umlauts and ß, Æ/æ and Ø/ø, €, £, ¥ and ₹, typographic punctuation, arrows, status marks, 11 box-drawing characters, and block/shade symbols.
 
-## Rebuild from original sources
+This is **selected Unicode coverage**, not complete Latin-1 or universal language support. Use a fallback for unsupported characters. See the [exact code-point list](fonts/afterbyte-mono/coverage.txt).
 
-Use Python 3.12 in an isolated environment:
+## Development
+
+Use Python 3.12 and the pinned dependencies:
 
 ```sh
 python -m venv .venv
-# Activate your environment, then:
+# Activate your environment before installing dependencies.
 python -m pip install -r requirements-font.txt
-python tools/build_vantablack.py
-python tools/validate_vantablack_spec.py
-python tools/validate_vantablack_font.py
+
+python tools/draw_afterbyte.py
+python tools/build_afterbyte.py
+python tools/validate_afterbyte.py
+python tools/render_afterbyte.py
 ```
 
-The default build regenerates [glyphs.json](sources/vantablack-gothic/glyphs.json) from the original Python geometry recipes and [system.json](docs/vantablack-gothic/system.json). To compile manually edited polygon sources without overwriting them:
+The original matrices live in [pixels.json](sources/afterbyte-mono/pixels.json). Edit that file and run the build to compile your changes. Running `draw_afterbyte.py` regenerates it from the original hand-drawn recipes and will overwrite direct matrix edits.
 
-```sh
-python tools/build_vantablack.py --from-source
-python tools/validate_vantablack_font.py
-```
+The compiler merges filled pixel cells into contours, preserves the grid, writes a fixed-pitch TTF, and produces WOFF2 from the same data. It never reads or transforms another font. The specimen generator uses only the compiled Afterbyte font for lettering.
 
-To regenerate the README specimens, run `python tools/render_vantablack.py`. This optional renderer uses DejaVu Sans Mono for metadata labels and requires that system font at the documented Linux path; all display lettering comes from the compiled Vantablack TTF.
+[Design specification](docs/DESIGN.md) · [Validation notes](docs/QUALITY.md) · [Roadmap](ROADMAP.md) · [Changelog](CHANGELOG.md)
 
-## Validation
+## Quality and current scope
 
-Local checks cover ASCII coverage, original source/binary agreement, contour winding and topology, integer coordinates and exact edge directions, side bearings, line metrics, license metadata, TTF/WOFF2 outline equivalence, HarfBuzz shaping, and FreeType raster smoke checks at 32/48/64/80/120/240 px. The build produces [SHA-256 checksums](fonts/vantablack-gothic/SHA256SUMS).
+Automated checks cover source-pixel occupancy, contour topology, grid alignment, equal advances, line metrics, license metadata, TTF/WOFF2 equivalence, HarfBuzz shaping, binary checksums, documentation links, and crisp native-grid FreeType rasterization at 16/32/48/64 px. Rebuilding the original matrices and binaries is checked for reproducibility.
 
-Passing these checks does not establish small-text readability or universal platform support. The [automated workflow](.github/workflows/specification.yml) rebuilds and checks the font and design contract.
+**Alpha limits:** one Regular style; no variable axes, ligatures, or bytecode hinting. Cross-platform installation, additional browser engines, independent font validation, and wider script coverage remain on the roadmap. Local checks do not establish universal readability or accessibility conformance.
 
-## Explore and contribute
+## Contributing
 
-[Four-part specification](docs/vantablack-gothic/SPECIFICATION.md) · [Alpha notes](docs/vantablack-gothic/ALPHA.md) · [Roadmap](ROADMAP.md) · [Changelog](CHANGELOG.md) · [Source guide](sources/README.md)
+Useful reports include the character or text sample, font version, application and operating system, size, zoom/display scale, and a screenshot when available. Specific glyph comparisons and real usage examples help shape the next version.
 
-[Contributing](CONTRIBUTING.md) · [Code of conduct](CODE_OF_CONDUCT.md) · [Security policy](SECURITY.md) · [Accessibility](ACCESSIBILITY.md) · [Issue templates](https://github.com/krishanth7/afterbyte-mono/issues/new/choose) · [Pull request template](.github/pull_request_template.md)
+[Contribution guide](CONTRIBUTING.md) · [Issue templates](https://github.com/krishanth7/afterbyte-mono/issues/new/choose) · [Pull request template](.github/pull_request_template.md)
 
-## License and authorship
+[Code of conduct](CODE_OF_CONDUCT.md) · [Security policy](SECURITY.md) · [Accessibility](ACCESSIBILITY.md)
 
-Copyright © 2026 Krishanth. The original Vantablack Gothic outlines, binaries, geometry recipes, artwork, and documentation are released under the **[MIT License](LICENSE)**. The font directory includes a copy, and the font's metadata contains the license text. Third-party build dependencies retain their own licenses.
+## License and inspiration
 
-[Departure Mono](https://github.com/rektdeckard/departure-mono) informed the earlier pixel-font category discussion. Vantablack Gothic uses its own proportional polygon design and is not a renamed or modified Departure Mono font. This project is independent and does not claim endorsement or affiliation with any similarly named product.
+Copyright © 2026 Krishanth. Original font sources, binaries, artwork, and project documentation are available under the **[MIT License](LICENSE)**. A copy is included with the font files; third-party build dependencies retain their own licenses.
+
+[Departure Mono](https://github.com/rektdeckard/departure-mono) and [its specimen site](https://departuremono.com/) informed the direction: a pixel monospace with a technical, cinematic character. Afterbyte Mono's matrices and outlines were drawn independently. No Departure Mono font data, source glyphs, or artwork are included. This project is not affiliated with Departure Mono or any fictional assistant franchise.
 
 ---
 
 <div align="center">
-<strong>Vantablack Gothic / Regular / 0.1.0 alpha</strong><br>
-Designed by Krishanth. Built from original geometry.
+Afterbyte Mono · Clear signals. Human-readable systems.
 </div>

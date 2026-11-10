@@ -1,36 +1,33 @@
 # Accessibility
 
-## Commitment and current status
+## Commitment and scope
 
-Documentation, future specimens, and contribution workflows should remain usable with keyboard input, assistive technologies, zoom, and reduced-motion settings. No WCAG conformance certification or completed accessibility audit is claimed.
+Keep documentation, contribution workflows, and future specimens usable with keyboard access, assistive technologies, zoom, and reduced motion. No WCAG certification or complete accessibility audit is claimed.
 
-Afterbyte Mono and Vantablack Gothic are separate design studies. Vantablack's dense counters, high compression, and 15-unit gaps make it a display face; a conventional readable text font should carry body copy, instructions, errors, and safety-critical information.
+Afterbyte Mono is a light pixel monospace. Native 16-pixel multiples align to its grid in local tests. Reading comfort varies by context, size, zoom, display scale, and visual needs. Let readers change font and size, preserve browser zoom, and provide a conventional fallback.
 
-## Repository content
+## Documentation and specimens
 
-- Use descriptive headings, meaningful link text, and text alternatives for informative images.
-- Keep exact values and comparisons in real Markdown tables.
-- Accompany diagrams or future outline specimens with equivalent text.
-- Mark examples and unfinished features clearly.
-- Include searchable Unicode text with any glyph illustration.
+- Keep informative text available as real text.
+- Give specimen images descriptive alternatives and link proofing text.
+- Use semantic headings and meaningful links.
+- Never require the custom font to read download or installation instructions.
+- Do not use color alone for status.
+- Preserve keyboard access, visible focus, and reduced-motion preferences in future interactive specimens.
+- Provide fallback glyphs and state actual Unicode coverage.
 
-## Future specimen requirements
+The README hero and specimen use original glyph paths, include SVG descriptions, and have linked text equivalents. The surrounding README uses GitHub's own typography.
 
-- Keep specimen text as real selectable text; do not expose unlabelled outlines as the only representation.
-- Provide labelled native inputs and buttons, visible keyboard focus, and logical focus order.
-- Preserve zoom and reflow; avoid fixed-height clipping of ascenders and descenders.
-- Support light/dark contrast, reduced motion, and a readable fallback while fonts load.
-- Do not rely on color alone for errors or selected states.
-- Do not animate text continuously or flash content.
-- Explain font coverage and fallback behavior.
-- Test keyboard access, screen-reader output, 200% zoom, narrow layouts, and high-contrast modes.
+## Font-specific checks
 
-## Typeface proofing
+Current local tests cover fixed advances, distinct 0/O and 1/I/l outlines, source occupancy, and crisp FreeType pixels at 16/32/48/64 px. These do not prove universal readability or equivalent behavior in every browser/OS.
 
-For Vantablack, test 32/48/64 px as stress cases and 80/120/240 px as initial display cases. At 48 px a 15-unit gap is 0.72 px; disappearance must be recorded rather than described as universal readability. Check 0/O, 1/I/l, rn/m, c/e, punctuation, and multilingual fallbacks.
+Box-drawing rows need line-height 1 to connect; normal text usually benefits from more spacing. Avoid forcing dense terminal layouts on all users.
 
-The alpha has local FreeType raster smoke checks at the listed sizes and visual review of actual-font light/dark sheets. These are not a full accessibility audit or proof of small-size readability.
+## Earlier experiment
+
+The preserved Vantablack Gothic face is a dense display experiment; it is no longer the primary project font and should not carry long body text.
 
 ## Report a barrier
 
-Use the Accessibility issue template. Describe the affected page or file, task, browser/OS, assistive technology if relevant, expected result, and actual result. Screenshots or recordings are optional; never require a diagnosis or personal medical information.
+Use the Accessibility issue form. Identify the file/page, task, expected outcome, actual barrier, and optional environment information. Do not require personal medical information.

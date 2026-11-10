@@ -1,35 +1,35 @@
 # Contributing
 
-Name the affected project in issues and pull requests: **Vantablack Gothic** is now an installable proportional display alpha; **Afterbyte Mono** remains an unbuilt pixel monospace study.
+Afterbyte Mono is the primary font: a light pixel monospace with a fixed 900-unit advance. Identify the affected family when reporting issues; the earlier Vantablack Gothic experiment is retained separately.
 
-## Propose and design
+## Proposals
 
-Search existing issues. Describe the problem and intended use. Discuss changes to family identity, licensing, core metrics, source format, or coverage before implementing them.
+Search existing issues, provide a text sample and use case, and discuss major changes to metrics, identity, source format, license, or coverage before implementation.
 
-Submit original work with author and provenance. Never trace, rename, or bundle third-party font outlines. The original Vantablack font sources, binaries, recipes, documentation, and artwork are explicitly MIT licensed under LICENSE. Third-party dependencies retain their own terms.
+For rendering reports include font version, OS, application/browser, size, zoom/display scale, and a screenshot if available. Test native 16-pixel multiples and other sizes separately.
 
-## Sources and build
+## Sources
 
-Use Python 3.12 in an isolated environment and install requirements-font.txt. Run:
+Contribute original matrices with clear authorship and provenance. Do not trace, rename, or bundle another font. Original Afterbyte sources, binaries, recipes, documentation, and artwork use LICENSE (MIT); dependencies retain their own licenses.
+
+The editable source is sources/afterbyte-mono/pixels.json. Every glyph must preserve the 900-unit advance, pixel grid, and supported metric envelope.
+
+## Build and validation
+
+Use Python 3.12 in an isolated environment and install requirements-font.txt:
 
 ```sh
-python tools/build_vantablack.py
-python tools/validate_vantablack_spec.py
-python tools/validate_vantablack_font.py
+python tools/build_afterbyte.py
+python tools/validate_afterbyte.py
+python tools/render_afterbyte.py
 ```
 
-The default build regenerates normalized glyphs.json from geometric recipes. To compile directly edited polygon sources, use `python tools/build_vantablack.py --from-source`; changing an advance also requires updating system.json.
+To change the original generator, edit tools/draw_afterbyte.py, run it, then build and validate. The generator overwrites direct JSON edits.
 
-Keep the four-part specification, alpha decision notes, metric contract, sources, binaries, and checksums synchronized. Preserve integer geometry and the documented alpha exceptions.
+Review actual-font light/dark proofs, ambiguity pairs, accents, punctuation, and box drawing. Keep documentation, coverage, checksums, and specimens synchronized. A passed raster smoke check does not establish readability on every system.
 
-## Validation and specimens
+## Pull requests
 
-Run both validators after changes. They cover contract/link checks and actual geometry/binary/shaping/raster checks. They do not establish readability or universal platform support.
+Explain the problem, resulting change, validation, and limits. Include before/after glyph comparisons with text descriptions and update CHANGELOG.md. Avoid unimplemented feature, language, or popularity claims.
 
-For visual changes, regenerate specimens using `python tools/render_vantablack.py` and review light and dark proofs. The optional renderer uses the Linux DejaVu Sans Mono system path for metadata labels. Include before/after glyph comparisons with text descriptions.
-
-Follow ACCESSIBILITY.md and do not claim language coverage, hinting, kerning, or platform support that has not been implemented and tested.
-
-## Pull requests and reporting
-
-Use a focused branch and explain resulting behavior, rationale, validation, and limitations. Update CHANGELOG.md when relevant. Read CODE_OF_CONDUCT.md; use SECURITY.md for vulnerabilities and the Accessibility issue template for barriers.
+Follow ACCESSIBILITY.md and CODE_OF_CONDUCT.md. Report vulnerabilities through SECURITY.md. The issue forms include accessibility and design-proposal templates.
