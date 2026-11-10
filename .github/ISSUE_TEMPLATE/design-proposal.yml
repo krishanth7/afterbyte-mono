@@ -1,0 +1,27 @@
+name: Design or feature proposal
+description: Propose a design-system, tooling, or documentation improvement.
+title: "[Proposal] "
+body:
+  - type: dropdown
+    id: project
+    attributes:
+      label: Area
+      options:
+        - Afterbyte Mono
+        - Vantablack Gothic
+        - Shared repository
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem and intended use
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change and validation
+      description: Include affected metrics, geometry, coverage, and alternatives where relevant.
+    validations:
+      required: true

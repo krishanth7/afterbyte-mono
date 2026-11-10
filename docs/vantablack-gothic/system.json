@@ -1,0 +1,853 @@
+{
+  "schema_version": 1,
+  "family": "Vantablack Gothic",
+  "style": "Regular",
+  "status": "specification-only",
+  "outline_status": "not-implemented",
+  "metrics": {
+    "units_per_em": 1000,
+    "cap_height": 780,
+    "x_height": 580,
+    "ascender": 820,
+    "descender": -200,
+    "line_gap": 0,
+    "typo_ascender": 820,
+    "typo_descender": -200,
+    "hhea_ascender": 820,
+    "hhea_descender": -200,
+    "win_ascent": 820,
+    "win_descent": 200
+  },
+  "geometry": {
+    "stem_width": 110,
+    "default_sidebearing": 24,
+    "micro_gap": 15,
+    "chamfer": 55,
+    "ink_trap_depth": 15,
+    "zero_bar_width": 50,
+    "allowed_edge_angles_degrees": [
+      0,
+      45,
+      90,
+      135
+    ],
+    "coordinate_quantum": 1,
+    "curves_allowed": false,
+    "overshoot": 0
+  },
+  "spacing": {
+    "mode": "proportional",
+    "default_tracking": 0,
+    "kerning_pairs_proposed": {
+      "AV": -12,
+      "AW": -8,
+      "AT": -8,
+      "TA": -8,
+      "To": -10,
+      "VA": -12,
+      "WA": -8,
+      "Yo": -12,
+      "LT": -8
+    },
+    "minimum_interglyph_ink_clearance": 15
+  },
+  "proofing": {
+    "sizes_px": [
+      32,
+      48,
+      64,
+      80,
+      120,
+      240
+    ],
+    "recommended_minimum_px": 80,
+    "small_sizes_are_stress_tests": true
+  },
+  "coverage": {
+    "initial_start": 32,
+    "initial_end": 126,
+    "required_unencoded": [
+      ".notdef"
+    ],
+    "planned_extension_codepoints": [
+      160,
+      163,
+      165,
+      8364,
+      8377,
+      8211,
+      8212,
+      8216,
+      8217,
+      8220,
+      8221,
+      8230,
+      8592,
+      8593,
+      8594,
+      8595
+    ]
+  },
+  "glyphs": [
+    {
+      "character": " ",
+      "codepoint": 32,
+      "advance": 250,
+      "left_sidebearing": null,
+      "right_sidebearing": null,
+      "status": "planned"
+    },
+    {
+      "character": "!",
+      "codepoint": 33,
+      "advance": 158,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "\"",
+      "codepoint": 34,
+      "advance": 250,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "#",
+      "codepoint": 35,
+      "advance": 460,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "$",
+      "codepoint": 36,
+      "advance": 430,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "%",
+      "codepoint": 37,
+      "advance": 620,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "&",
+      "codepoint": 38,
+      "advance": 510,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "'",
+      "codepoint": 39,
+      "advance": 158,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "(",
+      "codepoint": 40,
+      "advance": 230,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": ")",
+      "codepoint": 41,
+      "advance": 230,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "*",
+      "codepoint": 42,
+      "advance": 350,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "+",
+      "codepoint": 43,
+      "advance": 400,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": ",",
+      "codepoint": 44,
+      "advance": 180,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "-",
+      "codepoint": 45,
+      "advance": 320,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": ".",
+      "codepoint": 46,
+      "advance": 158,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "/",
+      "codepoint": 47,
+      "advance": 360,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "0",
+      "codepoint": 48,
+      "advance": 430,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "1",
+      "codepoint": 49,
+      "advance": 250,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "2",
+      "codepoint": 50,
+      "advance": 400,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "3",
+      "codepoint": 51,
+      "advance": 400,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "4",
+      "codepoint": 52,
+      "advance": 420,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "5",
+      "codepoint": 53,
+      "advance": 400,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "6",
+      "codepoint": 54,
+      "advance": 430,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "7",
+      "codepoint": 55,
+      "advance": 380,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "8",
+      "codepoint": 56,
+      "advance": 430,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "9",
+      "codepoint": 57,
+      "advance": 430,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": ":",
+      "codepoint": 58,
+      "advance": 158,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": ";",
+      "codepoint": 59,
+      "advance": 180,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "<",
+      "codepoint": 60,
+      "advance": 360,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "=",
+      "codepoint": 61,
+      "advance": 400,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": ">",
+      "codepoint": 62,
+      "advance": 360,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "?",
+      "codepoint": 63,
+      "advance": 360,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "@",
+      "codepoint": 64,
+      "advance": 660,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "A",
+      "codepoint": 65,
+      "advance": 460,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "B",
+      "codepoint": 66,
+      "advance": 440,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "C",
+      "codepoint": 67,
+      "advance": 430,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "D",
+      "codepoint": 68,
+      "advance": 460,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "E",
+      "codepoint": 69,
+      "advance": 390,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "F",
+      "codepoint": 70,
+      "advance": 370,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "G",
+      "codepoint": 71,
+      "advance": 460,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "H",
+      "codepoint": 72,
+      "advance": 450,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "I",
+      "codepoint": 73,
+      "advance": 158,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "J",
+      "codepoint": 74,
+      "advance": 330,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "K",
+      "codepoint": 75,
+      "advance": 440,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "L",
+      "codepoint": 76,
+      "advance": 360,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "M",
+      "codepoint": 77,
+      "advance": 620,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "N",
+      "codepoint": 78,
+      "advance": 470,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "O",
+      "codepoint": 79,
+      "advance": 460,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "P",
+      "codepoint": 80,
+      "advance": 420,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "Q",
+      "codepoint": 81,
+      "advance": 480,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "R",
+      "codepoint": 82,
+      "advance": 450,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "S",
+      "codepoint": 83,
+      "advance": 420,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "T",
+      "codepoint": 84,
+      "advance": 410,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "U",
+      "codepoint": 85,
+      "advance": 450,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "V",
+      "codepoint": 86,
+      "advance": 460,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "W",
+      "codepoint": 87,
+      "advance": 660,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "X",
+      "codepoint": 88,
+      "advance": 460,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "Y",
+      "codepoint": 89,
+      "advance": 450,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "Z",
+      "codepoint": 90,
+      "advance": 400,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "[",
+      "codepoint": 91,
+      "advance": 220,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "\\",
+      "codepoint": 92,
+      "advance": 360,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "]",
+      "codepoint": 93,
+      "advance": 220,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "^",
+      "codepoint": 94,
+      "advance": 360,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "_",
+      "codepoint": 95,
+      "advance": 430,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "`",
+      "codepoint": 96,
+      "advance": 180,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "a",
+      "codepoint": 97,
+      "advance": 400,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "b",
+      "codepoint": 98,
+      "advance": 410,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "c",
+      "codepoint": 99,
+      "advance": 360,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "d",
+      "codepoint": 100,
+      "advance": 410,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "e",
+      "codepoint": 101,
+      "advance": 400,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "f",
+      "codepoint": 102,
+      "advance": 250,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "g",
+      "codepoint": 103,
+      "advance": 410,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "h",
+      "codepoint": 104,
+      "advance": 410,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "i",
+      "codepoint": 105,
+      "advance": 158,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "j",
+      "codepoint": 106,
+      "advance": 190,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "k",
+      "codepoint": 107,
+      "advance": 380,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "l",
+      "codepoint": 108,
+      "advance": 158,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "m",
+      "codepoint": 109,
+      "advance": 600,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "n",
+      "codepoint": 110,
+      "advance": 410,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "o",
+      "codepoint": 111,
+      "advance": 410,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "p",
+      "codepoint": 112,
+      "advance": 410,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "q",
+      "codepoint": 113,
+      "advance": 410,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "r",
+      "codepoint": 114,
+      "advance": 270,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "s",
+      "codepoint": 115,
+      "advance": 360,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "t",
+      "codepoint": 116,
+      "advance": 260,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "u",
+      "codepoint": 117,
+      "advance": 410,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "v",
+      "codepoint": 118,
+      "advance": 400,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "w",
+      "codepoint": 119,
+      "advance": 580,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "x",
+      "codepoint": 120,
+      "advance": 400,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "y",
+      "codepoint": 121,
+      "advance": 400,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "z",
+      "codepoint": 122,
+      "advance": 350,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "{",
+      "codepoint": 123,
+      "advance": 260,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "|",
+      "codepoint": 124,
+      "advance": 158,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "}",
+      "codepoint": 125,
+      "advance": 260,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    },
+    {
+      "character": "~",
+      "codepoint": 126,
+      "advance": 430,
+      "left_sidebearing": 24,
+      "right_sidebearing": 24,
+      "status": "planned"
+    }
+  ]
+}

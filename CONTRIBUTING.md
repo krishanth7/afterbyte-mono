@@ -1,28 +1,31 @@
-# Contributing to Afterbyte Mono
+# Contributing
 
-Thank you for helping shape the project. The repository is currently at the design-brief stage; no font binaries or build commands exist yet.
+This repository currently contains two distinct design studies: Afterbyte Mono (pixel monospace) and Vantablack Gothic (proportional condensed display sans). Neither has installable font binaries. Clearly name the affected design in issues and pull requests.
 
 ## Propose a change
 
-1. Search existing issues.
-2. Open a glyph request, rendering report, or project proposal.
-3. Describe the use case and intended outcome.
-4. Discuss changes affecting the grid, metrics, license, or family identity before implementing them.
+Search existing issues, describe a concrete use case, and discuss large changes before implementation. Changes to family identity, licensing, metrics, coverage, or source format need explicit review.
 
-## Glyph proposals
+## Design contributions
 
-Include the Unicode code point and character name, an original grid drawing, intended metrics, and comparisons with similar characters. Document authorship and provenance. Do not submit third-party font outlines or renamed font binaries.
+Submit original work with author and provenance. Never trace, rename, or bundle third-party font outlines. Choose and document a dedicated font license before accepting drawn glyph sources. Current specifications, artwork, and scripts remain under LICENSE.
 
-A dedicated font license must be selected before glyph outlines are accepted.
+Vantablack changes must keep docs/vantablack-gothic/SPECIFICATION.md and system.json synchronized. Preserve the 1000 UPEM contract, proposed 820/−200 line metrics, proportional advances, polygon construction, and explicit unfinished status.
+
+## Local validation
+
+Run:
+
+```sh
+python3 tools/validate_vantablack_spec.py
+```
+
+This standard-library script checks the specification contract, ASCII records, and repository-relative Markdown links. It does not build or validate a font.
+
+For documentation, check headings, links, status claims, and image alternatives. Follow ACCESSIBILITY.md. Future outline contributions must also pass the documented build, geometry, naming, coverage, spacing, and rendering checks.
 
 ## Pull requests
 
-Use a focused branch and descriptive commits. Explain what changes, why it helps, and how it was checked. Update relevant docs and the Unreleased changelog.
+Use a focused branch. Explain the problem, resulting change, and checks performed. Include relevant before/after drawings or text, describe limitations, and update CHANGELOG.md when appropriate. Do not claim support or validation that has not been demonstrated.
 
-For documentation, check relative links and factual claims. For artwork, preview the SVG and include meaningful alternative text. When a font build exists, contributions must also pass its documented coverage, metrics, naming, and rendering checks.
-
-Do not claim support for a format, platform, language, or feature without an implementation and validation.
-
-## Review
-
-The maintainer reviews design consistency, readability, provenance, and scope. There is no guaranteed review time. Be respectful and provide actionable feedback; see CODE_OF_CONDUCT.md.
+Read CODE_OF_CONDUCT.md and report vulnerabilities through SECURITY.md. Accessibility barriers have a dedicated issue template.

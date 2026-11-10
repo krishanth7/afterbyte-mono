@@ -1,16 +1,23 @@
-## What changes?
+## Design or repository area
 
-## Why?
+<!-- Afterbyte Mono / Vantablack Gothic / shared governance -->
+
+## Problem and resulting change
 
 ## Validation
 
-Describe the checks or visual review performed. State any checks that could not be run.
+<!-- Commands, source checks, visual proofing, and any checks not run. Specification validation is not font validation. -->
+
+## Screenshots or glyph comparisons
+
+<!-- Where relevant; include a text description. -->
 
 ## Checklist
 
-- [ ] The change is focused and documented.
-- [ ] New material is original or has documented compatible provenance.
-- [ ] Links and file references work.
-- [ ] Relevant design or rendering examples are included.
-- [ ] The Unreleased changelog is updated where appropriate.
-- [ ] Feature and support claims match what is actually implemented.
+- [ ] Scope and development status are accurate.
+- [ ] Material is original or has documented compatible provenance.
+- [ ] Numeric design specifications and machine-readable records agree.
+- [ ] Documentation links and validation checks pass.
+- [ ] Accessibility effects have been considered.
+- [ ] Relevant changelog entries are updated.
+- [ ] No credentials, sensitive reports, or unreviewed third-party font assets are included.

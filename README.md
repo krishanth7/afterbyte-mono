@@ -15,6 +15,20 @@ An independent pixel monospace typeface project for code, terminals, and digital
 
 </div>
 
+## Vantablack Gothic — proportional display study
+
+A second, distinct design direction now has a complete programmatic specification: an angular, heavy, hyper-condensed proportional display sans.
+
+**[Read the four-part specification](docs/vantablack-gothic/SPECIFICATION.md)** · [Machine-readable contract](docs/vantablack-gothic/system.json) · [Proofing text](docs/vantablack-gothic/proofing.txt)
+
+The specification defines a 1000 UPEM design, 780 cap height, 580 x-height, 110-unit stems, and 15-unit crossbar gaps. Its 95 ASCII glyph records are planned metrics, not implemented outlines. Proportional widths do not imply an OpenType variable font. This addition does not rename Afterbyte Mono.
+
+## Repository policies
+
+[License](LICENSE) · [Code of conduct](CODE_OF_CONDUCT.md) · [Contributing](CONTRIBUTING.md) · [Security](SECURITY.md) · [Accessibility](ACCESSIBILITY.md) · [Pull request template](.github/pull_request_template.md) · [Issue templates](https://github.com/krishanth7/afterbyte-mono/issues/new/choose)
+
+Validation: `python3 tools/validate_vantablack_spec.py` checks the design contract and documentation links only; no font is compiled.
+
 ## A new character for the digital world
 
 Afterbyte Mono explores the precision of a pixel grid with the personality of early computer interfaces. The aim is a recognizable typeface that works in developer tools, creative coding, game interfaces, and expressive digital identities.

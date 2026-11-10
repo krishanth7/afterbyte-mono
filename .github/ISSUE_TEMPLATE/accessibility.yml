@@ -1,0 +1,21 @@
+name: Accessibility barrier
+description: Report a barrier in documentation, specimen plans, or future interfaces.
+title: "[Accessibility] "
+body:
+  - type: input
+    id: location
+    attributes:
+      label: Affected file or page
+    validations:
+      required: true
+  - type: textarea
+    id: barrier
+    attributes:
+      label: Task, expected outcome, and actual barrier
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment and optional evidence
+      description: Include browser/OS, zoom, input method, or assistive technology if useful. Do not include medical or private information.
