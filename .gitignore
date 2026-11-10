@@ -1,0 +1,21 @@
+# Local operating system files
+.DS_Store
+Thumbs.db
+
+# Editor state
+.vscode/
+.idea/
+*.swp
+*~
+
+# Local environments and caches
+.venv/
+__pycache__/
+*.py[cod]
+node_modules/
+.cache/
+
+# Temporary build outputs; release binaries require deliberate inclusion
+build/
+dist/
+*.log

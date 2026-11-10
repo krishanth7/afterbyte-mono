@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="440" viewBox="0 0 1440 440" role="img" aria-labelledby="title desc">
+<title id="title">Afterbyte Mono</title><desc id="desc">Lime pixel motif on a dark background. Old-school pixels. Next-generation character. Typeface project in development. Branding graphic uses a system monospace font.</desc>
+<defs><pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#202830" stroke-width="1"/></pattern></defs>
+<rect width="1440" height="440" fill="#0B1015"/><rect width="1440" height="440" fill="url(#grid)"/>
+<g fill="#BAFF39"><path d="M96 112h32v32H96zM160 112h32v32h-32zM128 144h32v32h-32zM96 176h32v32H96zM160 176h32v32h-32zM96 208h96v32H96zM96 240h32v32H96zM160 240h32v32h-32z"/><rect x="96" y="328" width="96" height="8"/></g>
+<g font-family="monospace"><text x="248" y="126" fill="#BAFF39" font-size="18" letter-spacing="4">INDEPENDENT TYPE PROJECT / 001</text><text x="244" y="224" fill="#F0F4F8" font-size="84" font-weight="bold" letter-spacing="-3">AFTERBYTE MONO</text><text x="248" y="281" fill="#B1BDC9" font-size="24">Old-school pixels. Next-generation character.</text><text x="248" y="341" fill="#738494" font-size="16">PIXEL PRECISION / DIGITAL PERSONALITY / IN DEVELOPMENT</text></g>
+<path d="M1296 80h48v48M1344 312v48h-48" fill="none" stroke="#BAFF39" stroke-width="4"/>
+</svg>

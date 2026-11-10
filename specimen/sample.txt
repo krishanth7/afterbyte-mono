@@ -1,0 +1,35 @@
+AFTERBYTE MONO
+Old-school pixels. Next-generation character.
+
+UPPERCASE
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+
+lowercase
+abcdefghijklmnopqrstuvwxyz
+
+NUMERALS
+0123456789
+
+PRINTABLE ASCII PUNCTUATION
+!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~
+
+READABILITY
+0 O o  1 I l i  2 Z z  5 S s  8 B
+rn m  cl d  vv w  () [] {} <>  : ; , .
+Il1|  O0o  []{}()  => -> != == === <= >=
+
+CODE
+const afterbyte = { pixels: 8, character: "original" };
+function greet(name) {
+  return "Hello, " + name + "!";
+}
+for (let i = 0; i < 10; i++) {
+  console.log(greet("world"), i);
+}
+
+TEXT
+The quick brown fox jumps over the lazy dog.
+Pack my box with five dozen liquor jugs.
+0123456789  98.76%  +42  -17  0xAF  #BAFF39
+
+This text is a proofing checklist. It does not imply a font exists yet.

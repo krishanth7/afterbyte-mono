@@ -1,0 +1,30 @@
+name: Rendering report
+description: Report a reproducible rendering problem once font builds are available.
+title: "[Rendering] "
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Font version or source commit
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Include OS, app or browser version, font size, display scale, and installation method.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Sample text and reproduction steps
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Expected and actual appearance
+      description: Add screenshots if possible. Do not include sensitive code or personal data.
+    validations:
+      required: true
