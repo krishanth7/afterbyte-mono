@@ -1,5 +1,7 @@
+import { initGroupPicker } from './ui-controls.mjs';
+import { initScenes } from './scene-lab.mjs';
 import { initLetterLab } from './letter-lab.mjs';
-import { filterGlyphs, unsupported, pageSlice } from './coverage.mjs';
+import { filterGlyphs, unsupported, pageSlice, letterVariants } from './coverage.mjs';
 
 const $ = id => document.getElementById(id);
 const root = document.documentElement;
@@ -42,23 +44,10 @@ systemTheme.addEventListener('change', event => {
   }
 });
 
-// A single motion preference controls every ambient effect and live readout.
-const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
-let userPaused = storage.get('afterbyte-motion') === 'paused';
-const motionStopped = () => userPaused || reducedMotion.matches;
-function syncMotion() {
-  root.classList.toggle('motion-paused', motionStopped());
-  $('motion').setAttribute('aria-pressed', String(motionStopped()));
-  $('motion').textContent = reducedMotion.matches ? 'Reduced motion' : userPaused ? 'Resume motion' : 'Pause motion';
-  $('motion').disabled = reducedMotion.matches;
-}
-syncMotion();
-reducedMotion.addEventListener('change', syncMotion);
-$('motion').addEventListener('click', () => {
-  userPaused = !userPaused;
-  storage.set('afterbyte-motion', userPaused ? 'paused' : 'running');
-  syncMotion();
-});
+// Keep system reduced-motion support without a separate visible switch.
+const reducedMotion=matchMedia('(prefers-reduced-motion: reduce)');
+function syncMotion(){root.classList.toggle('motion-paused',reducedMotion.matches);}
+syncMotion();reducedMotion.addEventListener('change',syncMotion);
 
 // Native inputs preserve keyboard behavior, text selection, and mobile editing.
 let rows = [], page = 0;
@@ -120,9 +109,32 @@ function inspect(row) {
   selected = row;
   $('inspector-letter').textContent = String.fromCodePoint(row.unicode);
   $('inspector-name').textContent = row.name;
+  const variants=letterVariants(rows,row);
+  $('inspector-style').textContent=variants.find(item=>item.row.unicode===row.unicode)?.label||'Character';
+  renderVariants(row);
   $('inspector-code').textContent = codePoint(row) + ' / ADVANCE 650';
   $('insert-status').textContent = '';
   setPressed('.glyph', button => Number(button.dataset.unicode) === row.unicode);
+}
+function renderVariants(row){
+  const restoreFocus=document.activeElement?.classList.contains('variant-card');
+  const variants=letterVariants(rows,row);
+  $('letter-variants').hidden=variants.length<2;
+  $('variant-grid').replaceChildren();
+  if(variants.length<2)return;
+  $('variants-title').textContent='FORMS OF '+String.fromCodePoint(variants[0].row.unicode).toUpperCase();
+  const fragment=document.createDocumentFragment();
+  for(const item of variants){
+    const button=document.createElement('button');button.type='button';button.className='variant-card';
+    button.setAttribute('aria-label','Inspect '+item.label+' '+String.fromCodePoint(item.row.unicode));
+    button.setAttribute('aria-pressed',String(selected.unicode===item.row.unicode));
+    const glyph=document.createElement('span');glyph.className='variant-character';glyph.textContent=String.fromCodePoint(item.row.unicode);glyph.setAttribute('aria-hidden','true');
+    const label=document.createElement('span');label.className='variant-label';label.textContent=item.label;
+    const code=document.createElement('small');code.textContent=codePoint(item.row);
+    button.append(glyph,label,code);button.addEventListener('click',()=>inspect(item.row));fragment.append(button);
+  }
+  $('variant-grid').append(fragment);
+  if(restoreFocus)$('variant-grid').querySelector('[aria-pressed=true]')?.focus({preventScroll:true});
 }
 function render() {
   const result = pageSlice(filterGlyphs(rows, $('query').value, $('group').value), page);
@@ -152,6 +164,8 @@ function render() {
   $('page-label').textContent = 'Page ' + (page + 1) + ' of ' + result.pages;
   $('previous').disabled = page === 0;
   $('next').disabled = page >= result.pages - 1;
+  if(result.total===1&&$('query').value.trim())inspect(result.rows[0]);
+  else $('letter-variants').hidden=true;
 }
 for (const id of ['query', 'group']) $(id).addEventListener(id === 'query' ? 'input' : 'change', () => { page = 0; render(); });
 $('previous').addEventListener('click', () => { page--; render(); });
@@ -218,18 +232,12 @@ addEventListener('resize', progress);
 progress();
 
 
-// Local application studies show the same typeface in three different contexts.
-const previewNames={interface:'AFTERBYTE / INTERFACE STUDY',code:'AFTERBYTE / CODE STUDY',editorial:'AFTERBYTE / EDITORIAL STUDY'};
-document.querySelectorAll('[data-preview]').forEach(button=>button.addEventListener('click',()=>{
-  const name=button.dataset.preview;
-  for(const key of Object.keys(previewNames)) $('preview-'+key).hidden=key!==name;
-  setPressed('[data-preview]',b=>b===button);
-  $('preview-title').textContent=previewNames[name];
-}));
+initGroupPicker();
+initScenes();
 function groupState(){setPressed('[data-group]',button=>button.dataset.group===$('group').value);}
 document.querySelectorAll('[data-group]').forEach(button=>button.addEventListener('click',()=>{
   $('group').value=button.dataset.group;
-  $('query').value='';page=0;groupState();render();
+  $('query').value='';$('group').dispatchEvent(new Event('change',{bubbles:true}));
 }));
 $('group').addEventListener('change',groupState);
 groupState();

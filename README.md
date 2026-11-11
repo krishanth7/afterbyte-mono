@@ -135,7 +135,7 @@ python tools/render_afterbyte.py
 
 Checks cover every mapped character, glyph counts, coverage inclusion, retained core outlines, Braille dot bits, mathematical style distinctions, full embedded licenses, fixed spacing, bounds, container signatures, webfont outlines, CFF geometry bounds, shaping, rendering, checksums and reproducibility.
 
-The specimen uses Afterbyte Mono for interface and editable text, with light/dark themes, a draggable letter lab, expressive original SVG artwork, measured glyph details, interface/code/editorial previews, a live type studio, and a searchable character inspector covering every Unicode mapping. Motion can be paused and follows the system reduced-motion preference.
+The specimen uses Afterbyte Mono for interface and editable text, with light/dark themes, a draggable letter lab, expressive original SVG artwork, measured glyph details, interface/code/editorial previews, a live type studio, and a searchable character inspector covering every Unicode mapping. Motion follows the system reduced-motion preference. Character searches reveal supported lowercase, capital, bold and italic Unicode forms, while the themed character-group picker supports keyboard navigation.
 
 The specimen runs without a framework, remote fonts or tracking scripts. Search, group totals, supplementary Unicode handling, fallback warnings and pagination are checked with `node --test tests/playground.test.mjs`.
 
@@ -172,4 +172,4 @@ Commercial use and embedding are permitted under the OFL terms. Redistributed fo
 
 ### Website design
 
-The current site uses an original playful visual system with warm light and deep violet dark palettes. Visitors can move the hero letter tiles by dragging or keyboard arrows, shuffle the composition, or click a tile to add its character to the type tester. SVG ornament cycles run slowly, pause off-screen, and respect reduced-motion and the manual pause control. All interface typography uses Afterbyte Mono, and downloadable PNG specimens are rendered from the compiled font.
+The current site uses an original playful visual system with warm light and deep violet dark palettes. Visitors can move the hero letter tiles by dragging or keyboard arrows, shuffle the composition, or click a tile to add its character to the type tester. SVG ornament cycles run slowly, pause off-screen, and respect the system reduced-motion preference. All interface typography uses Afterbyte Mono, and downloadable PNG specimens are rendered from the compiled font.

@@ -22,3 +22,18 @@ test('all static page text and script symbols belong to the font repertoire',()=
   const app=readFileSync(new URL('../web/app.mjs',import.meta.url),'utf8');
   for(const character of body+app){const point=character.codePointAt(0);if(point>127&&!/\s/.test(character))assert.ok(known.has(point),'Unsupported static character '+character);}
 });
+
+import {letterVariants} from '../web/coverage.mjs';
+test('a exposes its real lowercase, capital, bold and italic Unicode forms',()=>{
+ const variants=letterVariants(rows,'a');
+ assert.deepEqual(variants.map(v=>v.row.unicode),[97,65,0x1d41a,0x1d44e,0x1d482,0x1d400,0x1d434,0x1d468]);
+ assert.equal(variants[0].label,'Lowercase');
+ assert.equal(variants[1].label,'Capital');
+ assert.deepEqual(letterVariants(rows,'𝐀').map(v=>v.row.unicode),variants.map(v=>v.row.unicode));
+});
+test('variants handle the italic h alias and avoid inventing unsupported styles',()=>{
+ assert.ok(letterVariants(rows,'h').some(v=>v.row.unicode===0x210e&&v.label==='Italic lowercase'));
+ assert.equal(letterVariants(rows,'ℎ').length,8);
+ assert.deepEqual(letterVariants(rows,'Ω').map(v=>v.row.unicode),[0x3c9,0x3a9]);
+ assert.deepEqual(letterVariants(rows,'unknown'),[]);
+});
