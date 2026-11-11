@@ -1,10 +1,11 @@
+import { initLetterLab } from './letter-lab.mjs';
 import { filterGlyphs, unsupported, pageSlice } from './coverage.mjs';
 
 const $ = id => document.getElementById(id);
 const root = document.documentElement;
 const sample = $('sample');
 const samples = {
-  interface: 'Consider every\ncharacter.',
+  interface: 'Make a little\nnoise.',
   latin: 'ÀÁÂÃÄÅ ÆÇÈÉÊË Œ Ø ß\nŁąę ěŷ Ḃẞ — clarity, in detail.',
   greek: 'ΑΒΓΔΕΖΗΘ ΙΚΛΜΝΞΟΠ\nΡΣΤΥΦΧΨΩ αβγδελπ ἀὦ',
   cyrillic: 'АБВГДЕЁЖЗИЙКЛМН\nОПРСТУФХЦЧШЩЪЫЬЭЮЯ',
@@ -22,7 +23,7 @@ function syncTheme() {
   $('theme').textContent = dark ? 'Light mode' : 'Dark mode';
   const preview = $('download-preview');
   if (preview) preview.href = 'assets/afterbyte-mono/website-preview-' + (dark ? 'dark' : 'light') + '.png';
-  document.querySelector('meta[name="theme-color"]').content = dark ? '#10151e' : '#f7f8fa';
+  document.querySelector('meta[name="theme-color"]').content = dark ? '#211b2b' : '#fff4df';
 }
 syncTheme();
 let themeTimer;
@@ -195,7 +196,7 @@ if ('IntersectionObserver' in window) {
   const ambient = new IntersectionObserver(entries => {
     for (const entry of entries) entry.target.classList.toggle('offscreen', !entry.isIntersecting);
   }, { rootMargin: '100px' });
-  document.querySelectorAll('.hero-diagram,.anatomy-art,.closing-graphic').forEach(element => ambient.observe(element));
+  document.querySelectorAll('.play-decoration,.play-ribbon svg,.anatomy-art,.closing-graphic').forEach(element => ambient.observe(element));
   const reveals = new IntersectionObserver(entries => {
     for (const entry of entries) if (entry.isIntersecting) {
       entry.target.classList.add('reveal');
@@ -232,3 +233,5 @@ document.querySelectorAll('[data-group]').forEach(button=>button.addEventListene
 }));
 $('group').addEventListener('change',groupState);
 groupState();
+
+initLetterLab({sample,onTextChange:()=>{setPressed('[data-sample]',()=>false);reportText();}});

@@ -1,31 +1,33 @@
 #!/usr/bin/env python3
-"""Render light/dark specimen images from compiled Afterbyte outlines."""
+"""Render the playful light/dark Afterbyte specimen from actual font outlines."""
 from render_afterbyte import Page
 
 def render():
     for theme, colors in {
-        'light': ('#f7f8fa','#1e293b','#596779','#375de8','#ffffff','#dce2eb'),
-        'dark': ('#10151e','#e9eef7','#b0bfd3','#9bb5ff','#171e2a','#303c4f'),
+        'light': ('#fff4df','#29213c','#65596e','#6841c8'),
+        'dark': ('#211b2b','#fff2d7','#c7b9ca','#c5adff'),
     }.items():
-        bg,ink,muted,accent,surface,line=colors
-        page=Page(1280,640,'Afterbyte Mono — Precision with character.',
-            'Afterbyte Mono v5.0.0. 2,500 glyphs including 2,499 Unicode characters. Four formats. Actual compiled font outlines.',bg,ink,muted,accent)
-        page.text('afterbyte / mono',54,64,23)
-        page.text('V5.0.0 / REGULAR',1010,62,15,muted)
-        page.rect(54,95,1172,1,line)
-        page.text('A CONSIDERED MONOSPACE',54,178,15,muted)
-        page.text('Precision.',50,280,76)
-        page.text('With character.',50,376,76,accent)
-        page.text('For interfaces, ideas, and everything in between.',54,443,17,muted)
-        page.rect(835,145,390,340,surface)
-        for x in range(855,1210,30):page.rect(x,165,1,300,line)
-        for y in range(165,470,30):page.rect(855,y,350,1,line)
-        page.text('Aa',860,406,240,accent)
-        page.text('ORIGINAL FORM STUDY / 650 U',858,467,11,muted)
-        page.rect(54,537,1172,1,line)
-        page.text('2,500 GLYPHS',54,587,20)
-        page.text('FOUR FORMATS',397,587,20)
-        page.text('SIL OFL 1.1',740,587,20)
+        bg,ink,muted,accent=colors
+        page=Page(1280,640,'Afterbyte Mono — Type with a wild side.',
+            'Afterbyte Mono v5.0.0. A playful monospace with 2,500 glyphs and four font formats. Lettering rendered from the compiled font.',bg,ink,muted,accent)
+        page.text('afterbyte / mono',50,62,23)
+        page.text('V5.0.0 / REGULAR',1000,60,15,muted)
+        page.rect(50,92,1180,1,ink)
+        page.text('AFTERBYTE MONO / A TYPE PLAYGROUND',50,168,15,muted)
+        page.text('TYPE WITH',46,278,82)
+        page.rect(44,312,635,101,'#d8ef86')
+        page.text('A WILD SIDE.',46,383,82,'#29213c')
+        page.text('A technical monospace.',50,462,21,muted)
+        page.text('A whole lot of personality.',50,495,21,muted)
+        page.rect(780,135,450,375,'#f4b3cc')
+        page.rect(804,183,180,191,'#ff8657')
+        page.text('A',831,339,169,'#29213c')
+        page.rect(1008,164,190,190,'#d8ef86')
+        page.text('a',1034,315,169,'#29213c')
+        page.rect(923,325,190,167,'#7654c5')
+        page.text('g',950,440,158,'#fff4df')
+        page.rect(0,550,1280,90,'#ff8657')
+        page.text('2,500 GLYPHS / FOUR FORMATS / ONE VERY OPEN MIND.',50,603,27,'#29213c')
         page.save('website-preview-'+theme)
         print('Rendered '+theme+' website specimen.')
 

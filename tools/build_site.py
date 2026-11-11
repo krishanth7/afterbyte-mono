@@ -24,7 +24,7 @@ def build(output,version):
     for asset in ('web/app.mjs','web/theme.js','web/style.css','fonts/afterbyte-mono/AfterbyteMono-Regular.woff2'):
         text=text.replace('"'+asset+'"','"'+asset+'?v='+version+'"')
     index.write_text(text)
-    app=output/'web/app.mjs';app.write_text(app.read_text().replace("'./coverage.mjs'","'./coverage.mjs?v="+version+"'").replace("'sources/afterbyte-mono/coverage-v5.json'","'sources/afterbyte-mono/coverage-v5.json?v="+version+"'"))
+    app=output/'web/app.mjs';app.write_text(app.read_text().replace("'./coverage.mjs'","'./coverage.mjs?v="+version+"'").replace("'./letter-lab.mjs'","'./letter-lab.mjs?v="+version+"'").replace("'sources/afterbyte-mono/coverage-v5.json'","'sources/afterbyte-mono/coverage-v5.json?v="+version+"'"))
     css=output/'web/style.css';css.write_text(css.read_text().replace('AfterbyteMono-Regular.woff2"','AfterbyteMono-Regular.woff2?v='+version+'"'))
     print(f'Staged specimen in {output.relative_to(ROOT)}; asset version {version}.')
 

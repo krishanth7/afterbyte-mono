@@ -24,8 +24,8 @@ Report barriers using the Accessibility issue form with task, file/page, expecte
 
 - Interface, editable text, SVG labels, and code specimens use self-hosted Afterbyte Mono, with system monospace fallback while loading or for unsupported input.
 - Light and dark themes follow the initial system preference and remember explicit local choices. A small script applies the selected theme before the first stylesheet paint.
-- Ambient SVG animations run on 32–90-second cycles. The persistent Pause motion control stops them. System reduced-motion preference disables animation and smooth scrolling; off-screen SVGs pause automatically.
-- No flashing, title scrambling, fast starfield, autoplay arcade, or scroll hijacking is present.
+- Ambient SVG animations run on 45–100-second cycles. The persistent Pause motion control stops them. System reduced-motion preference disables animation and smooth scrolling; off-screen SVGs pause automatically.
+- No flashing, title scrambling, fast starfield, autoplay arcade, or scroll hijacking is present. Movable letter tiles support pointer dragging and keyboard arrow positioning; Enter or a click inserts the letter into the type tester. Position changes are bounded to the board and announced through a status region.
 - Native controls support specimen size, tracking, line height, alignment, sample selection, category filters, Unicode search, pagination, theme, and application previews.
 - Glyph selection updates a separate inspector. Add to tester announces insertion and preserves focus.
 - Every one of the 2,499 mapped characters is searchable; the additional unencoded fallback glyph is shown separately. The full text coverage download remains available.
