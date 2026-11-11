@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Informational discovery manifest; crawler rules use robots.txt. -->
+<discovery><site>https://krishanth7.github.io/afterbyte-mono/</site><robots>https://krishanth7.github.io/afterbyte-mono/robots.txt</robots><sitemap>https://krishanth7.github.io/afterbyte-mono/sitemap.xml</sitemap><reference>https://krishanth7.github.io/afterbyte-mono/llms.txt</reference></discovery>

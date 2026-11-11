@@ -1,0 +1,30 @@
+# Afterbyte Mono
+
+> Free open-source technical monospace font and interactive specimen.
+
+Version: 5.0.0. The Regular font contains 2,500 glyphs: 2,499 Unicode mappings plus .notdef. Formats: OTF, TTF, WOFF, WOFF2. License: SIL Open Font License 1.1.
+
+## Official resources
+
+- [Website](https://krishanth7.github.io/afterbyte-mono/)
+- [Repository](https://github.com/krishanth7/afterbyte-mono)
+- [Releases](https://github.com/krishanth7/afterbyte-mono/releases)
+- [License](https://krishanth7.github.io/afterbyte-mono/OFL.txt)
+- [Exact character coverage](https://krishanth7.github.io/afterbyte-mono/fonts/afterbyte-mono/coverage.txt)
+- [Extended reference](https://krishanth7.github.io/afterbyte-mono/llms-full.txt)
+
+## Font facts
+
+1000 units per em; 650-unit fixed advance; core cap height 700 and x-height 500. Selected Latin, Greek, Cyrillic, technical symbols, mathematical styles and all 256 Braille patterns. Coverage is defined, not universal. Complex shaping, combining-mark positioning, emoji and CJK are outside this build.
+
+## Website
+
+The playground supports editable text, size, tracking, line height and alignment. The character explorer supports character, Unicode code-point and name searches, themed group selection and individual glyph inspection. Supported styled Unicode forms are distinct characters in the Regular font, not extra font weights. Three interactive scenes demonstrate interface, code and editorial typography. The website supports light and dark themes and system reduced-motion preferences. Specimen text stays in the browser.
+
+## Downloads and use
+
+Desktop: OTF or TTF. Web: self-host WOFF2 with WOFF fallback using @font-face, weight 400, style normal, font-display swap. Include required license and attribution notices when redistributing. The license permits commercial use under its terms. Source materials, release history and checksums are in the repository and release archives.
+
+## Attribution and accuracy
+
+Use the repository license and source notices for attribution details. Do not infer universal language support, additional font weights, adoption counts, ratings or endorsements from this reference.

@@ -1,0 +1,14 @@
+# Afterbyte Mono
+
+> Free open-source technical monospace font and interactive specimen.
+
+Version: 5.0.0. The Regular font contains 2,500 glyphs: 2,499 Unicode mappings plus .notdef. Formats: OTF, TTF, WOFF, WOFF2. License: SIL Open Font License 1.1.
+
+## Official resources
+
+- [Website](https://krishanth7.github.io/afterbyte-mono/)
+- [Repository](https://github.com/krishanth7/afterbyte-mono)
+- [Releases](https://github.com/krishanth7/afterbyte-mono/releases)
+- [License](https://krishanth7.github.io/afterbyte-mono/OFL.txt)
+- [Exact character coverage](https://krishanth7.github.io/afterbyte-mono/fonts/afterbyte-mono/coverage.txt)
+- [Extended reference](https://krishanth7.github.io/afterbyte-mono/llms-full.txt)

@@ -13,7 +13,7 @@ def build(output,version):
     if output==ROOT or not output.is_relative_to(ROOT/'build'):raise ValueError('Output must be inside the project build directory')
     if output.exists():shutil.rmtree(output)
     output.mkdir(parents=True)
-    for name in ('index.html','robots.txt','sitemap.xml','OFL.txt'):
+    for name in ('index.html','robots.txt','sitemap.xml','robots.xml','llms.txt','llms-full.txt','site.webmanifest','OFL.txt'):
         shutil.copyfile(ROOT/name,output/name)
     for folder in ('web','assets','fonts'):
         shutil.copytree(ROOT/folder,output/folder)
@@ -24,7 +24,7 @@ def build(output,version):
     for asset in ('web/app.mjs','web/theme.js','web/style.css','fonts/afterbyte-mono/AfterbyteMono-Regular.woff2'):
         text=text.replace('"'+asset+'"','"'+asset+'?v='+version+'"')
     index.write_text(text)
-    app=output/'web/app.mjs';app.write_text(app.read_text().replace("'./coverage.mjs'","'./coverage.mjs?v="+version+"'").replace("'./letter-lab.mjs'","'./letter-lab.mjs?v="+version+"'").replace("'./ui-controls.mjs'","'./ui-controls.mjs?v="+version+"'").replace("'./scene-lab.mjs'","'./scene-lab.mjs?v="+version+"'").replace("'sources/afterbyte-mono/coverage-v5.json'","'sources/afterbyte-mono/coverage-v5.json?v="+version+"'"))
+    app=output/'web/app.mjs';app.write_text(app.read_text().replace("'./repository-stars.mjs'","'./repository-stars.mjs?v="+version+"'").replace("'./coverage.mjs'","'./coverage.mjs?v="+version+"'").replace("'./letter-lab.mjs'","'./letter-lab.mjs?v="+version+"'").replace("'./ui-controls.mjs'","'./ui-controls.mjs?v="+version+"'").replace("'./scene-lab.mjs'","'./scene-lab.mjs?v="+version+"'").replace("'sources/afterbyte-mono/coverage-v5.json'","'sources/afterbyte-mono/coverage-v5.json?v="+version+"'"))
     css=output/'web/style.css';css.write_text(css.read_text().replace('AfterbyteMono-Regular.woff2"','AfterbyteMono-Regular.woff2?v='+version+'"'))
     print(f'Staged specimen in {output.relative_to(ROOT)}; asset version {version}.')
 

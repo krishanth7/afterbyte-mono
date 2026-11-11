@@ -173,3 +173,11 @@ Commercial use and embedding are permitted under the OFL terms. Redistributed fo
 ### Website design
 
 The current site uses an original playful visual system with warm light and deep violet dark palettes. Visitors can move the hero letter tiles by dragging or keyboard arrows, shuffle the composition, or click a tile to add its character to the type tester. SVG ornament cycles run slowly, pause off-screen, and respect the system reduced-motion preference. All interface typography uses Afterbyte Mono, and downloadable PNG specimens are rendered from the compiled font.
+
+### Search and sharing
+
+The website includes a canonical URL, descriptive metadata, Open Graph and large-image social cards, indexable semantic content, and accurate WebSite/CreativeWork structured data. `sitemap.xml` lists the canonical page; in-page sections are anchors rather than duplicate sitemap pages. `llms.txt` and `llms-full.txt` provide factual project references. `robots.xml` is an informational discovery file, not a crawler-policy standard.
+
+GitHub Pages serves this project below `/afterbyte-mono/`. Crawlers read policy from the origin-root `/robots.txt`; the project-level `robots.txt` is packaged for custom-domain or root deployments and does not override the origin policy. The sitemap can be submitted directly in Search Console after site verification. No ranking, indexing, rich-result display, or viral reach is guaranteed.
+
+The header links to GitHub and retrieves the public star count without credentials, caching successful results locally for one hour. API failure leaves a working repository link without an invented count. Social preview images remain available for link unfurls; the specimen PNG download call to action has been removed.

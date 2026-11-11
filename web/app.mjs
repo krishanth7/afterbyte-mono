@@ -23,8 +23,6 @@ function syncTheme() {
   const dark = root.dataset.theme === 'dark';
   $('theme').setAttribute('aria-pressed', String(dark));
   $('theme').textContent = dark ? 'Light mode' : 'Dark mode';
-  const preview = $('download-preview');
-  if (preview) preview.href = 'assets/afterbyte-mono/website-preview-' + (dark ? 'dark' : 'light') + '.png';
   document.querySelector('meta[name="theme-color"]').content = dark ? '#211b2b' : '#fff4df';
 }
 syncTheme();
@@ -243,3 +241,6 @@ $('group').addEventListener('change',groupState);
 groupState();
 
 initLetterLab({sample,onTextChange:()=>{setPressed('[data-sample]',()=>false);reportText();}});
+
+import { initRepositoryStars } from './repository-stars.mjs';
+initRepositoryStars();
