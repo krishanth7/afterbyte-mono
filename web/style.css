@@ -22,3 +22,6 @@
 @media(prefers-reduced-motion:reduce){.reference-badge:hover,.ephemera-items img,.code-sheets img{transform:none!important}.cockpit-sticky{position:relative;top:0}.cockpit-transition{height:auto;padding-bottom:40px}.cockpit-tools{position:relative;left:auto;bottom:auto;transform:none;margin:80px auto 0}}
 .reference-letter,.reference-ephemera,.reference-code,.cockpit-transition{overflow:clip}
 @media(max-width:767px){.utility-bar{position:relative;top:auto;right:auto;width:auto;margin:22px 16px 0;padding:0}.utility-bar>div{flex-direction:row;align-items:center;justify-content:space-between;gap:12px}.utility-bar a,.utility-bar button{min-height:36px}}
+.cockpit-transition{padding-bottom:420px}.cockpit-identity{position:absolute;left:25%;right:10%;bottom:0;height:9%;background:#222;color:#ffa133;padding:10px 6px;font-size:8px;line-height:1.5;display:flex;align-items:center;justify-content:space-between;gap:15px}
+@media(max-width:767px){.cockpit-transition{padding-bottom:480px}.cockpit-identity{font-size:6px}}
+@media(prefers-reduced-motion:reduce){.cockpit-transition{padding-bottom:40px}}
