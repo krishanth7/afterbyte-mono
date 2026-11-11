@@ -1,4 +1,4 @@
-AFTERBYTE MONO / REGULAR / 0.2.0 ALPHA
+AFTERBYTE MONO / REGULAR / 0.3.0 ALPHA
 
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 abcdefghijklmnopqrstuvwxyz
@@ -13,6 +13,6 @@ const agent = { status: "ready", signal: 0.98 };
 The quick brown fox jumps over the lazy dog.
 Clear signals. Human-readable systems.
 
-Use 16/32/48/64 px for native-grid proofs.
+Use 12/16/24/32/48/96 px for continuous-vector proofs.
 Record font revision, OS, application, zoom, display scale, size, and line height.
-Use line-height 1 and letter-spacing 0 for connected box drawing.
+Use line-height 1.04 and letter-spacing 0 for connected box drawing.

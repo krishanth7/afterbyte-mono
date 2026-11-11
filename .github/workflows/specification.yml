@@ -19,9 +19,9 @@ jobs:
         run: python -m pip install -r requirements-font.txt
       - name: Validate Afterbyte Mono
         run: python tools/validate_afterbyte.py
-      - name: Rebuild original pixel matrices and binaries
+      - name: Rebuild original vector sources and binaries
         run: |
-          python tools/draw_afterbyte.py
+          python tools/draw_afterbyte_vector.py
           python tools/build_afterbyte.py
       - name: Check reproducibility
         run: git diff --exit-code -- fonts/afterbyte-mono sources/afterbyte-mono

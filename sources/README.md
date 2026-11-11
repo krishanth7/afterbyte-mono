@@ -1,13 +1,13 @@
-# Original font sources
+# Font sources
 
-## Afterbyte Mono
+## Current continuous-vector design
 
-[afterbyte-mono/pixels.json](afterbyte-mono/pixels.json) stores 196 original Unicode character matrices. Each # is a 100-unit filled square; each . is empty space.
+[afterbyte-mono/vectors.json](afterbyte-mono/vectors.json) is the current editable centerline source. It contains 196 Unicode records with original M/L/C/Z paths, solids, and stroke settings.
 
-Edit the JSON and run `python tools/build_afterbyte.py` to compile. Run `python tools/validate_afterbyte.py` and regenerate specimens after changes.
+The [vector generator](../tools/draw_afterbyte_vector.py) regenerates the JSON. Compile direct JSON edits with `python tools/build_afterbyte.py` without running the generator.
 
-[draw_afterbyte.py](../tools/draw_afterbyte.py) regenerates the JSON from original hand-drawn recipes; running it overwrites direct matrix edits. All original sources and binaries use the root MIT license.
+See [design provenance](../docs/PROVENANCE.md), [design specification](../docs/DESIGN.md), and the root MIT license.
 
-## Earlier experiment
+## Historical work
 
-[vantablack-gothic/glyphs.json](vantablack-gothic/glyphs.json) preserves the earlier polygon display study. Its separate build scripts remain available.
+afterbyte-mono/pixels.json and tools/draw_afterbyte.py retain the 0.2 pixel study. They are not inputs to the current build. The separate Vantablack sources preserve the earlier display experiment.

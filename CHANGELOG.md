@@ -1,5 +1,18 @@
 # Changelog
 
+## 0.3.0 alpha — 2026-11-11
+
+### Changed
+- Replaced pixel construction with independently drawn continuous-vector centerlines.
+- Added a flat-top A, dotted zero, single-storey a/g, rounded bowls, and redesigned figures and terminals.
+- Changed metrics to 1000 UPEM, 650-unit advances, 700 cap height, 500 x-height, and 820/−220 typographic bounds. Existing text layouts may reflow.
+- Rebuilt TTF/WOFF2, metadata, checksums, coverage, CSS, and actual-font specimens.
+- Updated README, source documentation, provenance, and continuous-vector validation.
+
+### Scope
+- 196 Unicode mappings retained. No legal clearance or independent certification is claimed.
+- Earlier source studies remain historical files; the current build does not use their glyph geometry.
+
 ## 0.2.0 alpha — 2026-11-10
 
 ### Changed

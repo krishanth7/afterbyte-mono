@@ -1,11 +1,7 @@
 # Font files
 
-## Current: Afterbyte Mono Regular / 0.2.0 alpha
+[afterbyte-mono](afterbyte-mono) contains the current **Afterbyte Mono Regular / 0.3.0 alpha**, a continuous-vector technical monospace.
 
-[afterbyte-mono](afterbyte-mono) contains the fixed-width TTF, WOFF2, CSS, MIT license copy, exact Unicode coverage, and checksums.
+The directory includes TTF, WOFF2, CSS, an exact Unicode coverage list, MIT license copy, and checksums. Use the [README](../README.md) for installation and usage.
 
-Use the [main README](../README.md) for downloads and native-size guidance.
-
-## Earlier proportional experiment
-
-[vantablack-gothic](vantablack-gothic) preserves the previous display alpha. It is separate from Afterbyte Mono and is not the current primary family.
+The previous pixel version is available in Git history. The separate [vantablack-gothic](vantablack-gothic) directory preserves the earlier display experiment.

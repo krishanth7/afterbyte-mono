@@ -1,71 +1,83 @@
 <div align="center">
 
-<img src="assets/afterbyte-mono/hero.svg" alt="Afterbyte Mono — actual font specimen. Clear signals. Human-readable systems. Original pixel monospace for intelligent interfaces." width="100%">
+<img src="assets/afterbyte-mono/hero.svg" alt="Afterbyte Mono 0.3 — actual font specimen. Smooth technical monospace with rounded bowls, a flat-top A, and a dotted zero." width="100%">
 
 # Afterbyte Mono
 
-**A pixel monospace for intelligent interfaces.**
+**An independent technical monospace with a corporate character.**
 
-![Version](https://img.shields.io/badge/version-0.2.0_alpha-006577?style=flat-square)
+![Version](https://img.shields.io/badge/version-0.3.0_alpha-006577?style=flat-square)
 [![Font quality checks](https://github.com/krishanth7/afterbyte-mono/actions/workflows/specification.yml/badge.svg)](https://github.com/krishanth7/afterbyte-mono/actions/workflows/specification.yml)
 [![MIT license](https://img.shields.io/badge/license-MIT-334A5B?style=flat-square)](LICENSE)
 
-**[Download TTF](https://github.com/krishanth7/afterbyte-mono/raw/refs/heads/main/fonts/afterbyte-mono/AfterbyteMono-Regular.ttf)** · **[Download WOFF2](https://github.com/krishanth7/afterbyte-mono/raw/refs/heads/main/fonts/afterbyte-mono/AfterbyteMono-Regular.woff2)** · [Specimen](#specimen) · [Usage](#usage) · [Development](#development)
+**[Download TTF](https://github.com/krishanth7/afterbyte-mono/raw/refs/heads/main/fonts/afterbyte-mono/AfterbyteMono-Regular.ttf)** · **[Download WOFF2](https://github.com/krishanth7/afterbyte-mono/raw/refs/heads/main/fonts/afterbyte-mono/AfterbyteMono-Regular.woff2)** · [Specimen](#specimen) · [Usage](#usage) · [Design provenance](docs/PROVENANCE.md)
 
 </div>
 
 ## Overview
 
-Afterbyte Mono combines the clarity of a pixel grid with the measured character of a cinematic technical interface. Light, consistent strokes, open counters, and a balanced lowercase alphabet keep the typeface approachable. A slashed zero, distinct `1 I l`, precise punctuation, and useful interface symbols give it a technical identity.
+Afterbyte Mono is a continuous-vector typeface for software products, technical dashboards, code samples, and measured digital identities. Rounded bowls, open forms, a consistent monolinear rhythm, and equal character advances combine a restrained futuristic character with practical typography.
 
-Designed for code samples, terminal-inspired layouts, dashboards, creative tools, and futuristic HUDs. Every spacing glyph shares the same advance, including figures, punctuation, accented letters, and interface symbols.
+Version **0.3.0 alpha** establishes a new design direction. The earlier pixel construction has been replaced with original vector centerlines and a different metric system. This is a substantive glyph redesign, not a renamed font or a cosmetic change to the old specimen.
 
-**Current build:** Regular · 0.2.0 alpha · 196 Unicode characters · TTF and WOFF2 · original pixel sources.
+Maintained by [Krishanth](https://github.com/krishanth7). Current build: **Regular · 196 Unicode mappings · TTF + WOFF2**.
 
-Created and maintained by [Krishanth](https://github.com/krishanth7). This is the primary font in this repository. The earlier proportional display experiment is preserved in the [project history](CHANGELOG.md).
+## Signature forms
+
+| Detail | Current design |
+| --- | --- |
+| A | Flat upper bridge with long diagonal legs |
+| 0 | Centered dot inside a rounded rectangular bowl |
+| a / g | Single-storey forms with a clear open-descender construction |
+| O / o | Continuous rounded bowls instead of pixel steps |
+| R / Q | Curved upper chambers and deliberate diagonal exits |
+| 1 / I / l | Distinct flag, bars, and asymmetric terminal treatment |
+| Spacing | Equal 650-unit advance for every glyph |
+
+The design specifications and source coordinates are documented in [DESIGN.md](docs/DESIGN.md) and [vectors.json](sources/afterbyte-mono/vectors.json).
 
 ## Specimen
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/afterbyte-mono/specimen-dark.svg">
-  <img src="assets/afterbyte-mono/specimen-light.svg" alt="Actual Afterbyte Mono: uppercase and lowercase alphabets; slashed zero and distinct 1/I/l; punctuation; accented Latin; currencies; arrows; code at 16, 32 and 48 px; connected box drawing." width="100%">
+  <img src="assets/afterbyte-mono/specimen-light.svg" alt="Actual Afterbyte Mono 0.3: continuous uppercase and lowercase forms, dotted zero, distinct 1/I/l, punctuation, accented Latin, currencies, arrows, code text, and box drawing." width="100%">
 </picture>
 
-Every letter in the hero and specimen is drawn from the compiled Afterbyte Mono font. The SVGs contain outline paths, so they display without requiring the font to be installed. GitHub uses its own font for the surrounding README text.
-
-[Full proofing text](specimen/afterbyte-mono.txt) · [Exact coverage](fonts/afterbyte-mono/coverage.txt) · [Editable pixel matrices](sources/afterbyte-mono/pixels.json)
+All specimen lettering is extracted from the compiled font and rendered as SVG glyph paths. GitHub uses its own typography for the surrounding README text.
 
 ```text
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 abcdefghijklmnopqrstuvwxyz
-0123456789   0O   1Il   rn m
+0123456789   0O   1Il   a e g
 ÄÖÜ äöü ß   ÀÉÎÑ   æ ø   € £ ¥ ₹
 ← → ↑ ↓ ↔ ↕   ✓ ■ □
 ```
 
+[Proofing text](specimen/afterbyte-mono.txt) · [Exact Unicode coverage](fonts/afterbyte-mono/coverage.txt) · [Validation notes](docs/QUALITY.md)
+
 ## Downloads
 
-| File | Use |
+| File | Purpose |
 | --- | --- |
 | [AfterbyteMono-Regular.ttf](https://github.com/krishanth7/afterbyte-mono/raw/refs/heads/main/fonts/afterbyte-mono/AfterbyteMono-Regular.ttf) | Desktop applications, editors, and local installation |
 | [AfterbyteMono-Regular.woff2](https://github.com/krishanth7/afterbyte-mono/raw/refs/heads/main/fonts/afterbyte-mono/AfterbyteMono-Regular.woff2) | Self-hosted websites and applications |
-| [afterbyte-mono.css](fonts/afterbyte-mono/afterbyte-mono.css) | Ready-to-use font-face declaration |
-| [SHA256SUMS](fonts/afterbyte-mono/SHA256SUMS) | Verify binary integrity |
-| [pixels.json](sources/afterbyte-mono/pixels.json) | Original editable character matrices |
+| [afterbyte-mono.css](fonts/afterbyte-mono/afterbyte-mono.css) | Font-face declaration |
+| [SHA256SUMS](fonts/afterbyte-mono/SHA256SUMS) | Binary integrity |
+| [vectors.json](sources/afterbyte-mono/vectors.json) | Editable vector centerline source |
 
-The links point to the latest files on `main`. A tagged stable release and package-manager distribution have not been published.
+These links point to the current alpha on `main`. No tagged stable release or package-manager distribution is claimed.
 
 ## Usage
 
 ### Desktop
 
-Download the TTF, open it in your operating system's font viewer, and choose Install. Select **Afterbyte Mono — Regular** in your application.
+Download the TTF, open it in your system's font viewer, and choose Install. Select **Afterbyte Mono — Regular**.
 
-Start with **16, 32, 48, or 64 px** for clean alignment to the source pixel grid. Other sizes are valid, but may introduce antialiasing or uneven apparent strokes. Browser zoom, display scaling, and an application's rasterizer can also affect the result.
+If an earlier version is cached, replace or uninstall it and restart the application. Version 0.3 changes the design, advance, and vertical metrics, so existing layouts may reflow.
 
 ### Web
 
-Copy the [font directory](fonts/afterbyte-mono) to your project and load its CSS, or add:
+Copy the [font directory](fonts/afterbyte-mono) into your project and load:
 
 ```css
 @font-face {
@@ -87,27 +99,25 @@ Copy the [font directory](fonts/afterbyte-mono) to your project and load its CSS
 }
 ```
 
-Resolve the font URLs relative to your CSS file. Serve the files from your own application; GitHub's download URLs are not a production font CDN.
+The font has continuous outlines and does not require pixel-size multiples. Local raster smoke checks cover 12, 16, 24, 32, 48, and 96 px; inspect readability in your actual application.
 
-For connected box-drawing rows, use `line-height: 1` and `letter-spacing: 0`. The line glyphs fill their cell boundaries. For normal text, increase line height to suit the reading context.
+For connected box-drawing rows, use `line-height: 1.04` and `letter-spacing: 0`. For normal text, allow more vertical space. Resolve font URLs relative to your CSS file and self-host the binaries.
 
-## Coverage and design
+## Technical profile
 
 | Property | Value |
 | --- | --- |
 | Family / style | Afterbyte Mono / Regular |
-| Spacing | True monospace; 900-unit advance |
-| Grid / em | 100-unit square pixels / 1600 UPEM |
-| Native size | 16 px; integer multiples align to the pixel grid |
-| Cap / x-height | 1000 / 700 units |
-| Ascender / descender | 1300 / −300 units |
-| Coverage | 196 Unicode characters + visible missing-glyph symbol |
-| Shape language | Light single-pixel strokes; stepped contours; open forms |
-| Source and binary license | MIT |
+| Spacing | True monospace; 650 units |
+| Em / construction | 1000 UPEM / continuous vector centerlines |
+| Structural stroke | 64 units |
+| Cap / x-height | 700 / 500 units |
+| Typographic ascender / descender | 820 / −220 units |
+| Coverage | 196 Unicode mappings + .notdef |
+| Formats | TTF, WOFF2, CSS |
+| Project source/binary license | MIT |
 
-Included: all 95 printable ASCII characters, selected accented Latin letters, German umlauts and ß, Æ/æ and Ø/ø, €, £, ¥ and ₹, typographic punctuation, arrows, status marks, 11 box-drawing characters, and block/shade symbols.
-
-This is **selected Unicode coverage**, not complete Latin-1 or universal language support. Use a fallback for unsupported characters. See the [exact code-point list](fonts/afterbyte-mono/coverage.txt).
+Coverage includes printable ASCII, selected accented Latin, German umlauts and ß, Æ/æ and Ø/ø, €, £, ¥ and ₹, typographic punctuation, arrows, status symbols, box drawing, and stylized stripe/block symbols. It is not complete Latin-1 or universal script support.
 
 ## Development
 
@@ -115,43 +125,45 @@ Use Python 3.12 and the pinned dependencies:
 
 ```sh
 python -m venv .venv
-# Activate your environment before installing dependencies.
+# Activate the environment before installing dependencies.
 python -m pip install -r requirements-font.txt
 
-python tools/draw_afterbyte.py
+python tools/draw_afterbyte_vector.py
 python tools/build_afterbyte.py
 python tools/validate_afterbyte.py
 python tools/render_afterbyte.py
 ```
 
-The original matrices live in [pixels.json](sources/afterbyte-mono/pixels.json). Edit that file and run the build to compile your changes. Running `draw_afterbyte.py` regenerates it from the original hand-drawn recipes and will overwrite direct matrix edits.
+The editable source is [vectors.json](sources/afterbyte-mono/vectors.json). Running the vector recipe generator overwrites direct JSON edits; run only the build when compiling a manually edited source.
 
-The compiler merges filled pixel cells into contours, preserves the grid, writes a fixed-pitch TTF, and produces WOFF2 from the same data. It never reads or transforms another font. The specimen generator uses only the compiled Afterbyte font for lettering.
+The compiler samples original cubic centerlines, expands their strokes, unions the geometry, and writes integer polygon outlines. TTF and WOFF2 are built from the same data with fixed timestamps. It does not load another font, trace its outlines, or convert the old pixel matrices.
 
-[Design specification](docs/DESIGN.md) · [Validation notes](docs/QUALITY.md) · [Roadmap](ROADMAP.md) · [Changelog](CHANGELOG.md)
+[Design specification](docs/DESIGN.md) · [Provenance record](docs/PROVENANCE.md) · [Roadmap](ROADMAP.md) · [Changelog](CHANGELOG.md)
 
-## Quality and current scope
+## Quality and scope
 
-Automated checks cover source-pixel occupancy, contour topology, grid alignment, equal advances, line metrics, license metadata, TTF/WOFF2 equivalence, HarfBuzz shaping, binary checksums, documentation links, and crisp native-grid FreeType rasterization at 16/32/48/64 px. Rebuilding the original matrices and binaries is checked for reproducibility.
+Checks cover source-to-binary outline agreement, valid contour topology, fixed advances, names, line metrics, signature glyphs, embedded license text, TTF/WOFF2 equivalence, HarfBuzz shaping, raster smoke checks, checksums, links, and reproducible builds.
 
-**Alpha limits:** one Regular style; no variable axes, ligatures, or bytecode hinting. Cross-platform installation, additional browser engines, independent font validation, and wider script coverage remain on the roadmap. Local checks do not establish universal readability or accessibility conformance.
+This is an alpha with one Regular style, selected Unicode coverage, no variable axes, no ligatures, and no bytecode hinting. Cross-platform installation, multiple browser engines, independent font validation, and additional language coverage remain open work. Technical checks are not a readability certification or legal clearance.
 
 ## Contributing
 
-Useful reports include the character or text sample, font version, application and operating system, size, zoom/display scale, and a screenshot when available. Specific glyph comparisons and real usage examples help shape the next version.
+Include the font version, text sample, application, OS, size, zoom/display scale, and optional screenshot in rendering reports. Original glyph proposals and real product examples are welcome.
 
-[Contribution guide](CONTRIBUTING.md) · [Issue templates](https://github.com/krishanth7/afterbyte-mono/issues/new/choose) · [Pull request template](.github/pull_request_template.md)
+[Contributing](CONTRIBUTING.md) · [Issue forms](https://github.com/krishanth7/afterbyte-mono/issues/new/choose) · [PR template](.github/pull_request_template.md)
 
 [Code of conduct](CODE_OF_CONDUCT.md) · [Security policy](SECURITY.md) · [Accessibility](ACCESSIBILITY.md)
 
-## License and inspiration
+## License and provenance
 
-Copyright © 2026 Krishanth. Original font sources, binaries, artwork, and project documentation are available under the **[MIT License](LICENSE)**. A copy is included with the font files; third-party build dependencies retain their own licenses.
+Original project sources, binaries, artwork, and documentation are distributed under the **[MIT License](LICENSE)**. Build dependencies retain their own licenses.
 
-[Departure Mono](https://github.com/rektdeckard/departure-mono) and [its specimen site](https://departuremono.com/) informed the direction: a pixel monospace with a technical, cinematic character. Afterbyte Mono's matrices and outlines were drawn independently. No Departure Mono font data, source glyphs, or artwork are included. This project is not affiliated with Departure Mono or any fictional assistant franchise.
+The previous 0.2 pixel experiment referenced Departure Mono as an aesthetic category. Version 0.3 uses a separate continuous-vector design. Its glyph coordinates were developed for this project with AI assistance; no Departure Mono font binaries, glyph outlines, source matrices, or artwork are included or read by the current build.
+
+The [provenance record](docs/PROVENANCE.md) documents inputs and design changes. It does not certify copyright status, trademark clearance, or absence of third-party claims. This project is independent and makes no affiliation claim.
 
 ---
 
 <div align="center">
-Afterbyte Mono · Clear signals. Human-readable systems.
+Afterbyte Mono · Clarity with a distinct character.
 </div>

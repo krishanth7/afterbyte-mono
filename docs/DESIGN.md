@@ -1,58 +1,57 @@
-# Afterbyte Mono — Design specification
+# Afterbyte Mono 0.3 — Design specification
 
 ## 1. Concept Overview
 
-A light, readable pixel monospace with a restrained futuristic character. The design uses measured spacing, open counters, and clear lowercase forms for code and technical interfaces. HUD character comes from precise symbols, a slashed zero, and a controlled specimen identity rather than heavy slabs or aggressive condensation.
+A continuous-vector technical monospace for corporate software interfaces and digital identities. The design replaces the earlier pixel-grid treatment with smooth bowls, a flat-top A, a dotted zero, and single-storey a/g.
 
-The previous Gothic direction is superseded as the repository's primary typeface. Its sources remain as a historical experiment.
-
-Departure Mono is a category reference for pixel monospace typography. Afterbyte's matrices are drawn independently; no third-party font is loaded or traced.
+This is a change in construction, proportions, and glyph morphology. It does not claim that a measured visual difference establishes legal clearance.
 
 ## 2. Specification Matrix
 
-| Parameter | Value |
+| Parameter | Current value |
 | --- | --- |
-| Family / style / alpha | Afterbyte Mono / Regular / 0.2.0 |
-| Units per em | 1600 |
-| Pixel cell | 100 × 100 units |
-| Character advance | 900 units, including .notdef and spaces |
-| Standard matrix | 7 ink columns, inset 100 units in a 9-column cell |
-| Native em size | 16 CSS px |
-| Cap height / x-height | 1000 / 700 units |
-| Ascender / descender | 1300 / −300 units |
+| Version / style | 0.3.0 alpha / Regular |
+| UPEM / advance | 1000 / 650 |
+| Structural stroke | 64 units; selected symbol details 45 |
+| Cap / x-height | 700 / 500 |
+| Typographic ascender / descender | 820 / −220 |
 | Line gap | 0 |
-| Stroke | One pixel, with intentional intersections |
-| Outline directions | Horizontal and vertical edges only |
+| Windows clipping ascent / descent | 822 / 220 |
 | Unicode mappings / glyphs | 196 / 197 |
-| License | MIT |
+| Coordinates | Integer-unit final polygons |
+| Construction | Original line/cubic centerlines and solid polygons |
+| License | MIT for original project materials |
 
-All coordinates remain on the 100-unit pixel grid. TrueType outlines describe the union of filled squares, not a bitmap strike. Native sizes of 16/32/48/64 px align each design pixel to whole raster pixels under the tested FreeType setup. Other sizes and transforms may antialias.
+Small optical overshoots are allowed. The highest circumflex join reaches 822; Windows clipping metrics cover it. The typographic line box is 1040 units, hence connected box drawing uses line-height 1.04.
 
 ## 3. Glyph Morphology Breakdown
 
-| Group | Construction and purpose |
+| Forms | Distinguishing construction |
 | --- | --- |
-| Uppercase | Open, light geometric forms with stepped corners; A has a clear apex and continuous crossbar; C and G retain open apertures. |
-| Lowercase | Compact 7-pixel body; recognizable a/e bowls; full-height b/d/h/k/l; descending g/p/q/y; dotted i/j. |
-| Ambiguity pairs | Slashed zero vs open O; flagged 1 vs barred I vs asymmetric l; separate dot on i. |
-| Diagonals | One-pixel staircases; shallow glyph segments do not turn into thick diagonal slabs. |
-| Figures | Fixed-width lining numerals with a slashed zero and full punctuation support for code/data layouts. |
-| Accents | Original grave, acute, circumflex, tilde, and dieresis matrices plus cedillas; selected letters only. |
-| Interface symbols | Original arrows, check mark, solid/outline squares, directional triangles, and currency signs. |
-| Box drawing | 9-column cells spanning the advance; verticals span −300…1300; connected rows require line-height 1. |
-| Shading | Native-grid monochrome pixel patterns, not transparency. |
+| A | Flat upper bridge at y=668, diagonal legs, lower horizontal crossbar |
+| O/o | Rounded rectangular bowls, not octagonal or stepped pixels |
+| 0 | Narrower rounded bowl with a centered short rectangular dot |
+| a/g | Single-storey bowls; g has an open descending hook |
+| R | Curved upper chamber and descending diagonal leg |
+| Q | Rounded bowl with a separate diagonal tail |
+| I/1/l | Symmetric top/bottom bars, flagged numeral, and asymmetric curved terminal |
+| e | Open continuous bowl with a horizontal internal rail |
+| Figures | Equal advances with individually drawn curves and proportions |
+| Punctuation | Continuous strokes; balanced bars, curves, and visible code punctuation |
+| Accents | Separate vector marks composed with original base letters |
+| Technical symbols | Independently drawn vectors, box connections, solids, and stripe shading |
 
-The font contains no spacing-dependent substitutions or kerning. Uniform advances remain intact under shaping.
+There are no third-party glyph inputs. See PROVENANCE.md for the source record and scope.
 
 ## 4. Implementation Blueprint
 
-1. Draw original matrices in tools/draw_afterbyte.py, then generate sources/afterbyte-mono/pixels.json.
-2. The JSON stores character, Unicode point, top coordinate, left inset, and rows of #/. cells. It is the editable font source.
-3. Convert each # into a 100-unit square, Boolean-union neighboring squares, normalize winding, and remove redundant vertices.
-4. Compile through FontTools FontBuilder with .notdef first, explicit Unicode mappings, 900-unit advances, fixed-pitch metadata, and MIT license metadata.
-5. Generate TTF and WOFF2 with deterministic timestamps; copy the license and calculate SHA-256 hashes.
-6. Run tools/validate_afterbyte.py for source occupancy, actual outlines, native raster, shaping, metrics, checksum, and link checks.
-7. Generate README artwork from the compiled font with tools/render_afterbyte.py. The SVG lettering consists of actual glyph paths.
-8. Review 0/O, 1/I/l, rn/m, punctuation, accents, boxes, and code layouts at both native and enlarged sizes before broader release.
+1. tools/draw_afterbyte_vector.py defines original M/L/C/Z paths and solids and writes sources/afterbyte-mono/vectors.json.
+2. The builder samples each cubic in 24 segments, expands centerlines with controlled stroke width, unions geometry, and snaps to integer units.
+3. Final TrueType outlines are polygon approximations of the continuous curves. This is not a bitmap strike and does not use a native pixel grid.
+4. FontTools writes cmap, glyf, metrics, fixed-pitch flags, names, license metadata, and standard OpenType tables.
+5. TTF and WOFF2 share glyph data and deterministic timestamps.
+6. Validation compares source geometry with actual compiled contours, checks signature forms and metrics, and exercises HarfBuzz/FreeType.
+7. README SVG specimens reuse actual compiled glyph paths. PNGs are review artifacts.
+8. Broader OS/browser tests, independent validation, optical review, and coverage work remain before a stable release.
 
-Running draw_afterbyte.py overwrites direct JSON edits. To compile a modified JSON matrix, run build_afterbyte.py directly. Package-manager publishing and a tagged stable release are future work.
+Direct JSON edits can be compiled without regenerating recipes. The old pixel matrices and generator remain historical files and are not build inputs.

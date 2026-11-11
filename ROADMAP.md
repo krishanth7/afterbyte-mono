@@ -1,30 +1,26 @@
 # Roadmap
 
-## Afterbyte Mono — current primary family
+## Current direction: Afterbyte Mono 0.3
 
-### 0.2.0 alpha
-- [x] Original light pixel monospace alphabet, figures, and punctuation.
-- [x] 196 Unicode characters, including selected accents and technical symbols.
-- [x] Fixed-width TTF/WOFF2, CSS, license metadata, coverage file, and checksums.
-- [x] Source matrix editor workflow and reproducible generation.
-- [x] Actual-font hero, light/dark specimens, and native-grid proofs.
-- [x] Geometry, occupancy, shaping, binary, raster, and link validators.
+### Implemented alpha
+- [x] Original continuous-vector alphabet, figures, punctuation, accents, and symbols.
+- [x] Dotted zero, flat-top A, single-storey a/g, and rounded bowls.
+- [x] 196 Unicode mappings with fixed 650-unit advances.
+- [x] TTF/WOFF2, CSS, coverage, license metadata, and checksums.
+- [x] Actual-font hero and light/dark proofs.
+- [x] Source/binary, geometry, metric, signature, shaping, raster, and reproducibility checks.
+- [x] Source provenance and version migration documentation.
 
-### Next alpha
-- [ ] Collect ambiguity and readability reports from real code and UI examples.
-- [ ] Test installation on Windows, macOS, and Linux.
-- [ ] Test multiple browser engines, zoom factors, and display scales.
-- [ ] Run independent font validation.
-- [ ] Expand accented Latin and symbol coverage through reviewed requests.
-- [ ] Prepare tagged alpha assets and clear release notes.
-- [ ] Review editor/terminal compatibility and document measured results.
+### Next
+- [ ] Independent font validation.
+- [ ] Installation tests on Windows, macOS, and Linux.
+- [ ] Multiple browser engines, zoom levels, and display scales.
+- [ ] Optical review of symbols, punctuation, terminals, and mixed text.
+- [ ] Additional Unicode coverage through reviewed original contributions.
+- [ ] Tagged alpha release and packaging.
 
-### Future
-Additional styles, broader scripts, and distribution packages require separate design, implementation, and testing. No launch date or adoption count is promised.
+## History
 
-## Earlier experiment
+The 0.2 pixel matrices and the 0.1 proportional experiment are retained as history; neither is the current primary visual direction.
 
-Vantablack Gothic 0.1.0 remains in its own source/font directories as project history. It is no longer the primary visual or download in the README. Existing files and validators are retained.
-
-## Community
-License, contribution guidelines, code of conduct, security policy, accessibility guidance, issue forms, and PR template remain in place.
+No adoption count, legal clearance, or release date is promised.

@@ -1,35 +1,30 @@
 # Contributing
 
-Afterbyte Mono is the primary font: a light pixel monospace with a fixed 900-unit advance. Identify the affected family when reporting issues; the earlier Vantablack Gothic experiment is retained separately.
+Afterbyte Mono 0.3 is the current continuous-vector monospace. Older pixel and proportional studies are historical. Identify the version and family in issues and pull requests.
 
-## Proposals
+## Original source and provenance
 
-Search existing issues, provide a text sample and use case, and discuss major changes to metrics, identity, source format, license, or coverage before implementation.
+Submit original work with authorship and provenance. Do not trace or rename third-party fonts or assume a new license file removes existing obligations. Disclose any external material and applicable terms before proposing its inclusion. See docs/PROVENANCE.md.
 
-For rendering reports include font version, OS, application/browser, size, zoom/display scale, and a screenshot if available. Test native 16-pixel multiples and other sizes separately.
+The original current project sources and binaries use LICENSE (MIT). Dependencies retain their own terms. No legal clearance is claimed by the technical validation process.
 
-## Sources
+## Build and review
 
-Contribute original matrices with clear authorship and provenance. Do not trace, rename, or bundle another font. Original Afterbyte sources, binaries, recipes, documentation, and artwork use LICENSE (MIT); dependencies retain their own licenses.
-
-The editable source is sources/afterbyte-mono/pixels.json. Every glyph must preserve the 900-unit advance, pixel grid, and supported metric envelope.
-
-## Build and validation
-
-Use Python 3.12 in an isolated environment and install requirements-font.txt:
+Use Python 3.12 and requirements-font.txt:
 
 ```sh
+python tools/draw_afterbyte_vector.py
 python tools/build_afterbyte.py
 python tools/validate_afterbyte.py
 python tools/render_afterbyte.py
 ```
 
-To change the original generator, edit tools/draw_afterbyte.py, run it, then build and validate. The generator overwrites direct JSON edits.
+The current source is sources/afterbyte-mono/vectors.json. The generator overwrites direct JSON edits; run only the build for direct source changes.
 
-Review actual-font light/dark proofs, ambiguity pairs, accents, punctuation, and box drawing. Keep documentation, coverage, checksums, and specimens synchronized. A passed raster smoke check does not establish readability on every system.
+Preserve the fixed advance and metric envelope. Review actual-font light/dark proofs, ambiguity pairs, punctuation, accents, and symbols. Keep binaries, checksums, coverage, docs, and specimens synchronized.
 
-## Pull requests
+## Reports and pull requests
 
-Explain the problem, resulting change, validation, and limits. Include before/after glyph comparisons with text descriptions and update CHANGELOG.md. Avoid unimplemented feature, language, or popularity claims.
+Include font version, text sample, application/OS, size, zoom/display scale, and optional screenshot. Explain resulting behavior, validation, and limits; add before/after glyph comparisons and update the changelog.
 
-Follow ACCESSIBILITY.md and CODE_OF_CONDUCT.md. Report vulnerabilities through SECURITY.md. The issue forms include accessibility and design-proposal templates.
+Follow CODE_OF_CONDUCT.md and ACCESSIBILITY.md. Use SECURITY.md for vulnerabilities.
