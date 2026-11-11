@@ -9,6 +9,40 @@ export function initTypewriter(){
   const readout=document.getElementById('keyboard-readout');
   const releases=new Map(),held=new Set(),latched=new Set();
   const state={caps:false,num:true,scroll:false};
+  const studio=document.getElementById('keyboard-text');
+  const progress=document.getElementById('keyboard-progress');
+  const target=document.getElementById('keyboard-target');
+  const explored=new Set();
+  const phrases=['Good type gives every idea a voice.','Make something unmistakably yours.','Clarity lives in the smallest details.','The quick brown fox jumps over the lazy dog.','0123456789 / [ precision + purpose ]'];
+  let phraseIndex=0;
+  function updateWriting(){
+    progress.textContent=explored.size+' / 104 keys explored';
+    if(!target.hidden){const complete=studio.value===target.textContent;target.dataset.complete=String(complete);document.getElementById('keyboard-challenge-status').textContent=complete?'Phrase complete. Try another phrase when you are ready.':'';}
+  }
+  function writeKey(code,value){
+    let start=studio.selectionStart,end=studio.selectionEnd;
+    let action=code;
+    if(code.startsWith('Numpad')&&!state.num)action={Home:'Home',End:'End',Ins:'Insert',Del:'Delete',Left:'ArrowLeft',Right:'ArrowRight',Up:'ArrowUp',Down:'ArrowDown'}[value]||code;
+    if(action==='Backspace'){if(start===end&&start>0)start-=Array.from(studio.value.slice(0,start)).pop().length;studio.setRangeText('',start,end,'end');}
+    else if(action==='Delete'){if(start===end&&end<studio.value.length)end+=String.fromCodePoint(studio.value.codePointAt(end)).length;studio.setRangeText('',start,end,'end');}
+    else if(action==='Home')studio.setSelectionRange(0,0);
+    else if(action==='End')studio.setSelectionRange(studio.value.length,studio.value.length);
+    else if(action==='ArrowLeft'||action==='ArrowRight'){const pos=Math.max(0,Math.min(studio.value.length,start+(action==='ArrowLeft'?-1:1)));studio.setSelectionRange(pos,pos);}
+    else if((value.length===1||code==='Space'||code.includes('Enter'))&&studio.value.length-(end-start)+value.length<=1200){studio.setRangeText(value,start,end,'end');}
+    updateWriting();
+  }
+  studio.addEventListener('input',updateWriting);
+  document.getElementById('keyboard-clear').addEventListener('click',()=>{studio.value='';updateWriting();studio.focus({preventScroll:true});});
+  document.getElementById('keyboard-phrase').addEventListener('click',()=>{target.hidden=false;target.textContent=phrases[phraseIndex++%phrases.length];studio.value='';updateWriting();studio.focus({preventScroll:true});});
+  studio.addEventListener('keydown',event=>{
+    if(event.isComposing||event.altKey||event.ctrlKey||event.metaKey||event.repeat)return;
+    if(!keys.has(event.code))return;
+    const editable=event.key.length===1||['Backspace','Delete','Enter'].includes(event.key);
+    if(editable)event.preventDefault();
+    press(event.code,true,!editable);
+  });
+  studio.addEventListener('keyup',event=>release(event.code));
+  studio.addEventListener('blur',clearKeys);
   let audio,noise,muted=false;
   const AudioEngine=window.AudioContext||window.webkitAudioContext;
   function shiftOn(){return held.has('ShiftLeft')||held.has('ShiftRight')||latched.has('ShiftLeft')||latched.has('ShiftRight');}
@@ -47,7 +81,7 @@ export function initTypewriter(){
       metal.onended=()=>{impact.disconnect();filter.disconnect();envelope.disconnect();metal.disconnect();ring.disconnect();master.disconnect();};
     }catch{/* Visual key feedback remains available if browser audio is unavailable. */}
   }
-  function press(code,physical=false){
+  function press(code,physical=false,native=false){
     const button=keys.get(code),key=layout.get(code);if(!button)return;
     if(key.kind==='lock'){
       const field={CapsLock:'caps',NumLock:'num',ScrollLock:'scroll'}[code];state[field]=!state[field];status.textContent=key.label+' '+(state[field]?'on.':'off.');
@@ -59,6 +93,9 @@ export function initTypewriter(){
     const value=keyOutput(key,{caps:state.caps,shift:shiftOn(),num:state.num});
     readout.textContent=key.kind==='lock'?key.label.toUpperCase()+' '+(button.getAttribute('aria-pressed')==='true'?'ON':'OFF'):code==='Space'?'SPACE':code.includes('Enter')?'RETURN':value;
     board.dataset.lastKey=code;board.dataset.lastOutput=value;
+    explored.add(code);
+    if(!native&&key.kind==='key'&&!latched.has('ControlLeft')&&!latched.has('ControlRight')&&!latched.has('AltLeft')&&!latched.has('AltRight')&&!latched.has('MetaLeft')&&!latched.has('MetaRight'))writeKey(code,value);
+    updateWriting();
     clearTimeout(releases.get(button));button.classList.add('key-down');
     board.querySelector('[data-link-code="'+code+'"]')?.classList.add('link-active');
     strikeSound(code.includes('Enter'));
@@ -84,7 +121,7 @@ export function initTypewriter(){
       const current=layout.get(document.activeElement.dataset.code);
       const targets=keyboardLayout.filter(key=>!current||key.code!==current.code).filter(key=>!current||(code==='ArrowLeft'?key.x<current.x:code==='ArrowRight'?key.x>current.x:code==='ArrowUp'?key.y<current.y:key.y>current.y));
       if(current)targets.sort((a,b)=>{const distance=k=>code==='ArrowLeft'||code==='ArrowRight'?Math.abs(k.x-current.x)+Math.abs(k.y-current.y)*8:Math.abs(k.y-current.y)+Math.abs(k.x-current.x)*8;return distance(a)-distance(b);});
-      keys.get(targets[0]?.code)?.focus({preventScroll:true});
+      const next=keys.get(targets[0]?.code);next?.focus({preventScroll:true});next?.scrollIntoView({block:'nearest',inline:'nearest'});
     }
   });
   board.addEventListener('keyup',event=>release(event.code));
