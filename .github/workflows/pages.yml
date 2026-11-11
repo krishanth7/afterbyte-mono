@@ -1,0 +1,31 @@
+name: Deploy font specimen
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
+      - name: Stage static specimen and version browser assets
+        run: python3 tools/build_site.py --version "$GITHUB_SHA"
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: build/site
+      - name: Publish specimen
+        id: deployment
+        uses: actions/deploy-pages@v5
