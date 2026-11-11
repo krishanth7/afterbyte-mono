@@ -1,3 +1,4 @@
+import { initializeEffects } from './effects.mjs';
 import { filterGlyphs, unsupported, pageSlice } from './coverage.mjs';
 
 const $ = id => document.getElementById(id);
@@ -234,7 +235,7 @@ $('frequency').addEventListener('input', () => {
   const value = Number($('frequency').value);
   $('frequency-value').textContent = value + ' MHz';
   $('channel').textContent = 'CHANNEL ' + String(value).padStart(3, '0') + ' / LOCKED';
-  document.querySelector('.radar-sweep').style.animationDuration = (20 - value / 10) + 's';
+
 });
 
 async function copy(text, status, message) {
@@ -297,3 +298,5 @@ if (matchMedia('(hover: hover) and (pointer: fine)').matches) {
     titleFrame = requestAnimationFrame(tick);
   });
 }
+
+initializeEffects({motionStopped,sample,onTextChange:()=>{setPressed('[data-sample]',()=>false);reportText();}});

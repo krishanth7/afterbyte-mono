@@ -2,7 +2,7 @@
 
 ## Original Afterbyte core
 
-The 196-character continuous-vector core was developed for this project with AI assistance and is maintained by Krishanth. `draw_afterbyte_vector.py`, `vectors.json` and `build_core.py` preserve its recipes and compile its outlines. V4 and v5 retain those outlines. The historical pixel study remains separate from the current build inputs.
+The 196-character continuous-vector core was developed for this project and is maintained by Krishanth. `draw_afterbyte_vector.py`, `vectors.json` and `build_core.py` preserve its recipes and compile its outlines. V4 and v5 retain those outlines. The historical pixel study remains separate from the current build inputs.
 
 ## Licensed expansion introduced in v4
 
