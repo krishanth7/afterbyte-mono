@@ -6,7 +6,7 @@
 - [x] Original continuous-vector alphabet, figures, punctuation, accents, and symbols.
 - [x] Dotted zero, flat-top A, single-storey a/g, and rounded bowls.
 - [x] 196 Unicode mappings with fixed 650-unit advances.
-- [x] TTF/WOFF2, CSS, coverage, license metadata, and checksums.
+- [x] OTF/TTF/WOFF/WOFF2, CSS, coverage, license metadata, and checksums.
 - [x] Actual-font hero and light/dark proofs.
 - [x] Source/binary, geometry, metric, signature, shaping, raster, and reproducibility checks.
 - [x] Source provenance and version migration documentation.
@@ -24,3 +24,6 @@
 The 0.2 pixel matrices and the 0.1 proportional experiment are retained as history; neither is the current primary visual direction.
 
 No adoption count, legal clearance, or release date is promised.
+
+## Project support
+GitHub Sponsors is configured through .github/FUNDING.yml and linked in the README. See SPONSORSHIP.md for scope.

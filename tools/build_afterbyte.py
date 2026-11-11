@@ -2,6 +2,7 @@
 """Compile original Afterbyte Mono continuous-vector sources. MIT."""
 import hashlib
 import json
+import copy
 from pathlib import Path
 
 from shapely import set_precision
@@ -10,6 +11,8 @@ from shapely.geometry.polygon import orient
 from shapely.ops import unary_union
 from fontTools.fontBuilder import FontBuilder
 from fontTools.pens.ttGlyphPen import TTGlyphPen
+from fontTools.pens.t2CharStringPen import T2CharStringPen
+from fontTools.pens.reverseContourPen import ReverseContourPen
 from fontTools.ttLib import newTable
 from fontTools.ttLib.tables.O_S_2f_2 import Panose
 
@@ -113,6 +116,27 @@ def build():
     fb.font['head'].created=3877286400;fb.font['head'].modified=3877286400;fb.font['head'].fontRevision=0.3
     out=ROOT/'fonts/afterbyte-mono';out.mkdir(parents=True,exist_ok=True)
     fb.save(out/'AfterbyteMono-Regular.ttf')
+    # CFF is a genuine OpenType/PostScript build of the same outlines.
+    # Reverse the TrueType contour convention for the CFF charstrings.
+    otf=FontBuilder(1000,isTTF=False)
+    otf.setupGlyphOrder(order);otf.setupCharacterMap(mapping)
+    charstrings={}
+    glyph_set=fb.font.getGlyphSet()
+    for name in order:
+        pen=T2CharStringPen(650,None)
+        glyph_set[name].draw(ReverseContourPen(pen))
+        charstrings[name]=pen.getCharString()
+    otf.setupCFF('AfterbyteMono-Regular',{
+        'FullName':'Afterbyte Mono Regular','FamilyName':'Afterbyte Mono',
+        'Weight':'Regular','version':'0.300','isFixedPitch':True,
+        'Notice':'Copyright (c) 2026 Krishanth. MIT License; see font name table and LICENSE.txt.',
+        'UnderlinePosition':-160,'UnderlineThickness':45,
+    },charstrings,{})
+    for tag in ('head','hhea','hmtx','name','OS/2'):
+        otf.font[tag]=copy.deepcopy(fb.font[tag])
+    otf.setupPost(isFixedPitch=1,underlinePosition=-160,underlineThickness=45)
+    otf.save(out/'AfterbyteMono-Regular.otf')
+    fb.font.flavor='woff';fb.save(out/'AfterbyteMono-Regular.woff')
     fb.font.flavor='woff2';fb.save(out/'AfterbyteMono-Regular.woff2')
     (out/'LICENSE.txt').write_text(license_text)
     manifest={p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(out.glob('AfterbyteMono-Regular.*'))}
@@ -120,7 +144,7 @@ def build():
     (out/'coverage.txt').write_text('Afterbyte Mono Regular / 0.3.0 alpha\n'+
         f'{len(mapping)} Unicode mappings; all spacing glyphs advance 650 units.\n\n'+
         '\n'.join(f'U+{code:04X} {chr(code)}' for code in sorted(mapping))+'\n')
-    print(f'Built {len(order)} continuous-vector glyphs / {len(mapping)} mappings; TTF + WOFF2.')
+    print(f'Built {len(order)} continuous-vector glyphs / {len(mapping)} mappings; OTF (CFF), TTF, WOFF, WOFF2.')
 
 
 if __name__=='__main__':build()

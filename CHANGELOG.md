@@ -1,5 +1,16 @@
 # Changelog
 
+## Unreleased — font formats and sponsorship
+
+### Added
+- Genuine OpenType/CFF OTF and WOFF files alongside the existing TTF and WOFF2 builds.
+- Four-format downloads, CSS fallbacks, checksums, and cross-format validation.
+- GitHub Sponsors funding configuration for krishanth7 and a README Sponsors section.
+- Sponsorship scope and acknowledgment guidance.
+
+### Preserved
+- The 0.3 glyph design, family names, and existing TTF/WOFF2 bytes are unchanged.
+
 ## 0.3.0 alpha — 2026-11-11
 
 ### Changed

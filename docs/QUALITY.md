@@ -7,9 +7,9 @@
 - Valid nonzero contours, winding, no self-intersections, and clipping/advance bounds.
 - Equal 650-unit advances, mono metadata, cap/x-height, line metrics, and embedded MIT license text.
 - Dotted zero/open O distinction, flat-top A, single-storey a/g, 64-unit H stems, and ambiguity pairs.
-- TTF/WOFF2 outline, cmap, and metric equivalence.
+- OTF/CFF, TTF, WOFF, and WOFF2 outline, cmap, and metric equivalence; genuine container signatures.
 - HarfBuzz shaping without missing glyphs or advance changes.
-- Nonempty FreeType raster smoke checks at 12/16/24/32/48/96 px.
+- Nonempty FreeType raster smoke checks at 12/16/24/32/48/96 px for all four formats after decoding web containers.
 - Checksums, documentation/image links, SVG syntax, and deterministic source/binary rebuilds.
 - Visual review of the actual-font hero and light/dark sheets.
 

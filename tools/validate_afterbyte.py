@@ -3,12 +3,14 @@
 import hashlib
 import json
 import re
+import io
 from pathlib import Path
 from urllib.parse import unquote
 
 import uharfbuzz as hb
 from PIL import ImageFont
 from fontTools.ttLib import TTFont
+from fontTools.pens.recordingPen import RecordingPen
 from shapely.geometry import Polygon,Point,LineString
 from shapely.ops import unary_union
 from build_afterbyte import shape_for
@@ -45,6 +47,34 @@ def glyph_shape(glyph,table):
     shape=unary_union(parts)
     check(shape.is_valid,'Invalid filled glyph')
     return shape
+
+
+def cff_shape(glyph):
+    """Decode actual CFF charstrings; CFF uses the reversed contour convention."""
+    pen=RecordingPen();glyph.draw(pen)
+    contours=[];points=[]
+    for operator,args in pen.value:
+        if operator=='moveTo':
+            check(not points,'CFF contour was not closed')
+            points=[args[0]]
+        elif operator=='lineTo':points.append(args[0])
+        elif operator=='closePath':
+            contours.append(points);points=[]
+        else:raise ValueError('Unexpected CFF outline operator '+operator)
+    check(not points,'Unclosed CFF contour')
+    parts=[];shell=None;holes=[]
+    for points in contours:
+        area=sum(a[0]*b[1]-a[1]*b[0] for a,b in zip(points,points[1:]+points[:1]))
+        check(area!=0 and Polygon(points).is_valid,'Invalid CFF contour')
+        if area>0:
+            if shell is not None:parts.append(Polygon(shell,holes))
+            shell,holes=points,[]
+        else:
+            check(shell is not None,'CFF counter without shell')
+            holes.append(points)
+    if shell is not None:parts.append(Polygon(shell,holes))
+    check(all(part.is_valid for part in parts),'Invalid CFF topology')
+    return unary_union(parts)
 
 
 def validate():
@@ -107,7 +137,46 @@ def validate():
         for code in expected:
             if code not in (32,160):check(face.getmask(chr(code)).getbbox() is not None,'Empty raster')
             check(abs(face.getlength(chr(code))-size*.65)<.02,'FreeType advance')
-    for line in (directory/'SHA256SUMS').read_text().splitlines():
+    # A real CFF OTF, WOFF container, and WOFF2 container must all match the TTF.
+    signatures={'otf':b'OTTO','woff':b'wOFF','woff2':b'wOF2','ttf':b'\x00\x01\x00\x00'}
+    extra={extension:TTFont(directory/('AfterbyteMono-Regular.'+extension),checkChecksums=2)
+           for extension in ('otf','woff','woff2')}
+    check('CFF ' in extra['otf'] and 'glyf' not in extra['otf'],'OTF must contain real CFF outlines')
+    for extension,signature in signatures.items():
+        check((directory/('AfterbyteMono-Regular.'+extension)).read_bytes()[:4]==signature,'Invalid format signature '+extension)
+    for extension,variant in extra.items():
+        check(variant.getBestCmap()==cmap,'Cmap mismatch '+extension)
+        check(variant.getGlyphOrder()==font.getGlyphOrder(),'Glyph order mismatch '+extension)
+        check(variant['hmtx'].metrics==font['hmtx'].metrics,'Metric mismatch '+extension)
+        check(variant['head'].unitsPerEm==1000 and variant['post'].isFixedPitch==1,'Mono metadata mismatch '+extension)
+        check(variant['name'].getDebugName(1)==font['name'].getDebugName(1),'Family mismatch '+extension)
+        check('MIT License' in variant['name'].getDebugName(13),'Missing license '+extension)
+        if extension=='otf':
+            glyphs=variant.getGlyphSet()
+            for code,name in cmap.items():
+                check(cff_shape(glyphs[name]).symmetric_difference(shapes[code]).area<.01,
+                      f'U+{code:04X}: CFF/TrueType geometry mismatch')
+            check(not cff_shape(glyphs['.notdef']).is_empty,'Empty CFF missing-glyph symbol')
+        else:
+            for name in font.getGlyphOrder():
+                a=font['glyf'][name].getCoordinates(font['glyf'])
+                b=variant['glyf'][name].getCoordinates(variant['glyf'])
+                check(list(a[0])==list(b[0]) and list(a[1])==list(b[1]),'Web outline mismatch '+extension)
+        # Exercise the decoded font in FreeType and HarfBuzz as well as parsing tables.
+        variant.flavor=None;payload=io.BytesIO();variant.save(payload)
+        decoded=payload.getvalue()
+        proof=hb.Buffer();proof.add_str(''.join(map(chr,sorted(expected))));proof.guess_segment_properties()
+        hb.shape(hb.Font(hb.Face(decoded)),proof)
+        check(len(proof.glyph_infos)==196 and all(item.codepoint for item in proof.glyph_infos),'Shaping failure '+extension)
+        check(all(pos.x_advance==650 for pos in proof.glyph_positions),'Shaped advance mismatch '+extension)
+        for size in (12,16,24,32,48,96):
+            face=ImageFont.truetype(io.BytesIO(decoded),size)
+            for code in expected:
+                if code not in (32,160):check(face.getmask(chr(code)).getbbox() is not None,'Empty raster '+extension)
+                check(abs(face.getlength(chr(code))-size*.65)<.02,'Raster metric mismatch '+extension)
+    hashes=(directory/'SHA256SUMS').read_text().splitlines()
+    check({line.split()[1] for line in hashes}=={'AfterbyteMono-Regular.'+ext for ext in signatures},'Checksum manifest must cover all four formats')
+    for line in hashes:
         digest,name=line.split();check(hashlib.sha256((directory/name).read_bytes()).hexdigest()==digest,'Checksum')
     links=0
     for document in ROOT.rglob('*.md'):
@@ -120,7 +189,7 @@ def validate():
             target=(document.parent/unquote(destination.split('#',1)[0])).resolve()
             check(target.is_relative_to(ROOT) and target.exists(),f'Missing link {destination}')
             links+=1
-    print(f'PASS: 197 glyphs / 196 mappings; continuous-vector source agreement; topology; fixed advances; signature glyphs; metrics; license; WOFF2 equivalence; shaping; 6-size raster smoke checks; checksums; {links} links/images.')
+    print(f'PASS: OTF/CFF, TTF, WOFF, WOFF2; 197 glyphs / 196 mappings; source agreement; topology; mono metrics; signatures; licenses; cross-format outline equivalence; shaping; 6-size raster smoke checks; checksums; {links} links/images.')
     print('Scope: technical validation, not legal clearance or independent certification.')
 
 

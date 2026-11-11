@@ -10,7 +10,7 @@
 [![Font quality checks](https://github.com/krishanth7/afterbyte-mono/actions/workflows/specification.yml/badge.svg)](https://github.com/krishanth7/afterbyte-mono/actions/workflows/specification.yml)
 [![MIT license](https://img.shields.io/badge/license-MIT-334A5B?style=flat-square)](LICENSE)
 
-**[Download TTF](https://github.com/krishanth7/afterbyte-mono/raw/refs/heads/main/fonts/afterbyte-mono/AfterbyteMono-Regular.ttf)** · **[Download WOFF2](https://github.com/krishanth7/afterbyte-mono/raw/refs/heads/main/fonts/afterbyte-mono/AfterbyteMono-Regular.woff2)** · [Specimen](#specimen) · [Usage](#usage) · [Design provenance](docs/PROVENANCE.md)
+**[OTF](https://github.com/krishanth7/afterbyte-mono/raw/refs/heads/main/fonts/afterbyte-mono/AfterbyteMono-Regular.otf)** · **[TTF](https://github.com/krishanth7/afterbyte-mono/raw/refs/heads/main/fonts/afterbyte-mono/AfterbyteMono-Regular.ttf)** · **[WOFF](https://github.com/krishanth7/afterbyte-mono/raw/refs/heads/main/fonts/afterbyte-mono/AfterbyteMono-Regular.woff)** · **[WOFF2](https://github.com/krishanth7/afterbyte-mono/raw/refs/heads/main/fonts/afterbyte-mono/AfterbyteMono-Regular.woff2)** · **[Sponsor](https://github.com/sponsors/krishanth7)** · [Specimen](#specimen) · [Usage](#usage) · [Design provenance](docs/PROVENANCE.md)
 
 </div>
 
@@ -20,7 +20,7 @@ Afterbyte Mono is a continuous-vector typeface for software products, technical 
 
 Version **0.3.0 alpha** establishes a new design direction. The earlier pixel construction has been replaced with original vector centerlines and a different metric system. This is a substantive glyph redesign, not a renamed font or a cosmetic change to the old specimen.
 
-Maintained by [Krishanth](https://github.com/krishanth7). Current build: **Regular · 196 Unicode mappings · TTF + WOFF2**.
+Maintained by [Krishanth](https://github.com/krishanth7). Current build: **Regular · 196 Unicode mappings · OTF + TTF + WOFF + WOFF2**.
 
 ## Signature forms
 
@@ -59,7 +59,9 @@ abcdefghijklmnopqrstuvwxyz
 
 | File | Purpose |
 | --- | --- |
+| [AfterbyteMono-Regular.otf](https://github.com/krishanth7/afterbyte-mono/raw/refs/heads/main/fonts/afterbyte-mono/AfterbyteMono-Regular.otf) | Desktop OpenType/CFF font for design applications |
 | [AfterbyteMono-Regular.ttf](https://github.com/krishanth7/afterbyte-mono/raw/refs/heads/main/fonts/afterbyte-mono/AfterbyteMono-Regular.ttf) | Desktop applications, editors, and local installation |
+| [AfterbyteMono-Regular.woff](https://github.com/krishanth7/afterbyte-mono/raw/refs/heads/main/fonts/afterbyte-mono/AfterbyteMono-Regular.woff) | WOFF webfont for compatibility |
 | [AfterbyteMono-Regular.woff2](https://github.com/krishanth7/afterbyte-mono/raw/refs/heads/main/fonts/afterbyte-mono/AfterbyteMono-Regular.woff2) | Self-hosted websites and applications |
 | [afterbyte-mono.css](fonts/afterbyte-mono/afterbyte-mono.css) | Font-face declaration |
 | [SHA256SUMS](fonts/afterbyte-mono/SHA256SUMS) | Binary integrity |
@@ -71,7 +73,7 @@ These links point to the current alpha on `main`. No tagged stable release or pa
 
 ### Desktop
 
-Download the TTF, open it in your system's font viewer, and choose Install. Select **Afterbyte Mono — Regular**.
+Download either the TTF or OTF, open it in your system's font viewer, and choose Install. Both contain the same design and family name; install one desktop format to avoid duplicate font entries. Select **Afterbyte Mono — Regular**.
 
 If an earlier version is cached, replace or uninstall it and restart the application. Version 0.3 changes the design, advance, and vertical metrics, so existing layouts may reflow.
 
@@ -83,7 +85,9 @@ Copy the [font directory](fonts/afterbyte-mono) into your project and load:
 @font-face {
   font-family: "Afterbyte Mono";
   src: url("./AfterbyteMono-Regular.woff2") format("woff2"),
-       url("./AfterbyteMono-Regular.ttf") format("truetype");
+       url("./AfterbyteMono-Regular.woff") format("woff"),
+       url("./AfterbyteMono-Regular.ttf") format("truetype"),
+       url("./AfterbyteMono-Regular.otf") format("opentype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -114,7 +118,7 @@ For connected box-drawing rows, use `line-height: 1.04` and `letter-spacing: 0`.
 | Cap / x-height | 700 / 500 units |
 | Typographic ascender / descender | 820 / −220 units |
 | Coverage | 196 Unicode mappings + .notdef |
-| Formats | TTF, WOFF2, CSS |
+| Formats | OTF (CFF), TTF, WOFF, WOFF2, CSS |
 | Project source/binary license | MIT |
 
 Coverage includes printable ASCII, selected accented Latin, German umlauts and ß, Æ/æ and Ø/ø, €, £, ¥ and ₹, typographic punctuation, arrows, status symbols, box drawing, and stylized stripe/block symbols. It is not complete Latin-1 or universal script support.
@@ -136,15 +140,25 @@ python tools/render_afterbyte.py
 
 The editable source is [vectors.json](sources/afterbyte-mono/vectors.json). Running the vector recipe generator overwrites direct JSON edits; run only the build when compiling a manually edited source.
 
-The compiler samples original cubic centerlines, expands their strokes, unions the geometry, and writes integer polygon outlines. TTF and WOFF2 are built from the same data with fixed timestamps. It does not load another font, trace its outlines, or convert the old pixel matrices.
+The compiler samples original cubic centerlines, expands their strokes, unions the geometry, and writes integer polygon outlines. OTF (CFF), TTF, WOFF, and WOFF2 are built from the same outlines with fixed timestamps. The OTF contains actual PostScript/CFF charstrings; WOFF and WOFF2 are compressed TrueType containers. It does not load another font, trace its outlines, or convert the old pixel matrices.
 
 [Design specification](docs/DESIGN.md) · [Provenance record](docs/PROVENANCE.md) · [Roadmap](ROADMAP.md) · [Changelog](CHANGELOG.md)
 
 ## Quality and scope
 
-Checks cover source-to-binary outline agreement, valid contour topology, fixed advances, names, line metrics, signature glyphs, embedded license text, TTF/WOFF2 equivalence, HarfBuzz shaping, raster smoke checks, checksums, links, and reproducible builds.
+Checks cover source-to-binary outline agreement, valid contour topology, fixed advances, names, line metrics, signature glyphs, embedded license text, cross-format OTF/TTF/WOFF/WOFF2 equivalence, HarfBuzz shaping, raster smoke checks, checksums, links, and reproducible builds.
 
 This is an alpha with one Regular style, selected Unicode coverage, no variable axes, no ligatures, and no bytecode hinting. Cross-platform installation, multiple browser engines, independent font validation, and additional language coverage remain open work. Technical checks are not a readability certification or legal clearance.
+
+## Sponsors
+
+**[Support the maintainer on GitHub Sponsors](https://github.com/sponsors/krishanth7).**
+
+Sponsorship helps sustain ongoing open-source development, including type design, glyph coverage, rendering tests, documentation, and maintenance. The linked profile supports Krishanth's wider open-source work, including this project.
+
+The font remains available under the MIT license; sponsorship is optional. Payment options and any profile-specific terms are handled on GitHub. Public acknowledgments are added only after the sponsorship and permission to use the name or logo are verified.
+
+[Sponsorship details](SPONSORSHIP.md)
 
 ## Contributing
 

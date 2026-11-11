@@ -49,7 +49,7 @@ There are no third-party glyph inputs. See PROVENANCE.md for the source record a
 2. The builder samples each cubic in 24 segments, expands centerlines with controlled stroke width, unions geometry, and snaps to integer units.
 3. Final TrueType outlines are polygon approximations of the continuous curves. This is not a bitmap strike and does not use a native pixel grid.
 4. FontTools writes cmap, glyf, metrics, fixed-pitch flags, names, license metadata, and standard OpenType tables.
-5. TTF and WOFF2 share glyph data and deterministic timestamps.
+5. TTF, CFF-based OTF, WOFF, and WOFF2 share the same outline geometry and deterministic timestamps. OTF uses reversed CFF contour winding; web containers use the TrueType build.
 6. Validation compares source geometry with actual compiled contours, checks signature forms and metrics, and exercises HarfBuzz/FreeType.
 7. README SVG specimens reuse actual compiled glyph paths. PNGs are review artifacts.
 8. Broader OS/browser tests, independent validation, optical review, and coverage work remain before a stable release.
