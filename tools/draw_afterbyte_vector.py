@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Original continuous-vector centerlines for Afterbyte Mono 0.3. MIT.
+"""Original continuous-vector centerlines for Afterbyte Mono 0.3. OFL-1.1.
 
 No font file, pixel source, or third-party glyph source is loaded. SVG-like
 paths below are original coordinates with an explicit coverage contract.
@@ -250,7 +250,7 @@ def draw():
         add(ch,*paths,stroke=45)
     expected=set(map(chr,range(32,127))) | set('\xa0£¥°±·ÀÁÂÃÄÆÇÈÉÊËÌÍÎÏÑÒÓÔÕÖ×ØÙÚÛÜÝßàáâãäæçèéêëìíîïñòóôõö÷øùúûüýÿ–—‘’“”…€₹←↑→↓↔↕─│┌┐└┘├┤┬┴┼█░▒▓■□▲▶▼◀✓')
     if set(G)!=expected:raise ValueError(f'Coverage mismatch: missing {expected-set(G)}, extra {set(G)-expected}')
-    source={'family':'Afterbyte Mono','style':'Regular','version':'0.3.0-alpha','author':'Krishanth','license':'MIT',
+    source={'family':'Afterbyte Mono','style':'Regular','version':'0.3.0-alpha','author':'Krishanth','license':'OFL-1.1',
             'units_per_em':1000,'advance':650,'ascender':820,'descender':-220,
             'cap_height':700,'x_height':500,'construction':'original continuous vector centerlines',
             'glyphs':[G[ch] for ch in sorted(G,key=ord)]}

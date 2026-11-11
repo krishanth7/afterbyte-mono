@@ -3,7 +3,7 @@
   "style": "Regular",
   "version": "0.2.0-alpha",
   "author": "Krishanth",
-  "license": "MIT",
+  "license": "OFL-1.1",
   "units_per_em": 1600,
   "pixel": 100,
   "advance": 900,

@@ -7,7 +7,7 @@ Unicode coverage, rendering tests, documentation, and maintenance. The linked
 profile supports Krishanth's wider open-source work; contributions are not
 represented as restricted to this repository.
 
-The font remains available under the MIT license. Sponsorship is optional and
+The font remains available under the SIL Open Font License 1.1. Sponsorship is optional and
 does not change the license or require a payment to use the font.
 
 Sponsorship amounts, payment choices, and any profile-specific terms are handled

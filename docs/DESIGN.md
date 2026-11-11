@@ -20,7 +20,7 @@ This is a change in construction, proportions, and glyph morphology. It does not
 | Unicode mappings / glyphs | 196 / 197 |
 | Coordinates | Integer-unit final polygons |
 | Construction | Original line/cubic centerlines and solid polygons |
-| License | MIT for original project materials |
+| License | OFL-1.1 for original project materials |
 
 Small optical overshoots are allowed. The highest circumflex join reaches 822; Windows clipping metrics cover it. The typographic line box is 1040 units, hence connected box drawing uses line-height 1.04.
 

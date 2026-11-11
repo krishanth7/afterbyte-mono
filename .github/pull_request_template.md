@@ -1,6 +1,6 @@
 ## Design or repository area
 
-<!-- Afterbyte Mono / Vantablack Gothic / shared governance -->
+<!-- Afterbyte Mono / font, tooling, and documentation -->
 
 ## Problem and resulting change
 

@@ -80,6 +80,10 @@ def cff_shape(glyph):
 def validate():
     source=json.loads((ROOT/'sources/afterbyte-mono/vectors.json').read_text())
     directory=ROOT/'fonts/afterbyte-mono';path=directory/'AfterbyteMono-Regular.ttf'
+    license_text=(ROOT/'OFL.txt').read_text()
+    check('SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007' in license_text,'Wrong font license')
+    check((ROOT/'LICENSE').read_text()==license_text==(directory/'LICENSE.txt').read_text(),'License copies differ')
+    check(source['license']=='OFL-1.1','Wrong source license')
     font=TTFont(path,checkChecksums=2);web=TTFont(directory/'AfterbyteMono-Regular.woff2',checkChecksums=2)
     cmap=font.getBestCmap();expected={r['unicode'] for r in source['glyphs']}
     check(len(source['glyphs'])==len(expected)==196,'Coverage mismatch')
@@ -95,7 +99,7 @@ def validate():
     check(font['name'].getDebugName(1)=='Afterbyte Mono','Family')
     check(font['name'].getDebugName(6)=='AfterbyteMono-Regular','PostScript name')
     check('0.300' in font['name'].getDebugName(5),'Version')
-    check('MIT License' in font['name'].getDebugName(13) and font['OS/2'].fsType==0,'License/embedding')
+    check(font['name'].getDebugName(13)==license_text and font['OS/2'].fsType==0,'License/embedding')
     check(not {'EBDT','CBDT','sbix','fvar'}&set(font.keys()),'Unexpected bitmap/variation table')
     check(cmap==web.getBestCmap() and font['hmtx'].metrics==web['hmtx'].metrics,'WOFF2 mappings/metrics')
     shapes={}
@@ -150,7 +154,8 @@ def validate():
         check(variant['hmtx'].metrics==font['hmtx'].metrics,'Metric mismatch '+extension)
         check(variant['head'].unitsPerEm==1000 and variant['post'].isFixedPitch==1,'Mono metadata mismatch '+extension)
         check(variant['name'].getDebugName(1)==font['name'].getDebugName(1),'Family mismatch '+extension)
-        check('MIT License' in variant['name'].getDebugName(13),'Missing license '+extension)
+        check(variant['name'].getDebugName(13)==license_text,'Missing or incomplete license '+extension)
+        check(variant['name'].getDebugName(14)=='https://openfontlicense.org','Wrong license URL '+extension)
         if extension=='otf':
             glyphs=variant.getGlyphSet()
             for code,name in cmap.items():

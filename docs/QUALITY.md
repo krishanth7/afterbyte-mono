@@ -5,7 +5,7 @@
 - 196 Unicode mappings, complete printable ASCII, 197 glyphs including .notdef.
 - Actual source-to-binary geometry agreement after integer normalization.
 - Valid nonzero contours, winding, no self-intersections, and clipping/advance bounds.
-- Equal 650-unit advances, mono metadata, cap/x-height, line metrics, and embedded MIT license text.
+- Equal 650-unit advances, mono metadata, cap/x-height, line metrics, and embedded SIL Open Font License 1.1 text.
 - Dotted zero/open O distinction, flat-top A, single-storey a/g, 64-unit H stems, and ambiguity pairs.
 - OTF/CFF, TTF, WOFF, and WOFF2 outline, cmap, and metric equivalence; genuine container signatures.
 - HarfBuzz shaping without missing glyphs or advance changes.

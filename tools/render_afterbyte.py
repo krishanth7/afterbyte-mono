@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Actual-font SVG/PNG identity and proof sheets for Afterbyte Mono. MIT."""
+"""Actual-font SVG/PNG identity and proof sheets for Afterbyte Mono. OFL-1.1."""
 import html
 from pathlib import Path
 from fontTools.ttLib import TTFont

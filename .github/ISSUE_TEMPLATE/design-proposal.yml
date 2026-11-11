@@ -8,7 +8,6 @@ body:
       label: Area
       options:
         - Afterbyte Mono
-        - Vantablack Gothic
         - Shared repository
     validations:
       required: true

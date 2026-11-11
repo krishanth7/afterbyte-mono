@@ -8,7 +8,7 @@
 
 ![Version](https://img.shields.io/badge/version-0.3.0_alpha-006577?style=flat-square)
 [![Font quality checks](https://github.com/krishanth7/afterbyte-mono/actions/workflows/specification.yml/badge.svg)](https://github.com/krishanth7/afterbyte-mono/actions/workflows/specification.yml)
-[![MIT license](https://img.shields.io/badge/license-MIT-334A5B?style=flat-square)](LICENSE)
+[![SIL Open Font License 1.1](https://img.shields.io/badge/license-OFL--1.1-334A5B?style=flat-square)](LICENSE)
 
 **[OTF](https://github.com/krishanth7/afterbyte-mono/raw/refs/heads/main/fonts/afterbyte-mono/AfterbyteMono-Regular.otf)** · **[TTF](https://github.com/krishanth7/afterbyte-mono/raw/refs/heads/main/fonts/afterbyte-mono/AfterbyteMono-Regular.ttf)** · **[WOFF](https://github.com/krishanth7/afterbyte-mono/raw/refs/heads/main/fonts/afterbyte-mono/AfterbyteMono-Regular.woff)** · **[WOFF2](https://github.com/krishanth7/afterbyte-mono/raw/refs/heads/main/fonts/afterbyte-mono/AfterbyteMono-Regular.woff2)** · **[Sponsor](https://github.com/sponsors/krishanth7)** · [Specimen](#specimen) · [Usage](#usage) · [Design provenance](docs/PROVENANCE.md)
 
@@ -119,7 +119,7 @@ For connected box-drawing rows, use `line-height: 1.04` and `letter-spacing: 0`.
 | Typographic ascender / descender | 820 / −220 units |
 | Coverage | 196 Unicode mappings + .notdef |
 | Formats | OTF (CFF), TTF, WOFF, WOFF2, CSS |
-| Project source/binary license | MIT |
+| Project source/binary license | OFL-1.1 |
 
 Coverage includes printable ASCII, selected accented Latin, German umlauts and ß, Æ/æ and Ø/ø, €, £, ¥ and ₹, typographic punctuation, arrows, status symbols, box drawing, and stylized stripe/block symbols. It is not complete Latin-1 or universal script support.
 
@@ -156,7 +156,7 @@ This is an alpha with one Regular style, selected Unicode coverage, no variable 
 
 Sponsorship helps sustain ongoing open-source development, including type design, glyph coverage, rendering tests, documentation, and maintenance. The linked profile supports Krishanth's wider open-source work, including this project.
 
-The font remains available under the MIT license; sponsorship is optional. Payment options and any profile-specific terms are handled on GitHub. Public acknowledgments are added only after the sponsorship and permission to use the name or logo are verified.
+The font remains available under the SIL Open Font License 1.1; sponsorship is optional. Payment options and any profile-specific terms are handled on GitHub. Public acknowledgments are added only after the sponsorship and permission to use the name or logo are verified.
 
 [Sponsorship details](SPONSORSHIP.md)
 
@@ -170,7 +170,9 @@ Include the font version, text sample, application, OS, size, zoom/display scale
 
 ## License and provenance
 
-Original project sources, binaries, artwork, and documentation are distributed under the **[MIT License](LICENSE)**. Build dependencies retain their own licenses.
+Afterbyte Mono font binaries, editable sources, build scripts, artwork, and documentation are distributed under the **[SIL Open Font License 1.1](OFL.txt)**. No Reserved Font Names are declared. The full license is included with the fonts and embedded in all four formats. Build dependencies retain their own licenses.
+
+Commercial use and embedding are permitted under the OFL terms. Redistributed font software must retain the copyright notice and OFL; the font software may not be sold by itself. Documents created with the font are not covered by the font license. Earlier distributions retain the permissions already granted with them.
 
 The previous 0.2 pixel experiment referenced Departure Mono as an aesthetic category. Version 0.3 uses a separate continuous-vector design. Its glyph coordinates were developed for this project with AI assistance; no Departure Mono font binaries, glyph outlines, source matrices, or artwork are included or read by the current build.
 

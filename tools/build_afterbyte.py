@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Compile original Afterbyte Mono continuous-vector sources. MIT."""
+"""Compile original Afterbyte Mono continuous-vector sources. OFL-1.1."""
 import hashlib
 import json
 import copy
@@ -104,7 +104,7 @@ def build():
                       'copyright':'Copyright (c) 2026 Krishanth',
                       'description':'Original continuous-vector technical monospace. Dotted zero, flat-top A, rounded bowls, and single-storey a/g.',
                       'licenseDescription':license_text,
-                      'licenseInfoURL':'https://github.com/krishanth7/afterbyte-mono/blob/main/LICENSE',
+                      'licenseInfoURL':'https://openfontlicense.org',
                       'vendorURL':'https://github.com/krishanth7/afterbyte-mono'})
     panose=Panose();panose.bFamilyType=2;panose.bProportion=9
     fb.setupOS2(version=4,usWeightClass=400,usWidthClass=5,fsType=0,fsSelection=0xC0,
@@ -129,7 +129,7 @@ def build():
     otf.setupCFF('AfterbyteMono-Regular',{
         'FullName':'Afterbyte Mono Regular','FamilyName':'Afterbyte Mono',
         'Weight':'Regular','version':'0.300','isFixedPitch':True,
-        'Notice':'Copyright (c) 2026 Krishanth. MIT License; see font name table and LICENSE.txt.',
+        'Notice':'Copyright (c) 2026 Krishanth. SIL Open Font License 1.1; see font name table and LICENSE.txt.',
         'UnderlinePosition':-160,'UnderlineThickness':45,
     },charstrings,{})
     for tag in ('head','hhea','hmtx','name','OS/2'):

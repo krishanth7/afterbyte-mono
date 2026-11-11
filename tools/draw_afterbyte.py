@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Original hand-drawn pixel matrices for Afterbyte Mono. Copyright 2026 Krishanth. MIT.
+"""Original hand-drawn pixel matrices for Afterbyte Mono. Copyright 2026 Krishanth. OFL-1.1.
 
 Rows run top to bottom; # is a filled 100-unit square. Standard glyphs have
 seven ink columns and a one-column inset in a nine-column advance.
@@ -212,7 +212,7 @@ def draw():
         rows=[''.join('#' if ((x%2)*2+y%2)<level else '.' for x in range(9)) for y in range(16)]
         add(ch,rows,1300,0)
     source={'family':'Afterbyte Mono','style':'Regular','version':'0.2.0-alpha',
-            'author':'Krishanth','license':'MIT','units_per_em':1600,'pixel':100,
+            'author':'Krishanth','license':'OFL-1.1','units_per_em':1600,'pixel':100,
             'advance':900,'ascender':1300,'descender':-300,'cap_height':1000,
             'x_height':700,'glyphs':[GLYPHS[ch] for ch in sorted(GLYPHS,key=ord)]}
     out=ROOT/'sources/afterbyte-mono/pixels.json';out.parent.mkdir(parents=True,exist_ok=True)

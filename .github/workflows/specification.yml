@@ -25,7 +25,3 @@ jobs:
           python tools/build_afterbyte.py
       - name: Check reproducibility
         run: git diff --exit-code -- fonts/afterbyte-mono sources/afterbyte-mono
-      - name: Validate preserved experiment
-        run: |
-          python tools/validate_vantablack_spec.py
-          python tools/validate_vantablack_font.py

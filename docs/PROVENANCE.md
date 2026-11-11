@@ -26,19 +26,15 @@ These are documented design decisions, not an infringement test or a claimed per
 
 ## Earlier work
 
-Version 0.2 was an independently generated pixel study that used Departure Mono as a visual category reference. Earlier files and commit history are retained for transparency. Version 0.1 was a separate proportional display experiment.
+Version 0.2 was an independently generated pixel study that used Departure Mono as a visual category reference. The pixel source study and commit history are retained for transparency.
 
 No claim is made that all design ideas, generic letter shapes, or naming terms are exclusive to this project.
 
 ## Licensing context
 
-Departure Mono's published font license is the SIL Open Font License:
-https://github.com/rektdeckard/departure-mono/blob/main/public/assets/LICENSE
+Afterbyte Mono font binaries, editable font sources, build scripts, artwork, and documentation are released under the [SIL Open Font License 1.1](../OFL.txt). No Reserved Font Names are declared. Third-party dependencies retain their own licenses.
 
-The OFL permits modification subject to its terms; a distributed derivative remains under the OFL and must retain required notices. The official FAQ discusses those conditions:
-https://openfontlicense.org/ofl-faq/
-
-The current Afterbyte build is documented as independent source and retains the project's MIT license. Merely adding an MIT file would not override obligations if third-party OFL font material were actually incorporated later. Contributors must identify external material and its terms before it is accepted.
+The full license is included in the repository and font directory and embedded in every distributed font format. Contributors must identify external material and its applicable terms before inclusion. This license change applies to the current distribution; it does not withdraw permissions already granted for earlier versions.
 
 ## Limits of this record
 
