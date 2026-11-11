@@ -1,11 +1,11 @@
 {
-  "version": "4.0.0",
-  "glyph_count": 1705,
-  "unicode_count": 1704,
-  "added_since_v3": 1508,
+  "version": "5.0.0",
+  "glyph_count": 2500,
+  "unicode_count": 2499,
+  "added_since_v3": 2303,
   "actual_ink_bounds": [
     -281,
-    1111
+    1211
   ],
   "typographic_bounds": [
     -450,
@@ -13,9 +13,9 @@
   ],
   "origin_counts": {
     "afterbyte": 196,
-    "noto": 1249,
+    "noto": 1847,
     "technical": 3,
     "braille": 256,
-    "mathematical-style": 0
+    "mathematical-style": 197
   }
 }

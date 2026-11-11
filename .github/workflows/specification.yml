@@ -20,12 +20,12 @@ jobs:
       - name: Rebuild original core and both expanded releases
         run: |
           python tools/draw_afterbyte_vector.py
-          python tools/build_afterbyte.py --version 5 --output build/v5/fonts
+          python tools/build_afterbyte.py --version 4 --output build/v4/fonts
           python tools/build_afterbyte.py
       - name: Validate original core and all expanded glyphs
         run: |
           python tools/validate_afterbyte.py
-          python tools/validate_expansion.py --version 4
-          python tools/validate_expansion.py --version 5 --directory build/v5/fonts
+          python tools/validate_expansion.py --version 4 --directory build/v4/fonts
+          python tools/validate_expansion.py --version 5
       - name: Check reproducibility
         run: git diff --exit-code -- fonts/afterbyte-mono sources/afterbyte-mono

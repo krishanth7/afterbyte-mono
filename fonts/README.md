@@ -1,6 +1,6 @@
 # Font builds
 
-[afterbyte-mono](afterbyte-mono) contains **Afterbyte Mono Regular 4.0.0**: 1705 glyphs, 1704 mapped Unicode characters, fixed 650-unit advances, OTF/CFF, TTF, WOFF and WOFF2.
+[afterbyte-mono](afterbyte-mono) contains **Afterbyte Mono Regular 5.0.0**: 2500 glyphs, 2499 mapped Unicode characters, fixed 650-unit advances, OTF/CFF, TTF, WOFF and WOFF2.
 
 The directory includes CSS, complete code-point/origin coverage, a machine-readable summary, full OFL/copyright notice and SHA-256 checksums. Install either desktop format, not both.
 

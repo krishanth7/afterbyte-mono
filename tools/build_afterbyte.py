@@ -14,7 +14,7 @@ from fontTools.pens.reverseContourPen import ReverseContourPen
 from fontTools.ttLib.tables.O_S_2f_2 import Panose
 import build_core
 ROOT=Path(__file__).resolve().parents[1]
-DEFAULT_VERSION=4
+DEFAULT_VERSION=5
 
 def name_for(c):return 'space' if c==32 else f'uni{c:04X}' if c<=65535 else f'u{c:05X}'
 
