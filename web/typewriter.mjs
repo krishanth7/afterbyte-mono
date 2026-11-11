@@ -1,15 +1,29 @@
+import { keyboardLayout, keyOutput } from './keyboard-layout.mjs';
 export function initTypewriter(){
-  const board=document.getElementById('typewriter');
-  if(!board)return;
-  const buttons=[...board.querySelectorAll('button')];
+  const board=document.getElementById('typewriter');if(!board)return;
+  const buttons=[...board.querySelectorAll('[data-code]')];
+  const keys=new Map(buttons.map(button=>[button.dataset.code,button]));
+  const layout=new Map(keyboardLayout.map(key=>[key.code,key]));
   const soundButton=document.getElementById('typewriter-sound');
   const status=document.getElementById('typewriter-status');
-  const keys=new Map([...board.querySelectorAll('[data-type-key]')].map(button=>[button.dataset.typeKey,button]));
-  const releases=new Map();
+  const readout=document.getElementById('keyboard-readout');
+  const releases=new Map(),held=new Set(),latched=new Set();
+  const state={caps:false,num:true,scroll:false};
   let audio,noise,muted=false;
   const AudioEngine=window.AudioContext||window.webkitAudioContext;
-  const observer=new IntersectionObserver(entries=>{if(!entries[0].isIntersecting)clearKeys();},{threshold:.15});
-  observer.observe(board);
+  function shiftOn(){return held.has('ShiftLeft')||held.has('ShiftRight')||latched.has('ShiftLeft')||latched.has('ShiftRight');}
+  function sync(){
+    board.dataset.caps=String(state.caps);board.dataset.num=String(state.num);board.dataset.shift=String(shiftOn());
+    for(const [code,on] of [['CapsLock',state.caps],['NumLock',state.num],['ScrollLock',state.scroll]]){
+      keys.get(code).setAttribute('aria-pressed',String(on));keys.get(code).setAttribute('aria-label',code+' '+(on?'on':'off'));
+      const led=board.querySelector('[data-led="'+code+'"]');led.dataset.on=String(on);led.querySelector('.lock-state').textContent=on?'ON':'OFF';
+    }
+    for(const key of keyboardLayout){const button=keys.get(key.code);
+      if(key.kind==='modifier')button.setAttribute('aria-pressed',String(held.has(key.code)||latched.has(key.code)));
+      if(/^Key/.test(key.code)){button.querySelector('.key-primary').textContent=keyOutput(key,{caps:state.caps,shift:shiftOn()});button.querySelector('.key-secondary').textContent=state.caps!==shiftOn()?key.label.toLowerCase():key.label;}
+      if(key.shift){button.querySelector('.key-primary').textContent=shiftOn()?key.shift:key.label;button.querySelector('.key-secondary').textContent=shiftOn()?key.label:key.shift;}
+    }
+  }
   async function strikeSound(carriage=false){
     if(muted||!AudioEngine)return;
     try{
@@ -33,38 +47,50 @@ export function initTypewriter(){
       metal.onended=()=>{impact.disconnect();filter.disconnect();envelope.disconnect();metal.disconnect();ring.disconnect();master.disconnect();};
     }catch{/* Visual key feedback remains available if browser audio is unavailable. */}
   }
-  function press(button,held=false){
-    if(!button)return;
-    clearTimeout(releases.get(button));button.classList.add('key-down');board.dataset.lastKey=button.dataset.typeKey;
-    strikeSound(button.dataset.typeKey==='Enter');
-    if(!held)releases.set(button,setTimeout(()=>{button.classList.remove('key-down');releases.delete(button);},150));
-  }
-  function clearKeys(){for(const timer of releases.values())clearTimeout(timer);releases.clear();buttons.forEach(button=>button.classList.remove('key-down'));}
-  for(const button of buttons){
-    button.addEventListener('click',()=>{
-      if(button===soundButton){
-        muted=!muted;soundButton.setAttribute('aria-pressed',String(muted));soundButton.setAttribute('aria-label',muted?'Enable keyboard sound':'Mute keyboard sound');status.textContent=muted?'Keyboard sound off.':'Keyboard sound on.';
-        if(muted&&audio?.state==='running')audio.suspend().catch(()=>{});
-      }else press(button);
-    });
-  }
-  board.addEventListener('keydown',event=>{
-    if(event.altKey||event.ctrlKey||event.metaKey||event.isComposing)return;
-    if(['ArrowLeft','ArrowRight','ArrowUp','ArrowDown','Home','End'].includes(event.key)){
-      event.preventDefault();const index=buttons.indexOf(document.activeElement);let next;
-      if(event.key==='Home')next=0;else if(event.key==='End')next=buttons.length-1;
-      else if(event.key==='ArrowUp'||event.key==='ArrowDown')next=Math.max(0,Math.min(buttons.length-1,index+(event.key==='ArrowUp'?-11:11)));
-      else next=(Math.max(index,0)+(event.key==='ArrowRight'?1:-1)+buttons.length)%buttons.length;
-      buttons[next].focus({preventScroll:true});return;
+  function press(code,physical=false){
+    const button=keys.get(code),key=layout.get(code);if(!button)return;
+    if(key.kind==='lock'){
+      const field={CapsLock:'caps',NumLock:'num',ScrollLock:'scroll'}[code];state[field]=!state[field];status.textContent=key.label+' '+(state[field]?'on.':'off.');
     }
-    if(event.key==='Enter'&&document.activeElement!==board)return;
-    if(event.key===' '&&document.activeElement!==board)return;
-    const key=event.key.length===1?event.key.toUpperCase():event.key;
-    if(keys.has(key)){event.preventDefault();if(!event.repeat)press(keys.get(key),true);}
+    if(key.kind==='modifier'){
+      if(physical)held.add(code);else if(latched.has(code))latched.delete(code);else latched.add(code);
+    }
+    sync();
+    const value=keyOutput(key,{caps:state.caps,shift:shiftOn(),num:state.num});
+    readout.textContent=key.kind==='lock'?key.label.toUpperCase()+' '+(button.getAttribute('aria-pressed')==='true'?'ON':'OFF'):code==='Space'?'SPACE':code.includes('Enter')?'RETURN':value;
+    board.dataset.lastKey=code;board.dataset.lastOutput=value;
+    clearTimeout(releases.get(button));button.classList.add('key-down');
+    board.querySelector('[data-link-code="'+code+'"]')?.classList.add('link-active');
+    strikeSound(code.includes('Enter'));
+    if(!physical)releases.set(button,setTimeout(()=>release(code),150));
+  }
+  function release(code){const button=keys.get(code);if(!button)return;clearTimeout(releases.get(button));releases.delete(button);button.classList.remove('key-down');board.querySelector('[data-link-code="'+code+'"]')?.classList.remove('link-active');held.delete(code);sync();}
+  function clearKeys(){for(const code of keys.keys())release(code);}
+  for(const button of buttons)button.addEventListener('click',()=>press(button.dataset.code));
+  soundButton.addEventListener('click',()=>{
+    muted=!muted;soundButton.setAttribute('aria-pressed',String(muted));soundButton.setAttribute('aria-label',muted?'Enable keyboard sound':'Mute keyboard sound');status.textContent=muted?'Keyboard sound off.':'Keyboard sound on.';
+    if(muted&&audio?.state==='running')audio.suspend().catch(()=>{});
   });
-  board.addEventListener('keyup',event=>{const key=event.key.length===1?event.key.toUpperCase():event.key;keys.get(key)?.classList.remove('key-down');});
+  board.addEventListener('keydown',event=>{
+    if(event.isComposing)return;
+    if(event.key==='Tab'){if(!event.repeat)press('Tab');return;}
+    if((event.altKey||event.ctrlKey||event.metaKey)&&layout.get(event.code)?.kind!=='modifier')return;
+    if((event.key==='Enter'||event.key===' ')&&document.activeElement!==board)return;
+    const code=event.code||[...layout.values()].find(key=>key.label.toLowerCase()===event.key.toLowerCase())?.code;
+    if(!keys.has(code))return;
+    event.preventDefault();if(event.repeat)return;
+    press(code,true);
+    if(code.startsWith('Arrow')){
+      const current=layout.get(document.activeElement.dataset.code);
+      const targets=keyboardLayout.filter(key=>!current||key.code!==current.code).filter(key=>!current||(code==='ArrowLeft'?key.x<current.x:code==='ArrowRight'?key.x>current.x:code==='ArrowUp'?key.y<current.y:key.y>current.y));
+      if(current)targets.sort((a,b)=>{const distance=k=>code==='ArrowLeft'||code==='ArrowRight'?Math.abs(k.x-current.x)+Math.abs(k.y-current.y)*8:Math.abs(k.y-current.y)+Math.abs(k.x-current.x)*8;return distance(a)-distance(b);});
+      keys.get(targets[0]?.code)?.focus({preventScroll:true});
+    }
+  });
+  board.addEventListener('keyup',event=>release(event.code));
   board.addEventListener('focusout',event=>{if(!board.contains(event.relatedTarget))clearKeys();});
   window.addEventListener('blur',clearKeys);
   document.addEventListener('visibilitychange',()=>{if(document.hidden){clearKeys();if(audio?.state==='running')audio.suspend().catch(()=>{});}});
-  // Physical input is scoped to this focused component; the rest of the page keeps its normal shortcuts.
+  new IntersectionObserver(entries=>{if(!entries[0].isIntersecting)clearKeys();},{threshold:.1}).observe(board);
+  sync();
 }

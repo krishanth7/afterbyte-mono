@@ -37,3 +37,28 @@ test('variants handle the italic h alias and avoid inventing unsupported styles'
  assert.deepEqual(letterVariants(rows,'Ω').map(v=>v.row.unicode),[0x3c9,0x3a9]);
  assert.deepEqual(letterVariants(rows,'unknown'),[]);
 });
+
+import {keyboardLayout,keyOutput} from '../web/keyboard-layout.mjs';
+test('ANSI keyboard has 104 unique nonoverlapping keys, including all function and numpad keys',()=>{
+ assert.equal(keyboardLayout.length,104);assert.equal(new Set(keyboardLayout.map(k=>k.code)).size,104);
+ for(let i=1;i<=12;i++)assert.ok(keyboardLayout.some(k=>k.code==='F'+i));
+ assert.equal(keyboardLayout.filter(k=>k.code.startsWith('Numpad')||k.code==='NumLock').length,17);
+ for(const [i,a] of keyboardLayout.entries())for(const b of keyboardLayout.slice(i+1)){
+   assert.ok(!(a.x<b.x+b.w-.13&&a.x+a.w-.13>b.x&&a.y<b.y+b.h-.13&&a.y+a.h-.13>b.y),'Overlapping keys '+a.code+' and '+b.code);
+ }
+ const html=readFileSync(new URL('../index.html',import.meta.url),'utf8');
+ assert.equal([...html.matchAll(/data-code="/g)].length,104);
+ assert.equal([...html.matchAll(/data-link-code="/g)].length,104);
+});
+test('keyboard resolves Caps XOR Shift, shifted punctuation and Num Lock navigation',()=>{
+ const key=code=>keyboardLayout.find(k=>k.code===code);
+ assert.equal(keyOutput(key('KeyA')), 'a');
+ assert.equal(keyOutput(key('KeyA'),{caps:true}), 'A');
+ assert.equal(keyOutput(key('KeyA'),{shift:true}), 'A');
+ assert.equal(keyOutput(key('KeyA'),{caps:true,shift:true}), 'a');
+ assert.equal(keyOutput(key('Digit2'),{shift:true}), '@');
+ assert.equal(keyOutput(key('Numpad7'),{num:false}), 'Home');
+ assert.equal(keyOutput(key('Numpad7'),{num:true}), '7');
+ assert.equal(keyOutput(key('Space')), ' ');
+ assert.equal(keyOutput(key('NumpadEnter')), '\n');
+});
