@@ -19,3 +19,14 @@ The README specimens use compiled glyph paths, include SVG descriptions, and lin
 Box-drawing rows require line-height 1.04 for the current metric envelope; normal text benefits from more spacing. V4/v5 enlarge line metrics to 1280/−450 for extended accents. Use generous prose line spacing; the 1.04 setting applies only to the original connected box-drawing grid.
 
 Report barriers using the Accessibility issue form with task, file/page, expected and actual result, and optional environment details. Do not require medical information.
+
+## Interactive website
+
+- All site typography uses the self-hosted Afterbyte Mono font, with a system monospace fallback while loading or for unsupported visitor input.
+- Light and dark themes follow the initial system preference and remember an explicit choice locally.
+- A persistent Pause motion control stops ambient effects. System reduced-motion preference disables animation, pointer tilt, and smooth scrolling. Off-screen ambient scenes pause automatically.
+- Specimen size, tracking, line height, alignment, sample selection, signal tuning, glyph search, pagination, theme, and scene controls support keyboard access.
+- Critical copy stays visible when JavaScript is unavailable; the full text coverage list and font downloads remain available.
+- Character insertion updates the inspector without moving keyboard focus to a distant textarea.
+- The signal lab is explicitly labeled as a simulation. Decorative waves, ticker duplicates, and orbital art are hidden from assistive technology.
+- Desktop and narrow-screen browser checks supplement the coverage tests; these do not constitute a complete accessibility audit.
