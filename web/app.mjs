@@ -244,3 +244,6 @@ initLetterLab({sample,onTextChange:()=>{setPressed('[data-sample]',()=>false);re
 
 import { initRepositoryStars } from './repository-stars.mjs';
 initRepositoryStars();
+
+import { initTypewriter } from './typewriter.mjs';
+initTypewriter();
