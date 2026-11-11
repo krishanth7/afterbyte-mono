@@ -24,9 +24,9 @@ Report barriers using the Accessibility issue form with task, file/page, expecte
 
 - All site typography uses the self-hosted Afterbyte Mono font, with a system monospace fallback while loading or for unsupported visitor input.
 - Light and dark themes follow the initial system preference and remember an explicit choice locally.
-- A persistent Pause motion control stops ambient effects. System reduced-motion preference disables animation, pointer tilt, and smooth scrolling. Off-screen ambient scenes pause automatically.
-- Specimen size, tracking, line height, alignment, sample selection, signal tuning, glyph search, pagination, theme, and scene controls support keyboard access.
+- A persistent Pause motion control stops ambient effects. System reduced-motion preference disables animation, live clock updates, and smooth scrolling. Off-screen ambient scenes pause automatically.
+- Specimen size, tracking, line height, alignment, sample selection, signal tuning, transmission, glyph search, pagination, and theme controls support keyboard access.
 - Critical copy stays visible when JavaScript is unavailable; the full text coverage list and font downloads remain available.
-- Character insertion updates the inspector without moving keyboard focus to a distant textarea.
-- The signal lab is explicitly labeled as a simulation. Decorative waves, ticker duplicates, and orbital art are hidden from assistive technology.
+- Character selection updates the inspector. A separate Add to tester button inserts the selected character, announces the result, and preserves keyboard focus.
+- The signal lab is explicitly labeled as a simulation. Decorative wireframe art, radar rings, and printed-object details are hidden from assistive technology.
 - Desktop and narrow-screen browser checks supplement the coverage tests; these do not constitute a complete accessibility audit.

@@ -16,7 +16,7 @@ A technical monospace with **2,500 glyphs**, four font formats and an open font 
 
 ## Try it in a minute
 
-1. **[Open the specimen](https://krishanth7.github.io/afterbyte-mono/)** — type your own text, adjust size, tracking and line height, switch light/dark themes, explore interactive signal/code/editorial scenes, and inspect the character grid.
+1. **[Open the specimen](https://krishanth7.github.io/afterbyte-mono/)** — type your own text, adjust size, tracking and line height, switch light/dark themes, explore the editorial type archive and interactive radar/transmission deck, and inspect the character grid.
 2. **[Download the complete v5 ZIP](https://github.com/krishanth7/afterbyte-mono/releases/download/v5.0.0/AfterbyteMono-v5.0.0.zip)** — choose OTF or TTF for desktop use; WOFF2 or WOFF for the web.
 3. **[Put it in a real project](docs/USAGE.md)** — start with web CSS, editor settings or a technical interface. Keep the included OFL and copyright notices with redistributed fonts.
 
@@ -135,7 +135,7 @@ python tools/render_afterbyte.py
 
 Checks cover every mapped character, glyph counts, coverage inclusion, retained core outlines, Braille dot bits, mathematical style distinctions, full embedded licenses, fixed spacing, bounds, container signatures, webfont outlines, CFF geometry bounds, shaping, rendering, checksums and reproducibility.
 
-The specimen uses Afterbyte Mono throughout, with light/dark themes, an animated signal study, a live typography console, three interactive interface scenes, and a searchable character inspector. Motion can be paused and follows the system reduced-motion preference.
+The specimen uses Afterbyte Mono throughout, with light/dark themes, a layered editorial archive, display/reading studies, an interactive radar and transmission deck, a live typography console, and a searchable character inspector. Motion can be paused and follows the system reduced-motion preference.
 
 The specimen runs without a framework, remote fonts or tracking scripts. Search, group totals, supplementary Unicode handling, fallback warnings and pagination are checked with `node --test tests/playground.test.mjs`.
 

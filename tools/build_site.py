@@ -21,7 +21,7 @@ def build(output,version):
     shutil.copyfile(ROOT/'sources/afterbyte-mono/coverage-v5.json',target/'coverage-v5.json')
     (output/'.nojekyll').touch()
     index=output/'index.html';text=index.read_text()
-    for asset in ('web/app.mjs','web/style.css','fonts/afterbyte-mono/AfterbyteMono-Regular.woff2'):
+    for asset in ('web/app.mjs','web/theme.js','web/style.css','fonts/afterbyte-mono/AfterbyteMono-Regular.woff2'):
         text=text.replace('"'+asset+'"','"'+asset+'?v='+version+'"')
     index.write_text(text)
     app=output/'web/app.mjs';app.write_text(app.read_text().replace("'./coverage.mjs'","'./coverage.mjs?v="+version+"'").replace("'sources/afterbyte-mono/coverage-v5.json'","'sources/afterbyte-mono/coverage-v5.json?v="+version+"'"))
