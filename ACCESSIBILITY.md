@@ -22,13 +22,13 @@ Report barriers using the Accessibility issue form with task, file/page, expecte
 
 ## Interactive website
 
-- Interface and editable typography use the self-hosted Afterbyte Mono font, with a system monospace fallback while loading or for unsupported visitor input.
-- Light and dark themes follow the initial system preference and remember an explicit choice locally.
-- A persistent Pause motion control stops ambient effects. System reduced-motion preference disables animation, live clock updates, and smooth scrolling. Off-screen ambient scenes pause automatically.
-- Specimen size, tracking, line height, alignment, sample selection, signal tuning, transmission, virtual keyboard, glyph search, pagination, and theme controls support keyboard access.
-- Critical copy stays visible when JavaScript is unavailable; the full text coverage list and font downloads remain available.
-- Character selection updates the inspector. A separate Add to tester button inserts the selected character, announces the result, and preserves keyboard focus.
-- The signal lab is explicitly labeled as a simulation. Imported decorative illustrations have concise alternative descriptions; background ornaments and the starfield are hidden from assistive technology.
-- Desktop and narrow-screen browser checks supplement the coverage tests; these do not constitute a complete accessibility audit.
-
-The arcade is optional and starts only on user request. Its controls support keyboard and pointer input. The game pauses when its canvas loses focus or the page becomes hidden. The flight board scrolls horizontally within its own region on narrow screens.
+- Interface, editable text, SVG labels, and code specimens use self-hosted Afterbyte Mono, with system monospace fallback while loading or for unsupported input.
+- Light and dark themes follow the initial system preference and remember explicit local choices. A small script applies the selected theme before the first stylesheet paint.
+- Ambient SVG animations run on 32–90-second cycles. The persistent Pause motion control stops them. System reduced-motion preference disables animation and smooth scrolling; off-screen SVGs pause automatically.
+- No flashing, title scrambling, fast starfield, autoplay arcade, or scroll hijacking is present.
+- Native controls support specimen size, tracking, line height, alignment, sample selection, category filters, Unicode search, pagination, theme, and application previews.
+- Glyph selection updates a separate inspector. Add to tester announces insertion and preserves focus.
+- Every one of the 2,499 mapped characters is searchable; the additional unencoded fallback glyph is shown separately. The full text coverage download remains available.
+- Interface mockup values are labeled as sample data. Decorative SVGs are hidden from assistive technology; informative diagrams have descriptive accessible names.
+- Entered specimen text remains in the page and is excluded from copied sharing links.
+- Phone, tablet, and desktop browser checks supplement automated coverage and website checks; no complete accessibility audit or certification is claimed.

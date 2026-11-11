@@ -1,11 +1,10 @@
-import { initializeEffects } from './effects.mjs';
 import { filterGlyphs, unsupported, pageSlice } from './coverage.mjs';
 
 const $ = id => document.getElementById(id);
 const root = document.documentElement;
 const sample = $('sample');
 const samples = {
-  interface: 'Build something\nworth reading.',
+  interface: 'Consider every\ncharacter.',
   latin: 'ÀÁÂÃÄÅ ÆÇÈÉÊË Œ Ø ß\nŁąę ěŷ Ḃẞ — clarity, in detail.',
   greek: 'ΑΒΓΔΕΖΗΘ ΙΚΛΜΝΞΟΠ\nΡΣΤΥΦΧΨΩ αβγδελπ ἀὦ',
   cyrillic: 'АБВГДЕЁЖЗИЙКЛМН\nОПРСТУФХЦЧШЩЪЫЬЭЮЯ',
@@ -21,7 +20,9 @@ function syncTheme() {
   const dark = root.dataset.theme === 'dark';
   $('theme').setAttribute('aria-pressed', String(dark));
   $('theme').textContent = dark ? 'Light mode' : 'Dark mode';
-  document.querySelector('meta[name="theme-color"]').content = dark ? '#1b2022' : '#ededeb';
+  const preview = $('download-preview');
+  if (preview) preview.href = 'assets/afterbyte-mono/website-preview-' + (dark ? 'dark' : 'light') + '.png';
+  document.querySelector('meta[name="theme-color"]').content = dark ? '#10151e' : '#f7f8fa';
 }
 syncTheme();
 let themeTimer;
@@ -118,7 +119,7 @@ function inspect(row) {
   selected = row;
   $('inspector-letter').textContent = String.fromCodePoint(row.unicode);
   $('inspector-name').textContent = row.name;
-  $('inspector-code').textContent = codePoint(row) + ' / ' + row.origin;
+  $('inspector-code').textContent = codePoint(row) + ' / ADVANCE 650';
   $('insert-status').textContent = '';
   setPressed('.glyph', button => Number(button.dataset.unicode) === row.unicode);
 }
@@ -182,62 +183,6 @@ fetch('sources/afterbyte-mono/coverage-v5.json').then(response => {
   $('previous').disabled = $('next').disabled = true;
 });
 
-// Explicit user-triggered simulation. Nothing here reports real telemetry.
-let transmitting = false, transmissionStep = 0;
-const messages = [
-  '> CONNECTION ESTABLISHED', '> SENDING: HELLO, TOMORROW.',
-  '> LATIN / GREEK / CYRILLIC: READY', '> OTF / TTF / WOFF / WOFF2: READY',
-  '> TRANSMISSION COMPLETE. MAKE IT YOURS.'
-];
-let transmissionTimer;
-function finishTransmission() {
-  transmitting = false;
-  clearInterval(transmissionTimer);
-  $('transmission-state').textContent = 'COMPLETE';
-  $('transmit').textContent = 'Transmit again →';
-}
-$('transmit').addEventListener('click', () => {
-  if (transmitting) {
-    transmitting = false;
-    clearInterval(transmissionTimer);
-    $('transmission-state').textContent = 'STOPPED';
-    $('transmit').textContent = 'Restart transmission →';
-    return;
-  }
-  $('transmission-log').textContent = '';
-  transmissionStep = 0;
-  if (motionStopped()) {
-    $('transmission-log').textContent = messages.join('\n');
-    finishTransmission();
-    return;
-  }
-  transmitting = true;
-  $('transmission-state').textContent = 'TRANSMITTING';
-  $('transmit').textContent = 'Stop transmission';
-  transmissionTimer = setInterval(() => {
-    if (document.hidden || motionStopped()) return;
-    $('transmission-log').textContent += (transmissionStep ? '\n' : '') + messages[transmissionStep++];
-    if (transmissionStep === messages.length) finishTransmission();
-  }, 550);
-});
-function updateClock() {
-  if (document.hidden || motionStopped()) return;
-  const now = new Date();
-  $('utc-clock').dateTime = now.toISOString();
-  $('utc-clock').textContent = now.toISOString().slice(11, 19);
-}
-// One initial reading remains useful when motion is reduced or paused.
-const initialTime = new Date();
-$('utc-clock').dateTime = initialTime.toISOString();
-$('utc-clock').textContent = initialTime.toISOString().slice(11, 19);
-setInterval(updateClock, 1000);
-$('frequency').addEventListener('input', () => {
-  const value = Number($('frequency').value);
-  $('frequency-value').textContent = value + ' MHz';
-  $('channel').textContent = 'CHANNEL ' + String(value).padStart(3, '0') + ' / LOCKED';
-
-});
-
 async function copy(text, status, message) {
   try { await navigator.clipboard.writeText(text); $(status).textContent = message; }
   catch { $(status).textContent = 'Clipboard unavailable. Select and copy the text manually.'; }
@@ -250,7 +195,7 @@ if ('IntersectionObserver' in window) {
   const ambient = new IntersectionObserver(entries => {
     for (const entry of entries) entry.target.classList.toggle('offscreen', !entry.isIntersecting);
   }, { rootMargin: '100px' });
-  document.querySelectorAll('.wire-object,.radar').forEach(element => ambient.observe(element));
+  document.querySelectorAll('.hero-diagram,.anatomy-art,.closing-graphic').forEach(element => ambient.observe(element));
   const reveals = new IntersectionObserver(entries => {
     for (const entry of entries) if (entry.isIntersecting) {
       entry.target.classList.add('reveal');
@@ -271,32 +216,19 @@ addEventListener('scroll', () => {
 addEventListener('resize', progress);
 progress();
 
-// A short, bounded title effect; its accessible name stays unchanged.
-const titleParts = [...document.querySelectorAll('h1>span:not(.title-space)')];
-const titleText = titleParts.map(part => part.textContent);
-let titleFrame = 0;
-function restoreTitle() { titleParts.forEach((part, index) => { part.textContent = titleText[index]; }); }
-if (matchMedia('(hover: hover) and (pointer: fine)').matches) {
-  document.querySelector('h1').addEventListener('pointerenter', () => {
-    if (motionStopped()) return;
-    cancelAnimationFrame(titleFrame);
-    const started = performance.now();
-    const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
-    let previousStep = -1;
-    function tick(now) {
-      const elapsed = now - started;
-      if (elapsed >= 650 || motionStopped()) { restoreTitle(); return; }
-      const step = Math.floor(elapsed / 65);
-      if (step !== previousStep) {
-        titleParts.forEach((part, index) => {
-          part.textContent = [...titleText[index]].map((char, position) => position < step ? char : alphabet[Math.floor(Math.random() * alphabet.length)]).join('');
-        });
-        previousStep = step;
-      }
-      titleFrame = requestAnimationFrame(tick);
-    }
-    titleFrame = requestAnimationFrame(tick);
-  });
-}
 
-initializeEffects({motionStopped,sample,onTextChange:()=>{setPressed('[data-sample]',()=>false);reportText();}});
+// Local application studies show the same typeface in three different contexts.
+const previewNames={interface:'AFTERBYTE / INTERFACE STUDY',code:'AFTERBYTE / CODE STUDY',editorial:'AFTERBYTE / EDITORIAL STUDY'};
+document.querySelectorAll('[data-preview]').forEach(button=>button.addEventListener('click',()=>{
+  const name=button.dataset.preview;
+  for(const key of Object.keys(previewNames)) $('preview-'+key).hidden=key!==name;
+  setPressed('[data-preview]',b=>b===button);
+  $('preview-title').textContent=previewNames[name];
+}));
+function groupState(){setPressed('[data-group]',button=>button.dataset.group===$('group').value);}
+document.querySelectorAll('[data-group]').forEach(button=>button.addEventListener('click',()=>{
+  $('group').value=button.dataset.group;
+  $('query').value='';page=0;groupState();render();
+}));
+$('group').addEventListener('change',groupState);
+groupState();

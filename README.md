@@ -16,7 +16,7 @@ A technical monospace with **2,500 glyphs**, four font formats and an open font 
 
 ## Try it in a minute
 
-1. **[Open the specimen](https://krishanth7.github.io/afterbyte-mono/)** — type your own text, adjust size, tracking and line height, switch light/dark themes, explore the printed specimen collage, flight deck, interactive keyboard and arcade, and inspect the character grid.
+1. **[Open the specimen](https://krishanth7.github.io/afterbyte-mono/)** — type your own text, adjust size, tracking and line height, switch light/dark themes, explore original SVG form studies and interface, code and editorial previews, and inspect the character grid.
 2. **[Download the complete v5 ZIP](https://github.com/krishanth7/afterbyte-mono/releases/download/v5.0.0/AfterbyteMono-v5.0.0.zip)** — choose OTF or TTF for desktop use; WOFF2 or WOFF for the web.
 3. **[Put it in a real project](docs/USAGE.md)** — start with web CSS, editor settings or a technical interface. Keep the included OFL and copyright notices with redistributed fonts.
 
@@ -135,7 +135,7 @@ python tools/render_afterbyte.py
 
 Checks cover every mapped character, glyph counts, coverage inclusion, retained core outlines, Braille dot bits, mathematical style distinctions, full embedded licenses, fixed spacing, bounds, container signatures, webfont outlines, CFF geometry bounds, shaping, rendering, checksums and reproducibility.
 
-The specimen uses Afterbyte Mono for interface and editable text, with light/dark themes, the reference website’s layered print collage, display/reading studies, an animated flight deck, interactive keyboard, arcade game, live typography console, and searchable character inspector. Motion can be paused and follows the system reduced-motion preference.
+The specimen uses Afterbyte Mono for interface and editable text, with light/dark themes, original SVG form studies, measured glyph details, interface/code/editorial previews, a live type studio, and a searchable character inspector covering every Unicode mapping. Motion can be paused and follows the system reduced-motion preference.
 
 The specimen runs without a framework, remote fonts or tracking scripts. Search, group totals, supplementary Unicode handling, fallback warnings and pagination are checked with `node --test tests/playground.test.mjs`.
 
@@ -170,6 +170,6 @@ Afterbyte Mono is distributed under the **[SIL Open Font License 1.1](OFL.txt)**
 
 Commercial use and embedding are permitted under the OFL terms. Redistributed font software must retain the license and copyright notices; font software may not be sold by itself. Documents made with the font are not covered by the font license. Earlier distributions retain the permissions previously granted. [Provenance](docs/PROVENANCE.md) records the source inputs and modifications.
 
-### Website artwork and layout
+### Website design
 
-The website adapts the published [Departure Mono website](https://github.com/rektdeckard/departure-mono) layout and decorative SVG illustrations, © 2024 Helena Zhang & Tobias Fried. Its MIT notice is retained in [web/reference/WEBSITE-LICENSE.txt](web/reference/WEBSITE-LICENSE.txt); the original font notice accompanying the artwork is retained in [web/reference/LICENSE](web/reference/LICENSE). These notices apply to the imported website materials. Afterbyte Mono font files remain under **SIL OFL 1.1**.
+The current site uses an original minimal visual system with light and dark palettes. Its letterform diagrams are drawn from the compiled Afterbyte Mono outlines. Slow SVG animations use 32–90-second cycles, pause off-screen, and respect reduced-motion and the manual pause control. The site contains no imported reference illustrations, automatic title effects, starfield, or arcade.
