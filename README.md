@@ -1,16 +1,33 @@
 <div align="center">
-<img src="assets/afterbyte-mono/hero.svg" alt="Afterbyte Mono 5.0.0, a technical monospace with 2500 glyphs, a dotted zero and a flat-top A." width="100%">
+<img src="assets/afterbyte-mono/launch-banner.svg" alt="Afterbyte Mono 5.0.0, a technical monospace with 2500 glyphs, a dotted zero and a flat-top A." width="100%">
 
 # Afterbyte Mono
 
-**A technical monospace for multilingual interfaces and precise digital typography.**
+**Type for what comes next.**
+
+A technical monospace with **2,500 glyphs**, four font formats and an open font license.
 
 ![Version](https://img.shields.io/badge/version-5.0.0-006577?style=flat-square)
 [![Font quality checks](https://github.com/krishanth7/afterbyte-mono/actions/workflows/specification.yml/badge.svg)](https://github.com/krishanth7/afterbyte-mono/actions/workflows/specification.yml)
 [![SIL Open Font License](https://img.shields.io/badge/license-OFL--1.1-334A5B?style=flat-square)](OFL.txt)
 
-**[Download v5.0.0](https://github.com/krishanth7/afterbyte-mono/releases/tag/v5.0.0)** · [v4.0.0](https://github.com/krishanth7/afterbyte-mono/releases/tag/v4.0.0) · [Specimen](#specimen) · [Coverage](#character-coverage) · [Sponsor](https://github.com/sponsors/krishanth7)
+**[Try the live specimen](https://krishanth7.github.io/afterbyte-mono/)** · **[Download v5.0.0](https://github.com/krishanth7/afterbyte-mono/releases/tag/v5.0.0)** · [v4.0.0](https://github.com/krishanth7/afterbyte-mono/releases/tag/v4.0.0) · [Specimen](#specimen) · [Coverage](#character-coverage) · [Sponsor](https://github.com/sponsors/krishanth7)
 </div>
+
+## Try it in a minute
+
+1. **[Open the specimen](https://krishanth7.github.io/afterbyte-mono/)** — type your own text, adjust size and tracking, switch samples, and search the character grid.
+2. **[Download the complete v5 ZIP](https://github.com/krishanth7/afterbyte-mono/releases/download/v5.0.0/AfterbyteMono-v5.0.0.zip)** — choose OTF or TTF for desktop use; WOFF2 or WOFF for the web.
+3. **[Put it in a real project](docs/USAGE.md)** — start with web CSS, editor settings or a technical interface. Keep the included OFL and copyright notices with redistributed fonts.
+
+| What you notice | Why it matters |
+| --- | --- |
+| Dotted zero and distinct 1/I/l | Easier character identification in labels and data |
+| Flat-top A, single-storey a/g, rounded bowls | A recognisable technical voice |
+| Fixed 650-unit advances | Predictable alignment for structured text |
+| Latin, Greek, Cyrillic and technical symbols | A broader, explicitly documented repertoire |
+| OTF, TTF, WOFF and WOFF2 | Desktop installation and self-hosted web use |
+| Source, coverage contracts and OFL notices | Inspectable builds and clear attribution |
 
 ## Overview
 
@@ -62,6 +79,16 @@ Coverage is an explicit selection, **not all Unicode symbols or complete support
 
 Specimen lettering comes from the compiled font. The surrounding README uses GitHub's typography. [Text equivalent](specimen/afterbyte-mono.txt).
 
+## Downloads
+
+| Get the font | Use it for |
+| --- | --- |
+| [Complete ZIP](https://github.com/krishanth7/afterbyte-mono/releases/download/v5.0.0/AfterbyteMono-v5.0.0.zip) | All formats, source materials, coverage, license and checksums |
+| [OTF](https://github.com/krishanth7/afterbyte-mono/releases/download/v5.0.0/AfterbyteMono-Regular.otf) | OpenType/CFF desktop font |
+| [TTF](https://github.com/krishanth7/afterbyte-mono/releases/download/v5.0.0/AfterbyteMono-Regular.ttf) | Desktop installation and editors |
+| [WOFF2](https://github.com/krishanth7/afterbyte-mono/releases/download/v5.0.0/AfterbyteMono-Regular.woff2) · [WOFF](https://github.com/krishanth7/afterbyte-mono/releases/download/v5.0.0/AfterbyteMono-Regular.woff) | Self-hosted websites and applications |
+| [Release checksums](https://github.com/krishanth7/afterbyte-mono/releases/download/v5.0.0/SHA256SUMS) | Verify the downloaded files |
+
 ## Installation and usage
 
 Download the complete ZIP from the desired release. Install **either OTF or TTF**; they share the same family and style names. Restart applications after replacing older versions. Keep the included OFL and attribution notices with redistributed font software.
@@ -108,7 +135,22 @@ python tools/render_afterbyte.py
 
 Checks cover every mapped character, glyph counts, coverage inclusion, retained core outlines, Braille dot bits, mathematical style distinctions, full embedded licenses, fixed spacing, bounds, container signatures, webfont outlines, CFF geometry bounds, shaping, rendering, checksums and reproducibility.
 
+The specimen runs without a framework, remote fonts or tracking scripts. Search, group totals, supplementary Unicode handling, fallback warnings and pagination are checked with `node --test tests/playground.test.mjs`.
+
 These checks do not constitute a complete language, accessibility, OS-installation or browser audit. The font has one Regular style, no variable axes, no combining-mark positioning or ligature system, and no bytecode hinting. See [quality notes](docs/QUALITY.md), [design specification](docs/DESIGN.md) and [roadmap](ROADMAP.md).
+
+## Built something with Afterbyte?
+
+**[Show your project](https://github.com/krishanth7/afterbyte-mono/issues/new?template=showcase.yml).** Share a screenshot you can publish, a short description, and the release/platform/size you used. Permission is requested before featuring your work in the README. The showcase is open for submissions; no third-party adoption is implied.
+
+If the font is useful to you, a GitHub star helps you find it again. Share the [live specimen](https://krishanth7.github.io/afterbyte-mono/) with someone who can use it, or contribute a concrete rendering report. Good places to start:
+
+- **Language review:** compare supported precomposed Greek, Cyrillic and extended Latin in real text.
+- **Application proofing:** report version, OS, application, size, display scale, sample and expected result.
+- **Documentation:** improve installation instructions with a reproducible example.
+- **Design examples:** show a real interface or a clearly labelled concept and explain your typography choices.
+
+[Contribution guide](CONTRIBUTING.md) · [Usage recipes](docs/USAGE.md) · [Launch kit and shareable assets](docs/launch/README.md) · [Roadmap](ROADMAP.md)
 
 ## Sponsors
 

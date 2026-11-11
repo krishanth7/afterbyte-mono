@@ -1,0 +1,33 @@
+name: Show what you made
+description: Share a real project that uses Afterbyte Mono.
+title: "[Showcase] "
+body:
+  - type: markdown
+    attributes:
+      value: "Share your typography choices and a screenshot you have permission to publish. Avoid secrets, private customer data, or confidential interfaces."
+  - type: input
+    id: project
+    attributes:
+      label: Project name and optional public URL
+    validations:
+      required: true
+  - type: textarea
+    id: usage
+    attributes:
+      label: How are you using Afterbyte Mono?
+      description: Include the release, format, platform, sizes, and what worked for your design.
+    validations:
+      required: true
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Screenshot or specimen
+      description: Include a text description so people can understand the image.
+  - type: checkboxes
+    id: permission
+    attributes:
+      label: Publishing permission
+      options:
+        - label: I have permission to publish these materials publicly.
+          required: true
+        - label: The maintainer may feature this project in the README with credit and a link.

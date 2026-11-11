@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://krishanth7.github.io/afterbyte-mono/sitemap.xml

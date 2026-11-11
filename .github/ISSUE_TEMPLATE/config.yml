@@ -1,5 +1,8 @@
 blank_issues_enabled: true
 contact_links:
+  - name: Live font specimen and character coverage
+    url: https://krishanth7.github.io/afterbyte-mono/
+    about: Try the font, inspect supported code points, and download the current release.
   - name: Security reporting guidance
     url: https://github.com/krishanth7/afterbyte-mono/security/policy
     about: Read the security policy before posting vulnerability details.

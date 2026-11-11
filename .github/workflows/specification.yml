@@ -27,5 +27,10 @@ jobs:
           python tools/validate_afterbyte.py
           python tools/validate_expansion.py --version 4 --directory build/v4/fonts
           python tools/validate_expansion.py --version 5
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Validate searchable specimen
+        run: node --test tests/playground.test.mjs
       - name: Check reproducibility
         run: git diff --exit-code -- fonts/afterbyte-mono sources/afterbyte-mono

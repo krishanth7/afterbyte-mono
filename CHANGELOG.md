@@ -1,5 +1,15 @@
 # Changelog
 
+## Unreleased — discovery and specimen
+
+- Redesigned README entry points, direct release downloads, usage recipes and contribution invitations.
+- Added a responsive, self-hosted specimen with live text, size/tracking, theme switching, searchable Unicode coverage and fallback feedback.
+- Added actual-font 1280×640 social preview, Open Graph metadata, sitemap and public showcase form.
+- Added a maintainer launch kit with ready-to-adapt copy, source attribution, community etiquette and outcome measurement.
+- Added regression tests for coverage search, group totals, supplementary Unicode, combining-mark warnings and pagination.
+- Font binaries and the v5 repertoire are unchanged.
+
+
 ## 5.0.0 — 2026-11-11
 
 - Exactly 2500 glyphs: 2499 mapped Unicode characters plus .notdef.
