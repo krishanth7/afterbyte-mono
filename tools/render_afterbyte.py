@@ -26,6 +26,8 @@ class Page:
         self.draw.rectangle((x,y,x+w-1,y+h-1),fill=color)
 
     def text(self,text,x,y,size=32,color=None):
+        missing=set(map(ord,text))-set(cmap)
+        if missing:raise ValueError(f'Specimen uses unsupported characters: {missing}')
         color=color or self.ink
         scale=size/1000
         self.svg.append(f'<g aria-label="{html.escape(text,quote=True)}" fill="{color}" transform="translate({x} {y}) scale({scale} {-scale})">')
@@ -57,10 +59,10 @@ class Page:
 def render():
     dark=('#0C1218','#E4EDF1','#7F939F','#63D9E9')
     c=Page(1600,960,'Afterbyte Mono — continuous-vector technical monospace',
-           'Afterbyte Mono. Clarity with a distinct character. Regular 0.2.0 alpha. Original continuous-vector monospace with 196 Unicode characters, a dotted zero, a flat-top A, and rounded bowls. All visible lettering uses the actual compiled font.',*dark)
+           'Afterbyte Mono. Clarity with a distinct character. Regular 5.0.0. Continuous-vector monospace with 2499 Unicode characters, a dotted zero, a flat-top A, and rounded bowls. All visible lettering uses the actual compiled font.',*dark)
     c.rect(80,64,8,26,c.accent)
-    c.text('AFTERBYTE / TYPE SYSTEM 03',112,88,32)
-    c.text('REGULAR / ALPHA',1200,88,32,c.muted)
+    c.text('AFTERBYTE / TYPE SYSTEM 05',112,88,32)
+    c.text('REGULAR / 5.0',1200,88,32,c.muted)
     c.rect(80,138,1440,1,'#26343E')
     c.text('Afterbyte Mono',70,360,144)
     c.text('Clarity with a distinct character.',80,440,40,c.muted)
@@ -74,20 +76,20 @@ def render():
     c.text('02 / DESIGN METRICS',1112,584,24,c.accent)
     c.text('650U',1112,678,72)
     c.text('FIXED ADVANCE',1112,718,24,c.muted)
-    c.text('196 CHARACTERS',1112,790,32)
+    c.text('2500 GLYPHS',1112,790,32)
     c.text('MONOSPACE / VECTOR / OPEN SOURCE',80,906,32,c.muted)
     c.save('hero')
     for mode,colors in [('dark',dark),('light',('#F6F8FA','#14232E','#536875','#006577'))]:
         s=Page(1600,1750,'Afterbyte Mono — '+mode+' type specimen',
                'Actual-font proof: uppercase, lowercase, numerals, punctuation, selected accented Latin letters, technical symbols, size proofing, and connected box drawing. Text equivalents are in the README and proofing file.',*colors)
-        s.text('AFTERBYTE MONO / REGULAR / 0.3.0 ALPHA',80,80,32)
+        s.text('AFTERBYTE MONO / REGULAR / 5.0.0',80,80,32)
         s.rect(80,116,1440,1,s.muted)
         rows=[('01 / THE ALPHABET','ABCDEFGHIJKLMNOPQRSTUVWXYZ',252,64),
               ('','abcdefghijklmnopqrstuvwxyz',364,64),
               ('02 / NUMERALS & CHARACTER DISTINCTION','0123456789  0O  1Il  a e s',556,64),
               ('03 / PUNCTUATION','!"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~',740,48),
-              ('04 / EXTENDED LABELS','ÄÖÜ äöü ß  ÀÉÎÑ  æ ø  € £ ¥ ₹',924,44),
-              ('05 / TECHNICAL SIGNALS','← → ↑ ↓ ↔ ↕  ✓ ■ □  ░▒▓█',1100,48)]
+              ('04 / LATIN / GREEK / CYRILLIC','Łąę Œ ß  ΩΔλπ  ЖДЯждя  €₹',924,44),
+              ('05 / TECHNICAL / BRAILLE / MATH','∑ ∫ ∞ ≠ ≤ ≥  ⠿⣿  𝐀𝐁𝑥𝒚𝟘',1100,48)]
         for label,text,baseline,size in rows:
             if label:s.text(label,80,baseline-92,24,s.muted)
             s.text(text,80,baseline,size)
@@ -102,7 +104,7 @@ def render():
         s.text('07 / MONOSPACED UI / 32 PX / LINE HEIGHT 1.04',80,1540,24,s.muted)
         for i,line in enumerate(['┌─────────┬─────────┐','│ SYSTEM  │ ONLINE  │','└─────────┴─────────┘']):
             s.text(line,80,1600+i*33.28,32)
-        s.text('All specimens use original Afterbyte Mono outlines.',80,1710,24,s.muted)
+        s.text('Afterbyte core + licensed Noto expansion / OFL 1.1.',80,1710,24,s.muted)
         s.save('specimen-'+mode)
     print('Rendered Afterbyte identity and light/dark specimens from the actual font.')
 

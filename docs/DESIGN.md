@@ -1,57 +1,34 @@
-# Afterbyte Mono 0.3 — Design specification
+# Afterbyte Mono 4.0 / 5.0 — Design and engineering
 
-## 1. Concept Overview
+The original continuous-vector core keeps the flat-top A, dotted zero, single-storey a/g, rounded bowls and 650-unit rhythm. V4 expands the core with selected OFL Noto glyphs, three original technical operators and algorithmic Braille. V5 adds extended script coverage and mathematical Unicode styles.
 
-A continuous-vector technical monospace for corporate software interfaces and digital identities. The design replaces the earlier pixel-grid treatment with smooth bowls, a flat-top A, a dotted zero, and single-storey a/g.
-
-This is a change in construction, proportions, and glyph morphology. It does not claim that a measured visual difference establishes legal clearance.
-
-## 2. Specification Matrix
-
-| Parameter | Current value |
+| Property | Value |
 | --- | --- |
-| Version / style | 0.3.0 alpha / Regular |
-| UPEM / advance | 1000 / 650 |
-| Structural stroke | 64 units; selected symbol details 45 |
-| Cap / x-height | 700 / 500 |
-| Typographic ascender / descender | 820 / −220 |
-| Line gap | 0 |
-| Windows clipping ascent / descent | 822 / 220 |
-| Unicode mappings / glyphs | 196 / 197 |
-| Coordinates | Integer-unit final polygons |
-| Construction | Original line/cubic centerlines and solid polygons |
-| License | OFL-1.1 for original project materials |
+| UPEM / fixed advance | 1000 / 650 |
+| Cap / x-height of original core | 700 / 500 |
+| Core structural stroke | 64 |
+| Typographic ascender / descender | 1280 / −450 |
+| v4 glyphs / mapped characters | 1705 / 1704 |
+| v5 glyphs / mapped characters | 2500 / 2499 |
+| Formats / style | CFF OTF, TTF, WOFF, WOFF2 / Regular |
+| License | SIL Open Font License 1.1 |
 
-Small optical overshoots are allowed. The highest circumflex join reaches 822; Windows clipping metrics cover it. The typographic line box is 1040 units, hence connected box drawing uses line-height 1.04.
+## Source treatments
 
-## 3. Glyph Morphology Breakdown
+- Original core: compiled from centerline recipes without changing prior glyph outlines.
+- Noto expansion: pinned Noto Sans Mono 2.014, weight 300, width 100. Outlines are decomposed, scaled vertically by 700/714 and horizontally up to 650/600, centered in the 650-unit cell and narrowed where needed to keep ink inside 16–634. This is a modified, attributed OFL source.
+- Technical operators ∏ ∑ ∫: original centerline recipes expanded at 64 units.
+- Braille: Unicode bit positions determine eight possible dots; each dot is an original 24-point polygon. U+2800 is intentionally blank.
+- Mathematical alphabets: explicit Unicode mappings; bold adds 13 units around core silhouettes, italic shears by 0.18 before fitting, double-struck figures outline the stroke boundary. Sans digits use the family’s sans forms. These are not additional family weights.
 
-| Forms | Distinguishing construction |
-| --- | --- |
-| A | Flat upper bridge at y=668, diagonal legs, lower horizontal crossbar |
-| O/o | Rounded rectangular bowls, not octagonal or stepped pixels |
-| 0 | Narrower rounded bowl with a centered short rectangular dot |
-| a/g | Single-storey bowls; g has an open descending hook |
-| R | Curved upper chamber and descending diagonal leg |
-| Q | Rounded bowl with a separate diagonal tail |
-| I/1/l | Symmetric top/bottom bars, flagged numeral, and asymmetric curved terminal |
-| e | Open continuous bowl with a horizontal internal rail |
-| Figures | Equal advances with individually drawn curves and proportions |
-| Punctuation | Continuous strokes; balanced bars, curves, and visible code punctuation |
-| Accents | Separate vector marks composed with original base letters |
-| Technical symbols | Independently drawn vectors, box connections, solids, and stripe shading |
+## Compiler pipeline
 
-There are no third-party glyph inputs. See PROVENANCE.md for the source record and scope.
+1. Build the original core into `build/core`.
+2. Load and hash-check the vendored static Noto source.
+3. Read the explicit v4 or v5 coverage contract and choose each glyph’s documented origin.
+4. Decompose and normalize contours, fit fixed advances, and construct source-derived glyphs.
+5. Compile versioned metadata, complete copyright/OFL notices, cmap, metrics and fixed-pitch flags.
+6. Compile CFF OTF, TTF, WOFF and WOFF2 with fixed timestamps; write coverage, summaries and checksums.
+7. Validate both versions and render actual-font specimens.
 
-## 4. Implementation Blueprint
-
-1. tools/draw_afterbyte_vector.py defines original M/L/C/Z paths and solids and writes sources/afterbyte-mono/vectors.json.
-2. The builder samples each cubic in 24 segments, expands centerlines with controlled stroke width, unions geometry, and snaps to integer units.
-3. Final TrueType outlines are polygon approximations of the continuous curves. This is not a bitmap strike and does not use a native pixel grid.
-4. FontTools writes cmap, glyf, metrics, fixed-pitch flags, names, license metadata, and standard OpenType tables.
-5. TTF, CFF-based OTF, WOFF, and WOFF2 share the same outline geometry and deterministic timestamps. OTF uses reversed CFF contour winding; web containers use the TrueType build.
-6. Validation compares source geometry with actual compiled contours, checks signature forms and metrics, and exercises HarfBuzz/FreeType.
-7. README SVG specimens reuse actual compiled glyph paths. PNGs are review artifacts.
-8. Broader OS/browser tests, independent validation, optical review, and coverage work remain before a stable release.
-
-Direct JSON edits can be compiled without regenerating recipes. The old pixel matrices and generator remain historical files and are not build inputs.
+The mapped repertoire intentionally excludes combining marks, private-use padding, format controls and unassigned code points. Unsupported scripts need fallback fonts. Layout features such as mark positioning and contextual substitutions are not implemented in this release.

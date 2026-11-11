@@ -17,11 +17,15 @@ jobs:
           cache-dependency-path: requirements-font.txt
       - name: Install pinned font tooling
         run: python -m pip install -r requirements-font.txt
-      - name: Validate Afterbyte Mono
-        run: python tools/validate_afterbyte.py
-      - name: Rebuild original vector sources and binaries
+      - name: Rebuild original core and both expanded releases
         run: |
           python tools/draw_afterbyte_vector.py
+          python tools/build_afterbyte.py --version 5 --output build/v5/fonts
           python tools/build_afterbyte.py
+      - name: Validate original core and all expanded glyphs
+        run: |
+          python tools/validate_afterbyte.py
+          python tools/validate_expansion.py --version 4
+          python tools/validate_expansion.py --version 5 --directory build/v5/fonts
       - name: Check reproducibility
         run: git diff --exit-code -- fonts/afterbyte-mono sources/afterbyte-mono

@@ -1,11 +1,6 @@
-/* Afterbyte Mono Regular 0.3.0 alpha. Copyright (c) 2026 Krishanth. OFL-1.1. */
+/* Afterbyte Mono 4.0.0. OFL-1.1; see LICENSE.txt. */
 @font-face {
   font-family: "Afterbyte Mono";
-  src: url("./AfterbyteMono-Regular.woff2") format("woff2"),
-       url("./AfterbyteMono-Regular.woff") format("woff"),
-       url("./AfterbyteMono-Regular.ttf") format("truetype"),
-       url("./AfterbyteMono-Regular.otf") format("opentype");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
+  src: url("./AfterbyteMono-Regular.woff2") format("woff2"), url("./AfterbyteMono-Regular.woff") format("woff"), url("./AfterbyteMono-Regular.ttf") format("truetype"), url("./AfterbyteMono-Regular.otf") format("opentype");
+  font-weight: 400; font-style: normal; font-display: swap;
 }

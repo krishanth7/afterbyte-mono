@@ -1,5 +1,21 @@
 # Changelog
 
+## 5.0.0 — 2026-11-11
+
+- Exactly 2500 glyphs: 2499 mapped Unicode characters plus .notdef.
+- Adds 795 mappings over v4; retains every v4 character.
+- Adds selected Latin Additional, Greek Extended and Cyrillic extensions, plus 197 mathematical alphabet/digit styles.
+- Genuine embedded version 5.000, all four formats, updated specimens, coverage contracts, attribution and checksums.
+
+## 4.0.0 — 2026-11-11
+
+- 1705 glyphs: 1704 mapped Unicode characters plus .notdef; 1508 additional mappings over v3.
+- Adds selected Latin, Greek, Cyrillic, technical symbols and all 256 Braille patterns.
+- Integrates attributed OFL Noto Sans Mono source, retaining the original 196 Afterbyte outlines.
+- Adds original ∏ ∑ ∫ recipes, explicit character-origin contracts, four-format validation, version 4.000 metadata and reproducible packages.
+- Enlarges line bounds to 1280/−450 to accommodate accents.
+
+
 ## Unreleased — font license and repository cleanup
 
 ### Changed

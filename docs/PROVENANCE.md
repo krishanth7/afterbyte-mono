@@ -1,41 +1,29 @@
-# Afterbyte Mono — Design provenance
+# Afterbyte Mono — Provenance and attribution
 
-## Current design: 0.3.0 alpha / 2026-11-11
+## Original Afterbyte core
 
-The current font is a continuous-vector redesign developed for this project with AI assistance. Krishanth maintains the repository.
+The 196-character continuous-vector core was developed for this project with AI assistance and is maintained by Krishanth. `draw_afterbyte_vector.py`, `vectors.json` and `build_core.py` preserve its recipes and compile its outlines. V4 and v5 retain those outlines. The historical pixel study remains separate from the current build inputs.
 
-### Source inputs
+## Licensed expansion introduced in v4
 
-- tools/draw_afterbyte_vector.py: explicit original centerline coordinates, accent compositions, and technical-symbol geometry.
-- sources/afterbyte-mono/vectors.json: editable source generated from those recipes.
-- tools/build_afterbyte.py: geometry/compiler adapter.
-- Root LICENSE: project license metadata and binary license copy.
+Selected additional glyphs are derived from **Noto Sans Mono 2.014**. Copyright 2022 The Noto Project Authors (https://github.com/notofonts/latin-greek-cyrillic). The source is licensed under SIL OFL 1.1; its original license is preserved at [sources/upstream/OFL.txt](../sources/upstream/OFL.txt).
 
-The generator and compiler do not read another font, font bitmap, glyph outline collection, or website artwork. They do not consume the old Afterbyte pixel matrices. Dependencies such as FontTools, Shapely, and Brotli provide general-purpose geometry/compiler functions.
+Pinned Google Fonts snapshot: `097bc1b8c04c3224087c2ae95f7a923859b778cf`, path `ofl/notosansmono/NotoSansMono[wdth,wght].ttf`.
 
-### Design changes from 0.2
+Original download SHA-256: `2cb2adb378a8f574213e23df697050b83c54c27df465a2015552740b2769a081`.
 
-- Continuous curves and diagonals replace pixel staircases.
-- 1000 UPEM and 650-unit advances replace 1600 UPEM and 900-unit advances.
-- A flat-top A replaces the pixel apex.
-- A dotted zero replaces the slashed zero.
-- Single-storey a/g, rounded bowls, and new R/Q/terminal geometry replace the earlier matrices.
-- Shade symbols use continuous stripe patterns.
+`prepare_expansion.py` instantiates weight 300 / width 100, subsets the selected 1847 source mappings, removes layout features and fixes timestamps. `NotoSansMono-ExpansionSource.ttf` is a source dependency, not an unmodified Noto product. The expanded compiler decomposes, scales and centers these outlines into Afterbyte’s 650-unit cells. [Machine-readable upstream provenance](../sources/upstream/provenance.json) records the subset hash and transformations.
 
-These are documented design decisions, not an infringement test or a claimed percentage of uniqueness.
+## Additional programmatic sources
 
-## Earlier work
+- Three original technical operators: ∏ ∑ ∫.
+- All 256 Braille patterns from their Unicode bit definitions, including the intentional blank pattern.
+- 197 mathematical-style mappings constructed from original core outlines, with explicit bold, italic and double-struck treatments. The bold nabla has an original triangular recipe.
 
-Version 0.2 was an independently generated pixel study that used Departure Mono as a visual category reference. The pixel source study and commit history are retained for transparency.
+The v4 and v5 coverage manifests label the origin of every mapped character. Each code point has its own named glyph; no private-use or unassigned mappings are used to reach the requested count. Some Unicode characters legitimately share visual forms, such as sans digits and spaces; the glyph count is not a count of wholly unique designs.
 
-No claim is made that all design ideas, generic letter shapes, or naming terms are exclusive to this project.
+## License and scope
 
-## Licensing context
+The combined font is released under [SIL OFL 1.1](../OFL.txt), retaining both Krishanth’s and Noto’s copyright notices. The same full notice is embedded in every font container and supplied in each package. No Reserved Font Names are declared in the supplied notices. Third-party tooling retains its own licenses. The Noto project does not endorse this modified font.
 
-Afterbyte Mono font binaries, editable font sources, build scripts, artwork, and documentation are released under the [SIL Open Font License 1.1](../OFL.txt). No Reserved Font Names are declared. Third-party dependencies retain their own licenses.
-
-The full license is included in the repository and font directory and embedded in every distributed font format. Contributors must identify external material and its applicable terms before inclusion. This license change applies to the current distribution; it does not withdraw permissions already granted for earlier versions.
-
-## Limits of this record
-
-This records the inputs and work performed, not a lawyer's determination of copyright eligibility, trademark availability, infringement, or jurisdiction-specific rights. No legal clearance or guarantee against future claims is provided.
+The older core’s independent-source description does not apply to the new licensed expansion. No Departure Mono binaries, outlines or source matrices are incorporated. This record documents inputs and changes; it is not a trademark or legal-clearance certification. Earlier licenses already granted for previous distributions remain applicable to those copies.

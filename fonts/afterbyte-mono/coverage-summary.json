@@ -1,0 +1,21 @@
+{
+  "version": "4.0.0",
+  "glyph_count": 1705,
+  "unicode_count": 1704,
+  "added_since_v3": 1508,
+  "actual_ink_bounds": [
+    -281,
+    1111
+  ],
+  "typographic_bounds": [
+    -450,
+    1280
+  ],
+  "origin_counts": {
+    "afterbyte": 196,
+    "noto": 1249,
+    "technical": 3,
+    "braille": 256,
+    "mathematical-style": 0
+  }
+}

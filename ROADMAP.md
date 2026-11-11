@@ -1,29 +1,20 @@
 # Roadmap
 
-## Current direction: Afterbyte Mono 0.3
+## Completed in v4 and v5
 
-### Implemented alpha
-- [x] Original continuous-vector alphabet, figures, punctuation, accents, and symbols.
-- [x] Dotted zero, flat-top A, single-storey a/g, and rounded bowls.
-- [x] 196 Unicode mappings with fixed 650-unit advances.
-- [x] OTF/TTF/WOFF/WOFF2, CSS, coverage, license metadata, and checksums.
-- [x] Actual-font hero and light/dark proofs.
-- [x] Source/binary, geometry, metric, signature, shaping, raster, and reproducibility checks.
-- [x] Source provenance and version migration documentation.
+- [x] Retain original Afterbyte signature outlines and 650-unit fixed advances.
+- [x] v4 multilingual/technical expansion: 1705 glyphs.
+- [x] v5 extended scripts and mathematical styles: exactly 2500 glyphs.
+- [x] Explicit coverage contracts and per-character source attribution.
+- [x] Licensed source provenance, hashes, preserved copyright and OFL notices.
+- [x] OTF, TTF, WOFF, WOFF2, CSS, coverage and checksums.
+- [x] Per-character shaping/rendering checks and reproducible builds.
 
-### Next
-- [ ] Independent font validation.
-- [ ] Installation tests on Windows, macOS, and Linux.
-- [ ] Multiple browser engines, zoom levels, and display scales.
-- [ ] Optical review of symbols, punctuation, terminals, and mixed text.
-- [ ] Additional Unicode coverage through reviewed original contributions.
-- [ ] Tagged alpha release and packaging.
+## Further work
 
-## History
-
-The 0.2 pixel matrices and the 0.1 proportional experiment are retained as history; neither is the current primary visual direction.
-
-No adoption count, legal clearance, or release date is promised.
-
-## Project support
-GitHub Sponsors is configured through .github/FUNDING.yml and linked in the README. See SPONSORSHIP.md for scope.
+- [ ] Native-speaker review of selected Latin, Greek and Cyrillic coverage.
+- [ ] Combining marks and GPOS positioning.
+- [ ] Broader mathematical and script coverage, with explicit repertoire changes.
+- [ ] Multiple OS and browser installation proofing and independent font validation.
+- [ ] Optical refinement, hinting evaluation, additional weights and variable-axis research.
+- [ ] Accessibility and readability studies with real users.

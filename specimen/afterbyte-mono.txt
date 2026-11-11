@@ -1,18 +1,11 @@
-AFTERBYTE MONO / REGULAR / 0.3.0 ALPHA
+Afterbyte Mono Regular 5.0.0 — text equivalent
+2500 glyphs / 2499 Unicode mappings. See fonts/afterbyte-mono/coverage.txt for the exact repertoire.
 
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 abcdefghijklmnopqrstuvwxyz
-0123456789
-!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~
+0123456789   0O   1Il   a e s
+Łąę Œ ß  ΩΔλπ  ЖДЯждя  €₹
+∑ ∏ ∫ ∞ ≠ ≤ ≥  ⠿⣿  𝐀𝐁𝑥𝒚𝟘
+← ↑ → ↓ ↔ ↕  ┌┬┐ ├┼┤ └┴┘  ░▒▓█
 
-0 O o 1 I l i | rn m cl d a e S 5
-ÄÖÜ äöü ß ÀÉÎÑ æ ø € £ ¥ ₹
-← → ↑ ↓ ↔ ↕ ✓ ■ □ ░▒▓█
-
-const agent = { status: "ready", signal: 0.98 };
-The quick brown fox jumps over the lazy dog.
-Clear signals. Human-readable systems.
-
-Use 12/16/24/32/48/96 px for continuous-vector proofs.
-Record font revision, OS, application, zoom, display scale, size, and line height.
-Use line-height 1.04 and letter-spacing 0 for connected box drawing.
+The original core is by Krishanth; selected multilingual expansion glyphs derive from OFL Noto Sans Mono. All formats retain copyright and license notices.

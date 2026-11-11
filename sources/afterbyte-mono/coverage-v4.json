@@ -1,0 +1,8528 @@
+{
+  "version": "4.0.0",
+  "glyph_count": 1705,
+  "unicode_count": 1704,
+  "unicode_database": "15.0.0",
+  "glyphs": [
+    {
+      "unicode": 32,
+      "name": "SPACE",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 33,
+      "name": "EXCLAMATION MARK",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 34,
+      "name": "QUOTATION MARK",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 35,
+      "name": "NUMBER SIGN",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 36,
+      "name": "DOLLAR SIGN",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 37,
+      "name": "PERCENT SIGN",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 38,
+      "name": "AMPERSAND",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 39,
+      "name": "APOSTROPHE",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 40,
+      "name": "LEFT PARENTHESIS",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 41,
+      "name": "RIGHT PARENTHESIS",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 42,
+      "name": "ASTERISK",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 43,
+      "name": "PLUS SIGN",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 44,
+      "name": "COMMA",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 45,
+      "name": "HYPHEN-MINUS",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 46,
+      "name": "FULL STOP",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 47,
+      "name": "SOLIDUS",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 48,
+      "name": "DIGIT ZERO",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 49,
+      "name": "DIGIT ONE",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 50,
+      "name": "DIGIT TWO",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 51,
+      "name": "DIGIT THREE",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 52,
+      "name": "DIGIT FOUR",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 53,
+      "name": "DIGIT FIVE",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 54,
+      "name": "DIGIT SIX",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 55,
+      "name": "DIGIT SEVEN",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 56,
+      "name": "DIGIT EIGHT",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 57,
+      "name": "DIGIT NINE",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 58,
+      "name": "COLON",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 59,
+      "name": "SEMICOLON",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 60,
+      "name": "LESS-THAN SIGN",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 61,
+      "name": "EQUALS SIGN",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 62,
+      "name": "GREATER-THAN SIGN",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 63,
+      "name": "QUESTION MARK",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 64,
+      "name": "COMMERCIAL AT",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 65,
+      "name": "LATIN CAPITAL LETTER A",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 66,
+      "name": "LATIN CAPITAL LETTER B",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 67,
+      "name": "LATIN CAPITAL LETTER C",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 68,
+      "name": "LATIN CAPITAL LETTER D",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 69,
+      "name": "LATIN CAPITAL LETTER E",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 70,
+      "name": "LATIN CAPITAL LETTER F",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 71,
+      "name": "LATIN CAPITAL LETTER G",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 72,
+      "name": "LATIN CAPITAL LETTER H",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 73,
+      "name": "LATIN CAPITAL LETTER I",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 74,
+      "name": "LATIN CAPITAL LETTER J",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 75,
+      "name": "LATIN CAPITAL LETTER K",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 76,
+      "name": "LATIN CAPITAL LETTER L",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 77,
+      "name": "LATIN CAPITAL LETTER M",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 78,
+      "name": "LATIN CAPITAL LETTER N",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 79,
+      "name": "LATIN CAPITAL LETTER O",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 80,
+      "name": "LATIN CAPITAL LETTER P",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 81,
+      "name": "LATIN CAPITAL LETTER Q",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 82,
+      "name": "LATIN CAPITAL LETTER R",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 83,
+      "name": "LATIN CAPITAL LETTER S",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 84,
+      "name": "LATIN CAPITAL LETTER T",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 85,
+      "name": "LATIN CAPITAL LETTER U",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 86,
+      "name": "LATIN CAPITAL LETTER V",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 87,
+      "name": "LATIN CAPITAL LETTER W",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 88,
+      "name": "LATIN CAPITAL LETTER X",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 89,
+      "name": "LATIN CAPITAL LETTER Y",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 90,
+      "name": "LATIN CAPITAL LETTER Z",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 91,
+      "name": "LEFT SQUARE BRACKET",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 92,
+      "name": "REVERSE SOLIDUS",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 93,
+      "name": "RIGHT SQUARE BRACKET",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 94,
+      "name": "CIRCUMFLEX ACCENT",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 95,
+      "name": "LOW LINE",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 96,
+      "name": "GRAVE ACCENT",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 97,
+      "name": "LATIN SMALL LETTER A",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 98,
+      "name": "LATIN SMALL LETTER B",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 99,
+      "name": "LATIN SMALL LETTER C",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 100,
+      "name": "LATIN SMALL LETTER D",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 101,
+      "name": "LATIN SMALL LETTER E",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 102,
+      "name": "LATIN SMALL LETTER F",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 103,
+      "name": "LATIN SMALL LETTER G",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 104,
+      "name": "LATIN SMALL LETTER H",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 105,
+      "name": "LATIN SMALL LETTER I",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 106,
+      "name": "LATIN SMALL LETTER J",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 107,
+      "name": "LATIN SMALL LETTER K",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 108,
+      "name": "LATIN SMALL LETTER L",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 109,
+      "name": "LATIN SMALL LETTER M",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 110,
+      "name": "LATIN SMALL LETTER N",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 111,
+      "name": "LATIN SMALL LETTER O",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 112,
+      "name": "LATIN SMALL LETTER P",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 113,
+      "name": "LATIN SMALL LETTER Q",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 114,
+      "name": "LATIN SMALL LETTER R",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 115,
+      "name": "LATIN SMALL LETTER S",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 116,
+      "name": "LATIN SMALL LETTER T",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 117,
+      "name": "LATIN SMALL LETTER U",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 118,
+      "name": "LATIN SMALL LETTER V",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 119,
+      "name": "LATIN SMALL LETTER W",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 120,
+      "name": "LATIN SMALL LETTER X",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 121,
+      "name": "LATIN SMALL LETTER Y",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 122,
+      "name": "LATIN SMALL LETTER Z",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 123,
+      "name": "LEFT CURLY BRACKET",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 124,
+      "name": "VERTICAL LINE",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 125,
+      "name": "RIGHT CURLY BRACKET",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 126,
+      "name": "TILDE",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 160,
+      "name": "NO-BREAK SPACE",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 161,
+      "name": "INVERTED EXCLAMATION MARK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 162,
+      "name": "CENT SIGN",
+      "origin": "noto"
+    },
+    {
+      "unicode": 163,
+      "name": "POUND SIGN",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 164,
+      "name": "CURRENCY SIGN",
+      "origin": "noto"
+    },
+    {
+      "unicode": 165,
+      "name": "YEN SIGN",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 166,
+      "name": "BROKEN BAR",
+      "origin": "noto"
+    },
+    {
+      "unicode": 167,
+      "name": "SECTION SIGN",
+      "origin": "noto"
+    },
+    {
+      "unicode": 168,
+      "name": "DIAERESIS",
+      "origin": "noto"
+    },
+    {
+      "unicode": 169,
+      "name": "COPYRIGHT SIGN",
+      "origin": "noto"
+    },
+    {
+      "unicode": 170,
+      "name": "FEMININE ORDINAL INDICATOR",
+      "origin": "noto"
+    },
+    {
+      "unicode": 171,
+      "name": "LEFT-POINTING DOUBLE ANGLE QUOTATION MARK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 172,
+      "name": "NOT SIGN",
+      "origin": "noto"
+    },
+    {
+      "unicode": 174,
+      "name": "REGISTERED SIGN",
+      "origin": "noto"
+    },
+    {
+      "unicode": 175,
+      "name": "MACRON",
+      "origin": "noto"
+    },
+    {
+      "unicode": 176,
+      "name": "DEGREE SIGN",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 177,
+      "name": "PLUS-MINUS SIGN",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 178,
+      "name": "SUPERSCRIPT TWO",
+      "origin": "noto"
+    },
+    {
+      "unicode": 179,
+      "name": "SUPERSCRIPT THREE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 180,
+      "name": "ACUTE ACCENT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 181,
+      "name": "MICRO SIGN",
+      "origin": "noto"
+    },
+    {
+      "unicode": 182,
+      "name": "PILCROW SIGN",
+      "origin": "noto"
+    },
+    {
+      "unicode": 183,
+      "name": "MIDDLE DOT",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 184,
+      "name": "CEDILLA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 185,
+      "name": "SUPERSCRIPT ONE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 186,
+      "name": "MASCULINE ORDINAL INDICATOR",
+      "origin": "noto"
+    },
+    {
+      "unicode": 187,
+      "name": "RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 188,
+      "name": "VULGAR FRACTION ONE QUARTER",
+      "origin": "noto"
+    },
+    {
+      "unicode": 189,
+      "name": "VULGAR FRACTION ONE HALF",
+      "origin": "noto"
+    },
+    {
+      "unicode": 190,
+      "name": "VULGAR FRACTION THREE QUARTERS",
+      "origin": "noto"
+    },
+    {
+      "unicode": 191,
+      "name": "INVERTED QUESTION MARK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 192,
+      "name": "LATIN CAPITAL LETTER A WITH GRAVE",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 193,
+      "name": "LATIN CAPITAL LETTER A WITH ACUTE",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 194,
+      "name": "LATIN CAPITAL LETTER A WITH CIRCUMFLEX",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 195,
+      "name": "LATIN CAPITAL LETTER A WITH TILDE",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 196,
+      "name": "LATIN CAPITAL LETTER A WITH DIAERESIS",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 197,
+      "name": "LATIN CAPITAL LETTER A WITH RING ABOVE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 198,
+      "name": "LATIN CAPITAL LETTER AE",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 199,
+      "name": "LATIN CAPITAL LETTER C WITH CEDILLA",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 200,
+      "name": "LATIN CAPITAL LETTER E WITH GRAVE",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 201,
+      "name": "LATIN CAPITAL LETTER E WITH ACUTE",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 202,
+      "name": "LATIN CAPITAL LETTER E WITH CIRCUMFLEX",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 203,
+      "name": "LATIN CAPITAL LETTER E WITH DIAERESIS",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 204,
+      "name": "LATIN CAPITAL LETTER I WITH GRAVE",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 205,
+      "name": "LATIN CAPITAL LETTER I WITH ACUTE",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 206,
+      "name": "LATIN CAPITAL LETTER I WITH CIRCUMFLEX",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 207,
+      "name": "LATIN CAPITAL LETTER I WITH DIAERESIS",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 208,
+      "name": "LATIN CAPITAL LETTER ETH",
+      "origin": "noto"
+    },
+    {
+      "unicode": 209,
+      "name": "LATIN CAPITAL LETTER N WITH TILDE",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 210,
+      "name": "LATIN CAPITAL LETTER O WITH GRAVE",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 211,
+      "name": "LATIN CAPITAL LETTER O WITH ACUTE",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 212,
+      "name": "LATIN CAPITAL LETTER O WITH CIRCUMFLEX",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 213,
+      "name": "LATIN CAPITAL LETTER O WITH TILDE",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 214,
+      "name": "LATIN CAPITAL LETTER O WITH DIAERESIS",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 215,
+      "name": "MULTIPLICATION SIGN",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 216,
+      "name": "LATIN CAPITAL LETTER O WITH STROKE",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 217,
+      "name": "LATIN CAPITAL LETTER U WITH GRAVE",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 218,
+      "name": "LATIN CAPITAL LETTER U WITH ACUTE",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 219,
+      "name": "LATIN CAPITAL LETTER U WITH CIRCUMFLEX",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 220,
+      "name": "LATIN CAPITAL LETTER U WITH DIAERESIS",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 221,
+      "name": "LATIN CAPITAL LETTER Y WITH ACUTE",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 222,
+      "name": "LATIN CAPITAL LETTER THORN",
+      "origin": "noto"
+    },
+    {
+      "unicode": 223,
+      "name": "LATIN SMALL LETTER SHARP S",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 224,
+      "name": "LATIN SMALL LETTER A WITH GRAVE",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 225,
+      "name": "LATIN SMALL LETTER A WITH ACUTE",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 226,
+      "name": "LATIN SMALL LETTER A WITH CIRCUMFLEX",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 227,
+      "name": "LATIN SMALL LETTER A WITH TILDE",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 228,
+      "name": "LATIN SMALL LETTER A WITH DIAERESIS",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 229,
+      "name": "LATIN SMALL LETTER A WITH RING ABOVE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 230,
+      "name": "LATIN SMALL LETTER AE",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 231,
+      "name": "LATIN SMALL LETTER C WITH CEDILLA",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 232,
+      "name": "LATIN SMALL LETTER E WITH GRAVE",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 233,
+      "name": "LATIN SMALL LETTER E WITH ACUTE",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 234,
+      "name": "LATIN SMALL LETTER E WITH CIRCUMFLEX",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 235,
+      "name": "LATIN SMALL LETTER E WITH DIAERESIS",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 236,
+      "name": "LATIN SMALL LETTER I WITH GRAVE",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 237,
+      "name": "LATIN SMALL LETTER I WITH ACUTE",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 238,
+      "name": "LATIN SMALL LETTER I WITH CIRCUMFLEX",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 239,
+      "name": "LATIN SMALL LETTER I WITH DIAERESIS",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 240,
+      "name": "LATIN SMALL LETTER ETH",
+      "origin": "noto"
+    },
+    {
+      "unicode": 241,
+      "name": "LATIN SMALL LETTER N WITH TILDE",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 242,
+      "name": "LATIN SMALL LETTER O WITH GRAVE",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 243,
+      "name": "LATIN SMALL LETTER O WITH ACUTE",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 244,
+      "name": "LATIN SMALL LETTER O WITH CIRCUMFLEX",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 245,
+      "name": "LATIN SMALL LETTER O WITH TILDE",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 246,
+      "name": "LATIN SMALL LETTER O WITH DIAERESIS",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 247,
+      "name": "DIVISION SIGN",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 248,
+      "name": "LATIN SMALL LETTER O WITH STROKE",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 249,
+      "name": "LATIN SMALL LETTER U WITH GRAVE",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 250,
+      "name": "LATIN SMALL LETTER U WITH ACUTE",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 251,
+      "name": "LATIN SMALL LETTER U WITH CIRCUMFLEX",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 252,
+      "name": "LATIN SMALL LETTER U WITH DIAERESIS",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 253,
+      "name": "LATIN SMALL LETTER Y WITH ACUTE",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 254,
+      "name": "LATIN SMALL LETTER THORN",
+      "origin": "noto"
+    },
+    {
+      "unicode": 255,
+      "name": "LATIN SMALL LETTER Y WITH DIAERESIS",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 256,
+      "name": "LATIN CAPITAL LETTER A WITH MACRON",
+      "origin": "noto"
+    },
+    {
+      "unicode": 257,
+      "name": "LATIN SMALL LETTER A WITH MACRON",
+      "origin": "noto"
+    },
+    {
+      "unicode": 258,
+      "name": "LATIN CAPITAL LETTER A WITH BREVE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 259,
+      "name": "LATIN SMALL LETTER A WITH BREVE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 260,
+      "name": "LATIN CAPITAL LETTER A WITH OGONEK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 261,
+      "name": "LATIN SMALL LETTER A WITH OGONEK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 262,
+      "name": "LATIN CAPITAL LETTER C WITH ACUTE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 263,
+      "name": "LATIN SMALL LETTER C WITH ACUTE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 264,
+      "name": "LATIN CAPITAL LETTER C WITH CIRCUMFLEX",
+      "origin": "noto"
+    },
+    {
+      "unicode": 265,
+      "name": "LATIN SMALL LETTER C WITH CIRCUMFLEX",
+      "origin": "noto"
+    },
+    {
+      "unicode": 266,
+      "name": "LATIN CAPITAL LETTER C WITH DOT ABOVE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 267,
+      "name": "LATIN SMALL LETTER C WITH DOT ABOVE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 268,
+      "name": "LATIN CAPITAL LETTER C WITH CARON",
+      "origin": "noto"
+    },
+    {
+      "unicode": 269,
+      "name": "LATIN SMALL LETTER C WITH CARON",
+      "origin": "noto"
+    },
+    {
+      "unicode": 270,
+      "name": "LATIN CAPITAL LETTER D WITH CARON",
+      "origin": "noto"
+    },
+    {
+      "unicode": 271,
+      "name": "LATIN SMALL LETTER D WITH CARON",
+      "origin": "noto"
+    },
+    {
+      "unicode": 272,
+      "name": "LATIN CAPITAL LETTER D WITH STROKE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 273,
+      "name": "LATIN SMALL LETTER D WITH STROKE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 274,
+      "name": "LATIN CAPITAL LETTER E WITH MACRON",
+      "origin": "noto"
+    },
+    {
+      "unicode": 275,
+      "name": "LATIN SMALL LETTER E WITH MACRON",
+      "origin": "noto"
+    },
+    {
+      "unicode": 276,
+      "name": "LATIN CAPITAL LETTER E WITH BREVE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 277,
+      "name": "LATIN SMALL LETTER E WITH BREVE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 278,
+      "name": "LATIN CAPITAL LETTER E WITH DOT ABOVE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 279,
+      "name": "LATIN SMALL LETTER E WITH DOT ABOVE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 280,
+      "name": "LATIN CAPITAL LETTER E WITH OGONEK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 281,
+      "name": "LATIN SMALL LETTER E WITH OGONEK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 282,
+      "name": "LATIN CAPITAL LETTER E WITH CARON",
+      "origin": "noto"
+    },
+    {
+      "unicode": 283,
+      "name": "LATIN SMALL LETTER E WITH CARON",
+      "origin": "noto"
+    },
+    {
+      "unicode": 284,
+      "name": "LATIN CAPITAL LETTER G WITH CIRCUMFLEX",
+      "origin": "noto"
+    },
+    {
+      "unicode": 285,
+      "name": "LATIN SMALL LETTER G WITH CIRCUMFLEX",
+      "origin": "noto"
+    },
+    {
+      "unicode": 286,
+      "name": "LATIN CAPITAL LETTER G WITH BREVE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 287,
+      "name": "LATIN SMALL LETTER G WITH BREVE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 288,
+      "name": "LATIN CAPITAL LETTER G WITH DOT ABOVE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 289,
+      "name": "LATIN SMALL LETTER G WITH DOT ABOVE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 290,
+      "name": "LATIN CAPITAL LETTER G WITH CEDILLA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 291,
+      "name": "LATIN SMALL LETTER G WITH CEDILLA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 292,
+      "name": "LATIN CAPITAL LETTER H WITH CIRCUMFLEX",
+      "origin": "noto"
+    },
+    {
+      "unicode": 293,
+      "name": "LATIN SMALL LETTER H WITH CIRCUMFLEX",
+      "origin": "noto"
+    },
+    {
+      "unicode": 294,
+      "name": "LATIN CAPITAL LETTER H WITH STROKE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 295,
+      "name": "LATIN SMALL LETTER H WITH STROKE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 296,
+      "name": "LATIN CAPITAL LETTER I WITH TILDE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 297,
+      "name": "LATIN SMALL LETTER I WITH TILDE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 298,
+      "name": "LATIN CAPITAL LETTER I WITH MACRON",
+      "origin": "noto"
+    },
+    {
+      "unicode": 299,
+      "name": "LATIN SMALL LETTER I WITH MACRON",
+      "origin": "noto"
+    },
+    {
+      "unicode": 300,
+      "name": "LATIN CAPITAL LETTER I WITH BREVE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 301,
+      "name": "LATIN SMALL LETTER I WITH BREVE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 302,
+      "name": "LATIN CAPITAL LETTER I WITH OGONEK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 303,
+      "name": "LATIN SMALL LETTER I WITH OGONEK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 304,
+      "name": "LATIN CAPITAL LETTER I WITH DOT ABOVE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 305,
+      "name": "LATIN SMALL LETTER DOTLESS I",
+      "origin": "noto"
+    },
+    {
+      "unicode": 306,
+      "name": "LATIN CAPITAL LIGATURE IJ",
+      "origin": "noto"
+    },
+    {
+      "unicode": 307,
+      "name": "LATIN SMALL LIGATURE IJ",
+      "origin": "noto"
+    },
+    {
+      "unicode": 308,
+      "name": "LATIN CAPITAL LETTER J WITH CIRCUMFLEX",
+      "origin": "noto"
+    },
+    {
+      "unicode": 309,
+      "name": "LATIN SMALL LETTER J WITH CIRCUMFLEX",
+      "origin": "noto"
+    },
+    {
+      "unicode": 310,
+      "name": "LATIN CAPITAL LETTER K WITH CEDILLA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 311,
+      "name": "LATIN SMALL LETTER K WITH CEDILLA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 312,
+      "name": "LATIN SMALL LETTER KRA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 313,
+      "name": "LATIN CAPITAL LETTER L WITH ACUTE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 314,
+      "name": "LATIN SMALL LETTER L WITH ACUTE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 315,
+      "name": "LATIN CAPITAL LETTER L WITH CEDILLA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 316,
+      "name": "LATIN SMALL LETTER L WITH CEDILLA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 317,
+      "name": "LATIN CAPITAL LETTER L WITH CARON",
+      "origin": "noto"
+    },
+    {
+      "unicode": 318,
+      "name": "LATIN SMALL LETTER L WITH CARON",
+      "origin": "noto"
+    },
+    {
+      "unicode": 319,
+      "name": "LATIN CAPITAL LETTER L WITH MIDDLE DOT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 320,
+      "name": "LATIN SMALL LETTER L WITH MIDDLE DOT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 321,
+      "name": "LATIN CAPITAL LETTER L WITH STROKE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 322,
+      "name": "LATIN SMALL LETTER L WITH STROKE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 323,
+      "name": "LATIN CAPITAL LETTER N WITH ACUTE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 324,
+      "name": "LATIN SMALL LETTER N WITH ACUTE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 325,
+      "name": "LATIN CAPITAL LETTER N WITH CEDILLA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 326,
+      "name": "LATIN SMALL LETTER N WITH CEDILLA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 327,
+      "name": "LATIN CAPITAL LETTER N WITH CARON",
+      "origin": "noto"
+    },
+    {
+      "unicode": 328,
+      "name": "LATIN SMALL LETTER N WITH CARON",
+      "origin": "noto"
+    },
+    {
+      "unicode": 329,
+      "name": "LATIN SMALL LETTER N PRECEDED BY APOSTROPHE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 330,
+      "name": "LATIN CAPITAL LETTER ENG",
+      "origin": "noto"
+    },
+    {
+      "unicode": 331,
+      "name": "LATIN SMALL LETTER ENG",
+      "origin": "noto"
+    },
+    {
+      "unicode": 332,
+      "name": "LATIN CAPITAL LETTER O WITH MACRON",
+      "origin": "noto"
+    },
+    {
+      "unicode": 333,
+      "name": "LATIN SMALL LETTER O WITH MACRON",
+      "origin": "noto"
+    },
+    {
+      "unicode": 334,
+      "name": "LATIN CAPITAL LETTER O WITH BREVE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 335,
+      "name": "LATIN SMALL LETTER O WITH BREVE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 336,
+      "name": "LATIN CAPITAL LETTER O WITH DOUBLE ACUTE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 337,
+      "name": "LATIN SMALL LETTER O WITH DOUBLE ACUTE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 338,
+      "name": "LATIN CAPITAL LIGATURE OE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 339,
+      "name": "LATIN SMALL LIGATURE OE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 340,
+      "name": "LATIN CAPITAL LETTER R WITH ACUTE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 341,
+      "name": "LATIN SMALL LETTER R WITH ACUTE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 342,
+      "name": "LATIN CAPITAL LETTER R WITH CEDILLA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 343,
+      "name": "LATIN SMALL LETTER R WITH CEDILLA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 344,
+      "name": "LATIN CAPITAL LETTER R WITH CARON",
+      "origin": "noto"
+    },
+    {
+      "unicode": 345,
+      "name": "LATIN SMALL LETTER R WITH CARON",
+      "origin": "noto"
+    },
+    {
+      "unicode": 346,
+      "name": "LATIN CAPITAL LETTER S WITH ACUTE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 347,
+      "name": "LATIN SMALL LETTER S WITH ACUTE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 348,
+      "name": "LATIN CAPITAL LETTER S WITH CIRCUMFLEX",
+      "origin": "noto"
+    },
+    {
+      "unicode": 349,
+      "name": "LATIN SMALL LETTER S WITH CIRCUMFLEX",
+      "origin": "noto"
+    },
+    {
+      "unicode": 350,
+      "name": "LATIN CAPITAL LETTER S WITH CEDILLA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 351,
+      "name": "LATIN SMALL LETTER S WITH CEDILLA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 352,
+      "name": "LATIN CAPITAL LETTER S WITH CARON",
+      "origin": "noto"
+    },
+    {
+      "unicode": 353,
+      "name": "LATIN SMALL LETTER S WITH CARON",
+      "origin": "noto"
+    },
+    {
+      "unicode": 354,
+      "name": "LATIN CAPITAL LETTER T WITH CEDILLA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 355,
+      "name": "LATIN SMALL LETTER T WITH CEDILLA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 356,
+      "name": "LATIN CAPITAL LETTER T WITH CARON",
+      "origin": "noto"
+    },
+    {
+      "unicode": 357,
+      "name": "LATIN SMALL LETTER T WITH CARON",
+      "origin": "noto"
+    },
+    {
+      "unicode": 358,
+      "name": "LATIN CAPITAL LETTER T WITH STROKE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 359,
+      "name": "LATIN SMALL LETTER T WITH STROKE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 360,
+      "name": "LATIN CAPITAL LETTER U WITH TILDE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 361,
+      "name": "LATIN SMALL LETTER U WITH TILDE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 362,
+      "name": "LATIN CAPITAL LETTER U WITH MACRON",
+      "origin": "noto"
+    },
+    {
+      "unicode": 363,
+      "name": "LATIN SMALL LETTER U WITH MACRON",
+      "origin": "noto"
+    },
+    {
+      "unicode": 364,
+      "name": "LATIN CAPITAL LETTER U WITH BREVE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 365,
+      "name": "LATIN SMALL LETTER U WITH BREVE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 366,
+      "name": "LATIN CAPITAL LETTER U WITH RING ABOVE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 367,
+      "name": "LATIN SMALL LETTER U WITH RING ABOVE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 368,
+      "name": "LATIN CAPITAL LETTER U WITH DOUBLE ACUTE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 369,
+      "name": "LATIN SMALL LETTER U WITH DOUBLE ACUTE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 370,
+      "name": "LATIN CAPITAL LETTER U WITH OGONEK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 371,
+      "name": "LATIN SMALL LETTER U WITH OGONEK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 372,
+      "name": "LATIN CAPITAL LETTER W WITH CIRCUMFLEX",
+      "origin": "noto"
+    },
+    {
+      "unicode": 373,
+      "name": "LATIN SMALL LETTER W WITH CIRCUMFLEX",
+      "origin": "noto"
+    },
+    {
+      "unicode": 374,
+      "name": "LATIN CAPITAL LETTER Y WITH CIRCUMFLEX",
+      "origin": "noto"
+    },
+    {
+      "unicode": 375,
+      "name": "LATIN SMALL LETTER Y WITH CIRCUMFLEX",
+      "origin": "noto"
+    },
+    {
+      "unicode": 376,
+      "name": "LATIN CAPITAL LETTER Y WITH DIAERESIS",
+      "origin": "noto"
+    },
+    {
+      "unicode": 377,
+      "name": "LATIN CAPITAL LETTER Z WITH ACUTE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 378,
+      "name": "LATIN SMALL LETTER Z WITH ACUTE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 379,
+      "name": "LATIN CAPITAL LETTER Z WITH DOT ABOVE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 380,
+      "name": "LATIN SMALL LETTER Z WITH DOT ABOVE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 381,
+      "name": "LATIN CAPITAL LETTER Z WITH CARON",
+      "origin": "noto"
+    },
+    {
+      "unicode": 382,
+      "name": "LATIN SMALL LETTER Z WITH CARON",
+      "origin": "noto"
+    },
+    {
+      "unicode": 383,
+      "name": "LATIN SMALL LETTER LONG S",
+      "origin": "noto"
+    },
+    {
+      "unicode": 384,
+      "name": "LATIN SMALL LETTER B WITH STROKE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 385,
+      "name": "LATIN CAPITAL LETTER B WITH HOOK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 386,
+      "name": "LATIN CAPITAL LETTER B WITH TOPBAR",
+      "origin": "noto"
+    },
+    {
+      "unicode": 387,
+      "name": "LATIN SMALL LETTER B WITH TOPBAR",
+      "origin": "noto"
+    },
+    {
+      "unicode": 388,
+      "name": "LATIN CAPITAL LETTER TONE SIX",
+      "origin": "noto"
+    },
+    {
+      "unicode": 389,
+      "name": "LATIN SMALL LETTER TONE SIX",
+      "origin": "noto"
+    },
+    {
+      "unicode": 390,
+      "name": "LATIN CAPITAL LETTER OPEN O",
+      "origin": "noto"
+    },
+    {
+      "unicode": 391,
+      "name": "LATIN CAPITAL LETTER C WITH HOOK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 392,
+      "name": "LATIN SMALL LETTER C WITH HOOK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 393,
+      "name": "LATIN CAPITAL LETTER AFRICAN D",
+      "origin": "noto"
+    },
+    {
+      "unicode": 394,
+      "name": "LATIN CAPITAL LETTER D WITH HOOK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 395,
+      "name": "LATIN CAPITAL LETTER D WITH TOPBAR",
+      "origin": "noto"
+    },
+    {
+      "unicode": 396,
+      "name": "LATIN SMALL LETTER D WITH TOPBAR",
+      "origin": "noto"
+    },
+    {
+      "unicode": 397,
+      "name": "LATIN SMALL LETTER TURNED DELTA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 398,
+      "name": "LATIN CAPITAL LETTER REVERSED E",
+      "origin": "noto"
+    },
+    {
+      "unicode": 399,
+      "name": "LATIN CAPITAL LETTER SCHWA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 400,
+      "name": "LATIN CAPITAL LETTER OPEN E",
+      "origin": "noto"
+    },
+    {
+      "unicode": 401,
+      "name": "LATIN CAPITAL LETTER F WITH HOOK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 402,
+      "name": "LATIN SMALL LETTER F WITH HOOK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 403,
+      "name": "LATIN CAPITAL LETTER G WITH HOOK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 404,
+      "name": "LATIN CAPITAL LETTER GAMMA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 405,
+      "name": "LATIN SMALL LETTER HV",
+      "origin": "noto"
+    },
+    {
+      "unicode": 406,
+      "name": "LATIN CAPITAL LETTER IOTA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 407,
+      "name": "LATIN CAPITAL LETTER I WITH STROKE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 408,
+      "name": "LATIN CAPITAL LETTER K WITH HOOK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 409,
+      "name": "LATIN SMALL LETTER K WITH HOOK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 410,
+      "name": "LATIN SMALL LETTER L WITH BAR",
+      "origin": "noto"
+    },
+    {
+      "unicode": 411,
+      "name": "LATIN SMALL LETTER LAMBDA WITH STROKE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 412,
+      "name": "LATIN CAPITAL LETTER TURNED M",
+      "origin": "noto"
+    },
+    {
+      "unicode": 413,
+      "name": "LATIN CAPITAL LETTER N WITH LEFT HOOK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 414,
+      "name": "LATIN SMALL LETTER N WITH LONG RIGHT LEG",
+      "origin": "noto"
+    },
+    {
+      "unicode": 415,
+      "name": "LATIN CAPITAL LETTER O WITH MIDDLE TILDE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 416,
+      "name": "LATIN CAPITAL LETTER O WITH HORN",
+      "origin": "noto"
+    },
+    {
+      "unicode": 417,
+      "name": "LATIN SMALL LETTER O WITH HORN",
+      "origin": "noto"
+    },
+    {
+      "unicode": 418,
+      "name": "LATIN CAPITAL LETTER OI",
+      "origin": "noto"
+    },
+    {
+      "unicode": 419,
+      "name": "LATIN SMALL LETTER OI",
+      "origin": "noto"
+    },
+    {
+      "unicode": 420,
+      "name": "LATIN CAPITAL LETTER P WITH HOOK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 421,
+      "name": "LATIN SMALL LETTER P WITH HOOK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 422,
+      "name": "LATIN LETTER YR",
+      "origin": "noto"
+    },
+    {
+      "unicode": 423,
+      "name": "LATIN CAPITAL LETTER TONE TWO",
+      "origin": "noto"
+    },
+    {
+      "unicode": 424,
+      "name": "LATIN SMALL LETTER TONE TWO",
+      "origin": "noto"
+    },
+    {
+      "unicode": 425,
+      "name": "LATIN CAPITAL LETTER ESH",
+      "origin": "noto"
+    },
+    {
+      "unicode": 426,
+      "name": "LATIN LETTER REVERSED ESH LOOP",
+      "origin": "noto"
+    },
+    {
+      "unicode": 427,
+      "name": "LATIN SMALL LETTER T WITH PALATAL HOOK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 428,
+      "name": "LATIN CAPITAL LETTER T WITH HOOK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 429,
+      "name": "LATIN SMALL LETTER T WITH HOOK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 430,
+      "name": "LATIN CAPITAL LETTER T WITH RETROFLEX HOOK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 431,
+      "name": "LATIN CAPITAL LETTER U WITH HORN",
+      "origin": "noto"
+    },
+    {
+      "unicode": 432,
+      "name": "LATIN SMALL LETTER U WITH HORN",
+      "origin": "noto"
+    },
+    {
+      "unicode": 433,
+      "name": "LATIN CAPITAL LETTER UPSILON",
+      "origin": "noto"
+    },
+    {
+      "unicode": 434,
+      "name": "LATIN CAPITAL LETTER V WITH HOOK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 435,
+      "name": "LATIN CAPITAL LETTER Y WITH HOOK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 436,
+      "name": "LATIN SMALL LETTER Y WITH HOOK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 437,
+      "name": "LATIN CAPITAL LETTER Z WITH STROKE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 438,
+      "name": "LATIN SMALL LETTER Z WITH STROKE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 439,
+      "name": "LATIN CAPITAL LETTER EZH",
+      "origin": "noto"
+    },
+    {
+      "unicode": 440,
+      "name": "LATIN CAPITAL LETTER EZH REVERSED",
+      "origin": "noto"
+    },
+    {
+      "unicode": 441,
+      "name": "LATIN SMALL LETTER EZH REVERSED",
+      "origin": "noto"
+    },
+    {
+      "unicode": 442,
+      "name": "LATIN SMALL LETTER EZH WITH TAIL",
+      "origin": "noto"
+    },
+    {
+      "unicode": 443,
+      "name": "LATIN LETTER TWO WITH STROKE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 444,
+      "name": "LATIN CAPITAL LETTER TONE FIVE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 445,
+      "name": "LATIN SMALL LETTER TONE FIVE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 446,
+      "name": "LATIN LETTER INVERTED GLOTTAL STOP WITH STROKE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 447,
+      "name": "LATIN LETTER WYNN",
+      "origin": "noto"
+    },
+    {
+      "unicode": 448,
+      "name": "LATIN LETTER DENTAL CLICK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 449,
+      "name": "LATIN LETTER LATERAL CLICK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 450,
+      "name": "LATIN LETTER ALVEOLAR CLICK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 451,
+      "name": "LATIN LETTER RETROFLEX CLICK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 452,
+      "name": "LATIN CAPITAL LETTER DZ WITH CARON",
+      "origin": "noto"
+    },
+    {
+      "unicode": 453,
+      "name": "LATIN CAPITAL LETTER D WITH SMALL LETTER Z WITH CARON",
+      "origin": "noto"
+    },
+    {
+      "unicode": 454,
+      "name": "LATIN SMALL LETTER DZ WITH CARON",
+      "origin": "noto"
+    },
+    {
+      "unicode": 455,
+      "name": "LATIN CAPITAL LETTER LJ",
+      "origin": "noto"
+    },
+    {
+      "unicode": 456,
+      "name": "LATIN CAPITAL LETTER L WITH SMALL LETTER J",
+      "origin": "noto"
+    },
+    {
+      "unicode": 457,
+      "name": "LATIN SMALL LETTER LJ",
+      "origin": "noto"
+    },
+    {
+      "unicode": 458,
+      "name": "LATIN CAPITAL LETTER NJ",
+      "origin": "noto"
+    },
+    {
+      "unicode": 459,
+      "name": "LATIN CAPITAL LETTER N WITH SMALL LETTER J",
+      "origin": "noto"
+    },
+    {
+      "unicode": 460,
+      "name": "LATIN SMALL LETTER NJ",
+      "origin": "noto"
+    },
+    {
+      "unicode": 461,
+      "name": "LATIN CAPITAL LETTER A WITH CARON",
+      "origin": "noto"
+    },
+    {
+      "unicode": 462,
+      "name": "LATIN SMALL LETTER A WITH CARON",
+      "origin": "noto"
+    },
+    {
+      "unicode": 463,
+      "name": "LATIN CAPITAL LETTER I WITH CARON",
+      "origin": "noto"
+    },
+    {
+      "unicode": 464,
+      "name": "LATIN SMALL LETTER I WITH CARON",
+      "origin": "noto"
+    },
+    {
+      "unicode": 465,
+      "name": "LATIN CAPITAL LETTER O WITH CARON",
+      "origin": "noto"
+    },
+    {
+      "unicode": 466,
+      "name": "LATIN SMALL LETTER O WITH CARON",
+      "origin": "noto"
+    },
+    {
+      "unicode": 467,
+      "name": "LATIN CAPITAL LETTER U WITH CARON",
+      "origin": "noto"
+    },
+    {
+      "unicode": 468,
+      "name": "LATIN SMALL LETTER U WITH CARON",
+      "origin": "noto"
+    },
+    {
+      "unicode": 469,
+      "name": "LATIN CAPITAL LETTER U WITH DIAERESIS AND MACRON",
+      "origin": "noto"
+    },
+    {
+      "unicode": 470,
+      "name": "LATIN SMALL LETTER U WITH DIAERESIS AND MACRON",
+      "origin": "noto"
+    },
+    {
+      "unicode": 471,
+      "name": "LATIN CAPITAL LETTER U WITH DIAERESIS AND ACUTE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 472,
+      "name": "LATIN SMALL LETTER U WITH DIAERESIS AND ACUTE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 473,
+      "name": "LATIN CAPITAL LETTER U WITH DIAERESIS AND CARON",
+      "origin": "noto"
+    },
+    {
+      "unicode": 474,
+      "name": "LATIN SMALL LETTER U WITH DIAERESIS AND CARON",
+      "origin": "noto"
+    },
+    {
+      "unicode": 475,
+      "name": "LATIN CAPITAL LETTER U WITH DIAERESIS AND GRAVE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 476,
+      "name": "LATIN SMALL LETTER U WITH DIAERESIS AND GRAVE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 477,
+      "name": "LATIN SMALL LETTER TURNED E",
+      "origin": "noto"
+    },
+    {
+      "unicode": 478,
+      "name": "LATIN CAPITAL LETTER A WITH DIAERESIS AND MACRON",
+      "origin": "noto"
+    },
+    {
+      "unicode": 479,
+      "name": "LATIN SMALL LETTER A WITH DIAERESIS AND MACRON",
+      "origin": "noto"
+    },
+    {
+      "unicode": 480,
+      "name": "LATIN CAPITAL LETTER A WITH DOT ABOVE AND MACRON",
+      "origin": "noto"
+    },
+    {
+      "unicode": 481,
+      "name": "LATIN SMALL LETTER A WITH DOT ABOVE AND MACRON",
+      "origin": "noto"
+    },
+    {
+      "unicode": 482,
+      "name": "LATIN CAPITAL LETTER AE WITH MACRON",
+      "origin": "noto"
+    },
+    {
+      "unicode": 483,
+      "name": "LATIN SMALL LETTER AE WITH MACRON",
+      "origin": "noto"
+    },
+    {
+      "unicode": 484,
+      "name": "LATIN CAPITAL LETTER G WITH STROKE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 485,
+      "name": "LATIN SMALL LETTER G WITH STROKE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 486,
+      "name": "LATIN CAPITAL LETTER G WITH CARON",
+      "origin": "noto"
+    },
+    {
+      "unicode": 487,
+      "name": "LATIN SMALL LETTER G WITH CARON",
+      "origin": "noto"
+    },
+    {
+      "unicode": 488,
+      "name": "LATIN CAPITAL LETTER K WITH CARON",
+      "origin": "noto"
+    },
+    {
+      "unicode": 489,
+      "name": "LATIN SMALL LETTER K WITH CARON",
+      "origin": "noto"
+    },
+    {
+      "unicode": 490,
+      "name": "LATIN CAPITAL LETTER O WITH OGONEK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 491,
+      "name": "LATIN SMALL LETTER O WITH OGONEK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 492,
+      "name": "LATIN CAPITAL LETTER O WITH OGONEK AND MACRON",
+      "origin": "noto"
+    },
+    {
+      "unicode": 493,
+      "name": "LATIN SMALL LETTER O WITH OGONEK AND MACRON",
+      "origin": "noto"
+    },
+    {
+      "unicode": 494,
+      "name": "LATIN CAPITAL LETTER EZH WITH CARON",
+      "origin": "noto"
+    },
+    {
+      "unicode": 495,
+      "name": "LATIN SMALL LETTER EZH WITH CARON",
+      "origin": "noto"
+    },
+    {
+      "unicode": 496,
+      "name": "LATIN SMALL LETTER J WITH CARON",
+      "origin": "noto"
+    },
+    {
+      "unicode": 497,
+      "name": "LATIN CAPITAL LETTER DZ",
+      "origin": "noto"
+    },
+    {
+      "unicode": 498,
+      "name": "LATIN CAPITAL LETTER D WITH SMALL LETTER Z",
+      "origin": "noto"
+    },
+    {
+      "unicode": 499,
+      "name": "LATIN SMALL LETTER DZ",
+      "origin": "noto"
+    },
+    {
+      "unicode": 500,
+      "name": "LATIN CAPITAL LETTER G WITH ACUTE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 501,
+      "name": "LATIN SMALL LETTER G WITH ACUTE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 502,
+      "name": "LATIN CAPITAL LETTER HWAIR",
+      "origin": "noto"
+    },
+    {
+      "unicode": 503,
+      "name": "LATIN CAPITAL LETTER WYNN",
+      "origin": "noto"
+    },
+    {
+      "unicode": 504,
+      "name": "LATIN CAPITAL LETTER N WITH GRAVE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 505,
+      "name": "LATIN SMALL LETTER N WITH GRAVE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 506,
+      "name": "LATIN CAPITAL LETTER A WITH RING ABOVE AND ACUTE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 507,
+      "name": "LATIN SMALL LETTER A WITH RING ABOVE AND ACUTE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 508,
+      "name": "LATIN CAPITAL LETTER AE WITH ACUTE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 509,
+      "name": "LATIN SMALL LETTER AE WITH ACUTE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 510,
+      "name": "LATIN CAPITAL LETTER O WITH STROKE AND ACUTE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 511,
+      "name": "LATIN SMALL LETTER O WITH STROKE AND ACUTE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 512,
+      "name": "LATIN CAPITAL LETTER A WITH DOUBLE GRAVE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 513,
+      "name": "LATIN SMALL LETTER A WITH DOUBLE GRAVE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 514,
+      "name": "LATIN CAPITAL LETTER A WITH INVERTED BREVE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 515,
+      "name": "LATIN SMALL LETTER A WITH INVERTED BREVE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 516,
+      "name": "LATIN CAPITAL LETTER E WITH DOUBLE GRAVE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 517,
+      "name": "LATIN SMALL LETTER E WITH DOUBLE GRAVE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 518,
+      "name": "LATIN CAPITAL LETTER E WITH INVERTED BREVE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 519,
+      "name": "LATIN SMALL LETTER E WITH INVERTED BREVE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 520,
+      "name": "LATIN CAPITAL LETTER I WITH DOUBLE GRAVE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 521,
+      "name": "LATIN SMALL LETTER I WITH DOUBLE GRAVE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 522,
+      "name": "LATIN CAPITAL LETTER I WITH INVERTED BREVE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 523,
+      "name": "LATIN SMALL LETTER I WITH INVERTED BREVE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 524,
+      "name": "LATIN CAPITAL LETTER O WITH DOUBLE GRAVE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 525,
+      "name": "LATIN SMALL LETTER O WITH DOUBLE GRAVE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 526,
+      "name": "LATIN CAPITAL LETTER O WITH INVERTED BREVE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 527,
+      "name": "LATIN SMALL LETTER O WITH INVERTED BREVE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 528,
+      "name": "LATIN CAPITAL LETTER R WITH DOUBLE GRAVE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 529,
+      "name": "LATIN SMALL LETTER R WITH DOUBLE GRAVE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 530,
+      "name": "LATIN CAPITAL LETTER R WITH INVERTED BREVE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 531,
+      "name": "LATIN SMALL LETTER R WITH INVERTED BREVE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 532,
+      "name": "LATIN CAPITAL LETTER U WITH DOUBLE GRAVE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 533,
+      "name": "LATIN SMALL LETTER U WITH DOUBLE GRAVE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 534,
+      "name": "LATIN CAPITAL LETTER U WITH INVERTED BREVE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 535,
+      "name": "LATIN SMALL LETTER U WITH INVERTED BREVE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 536,
+      "name": "LATIN CAPITAL LETTER S WITH COMMA BELOW",
+      "origin": "noto"
+    },
+    {
+      "unicode": 537,
+      "name": "LATIN SMALL LETTER S WITH COMMA BELOW",
+      "origin": "noto"
+    },
+    {
+      "unicode": 538,
+      "name": "LATIN CAPITAL LETTER T WITH COMMA BELOW",
+      "origin": "noto"
+    },
+    {
+      "unicode": 539,
+      "name": "LATIN SMALL LETTER T WITH COMMA BELOW",
+      "origin": "noto"
+    },
+    {
+      "unicode": 540,
+      "name": "LATIN CAPITAL LETTER YOGH",
+      "origin": "noto"
+    },
+    {
+      "unicode": 541,
+      "name": "LATIN SMALL LETTER YOGH",
+      "origin": "noto"
+    },
+    {
+      "unicode": 542,
+      "name": "LATIN CAPITAL LETTER H WITH CARON",
+      "origin": "noto"
+    },
+    {
+      "unicode": 543,
+      "name": "LATIN SMALL LETTER H WITH CARON",
+      "origin": "noto"
+    },
+    {
+      "unicode": 544,
+      "name": "LATIN CAPITAL LETTER N WITH LONG RIGHT LEG",
+      "origin": "noto"
+    },
+    {
+      "unicode": 545,
+      "name": "LATIN SMALL LETTER D WITH CURL",
+      "origin": "noto"
+    },
+    {
+      "unicode": 546,
+      "name": "LATIN CAPITAL LETTER OU",
+      "origin": "noto"
+    },
+    {
+      "unicode": 547,
+      "name": "LATIN SMALL LETTER OU",
+      "origin": "noto"
+    },
+    {
+      "unicode": 548,
+      "name": "LATIN CAPITAL LETTER Z WITH HOOK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 549,
+      "name": "LATIN SMALL LETTER Z WITH HOOK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 550,
+      "name": "LATIN CAPITAL LETTER A WITH DOT ABOVE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 551,
+      "name": "LATIN SMALL LETTER A WITH DOT ABOVE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 552,
+      "name": "LATIN CAPITAL LETTER E WITH CEDILLA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 553,
+      "name": "LATIN SMALL LETTER E WITH CEDILLA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 554,
+      "name": "LATIN CAPITAL LETTER O WITH DIAERESIS AND MACRON",
+      "origin": "noto"
+    },
+    {
+      "unicode": 555,
+      "name": "LATIN SMALL LETTER O WITH DIAERESIS AND MACRON",
+      "origin": "noto"
+    },
+    {
+      "unicode": 556,
+      "name": "LATIN CAPITAL LETTER O WITH TILDE AND MACRON",
+      "origin": "noto"
+    },
+    {
+      "unicode": 557,
+      "name": "LATIN SMALL LETTER O WITH TILDE AND MACRON",
+      "origin": "noto"
+    },
+    {
+      "unicode": 558,
+      "name": "LATIN CAPITAL LETTER O WITH DOT ABOVE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 559,
+      "name": "LATIN SMALL LETTER O WITH DOT ABOVE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 560,
+      "name": "LATIN CAPITAL LETTER O WITH DOT ABOVE AND MACRON",
+      "origin": "noto"
+    },
+    {
+      "unicode": 561,
+      "name": "LATIN SMALL LETTER O WITH DOT ABOVE AND MACRON",
+      "origin": "noto"
+    },
+    {
+      "unicode": 562,
+      "name": "LATIN CAPITAL LETTER Y WITH MACRON",
+      "origin": "noto"
+    },
+    {
+      "unicode": 563,
+      "name": "LATIN SMALL LETTER Y WITH MACRON",
+      "origin": "noto"
+    },
+    {
+      "unicode": 564,
+      "name": "LATIN SMALL LETTER L WITH CURL",
+      "origin": "noto"
+    },
+    {
+      "unicode": 565,
+      "name": "LATIN SMALL LETTER N WITH CURL",
+      "origin": "noto"
+    },
+    {
+      "unicode": 566,
+      "name": "LATIN SMALL LETTER T WITH CURL",
+      "origin": "noto"
+    },
+    {
+      "unicode": 567,
+      "name": "LATIN SMALL LETTER DOTLESS J",
+      "origin": "noto"
+    },
+    {
+      "unicode": 568,
+      "name": "LATIN SMALL LETTER DB DIGRAPH",
+      "origin": "noto"
+    },
+    {
+      "unicode": 569,
+      "name": "LATIN SMALL LETTER QP DIGRAPH",
+      "origin": "noto"
+    },
+    {
+      "unicode": 570,
+      "name": "LATIN CAPITAL LETTER A WITH STROKE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 571,
+      "name": "LATIN CAPITAL LETTER C WITH STROKE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 572,
+      "name": "LATIN SMALL LETTER C WITH STROKE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 573,
+      "name": "LATIN CAPITAL LETTER L WITH BAR",
+      "origin": "noto"
+    },
+    {
+      "unicode": 574,
+      "name": "LATIN CAPITAL LETTER T WITH DIAGONAL STROKE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 575,
+      "name": "LATIN SMALL LETTER S WITH SWASH TAIL",
+      "origin": "noto"
+    },
+    {
+      "unicode": 576,
+      "name": "LATIN SMALL LETTER Z WITH SWASH TAIL",
+      "origin": "noto"
+    },
+    {
+      "unicode": 577,
+      "name": "LATIN CAPITAL LETTER GLOTTAL STOP",
+      "origin": "noto"
+    },
+    {
+      "unicode": 578,
+      "name": "LATIN SMALL LETTER GLOTTAL STOP",
+      "origin": "noto"
+    },
+    {
+      "unicode": 579,
+      "name": "LATIN CAPITAL LETTER B WITH STROKE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 580,
+      "name": "LATIN CAPITAL LETTER U BAR",
+      "origin": "noto"
+    },
+    {
+      "unicode": 581,
+      "name": "LATIN CAPITAL LETTER TURNED V",
+      "origin": "noto"
+    },
+    {
+      "unicode": 582,
+      "name": "LATIN CAPITAL LETTER E WITH STROKE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 583,
+      "name": "LATIN SMALL LETTER E WITH STROKE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 584,
+      "name": "LATIN CAPITAL LETTER J WITH STROKE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 585,
+      "name": "LATIN SMALL LETTER J WITH STROKE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 586,
+      "name": "LATIN CAPITAL LETTER SMALL Q WITH HOOK TAIL",
+      "origin": "noto"
+    },
+    {
+      "unicode": 587,
+      "name": "LATIN SMALL LETTER Q WITH HOOK TAIL",
+      "origin": "noto"
+    },
+    {
+      "unicode": 588,
+      "name": "LATIN CAPITAL LETTER R WITH STROKE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 589,
+      "name": "LATIN SMALL LETTER R WITH STROKE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 590,
+      "name": "LATIN CAPITAL LETTER Y WITH STROKE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 591,
+      "name": "LATIN SMALL LETTER Y WITH STROKE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 880,
+      "name": "GREEK CAPITAL LETTER HETA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 881,
+      "name": "GREEK SMALL LETTER HETA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 882,
+      "name": "GREEK CAPITAL LETTER ARCHAIC SAMPI",
+      "origin": "noto"
+    },
+    {
+      "unicode": 883,
+      "name": "GREEK SMALL LETTER ARCHAIC SAMPI",
+      "origin": "noto"
+    },
+    {
+      "unicode": 884,
+      "name": "GREEK NUMERAL SIGN",
+      "origin": "noto"
+    },
+    {
+      "unicode": 885,
+      "name": "GREEK LOWER NUMERAL SIGN",
+      "origin": "noto"
+    },
+    {
+      "unicode": 886,
+      "name": "GREEK CAPITAL LETTER PAMPHYLIAN DIGAMMA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 887,
+      "name": "GREEK SMALL LETTER PAMPHYLIAN DIGAMMA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 890,
+      "name": "GREEK YPOGEGRAMMENI",
+      "origin": "noto"
+    },
+    {
+      "unicode": 891,
+      "name": "GREEK SMALL REVERSED LUNATE SIGMA SYMBOL",
+      "origin": "noto"
+    },
+    {
+      "unicode": 892,
+      "name": "GREEK SMALL DOTTED LUNATE SIGMA SYMBOL",
+      "origin": "noto"
+    },
+    {
+      "unicode": 893,
+      "name": "GREEK SMALL REVERSED DOTTED LUNATE SIGMA SYMBOL",
+      "origin": "noto"
+    },
+    {
+      "unicode": 894,
+      "name": "GREEK QUESTION MARK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 895,
+      "name": "GREEK CAPITAL LETTER YOT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 900,
+      "name": "GREEK TONOS",
+      "origin": "noto"
+    },
+    {
+      "unicode": 901,
+      "name": "GREEK DIALYTIKA TONOS",
+      "origin": "noto"
+    },
+    {
+      "unicode": 902,
+      "name": "GREEK CAPITAL LETTER ALPHA WITH TONOS",
+      "origin": "noto"
+    },
+    {
+      "unicode": 903,
+      "name": "GREEK ANO TELEIA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 904,
+      "name": "GREEK CAPITAL LETTER EPSILON WITH TONOS",
+      "origin": "noto"
+    },
+    {
+      "unicode": 905,
+      "name": "GREEK CAPITAL LETTER ETA WITH TONOS",
+      "origin": "noto"
+    },
+    {
+      "unicode": 906,
+      "name": "GREEK CAPITAL LETTER IOTA WITH TONOS",
+      "origin": "noto"
+    },
+    {
+      "unicode": 908,
+      "name": "GREEK CAPITAL LETTER OMICRON WITH TONOS",
+      "origin": "noto"
+    },
+    {
+      "unicode": 910,
+      "name": "GREEK CAPITAL LETTER UPSILON WITH TONOS",
+      "origin": "noto"
+    },
+    {
+      "unicode": 911,
+      "name": "GREEK CAPITAL LETTER OMEGA WITH TONOS",
+      "origin": "noto"
+    },
+    {
+      "unicode": 912,
+      "name": "GREEK SMALL LETTER IOTA WITH DIALYTIKA AND TONOS",
+      "origin": "noto"
+    },
+    {
+      "unicode": 913,
+      "name": "GREEK CAPITAL LETTER ALPHA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 914,
+      "name": "GREEK CAPITAL LETTER BETA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 915,
+      "name": "GREEK CAPITAL LETTER GAMMA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 916,
+      "name": "GREEK CAPITAL LETTER DELTA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 917,
+      "name": "GREEK CAPITAL LETTER EPSILON",
+      "origin": "noto"
+    },
+    {
+      "unicode": 918,
+      "name": "GREEK CAPITAL LETTER ZETA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 919,
+      "name": "GREEK CAPITAL LETTER ETA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 920,
+      "name": "GREEK CAPITAL LETTER THETA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 921,
+      "name": "GREEK CAPITAL LETTER IOTA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 922,
+      "name": "GREEK CAPITAL LETTER KAPPA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 923,
+      "name": "GREEK CAPITAL LETTER LAMDA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 924,
+      "name": "GREEK CAPITAL LETTER MU",
+      "origin": "noto"
+    },
+    {
+      "unicode": 925,
+      "name": "GREEK CAPITAL LETTER NU",
+      "origin": "noto"
+    },
+    {
+      "unicode": 926,
+      "name": "GREEK CAPITAL LETTER XI",
+      "origin": "noto"
+    },
+    {
+      "unicode": 927,
+      "name": "GREEK CAPITAL LETTER OMICRON",
+      "origin": "noto"
+    },
+    {
+      "unicode": 928,
+      "name": "GREEK CAPITAL LETTER PI",
+      "origin": "noto"
+    },
+    {
+      "unicode": 929,
+      "name": "GREEK CAPITAL LETTER RHO",
+      "origin": "noto"
+    },
+    {
+      "unicode": 931,
+      "name": "GREEK CAPITAL LETTER SIGMA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 932,
+      "name": "GREEK CAPITAL LETTER TAU",
+      "origin": "noto"
+    },
+    {
+      "unicode": 933,
+      "name": "GREEK CAPITAL LETTER UPSILON",
+      "origin": "noto"
+    },
+    {
+      "unicode": 934,
+      "name": "GREEK CAPITAL LETTER PHI",
+      "origin": "noto"
+    },
+    {
+      "unicode": 935,
+      "name": "GREEK CAPITAL LETTER CHI",
+      "origin": "noto"
+    },
+    {
+      "unicode": 936,
+      "name": "GREEK CAPITAL LETTER PSI",
+      "origin": "noto"
+    },
+    {
+      "unicode": 937,
+      "name": "GREEK CAPITAL LETTER OMEGA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 938,
+      "name": "GREEK CAPITAL LETTER IOTA WITH DIALYTIKA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 939,
+      "name": "GREEK CAPITAL LETTER UPSILON WITH DIALYTIKA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 940,
+      "name": "GREEK SMALL LETTER ALPHA WITH TONOS",
+      "origin": "noto"
+    },
+    {
+      "unicode": 941,
+      "name": "GREEK SMALL LETTER EPSILON WITH TONOS",
+      "origin": "noto"
+    },
+    {
+      "unicode": 942,
+      "name": "GREEK SMALL LETTER ETA WITH TONOS",
+      "origin": "noto"
+    },
+    {
+      "unicode": 943,
+      "name": "GREEK SMALL LETTER IOTA WITH TONOS",
+      "origin": "noto"
+    },
+    {
+      "unicode": 944,
+      "name": "GREEK SMALL LETTER UPSILON WITH DIALYTIKA AND TONOS",
+      "origin": "noto"
+    },
+    {
+      "unicode": 945,
+      "name": "GREEK SMALL LETTER ALPHA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 946,
+      "name": "GREEK SMALL LETTER BETA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 947,
+      "name": "GREEK SMALL LETTER GAMMA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 948,
+      "name": "GREEK SMALL LETTER DELTA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 949,
+      "name": "GREEK SMALL LETTER EPSILON",
+      "origin": "noto"
+    },
+    {
+      "unicode": 950,
+      "name": "GREEK SMALL LETTER ZETA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 951,
+      "name": "GREEK SMALL LETTER ETA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 952,
+      "name": "GREEK SMALL LETTER THETA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 953,
+      "name": "GREEK SMALL LETTER IOTA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 954,
+      "name": "GREEK SMALL LETTER KAPPA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 955,
+      "name": "GREEK SMALL LETTER LAMDA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 956,
+      "name": "GREEK SMALL LETTER MU",
+      "origin": "noto"
+    },
+    {
+      "unicode": 957,
+      "name": "GREEK SMALL LETTER NU",
+      "origin": "noto"
+    },
+    {
+      "unicode": 958,
+      "name": "GREEK SMALL LETTER XI",
+      "origin": "noto"
+    },
+    {
+      "unicode": 959,
+      "name": "GREEK SMALL LETTER OMICRON",
+      "origin": "noto"
+    },
+    {
+      "unicode": 960,
+      "name": "GREEK SMALL LETTER PI",
+      "origin": "noto"
+    },
+    {
+      "unicode": 961,
+      "name": "GREEK SMALL LETTER RHO",
+      "origin": "noto"
+    },
+    {
+      "unicode": 962,
+      "name": "GREEK SMALL LETTER FINAL SIGMA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 963,
+      "name": "GREEK SMALL LETTER SIGMA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 964,
+      "name": "GREEK SMALL LETTER TAU",
+      "origin": "noto"
+    },
+    {
+      "unicode": 965,
+      "name": "GREEK SMALL LETTER UPSILON",
+      "origin": "noto"
+    },
+    {
+      "unicode": 966,
+      "name": "GREEK SMALL LETTER PHI",
+      "origin": "noto"
+    },
+    {
+      "unicode": 967,
+      "name": "GREEK SMALL LETTER CHI",
+      "origin": "noto"
+    },
+    {
+      "unicode": 968,
+      "name": "GREEK SMALL LETTER PSI",
+      "origin": "noto"
+    },
+    {
+      "unicode": 969,
+      "name": "GREEK SMALL LETTER OMEGA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 970,
+      "name": "GREEK SMALL LETTER IOTA WITH DIALYTIKA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 971,
+      "name": "GREEK SMALL LETTER UPSILON WITH DIALYTIKA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 972,
+      "name": "GREEK SMALL LETTER OMICRON WITH TONOS",
+      "origin": "noto"
+    },
+    {
+      "unicode": 973,
+      "name": "GREEK SMALL LETTER UPSILON WITH TONOS",
+      "origin": "noto"
+    },
+    {
+      "unicode": 974,
+      "name": "GREEK SMALL LETTER OMEGA WITH TONOS",
+      "origin": "noto"
+    },
+    {
+      "unicode": 975,
+      "name": "GREEK CAPITAL KAI SYMBOL",
+      "origin": "noto"
+    },
+    {
+      "unicode": 976,
+      "name": "GREEK BETA SYMBOL",
+      "origin": "noto"
+    },
+    {
+      "unicode": 977,
+      "name": "GREEK THETA SYMBOL",
+      "origin": "noto"
+    },
+    {
+      "unicode": 978,
+      "name": "GREEK UPSILON WITH HOOK SYMBOL",
+      "origin": "noto"
+    },
+    {
+      "unicode": 979,
+      "name": "GREEK UPSILON WITH ACUTE AND HOOK SYMBOL",
+      "origin": "noto"
+    },
+    {
+      "unicode": 980,
+      "name": "GREEK UPSILON WITH DIAERESIS AND HOOK SYMBOL",
+      "origin": "noto"
+    },
+    {
+      "unicode": 981,
+      "name": "GREEK PHI SYMBOL",
+      "origin": "noto"
+    },
+    {
+      "unicode": 982,
+      "name": "GREEK PI SYMBOL",
+      "origin": "noto"
+    },
+    {
+      "unicode": 983,
+      "name": "GREEK KAI SYMBOL",
+      "origin": "noto"
+    },
+    {
+      "unicode": 984,
+      "name": "GREEK LETTER ARCHAIC KOPPA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 985,
+      "name": "GREEK SMALL LETTER ARCHAIC KOPPA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 986,
+      "name": "GREEK LETTER STIGMA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 987,
+      "name": "GREEK SMALL LETTER STIGMA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 988,
+      "name": "GREEK LETTER DIGAMMA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 989,
+      "name": "GREEK SMALL LETTER DIGAMMA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 990,
+      "name": "GREEK LETTER KOPPA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 991,
+      "name": "GREEK SMALL LETTER KOPPA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 992,
+      "name": "GREEK LETTER SAMPI",
+      "origin": "noto"
+    },
+    {
+      "unicode": 993,
+      "name": "GREEK SMALL LETTER SAMPI",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1008,
+      "name": "GREEK KAPPA SYMBOL",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1009,
+      "name": "GREEK RHO SYMBOL",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1010,
+      "name": "GREEK LUNATE SIGMA SYMBOL",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1011,
+      "name": "GREEK LETTER YOT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1012,
+      "name": "GREEK CAPITAL THETA SYMBOL",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1013,
+      "name": "GREEK LUNATE EPSILON SYMBOL",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1014,
+      "name": "GREEK REVERSED LUNATE EPSILON SYMBOL",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1015,
+      "name": "GREEK CAPITAL LETTER SHO",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1016,
+      "name": "GREEK SMALL LETTER SHO",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1017,
+      "name": "GREEK CAPITAL LUNATE SIGMA SYMBOL",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1018,
+      "name": "GREEK CAPITAL LETTER SAN",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1019,
+      "name": "GREEK SMALL LETTER SAN",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1020,
+      "name": "GREEK RHO WITH STROKE SYMBOL",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1021,
+      "name": "GREEK CAPITAL REVERSED LUNATE SIGMA SYMBOL",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1022,
+      "name": "GREEK CAPITAL DOTTED LUNATE SIGMA SYMBOL",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1023,
+      "name": "GREEK CAPITAL REVERSED DOTTED LUNATE SIGMA SYMBOL",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1024,
+      "name": "CYRILLIC CAPITAL LETTER IE WITH GRAVE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1025,
+      "name": "CYRILLIC CAPITAL LETTER IO",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1026,
+      "name": "CYRILLIC CAPITAL LETTER DJE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1027,
+      "name": "CYRILLIC CAPITAL LETTER GJE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1028,
+      "name": "CYRILLIC CAPITAL LETTER UKRAINIAN IE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1029,
+      "name": "CYRILLIC CAPITAL LETTER DZE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1030,
+      "name": "CYRILLIC CAPITAL LETTER BYELORUSSIAN-UKRAINIAN I",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1031,
+      "name": "CYRILLIC CAPITAL LETTER YI",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1032,
+      "name": "CYRILLIC CAPITAL LETTER JE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1033,
+      "name": "CYRILLIC CAPITAL LETTER LJE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1034,
+      "name": "CYRILLIC CAPITAL LETTER NJE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1035,
+      "name": "CYRILLIC CAPITAL LETTER TSHE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1036,
+      "name": "CYRILLIC CAPITAL LETTER KJE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1037,
+      "name": "CYRILLIC CAPITAL LETTER I WITH GRAVE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1038,
+      "name": "CYRILLIC CAPITAL LETTER SHORT U",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1039,
+      "name": "CYRILLIC CAPITAL LETTER DZHE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1040,
+      "name": "CYRILLIC CAPITAL LETTER A",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1041,
+      "name": "CYRILLIC CAPITAL LETTER BE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1042,
+      "name": "CYRILLIC CAPITAL LETTER VE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1043,
+      "name": "CYRILLIC CAPITAL LETTER GHE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1044,
+      "name": "CYRILLIC CAPITAL LETTER DE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1045,
+      "name": "CYRILLIC CAPITAL LETTER IE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1046,
+      "name": "CYRILLIC CAPITAL LETTER ZHE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1047,
+      "name": "CYRILLIC CAPITAL LETTER ZE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1048,
+      "name": "CYRILLIC CAPITAL LETTER I",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1049,
+      "name": "CYRILLIC CAPITAL LETTER SHORT I",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1050,
+      "name": "CYRILLIC CAPITAL LETTER KA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1051,
+      "name": "CYRILLIC CAPITAL LETTER EL",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1052,
+      "name": "CYRILLIC CAPITAL LETTER EM",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1053,
+      "name": "CYRILLIC CAPITAL LETTER EN",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1054,
+      "name": "CYRILLIC CAPITAL LETTER O",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1055,
+      "name": "CYRILLIC CAPITAL LETTER PE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1056,
+      "name": "CYRILLIC CAPITAL LETTER ER",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1057,
+      "name": "CYRILLIC CAPITAL LETTER ES",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1058,
+      "name": "CYRILLIC CAPITAL LETTER TE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1059,
+      "name": "CYRILLIC CAPITAL LETTER U",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1060,
+      "name": "CYRILLIC CAPITAL LETTER EF",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1061,
+      "name": "CYRILLIC CAPITAL LETTER HA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1062,
+      "name": "CYRILLIC CAPITAL LETTER TSE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1063,
+      "name": "CYRILLIC CAPITAL LETTER CHE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1064,
+      "name": "CYRILLIC CAPITAL LETTER SHA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1065,
+      "name": "CYRILLIC CAPITAL LETTER SHCHA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1066,
+      "name": "CYRILLIC CAPITAL LETTER HARD SIGN",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1067,
+      "name": "CYRILLIC CAPITAL LETTER YERU",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1068,
+      "name": "CYRILLIC CAPITAL LETTER SOFT SIGN",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1069,
+      "name": "CYRILLIC CAPITAL LETTER E",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1070,
+      "name": "CYRILLIC CAPITAL LETTER YU",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1071,
+      "name": "CYRILLIC CAPITAL LETTER YA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1072,
+      "name": "CYRILLIC SMALL LETTER A",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1073,
+      "name": "CYRILLIC SMALL LETTER BE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1074,
+      "name": "CYRILLIC SMALL LETTER VE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1075,
+      "name": "CYRILLIC SMALL LETTER GHE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1076,
+      "name": "CYRILLIC SMALL LETTER DE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1077,
+      "name": "CYRILLIC SMALL LETTER IE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1078,
+      "name": "CYRILLIC SMALL LETTER ZHE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1079,
+      "name": "CYRILLIC SMALL LETTER ZE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1080,
+      "name": "CYRILLIC SMALL LETTER I",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1081,
+      "name": "CYRILLIC SMALL LETTER SHORT I",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1082,
+      "name": "CYRILLIC SMALL LETTER KA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1083,
+      "name": "CYRILLIC SMALL LETTER EL",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1084,
+      "name": "CYRILLIC SMALL LETTER EM",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1085,
+      "name": "CYRILLIC SMALL LETTER EN",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1086,
+      "name": "CYRILLIC SMALL LETTER O",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1087,
+      "name": "CYRILLIC SMALL LETTER PE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1088,
+      "name": "CYRILLIC SMALL LETTER ER",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1089,
+      "name": "CYRILLIC SMALL LETTER ES",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1090,
+      "name": "CYRILLIC SMALL LETTER TE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1091,
+      "name": "CYRILLIC SMALL LETTER U",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1092,
+      "name": "CYRILLIC SMALL LETTER EF",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1093,
+      "name": "CYRILLIC SMALL LETTER HA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1094,
+      "name": "CYRILLIC SMALL LETTER TSE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1095,
+      "name": "CYRILLIC SMALL LETTER CHE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1096,
+      "name": "CYRILLIC SMALL LETTER SHA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1097,
+      "name": "CYRILLIC SMALL LETTER SHCHA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1098,
+      "name": "CYRILLIC SMALL LETTER HARD SIGN",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1099,
+      "name": "CYRILLIC SMALL LETTER YERU",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1100,
+      "name": "CYRILLIC SMALL LETTER SOFT SIGN",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1101,
+      "name": "CYRILLIC SMALL LETTER E",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1102,
+      "name": "CYRILLIC SMALL LETTER YU",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1103,
+      "name": "CYRILLIC SMALL LETTER YA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1104,
+      "name": "CYRILLIC SMALL LETTER IE WITH GRAVE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1105,
+      "name": "CYRILLIC SMALL LETTER IO",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1106,
+      "name": "CYRILLIC SMALL LETTER DJE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1107,
+      "name": "CYRILLIC SMALL LETTER GJE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1108,
+      "name": "CYRILLIC SMALL LETTER UKRAINIAN IE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1109,
+      "name": "CYRILLIC SMALL LETTER DZE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1110,
+      "name": "CYRILLIC SMALL LETTER BYELORUSSIAN-UKRAINIAN I",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1111,
+      "name": "CYRILLIC SMALL LETTER YI",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1112,
+      "name": "CYRILLIC SMALL LETTER JE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1113,
+      "name": "CYRILLIC SMALL LETTER LJE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1114,
+      "name": "CYRILLIC SMALL LETTER NJE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1115,
+      "name": "CYRILLIC SMALL LETTER TSHE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1116,
+      "name": "CYRILLIC SMALL LETTER KJE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1117,
+      "name": "CYRILLIC SMALL LETTER I WITH GRAVE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1118,
+      "name": "CYRILLIC SMALL LETTER SHORT U",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1119,
+      "name": "CYRILLIC SMALL LETTER DZHE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1120,
+      "name": "CYRILLIC CAPITAL LETTER OMEGA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1121,
+      "name": "CYRILLIC SMALL LETTER OMEGA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1122,
+      "name": "CYRILLIC CAPITAL LETTER YAT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1123,
+      "name": "CYRILLIC SMALL LETTER YAT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1124,
+      "name": "CYRILLIC CAPITAL LETTER IOTIFIED E",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1125,
+      "name": "CYRILLIC SMALL LETTER IOTIFIED E",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1126,
+      "name": "CYRILLIC CAPITAL LETTER LITTLE YUS",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1127,
+      "name": "CYRILLIC SMALL LETTER LITTLE YUS",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1128,
+      "name": "CYRILLIC CAPITAL LETTER IOTIFIED LITTLE YUS",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1129,
+      "name": "CYRILLIC SMALL LETTER IOTIFIED LITTLE YUS",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1130,
+      "name": "CYRILLIC CAPITAL LETTER BIG YUS",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1131,
+      "name": "CYRILLIC SMALL LETTER BIG YUS",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1132,
+      "name": "CYRILLIC CAPITAL LETTER IOTIFIED BIG YUS",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1133,
+      "name": "CYRILLIC SMALL LETTER IOTIFIED BIG YUS",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1134,
+      "name": "CYRILLIC CAPITAL LETTER KSI",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1135,
+      "name": "CYRILLIC SMALL LETTER KSI",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1136,
+      "name": "CYRILLIC CAPITAL LETTER PSI",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1137,
+      "name": "CYRILLIC SMALL LETTER PSI",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1138,
+      "name": "CYRILLIC CAPITAL LETTER FITA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1139,
+      "name": "CYRILLIC SMALL LETTER FITA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1140,
+      "name": "CYRILLIC CAPITAL LETTER IZHITSA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1141,
+      "name": "CYRILLIC SMALL LETTER IZHITSA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1142,
+      "name": "CYRILLIC CAPITAL LETTER IZHITSA WITH DOUBLE GRAVE ACCENT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1143,
+      "name": "CYRILLIC SMALL LETTER IZHITSA WITH DOUBLE GRAVE ACCENT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1144,
+      "name": "CYRILLIC CAPITAL LETTER UK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1145,
+      "name": "CYRILLIC SMALL LETTER UK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1146,
+      "name": "CYRILLIC CAPITAL LETTER ROUND OMEGA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1147,
+      "name": "CYRILLIC SMALL LETTER ROUND OMEGA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1148,
+      "name": "CYRILLIC CAPITAL LETTER OMEGA WITH TITLO",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1149,
+      "name": "CYRILLIC SMALL LETTER OMEGA WITH TITLO",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1150,
+      "name": "CYRILLIC CAPITAL LETTER OT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1151,
+      "name": "CYRILLIC SMALL LETTER OT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1152,
+      "name": "CYRILLIC CAPITAL LETTER KOPPA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1153,
+      "name": "CYRILLIC SMALL LETTER KOPPA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1154,
+      "name": "CYRILLIC THOUSANDS SIGN",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1162,
+      "name": "CYRILLIC CAPITAL LETTER SHORT I WITH TAIL",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1163,
+      "name": "CYRILLIC SMALL LETTER SHORT I WITH TAIL",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1164,
+      "name": "CYRILLIC CAPITAL LETTER SEMISOFT SIGN",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1165,
+      "name": "CYRILLIC SMALL LETTER SEMISOFT SIGN",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1166,
+      "name": "CYRILLIC CAPITAL LETTER ER WITH TICK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1167,
+      "name": "CYRILLIC SMALL LETTER ER WITH TICK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1168,
+      "name": "CYRILLIC CAPITAL LETTER GHE WITH UPTURN",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1169,
+      "name": "CYRILLIC SMALL LETTER GHE WITH UPTURN",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1170,
+      "name": "CYRILLIC CAPITAL LETTER GHE WITH STROKE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1171,
+      "name": "CYRILLIC SMALL LETTER GHE WITH STROKE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1172,
+      "name": "CYRILLIC CAPITAL LETTER GHE WITH MIDDLE HOOK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1173,
+      "name": "CYRILLIC SMALL LETTER GHE WITH MIDDLE HOOK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1174,
+      "name": "CYRILLIC CAPITAL LETTER ZHE WITH DESCENDER",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1175,
+      "name": "CYRILLIC SMALL LETTER ZHE WITH DESCENDER",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1176,
+      "name": "CYRILLIC CAPITAL LETTER ZE WITH DESCENDER",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1177,
+      "name": "CYRILLIC SMALL LETTER ZE WITH DESCENDER",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1178,
+      "name": "CYRILLIC CAPITAL LETTER KA WITH DESCENDER",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1179,
+      "name": "CYRILLIC SMALL LETTER KA WITH DESCENDER",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1180,
+      "name": "CYRILLIC CAPITAL LETTER KA WITH VERTICAL STROKE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1181,
+      "name": "CYRILLIC SMALL LETTER KA WITH VERTICAL STROKE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1182,
+      "name": "CYRILLIC CAPITAL LETTER KA WITH STROKE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1183,
+      "name": "CYRILLIC SMALL LETTER KA WITH STROKE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1184,
+      "name": "CYRILLIC CAPITAL LETTER BASHKIR KA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1185,
+      "name": "CYRILLIC SMALL LETTER BASHKIR KA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1186,
+      "name": "CYRILLIC CAPITAL LETTER EN WITH DESCENDER",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1187,
+      "name": "CYRILLIC SMALL LETTER EN WITH DESCENDER",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1188,
+      "name": "CYRILLIC CAPITAL LIGATURE EN GHE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1189,
+      "name": "CYRILLIC SMALL LIGATURE EN GHE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1190,
+      "name": "CYRILLIC CAPITAL LETTER PE WITH MIDDLE HOOK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1191,
+      "name": "CYRILLIC SMALL LETTER PE WITH MIDDLE HOOK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1192,
+      "name": "CYRILLIC CAPITAL LETTER ABKHASIAN HA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1193,
+      "name": "CYRILLIC SMALL LETTER ABKHASIAN HA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1194,
+      "name": "CYRILLIC CAPITAL LETTER ES WITH DESCENDER",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1195,
+      "name": "CYRILLIC SMALL LETTER ES WITH DESCENDER",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1196,
+      "name": "CYRILLIC CAPITAL LETTER TE WITH DESCENDER",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1197,
+      "name": "CYRILLIC SMALL LETTER TE WITH DESCENDER",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1198,
+      "name": "CYRILLIC CAPITAL LETTER STRAIGHT U",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1199,
+      "name": "CYRILLIC SMALL LETTER STRAIGHT U",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1200,
+      "name": "CYRILLIC CAPITAL LETTER STRAIGHT U WITH STROKE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1201,
+      "name": "CYRILLIC SMALL LETTER STRAIGHT U WITH STROKE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1202,
+      "name": "CYRILLIC CAPITAL LETTER HA WITH DESCENDER",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1203,
+      "name": "CYRILLIC SMALL LETTER HA WITH DESCENDER",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1204,
+      "name": "CYRILLIC CAPITAL LIGATURE TE TSE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1205,
+      "name": "CYRILLIC SMALL LIGATURE TE TSE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1206,
+      "name": "CYRILLIC CAPITAL LETTER CHE WITH DESCENDER",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1207,
+      "name": "CYRILLIC SMALL LETTER CHE WITH DESCENDER",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1208,
+      "name": "CYRILLIC CAPITAL LETTER CHE WITH VERTICAL STROKE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1209,
+      "name": "CYRILLIC SMALL LETTER CHE WITH VERTICAL STROKE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1210,
+      "name": "CYRILLIC CAPITAL LETTER SHHA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1211,
+      "name": "CYRILLIC SMALL LETTER SHHA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1212,
+      "name": "CYRILLIC CAPITAL LETTER ABKHASIAN CHE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1213,
+      "name": "CYRILLIC SMALL LETTER ABKHASIAN CHE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1214,
+      "name": "CYRILLIC CAPITAL LETTER ABKHASIAN CHE WITH DESCENDER",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1215,
+      "name": "CYRILLIC SMALL LETTER ABKHASIAN CHE WITH DESCENDER",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1216,
+      "name": "CYRILLIC LETTER PALOCHKA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1217,
+      "name": "CYRILLIC CAPITAL LETTER ZHE WITH BREVE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1218,
+      "name": "CYRILLIC SMALL LETTER ZHE WITH BREVE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1219,
+      "name": "CYRILLIC CAPITAL LETTER KA WITH HOOK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1220,
+      "name": "CYRILLIC SMALL LETTER KA WITH HOOK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1221,
+      "name": "CYRILLIC CAPITAL LETTER EL WITH TAIL",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1222,
+      "name": "CYRILLIC SMALL LETTER EL WITH TAIL",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1223,
+      "name": "CYRILLIC CAPITAL LETTER EN WITH HOOK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1224,
+      "name": "CYRILLIC SMALL LETTER EN WITH HOOK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1225,
+      "name": "CYRILLIC CAPITAL LETTER EN WITH TAIL",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1226,
+      "name": "CYRILLIC SMALL LETTER EN WITH TAIL",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1227,
+      "name": "CYRILLIC CAPITAL LETTER KHAKASSIAN CHE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1228,
+      "name": "CYRILLIC SMALL LETTER KHAKASSIAN CHE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1229,
+      "name": "CYRILLIC CAPITAL LETTER EM WITH TAIL",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1230,
+      "name": "CYRILLIC SMALL LETTER EM WITH TAIL",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1231,
+      "name": "CYRILLIC SMALL LETTER PALOCHKA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1232,
+      "name": "CYRILLIC CAPITAL LETTER A WITH BREVE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1233,
+      "name": "CYRILLIC SMALL LETTER A WITH BREVE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1234,
+      "name": "CYRILLIC CAPITAL LETTER A WITH DIAERESIS",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1235,
+      "name": "CYRILLIC SMALL LETTER A WITH DIAERESIS",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1236,
+      "name": "CYRILLIC CAPITAL LIGATURE A IE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1237,
+      "name": "CYRILLIC SMALL LIGATURE A IE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1238,
+      "name": "CYRILLIC CAPITAL LETTER IE WITH BREVE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1239,
+      "name": "CYRILLIC SMALL LETTER IE WITH BREVE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1240,
+      "name": "CYRILLIC CAPITAL LETTER SCHWA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1241,
+      "name": "CYRILLIC SMALL LETTER SCHWA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1242,
+      "name": "CYRILLIC CAPITAL LETTER SCHWA WITH DIAERESIS",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1243,
+      "name": "CYRILLIC SMALL LETTER SCHWA WITH DIAERESIS",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1244,
+      "name": "CYRILLIC CAPITAL LETTER ZHE WITH DIAERESIS",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1245,
+      "name": "CYRILLIC SMALL LETTER ZHE WITH DIAERESIS",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1246,
+      "name": "CYRILLIC CAPITAL LETTER ZE WITH DIAERESIS",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1247,
+      "name": "CYRILLIC SMALL LETTER ZE WITH DIAERESIS",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1248,
+      "name": "CYRILLIC CAPITAL LETTER ABKHASIAN DZE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1249,
+      "name": "CYRILLIC SMALL LETTER ABKHASIAN DZE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1250,
+      "name": "CYRILLIC CAPITAL LETTER I WITH MACRON",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1251,
+      "name": "CYRILLIC SMALL LETTER I WITH MACRON",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1252,
+      "name": "CYRILLIC CAPITAL LETTER I WITH DIAERESIS",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1253,
+      "name": "CYRILLIC SMALL LETTER I WITH DIAERESIS",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1254,
+      "name": "CYRILLIC CAPITAL LETTER O WITH DIAERESIS",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1255,
+      "name": "CYRILLIC SMALL LETTER O WITH DIAERESIS",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1256,
+      "name": "CYRILLIC CAPITAL LETTER BARRED O",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1257,
+      "name": "CYRILLIC SMALL LETTER BARRED O",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1258,
+      "name": "CYRILLIC CAPITAL LETTER BARRED O WITH DIAERESIS",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1259,
+      "name": "CYRILLIC SMALL LETTER BARRED O WITH DIAERESIS",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1260,
+      "name": "CYRILLIC CAPITAL LETTER E WITH DIAERESIS",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1261,
+      "name": "CYRILLIC SMALL LETTER E WITH DIAERESIS",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1262,
+      "name": "CYRILLIC CAPITAL LETTER U WITH MACRON",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1263,
+      "name": "CYRILLIC SMALL LETTER U WITH MACRON",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1264,
+      "name": "CYRILLIC CAPITAL LETTER U WITH DIAERESIS",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1265,
+      "name": "CYRILLIC SMALL LETTER U WITH DIAERESIS",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1266,
+      "name": "CYRILLIC CAPITAL LETTER U WITH DOUBLE ACUTE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1267,
+      "name": "CYRILLIC SMALL LETTER U WITH DOUBLE ACUTE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1268,
+      "name": "CYRILLIC CAPITAL LETTER CHE WITH DIAERESIS",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1269,
+      "name": "CYRILLIC SMALL LETTER CHE WITH DIAERESIS",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1270,
+      "name": "CYRILLIC CAPITAL LETTER GHE WITH DESCENDER",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1271,
+      "name": "CYRILLIC SMALL LETTER GHE WITH DESCENDER",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1272,
+      "name": "CYRILLIC CAPITAL LETTER YERU WITH DIAERESIS",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1273,
+      "name": "CYRILLIC SMALL LETTER YERU WITH DIAERESIS",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1274,
+      "name": "CYRILLIC CAPITAL LETTER GHE WITH STROKE AND HOOK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1275,
+      "name": "CYRILLIC SMALL LETTER GHE WITH STROKE AND HOOK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1276,
+      "name": "CYRILLIC CAPITAL LETTER HA WITH HOOK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1277,
+      "name": "CYRILLIC SMALL LETTER HA WITH HOOK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1278,
+      "name": "CYRILLIC CAPITAL LETTER HA WITH STROKE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1279,
+      "name": "CYRILLIC SMALL LETTER HA WITH STROKE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1280,
+      "name": "CYRILLIC CAPITAL LETTER KOMI DE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1281,
+      "name": "CYRILLIC SMALL LETTER KOMI DE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1282,
+      "name": "CYRILLIC CAPITAL LETTER KOMI DJE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1283,
+      "name": "CYRILLIC SMALL LETTER KOMI DJE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1284,
+      "name": "CYRILLIC CAPITAL LETTER KOMI ZJE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1285,
+      "name": "CYRILLIC SMALL LETTER KOMI ZJE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1286,
+      "name": "CYRILLIC CAPITAL LETTER KOMI DZJE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1287,
+      "name": "CYRILLIC SMALL LETTER KOMI DZJE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1288,
+      "name": "CYRILLIC CAPITAL LETTER KOMI LJE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1289,
+      "name": "CYRILLIC SMALL LETTER KOMI LJE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1290,
+      "name": "CYRILLIC CAPITAL LETTER KOMI NJE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1291,
+      "name": "CYRILLIC SMALL LETTER KOMI NJE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1292,
+      "name": "CYRILLIC CAPITAL LETTER KOMI SJE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1293,
+      "name": "CYRILLIC SMALL LETTER KOMI SJE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1294,
+      "name": "CYRILLIC CAPITAL LETTER KOMI TJE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1295,
+      "name": "CYRILLIC SMALL LETTER KOMI TJE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1296,
+      "name": "CYRILLIC CAPITAL LETTER REVERSED ZE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1297,
+      "name": "CYRILLIC SMALL LETTER REVERSED ZE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1298,
+      "name": "CYRILLIC CAPITAL LETTER EL WITH HOOK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1299,
+      "name": "CYRILLIC SMALL LETTER EL WITH HOOK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1300,
+      "name": "CYRILLIC CAPITAL LETTER LHA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1301,
+      "name": "CYRILLIC SMALL LETTER LHA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1302,
+      "name": "CYRILLIC CAPITAL LETTER RHA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1303,
+      "name": "CYRILLIC SMALL LETTER RHA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1304,
+      "name": "CYRILLIC CAPITAL LETTER YAE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1305,
+      "name": "CYRILLIC SMALL LETTER YAE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1306,
+      "name": "CYRILLIC CAPITAL LETTER QA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1307,
+      "name": "CYRILLIC SMALL LETTER QA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1308,
+      "name": "CYRILLIC CAPITAL LETTER WE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1309,
+      "name": "CYRILLIC SMALL LETTER WE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1310,
+      "name": "CYRILLIC CAPITAL LETTER ALEUT KA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1311,
+      "name": "CYRILLIC SMALL LETTER ALEUT KA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1312,
+      "name": "CYRILLIC CAPITAL LETTER EL WITH MIDDLE HOOK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1313,
+      "name": "CYRILLIC SMALL LETTER EL WITH MIDDLE HOOK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1314,
+      "name": "CYRILLIC CAPITAL LETTER EN WITH MIDDLE HOOK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1315,
+      "name": "CYRILLIC SMALL LETTER EN WITH MIDDLE HOOK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1316,
+      "name": "CYRILLIC CAPITAL LETTER PE WITH DESCENDER",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1317,
+      "name": "CYRILLIC SMALL LETTER PE WITH DESCENDER",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1318,
+      "name": "CYRILLIC CAPITAL LETTER SHHA WITH DESCENDER",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1319,
+      "name": "CYRILLIC SMALL LETTER SHHA WITH DESCENDER",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1320,
+      "name": "CYRILLIC CAPITAL LETTER EN WITH LEFT HOOK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1321,
+      "name": "CYRILLIC SMALL LETTER EN WITH LEFT HOOK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1322,
+      "name": "CYRILLIC CAPITAL LETTER DZZHE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1323,
+      "name": "CYRILLIC SMALL LETTER DZZHE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1324,
+      "name": "CYRILLIC CAPITAL LETTER DCHE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1325,
+      "name": "CYRILLIC SMALL LETTER DCHE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1326,
+      "name": "CYRILLIC CAPITAL LETTER EL WITH DESCENDER",
+      "origin": "noto"
+    },
+    {
+      "unicode": 1327,
+      "name": "CYRILLIC SMALL LETTER EL WITH DESCENDER",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8192,
+      "name": "EN QUAD",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8193,
+      "name": "EM QUAD",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8194,
+      "name": "EN SPACE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8195,
+      "name": "EM SPACE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8196,
+      "name": "THREE-PER-EM SPACE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8197,
+      "name": "FOUR-PER-EM SPACE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8198,
+      "name": "SIX-PER-EM SPACE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8199,
+      "name": "FIGURE SPACE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8200,
+      "name": "PUNCTUATION SPACE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8201,
+      "name": "THIN SPACE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8202,
+      "name": "HAIR SPACE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8208,
+      "name": "HYPHEN",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8209,
+      "name": "NON-BREAKING HYPHEN",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8210,
+      "name": "FIGURE DASH",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8211,
+      "name": "EN DASH",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 8212,
+      "name": "EM DASH",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 8213,
+      "name": "HORIZONTAL BAR",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8214,
+      "name": "DOUBLE VERTICAL LINE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8215,
+      "name": "DOUBLE LOW LINE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8216,
+      "name": "LEFT SINGLE QUOTATION MARK",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 8217,
+      "name": "RIGHT SINGLE QUOTATION MARK",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 8218,
+      "name": "SINGLE LOW-9 QUOTATION MARK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8219,
+      "name": "SINGLE HIGH-REVERSED-9 QUOTATION MARK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8220,
+      "name": "LEFT DOUBLE QUOTATION MARK",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 8221,
+      "name": "RIGHT DOUBLE QUOTATION MARK",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 8222,
+      "name": "DOUBLE LOW-9 QUOTATION MARK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8223,
+      "name": "DOUBLE HIGH-REVERSED-9 QUOTATION MARK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8224,
+      "name": "DAGGER",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8225,
+      "name": "DOUBLE DAGGER",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8226,
+      "name": "BULLET",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8227,
+      "name": "TRIANGULAR BULLET",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8228,
+      "name": "ONE DOT LEADER",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8229,
+      "name": "TWO DOT LEADER",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8230,
+      "name": "HORIZONTAL ELLIPSIS",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 8231,
+      "name": "HYPHENATION POINT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8239,
+      "name": "NARROW NO-BREAK SPACE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8240,
+      "name": "PER MILLE SIGN",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8241,
+      "name": "PER TEN THOUSAND SIGN",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8242,
+      "name": "PRIME",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8243,
+      "name": "DOUBLE PRIME",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8244,
+      "name": "TRIPLE PRIME",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8245,
+      "name": "REVERSED PRIME",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8246,
+      "name": "REVERSED DOUBLE PRIME",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8247,
+      "name": "REVERSED TRIPLE PRIME",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8248,
+      "name": "CARET",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8249,
+      "name": "SINGLE LEFT-POINTING ANGLE QUOTATION MARK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8250,
+      "name": "SINGLE RIGHT-POINTING ANGLE QUOTATION MARK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8251,
+      "name": "REFERENCE MARK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8252,
+      "name": "DOUBLE EXCLAMATION MARK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8253,
+      "name": "INTERROBANG",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8254,
+      "name": "OVERLINE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8255,
+      "name": "UNDERTIE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8256,
+      "name": "CHARACTER TIE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8257,
+      "name": "CARET INSERTION POINT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8258,
+      "name": "ASTERISM",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8259,
+      "name": "HYPHEN BULLET",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8260,
+      "name": "FRACTION SLASH",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8261,
+      "name": "LEFT SQUARE BRACKET WITH QUILL",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8262,
+      "name": "RIGHT SQUARE BRACKET WITH QUILL",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8263,
+      "name": "DOUBLE QUESTION MARK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8264,
+      "name": "QUESTION EXCLAMATION MARK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8265,
+      "name": "EXCLAMATION QUESTION MARK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8266,
+      "name": "TIRONIAN SIGN ET",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8267,
+      "name": "REVERSED PILCROW SIGN",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8268,
+      "name": "BLACK LEFTWARDS BULLET",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8269,
+      "name": "BLACK RIGHTWARDS BULLET",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8270,
+      "name": "LOW ASTERISK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8271,
+      "name": "REVERSED SEMICOLON",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8272,
+      "name": "CLOSE UP",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8273,
+      "name": "TWO ASTERISKS ALIGNED VERTICALLY",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8274,
+      "name": "COMMERCIAL MINUS SIGN",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8275,
+      "name": "SWUNG DASH",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8276,
+      "name": "INVERTED UNDERTIE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8277,
+      "name": "FLOWER PUNCTUATION MARK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8278,
+      "name": "THREE DOT PUNCTUATION",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8279,
+      "name": "QUADRUPLE PRIME",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8280,
+      "name": "FOUR DOT PUNCTUATION",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8281,
+      "name": "FIVE DOT PUNCTUATION",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8282,
+      "name": "TWO DOT PUNCTUATION",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8283,
+      "name": "FOUR DOT MARK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8284,
+      "name": "DOTTED CROSS",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8285,
+      "name": "TRICOLON",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8286,
+      "name": "VERTICAL FOUR DOTS",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8287,
+      "name": "MEDIUM MATHEMATICAL SPACE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8352,
+      "name": "EURO-CURRENCY SIGN",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8353,
+      "name": "COLON SIGN",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8354,
+      "name": "CRUZEIRO SIGN",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8355,
+      "name": "FRENCH FRANC SIGN",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8356,
+      "name": "LIRA SIGN",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8357,
+      "name": "MILL SIGN",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8358,
+      "name": "NAIRA SIGN",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8359,
+      "name": "PESETA SIGN",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8360,
+      "name": "RUPEE SIGN",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8361,
+      "name": "WON SIGN",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8362,
+      "name": "NEW SHEQEL SIGN",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8363,
+      "name": "DONG SIGN",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8364,
+      "name": "EURO SIGN",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 8365,
+      "name": "KIP SIGN",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8366,
+      "name": "TUGRIK SIGN",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8367,
+      "name": "DRACHMA SIGN",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8368,
+      "name": "GERMAN PENNY SIGN",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8369,
+      "name": "PESO SIGN",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8370,
+      "name": "GUARANI SIGN",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8371,
+      "name": "AUSTRAL SIGN",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8372,
+      "name": "HRYVNIA SIGN",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8373,
+      "name": "CEDI SIGN",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8374,
+      "name": "LIVRE TOURNOIS SIGN",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8375,
+      "name": "SPESMILO SIGN",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8376,
+      "name": "TENGE SIGN",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8377,
+      "name": "INDIAN RUPEE SIGN",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 8378,
+      "name": "TURKISH LIRA SIGN",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8379,
+      "name": "NORDIC MARK SIGN",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8380,
+      "name": "MANAT SIGN",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8381,
+      "name": "RUBLE SIGN",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8382,
+      "name": "LARI SIGN",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8383,
+      "name": "BITCOIN SIGN",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8384,
+      "name": "SOM SIGN",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8592,
+      "name": "LEFTWARDS ARROW",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 8593,
+      "name": "UPWARDS ARROW",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 8594,
+      "name": "RIGHTWARDS ARROW",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 8595,
+      "name": "DOWNWARDS ARROW",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 8596,
+      "name": "LEFT RIGHT ARROW",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 8597,
+      "name": "UP DOWN ARROW",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 8604,
+      "name": "LEFTWARDS WAVE ARROW",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8605,
+      "name": "RIGHTWARDS WAVE ARROW",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8606,
+      "name": "LEFTWARDS TWO HEADED ARROW",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8608,
+      "name": "RIGHTWARDS TWO HEADED ARROW",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8610,
+      "name": "LEFTWARDS ARROW WITH TAIL",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8611,
+      "name": "RIGHTWARDS ARROW WITH TAIL",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8612,
+      "name": "LEFTWARDS ARROW FROM BAR",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8614,
+      "name": "RIGHTWARDS ARROW FROM BAR",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8656,
+      "name": "LEFTWARDS DOUBLE ARROW",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8657,
+      "name": "UPWARDS DOUBLE ARROW",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8658,
+      "name": "RIGHTWARDS DOUBLE ARROW",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8659,
+      "name": "DOWNWARDS DOUBLE ARROW",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8660,
+      "name": "LEFT RIGHT DOUBLE ARROW",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8666,
+      "name": "LEFTWARDS TRIPLE ARROW",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8667,
+      "name": "RIGHTWARDS TRIPLE ARROW",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8678,
+      "name": "LEFTWARDS WHITE ARROW",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8680,
+      "name": "RIGHTWARDS WHITE ARROW",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8704,
+      "name": "FOR ALL",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8705,
+      "name": "COMPLEMENT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8706,
+      "name": "PARTIAL DIFFERENTIAL",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8707,
+      "name": "THERE EXISTS",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8708,
+      "name": "THERE DOES NOT EXIST",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8709,
+      "name": "EMPTY SET",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8710,
+      "name": "INCREMENT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8711,
+      "name": "NABLA",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8712,
+      "name": "ELEMENT OF",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8713,
+      "name": "NOT AN ELEMENT OF",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8714,
+      "name": "SMALL ELEMENT OF",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8715,
+      "name": "CONTAINS AS MEMBER",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8716,
+      "name": "DOES NOT CONTAIN AS MEMBER",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8717,
+      "name": "SMALL CONTAINS AS MEMBER",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8718,
+      "name": "END OF PROOF",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8719,
+      "name": "N-ARY PRODUCT",
+      "origin": "technical"
+    },
+    {
+      "unicode": 8720,
+      "name": "N-ARY COPRODUCT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8721,
+      "name": "N-ARY SUMMATION",
+      "origin": "technical"
+    },
+    {
+      "unicode": 8722,
+      "name": "MINUS SIGN",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8728,
+      "name": "RING OPERATOR",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8729,
+      "name": "BULLET OPERATOR",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8730,
+      "name": "SQUARE ROOT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8734,
+      "name": "INFINITY",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8736,
+      "name": "ANGLE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8739,
+      "name": "DIVIDES",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8743,
+      "name": "LOGICAL AND",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8744,
+      "name": "LOGICAL OR",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8745,
+      "name": "INTERSECTION",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8746,
+      "name": "UNION",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8747,
+      "name": "INTEGRAL",
+      "origin": "technical"
+    },
+    {
+      "unicode": 8756,
+      "name": "THEREFORE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8757,
+      "name": "BECAUSE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8758,
+      "name": "RATIO",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8759,
+      "name": "PROPORTION",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8760,
+      "name": "DOT MINUS",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8764,
+      "name": "TILDE OPERATOR",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8765,
+      "name": "REVERSED TILDE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8769,
+      "name": "NOT TILDE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8771,
+      "name": "ASYMPTOTICALLY EQUAL TO",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8773,
+      "name": "APPROXIMATELY EQUAL TO",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8775,
+      "name": "NEITHER APPROXIMATELY NOR ACTUALLY EQUAL TO",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8776,
+      "name": "ALMOST EQUAL TO",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8777,
+      "name": "NOT ALMOST EQUAL TO",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8778,
+      "name": "ALMOST EQUAL OR EQUAL TO",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8779,
+      "name": "TRIPLE TILDE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8780,
+      "name": "ALL EQUAL TO",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8788,
+      "name": "COLON EQUALS",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8789,
+      "name": "EQUALS COLON",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8791,
+      "name": "RING EQUAL TO",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8799,
+      "name": "QUESTIONED EQUAL TO",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8800,
+      "name": "NOT EQUAL TO",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8801,
+      "name": "IDENTICAL TO",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8802,
+      "name": "NOT IDENTICAL TO",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8804,
+      "name": "LESS-THAN OR EQUAL TO",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8805,
+      "name": "GREATER-THAN OR EQUAL TO",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8812,
+      "name": "BETWEEN",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8814,
+      "name": "NOT LESS-THAN",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8815,
+      "name": "NOT GREATER-THAN",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8816,
+      "name": "NEITHER LESS-THAN NOR EQUAL TO",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8817,
+      "name": "NEITHER GREATER-THAN NOR EQUAL TO",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8818,
+      "name": "LESS-THAN OR EQUIVALENT TO",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8819,
+      "name": "GREATER-THAN OR EQUIVALENT TO",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8820,
+      "name": "NEITHER LESS-THAN NOR EQUIVALENT TO",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8821,
+      "name": "NEITHER GREATER-THAN NOR EQUIVALENT TO",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8826,
+      "name": "PRECEDES",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8827,
+      "name": "SUCCEEDS",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8834,
+      "name": "SUBSET OF",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8835,
+      "name": "SUPERSET OF",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8836,
+      "name": "NOT A SUBSET OF",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8837,
+      "name": "NOT A SUPERSET OF",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8838,
+      "name": "SUBSET OF OR EQUAL TO",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8839,
+      "name": "SUPERSET OF OR EQUAL TO",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8840,
+      "name": "NEITHER A SUBSET OF NOR EQUAL TO",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8841,
+      "name": "NEITHER A SUPERSET OF NOR EQUAL TO",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8846,
+      "name": "MULTISET UNION",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8849,
+      "name": "SQUARE IMAGE OF OR EQUAL TO",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8850,
+      "name": "SQUARE ORIGINAL OF OR EQUAL TO",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8851,
+      "name": "SQUARE CAP",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8852,
+      "name": "SQUARE CUP",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8853,
+      "name": "CIRCLED PLUS",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8854,
+      "name": "CIRCLED MINUS",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8855,
+      "name": "CIRCLED TIMES",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8856,
+      "name": "CIRCLED DIVISION SLASH",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8857,
+      "name": "CIRCLED DOT OPERATOR",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8858,
+      "name": "CIRCLED RING OPERATOR",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8859,
+      "name": "CIRCLED ASTERISK OPERATOR",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8860,
+      "name": "CIRCLED EQUALS",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8866,
+      "name": "RIGHT TACK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8867,
+      "name": "LEFT TACK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8868,
+      "name": "DOWN TACK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8869,
+      "name": "UP TACK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8884,
+      "name": "NORMAL SUBGROUP OF OR EQUAL TO",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8885,
+      "name": "CONTAINS AS NORMAL SUBGROUP OR EQUAL TO",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8888,
+      "name": "MULTIMAP",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8898,
+      "name": "N-ARY INTERSECTION",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8899,
+      "name": "N-ARY UNION",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8900,
+      "name": "DIAMOND OPERATOR",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8902,
+      "name": "STAR OPERATOR",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8904,
+      "name": "BOWTIE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8905,
+      "name": "LEFT NORMAL FACTOR SEMIDIRECT PRODUCT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8906,
+      "name": "RIGHT NORMAL FACTOR SEMIDIRECT PRODUCT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8909,
+      "name": "REVERSED TILDE EQUALS",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8910,
+      "name": "CURLY LOGICAL OR",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8912,
+      "name": "DOUBLE SUBSET",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8913,
+      "name": "DOUBLE SUPERSET",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8930,
+      "name": "NOT SQUARE IMAGE OF OR EQUAL TO",
+      "origin": "noto"
+    },
+    {
+      "unicode": 8931,
+      "name": "NOT SQUARE ORIGINAL OF OR EQUAL TO",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9472,
+      "name": "BOX DRAWINGS LIGHT HORIZONTAL",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 9473,
+      "name": "BOX DRAWINGS HEAVY HORIZONTAL",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9474,
+      "name": "BOX DRAWINGS LIGHT VERTICAL",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 9475,
+      "name": "BOX DRAWINGS HEAVY VERTICAL",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9476,
+      "name": "BOX DRAWINGS LIGHT TRIPLE DASH HORIZONTAL",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9477,
+      "name": "BOX DRAWINGS HEAVY TRIPLE DASH HORIZONTAL",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9478,
+      "name": "BOX DRAWINGS LIGHT TRIPLE DASH VERTICAL",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9479,
+      "name": "BOX DRAWINGS HEAVY TRIPLE DASH VERTICAL",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9480,
+      "name": "BOX DRAWINGS LIGHT QUADRUPLE DASH HORIZONTAL",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9481,
+      "name": "BOX DRAWINGS HEAVY QUADRUPLE DASH HORIZONTAL",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9482,
+      "name": "BOX DRAWINGS LIGHT QUADRUPLE DASH VERTICAL",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9483,
+      "name": "BOX DRAWINGS HEAVY QUADRUPLE DASH VERTICAL",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9484,
+      "name": "BOX DRAWINGS LIGHT DOWN AND RIGHT",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 9485,
+      "name": "BOX DRAWINGS DOWN LIGHT AND RIGHT HEAVY",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9486,
+      "name": "BOX DRAWINGS DOWN HEAVY AND RIGHT LIGHT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9487,
+      "name": "BOX DRAWINGS HEAVY DOWN AND RIGHT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9488,
+      "name": "BOX DRAWINGS LIGHT DOWN AND LEFT",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 9489,
+      "name": "BOX DRAWINGS DOWN LIGHT AND LEFT HEAVY",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9490,
+      "name": "BOX DRAWINGS DOWN HEAVY AND LEFT LIGHT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9491,
+      "name": "BOX DRAWINGS HEAVY DOWN AND LEFT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9492,
+      "name": "BOX DRAWINGS LIGHT UP AND RIGHT",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 9493,
+      "name": "BOX DRAWINGS UP LIGHT AND RIGHT HEAVY",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9494,
+      "name": "BOX DRAWINGS UP HEAVY AND RIGHT LIGHT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9495,
+      "name": "BOX DRAWINGS HEAVY UP AND RIGHT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9496,
+      "name": "BOX DRAWINGS LIGHT UP AND LEFT",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 9497,
+      "name": "BOX DRAWINGS UP LIGHT AND LEFT HEAVY",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9498,
+      "name": "BOX DRAWINGS UP HEAVY AND LEFT LIGHT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9499,
+      "name": "BOX DRAWINGS HEAVY UP AND LEFT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9500,
+      "name": "BOX DRAWINGS LIGHT VERTICAL AND RIGHT",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 9501,
+      "name": "BOX DRAWINGS VERTICAL LIGHT AND RIGHT HEAVY",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9502,
+      "name": "BOX DRAWINGS UP HEAVY AND RIGHT DOWN LIGHT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9503,
+      "name": "BOX DRAWINGS DOWN HEAVY AND RIGHT UP LIGHT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9504,
+      "name": "BOX DRAWINGS VERTICAL HEAVY AND RIGHT LIGHT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9505,
+      "name": "BOX DRAWINGS DOWN LIGHT AND RIGHT UP HEAVY",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9506,
+      "name": "BOX DRAWINGS UP LIGHT AND RIGHT DOWN HEAVY",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9507,
+      "name": "BOX DRAWINGS HEAVY VERTICAL AND RIGHT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9508,
+      "name": "BOX DRAWINGS LIGHT VERTICAL AND LEFT",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 9509,
+      "name": "BOX DRAWINGS VERTICAL LIGHT AND LEFT HEAVY",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9510,
+      "name": "BOX DRAWINGS UP HEAVY AND LEFT DOWN LIGHT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9511,
+      "name": "BOX DRAWINGS DOWN HEAVY AND LEFT UP LIGHT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9512,
+      "name": "BOX DRAWINGS VERTICAL HEAVY AND LEFT LIGHT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9513,
+      "name": "BOX DRAWINGS DOWN LIGHT AND LEFT UP HEAVY",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9514,
+      "name": "BOX DRAWINGS UP LIGHT AND LEFT DOWN HEAVY",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9515,
+      "name": "BOX DRAWINGS HEAVY VERTICAL AND LEFT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9516,
+      "name": "BOX DRAWINGS LIGHT DOWN AND HORIZONTAL",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 9517,
+      "name": "BOX DRAWINGS LEFT HEAVY AND RIGHT DOWN LIGHT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9518,
+      "name": "BOX DRAWINGS RIGHT HEAVY AND LEFT DOWN LIGHT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9519,
+      "name": "BOX DRAWINGS DOWN LIGHT AND HORIZONTAL HEAVY",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9520,
+      "name": "BOX DRAWINGS DOWN HEAVY AND HORIZONTAL LIGHT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9521,
+      "name": "BOX DRAWINGS RIGHT LIGHT AND LEFT DOWN HEAVY",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9522,
+      "name": "BOX DRAWINGS LEFT LIGHT AND RIGHT DOWN HEAVY",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9523,
+      "name": "BOX DRAWINGS HEAVY DOWN AND HORIZONTAL",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9524,
+      "name": "BOX DRAWINGS LIGHT UP AND HORIZONTAL",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 9525,
+      "name": "BOX DRAWINGS LEFT HEAVY AND RIGHT UP LIGHT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9526,
+      "name": "BOX DRAWINGS RIGHT HEAVY AND LEFT UP LIGHT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9527,
+      "name": "BOX DRAWINGS UP LIGHT AND HORIZONTAL HEAVY",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9528,
+      "name": "BOX DRAWINGS UP HEAVY AND HORIZONTAL LIGHT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9529,
+      "name": "BOX DRAWINGS RIGHT LIGHT AND LEFT UP HEAVY",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9530,
+      "name": "BOX DRAWINGS LEFT LIGHT AND RIGHT UP HEAVY",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9531,
+      "name": "BOX DRAWINGS HEAVY UP AND HORIZONTAL",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9532,
+      "name": "BOX DRAWINGS LIGHT VERTICAL AND HORIZONTAL",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 9533,
+      "name": "BOX DRAWINGS LEFT HEAVY AND RIGHT VERTICAL LIGHT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9534,
+      "name": "BOX DRAWINGS RIGHT HEAVY AND LEFT VERTICAL LIGHT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9535,
+      "name": "BOX DRAWINGS VERTICAL LIGHT AND HORIZONTAL HEAVY",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9536,
+      "name": "BOX DRAWINGS UP HEAVY AND DOWN HORIZONTAL LIGHT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9537,
+      "name": "BOX DRAWINGS DOWN HEAVY AND UP HORIZONTAL LIGHT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9538,
+      "name": "BOX DRAWINGS VERTICAL HEAVY AND HORIZONTAL LIGHT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9539,
+      "name": "BOX DRAWINGS LEFT UP HEAVY AND RIGHT DOWN LIGHT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9540,
+      "name": "BOX DRAWINGS RIGHT UP HEAVY AND LEFT DOWN LIGHT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9541,
+      "name": "BOX DRAWINGS LEFT DOWN HEAVY AND RIGHT UP LIGHT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9542,
+      "name": "BOX DRAWINGS RIGHT DOWN HEAVY AND LEFT UP LIGHT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9543,
+      "name": "BOX DRAWINGS DOWN LIGHT AND UP HORIZONTAL HEAVY",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9544,
+      "name": "BOX DRAWINGS UP LIGHT AND DOWN HORIZONTAL HEAVY",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9545,
+      "name": "BOX DRAWINGS RIGHT LIGHT AND LEFT VERTICAL HEAVY",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9546,
+      "name": "BOX DRAWINGS LEFT LIGHT AND RIGHT VERTICAL HEAVY",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9547,
+      "name": "BOX DRAWINGS HEAVY VERTICAL AND HORIZONTAL",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9548,
+      "name": "BOX DRAWINGS LIGHT DOUBLE DASH HORIZONTAL",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9549,
+      "name": "BOX DRAWINGS HEAVY DOUBLE DASH HORIZONTAL",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9550,
+      "name": "BOX DRAWINGS LIGHT DOUBLE DASH VERTICAL",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9551,
+      "name": "BOX DRAWINGS HEAVY DOUBLE DASH VERTICAL",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9552,
+      "name": "BOX DRAWINGS DOUBLE HORIZONTAL",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9553,
+      "name": "BOX DRAWINGS DOUBLE VERTICAL",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9554,
+      "name": "BOX DRAWINGS DOWN SINGLE AND RIGHT DOUBLE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9555,
+      "name": "BOX DRAWINGS DOWN DOUBLE AND RIGHT SINGLE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9556,
+      "name": "BOX DRAWINGS DOUBLE DOWN AND RIGHT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9557,
+      "name": "BOX DRAWINGS DOWN SINGLE AND LEFT DOUBLE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9558,
+      "name": "BOX DRAWINGS DOWN DOUBLE AND LEFT SINGLE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9559,
+      "name": "BOX DRAWINGS DOUBLE DOWN AND LEFT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9560,
+      "name": "BOX DRAWINGS UP SINGLE AND RIGHT DOUBLE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9561,
+      "name": "BOX DRAWINGS UP DOUBLE AND RIGHT SINGLE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9562,
+      "name": "BOX DRAWINGS DOUBLE UP AND RIGHT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9563,
+      "name": "BOX DRAWINGS UP SINGLE AND LEFT DOUBLE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9564,
+      "name": "BOX DRAWINGS UP DOUBLE AND LEFT SINGLE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9565,
+      "name": "BOX DRAWINGS DOUBLE UP AND LEFT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9566,
+      "name": "BOX DRAWINGS VERTICAL SINGLE AND RIGHT DOUBLE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9567,
+      "name": "BOX DRAWINGS VERTICAL DOUBLE AND RIGHT SINGLE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9568,
+      "name": "BOX DRAWINGS DOUBLE VERTICAL AND RIGHT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9569,
+      "name": "BOX DRAWINGS VERTICAL SINGLE AND LEFT DOUBLE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9570,
+      "name": "BOX DRAWINGS VERTICAL DOUBLE AND LEFT SINGLE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9571,
+      "name": "BOX DRAWINGS DOUBLE VERTICAL AND LEFT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9572,
+      "name": "BOX DRAWINGS DOWN SINGLE AND HORIZONTAL DOUBLE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9573,
+      "name": "BOX DRAWINGS DOWN DOUBLE AND HORIZONTAL SINGLE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9574,
+      "name": "BOX DRAWINGS DOUBLE DOWN AND HORIZONTAL",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9575,
+      "name": "BOX DRAWINGS UP SINGLE AND HORIZONTAL DOUBLE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9576,
+      "name": "BOX DRAWINGS UP DOUBLE AND HORIZONTAL SINGLE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9577,
+      "name": "BOX DRAWINGS DOUBLE UP AND HORIZONTAL",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9578,
+      "name": "BOX DRAWINGS VERTICAL SINGLE AND HORIZONTAL DOUBLE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9579,
+      "name": "BOX DRAWINGS VERTICAL DOUBLE AND HORIZONTAL SINGLE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9580,
+      "name": "BOX DRAWINGS DOUBLE VERTICAL AND HORIZONTAL",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9581,
+      "name": "BOX DRAWINGS LIGHT ARC DOWN AND RIGHT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9582,
+      "name": "BOX DRAWINGS LIGHT ARC DOWN AND LEFT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9583,
+      "name": "BOX DRAWINGS LIGHT ARC UP AND LEFT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9584,
+      "name": "BOX DRAWINGS LIGHT ARC UP AND RIGHT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9585,
+      "name": "BOX DRAWINGS LIGHT DIAGONAL UPPER RIGHT TO LOWER LEFT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9586,
+      "name": "BOX DRAWINGS LIGHT DIAGONAL UPPER LEFT TO LOWER RIGHT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9587,
+      "name": "BOX DRAWINGS LIGHT DIAGONAL CROSS",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9588,
+      "name": "BOX DRAWINGS LIGHT LEFT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9589,
+      "name": "BOX DRAWINGS LIGHT UP",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9590,
+      "name": "BOX DRAWINGS LIGHT RIGHT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9591,
+      "name": "BOX DRAWINGS LIGHT DOWN",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9592,
+      "name": "BOX DRAWINGS HEAVY LEFT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9593,
+      "name": "BOX DRAWINGS HEAVY UP",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9594,
+      "name": "BOX DRAWINGS HEAVY RIGHT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9595,
+      "name": "BOX DRAWINGS HEAVY DOWN",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9596,
+      "name": "BOX DRAWINGS LIGHT LEFT AND HEAVY RIGHT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9597,
+      "name": "BOX DRAWINGS LIGHT UP AND HEAVY DOWN",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9598,
+      "name": "BOX DRAWINGS HEAVY LEFT AND LIGHT RIGHT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9599,
+      "name": "BOX DRAWINGS HEAVY UP AND LIGHT DOWN",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9600,
+      "name": "UPPER HALF BLOCK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9601,
+      "name": "LOWER ONE EIGHTH BLOCK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9602,
+      "name": "LOWER ONE QUARTER BLOCK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9603,
+      "name": "LOWER THREE EIGHTHS BLOCK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9604,
+      "name": "LOWER HALF BLOCK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9605,
+      "name": "LOWER FIVE EIGHTHS BLOCK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9606,
+      "name": "LOWER THREE QUARTERS BLOCK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9607,
+      "name": "LOWER SEVEN EIGHTHS BLOCK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9608,
+      "name": "FULL BLOCK",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 9609,
+      "name": "LEFT SEVEN EIGHTHS BLOCK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9610,
+      "name": "LEFT THREE QUARTERS BLOCK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9611,
+      "name": "LEFT FIVE EIGHTHS BLOCK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9612,
+      "name": "LEFT HALF BLOCK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9613,
+      "name": "LEFT THREE EIGHTHS BLOCK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9614,
+      "name": "LEFT ONE QUARTER BLOCK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9615,
+      "name": "LEFT ONE EIGHTH BLOCK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9616,
+      "name": "RIGHT HALF BLOCK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9617,
+      "name": "LIGHT SHADE",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 9618,
+      "name": "MEDIUM SHADE",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 9619,
+      "name": "DARK SHADE",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 9620,
+      "name": "UPPER ONE EIGHTH BLOCK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9621,
+      "name": "RIGHT ONE EIGHTH BLOCK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9622,
+      "name": "QUADRANT LOWER LEFT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9623,
+      "name": "QUADRANT LOWER RIGHT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9624,
+      "name": "QUADRANT UPPER LEFT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9625,
+      "name": "QUADRANT UPPER LEFT AND LOWER LEFT AND LOWER RIGHT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9626,
+      "name": "QUADRANT UPPER LEFT AND LOWER RIGHT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9627,
+      "name": "QUADRANT UPPER LEFT AND UPPER RIGHT AND LOWER LEFT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9628,
+      "name": "QUADRANT UPPER LEFT AND UPPER RIGHT AND LOWER RIGHT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9629,
+      "name": "QUADRANT UPPER RIGHT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9630,
+      "name": "QUADRANT UPPER RIGHT AND LOWER LEFT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9631,
+      "name": "QUADRANT UPPER RIGHT AND LOWER LEFT AND LOWER RIGHT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9632,
+      "name": "BLACK SQUARE",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 9633,
+      "name": "WHITE SQUARE",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 9634,
+      "name": "WHITE SQUARE WITH ROUNDED CORNERS",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9635,
+      "name": "WHITE SQUARE CONTAINING BLACK SMALL SQUARE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9636,
+      "name": "SQUARE WITH HORIZONTAL FILL",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9637,
+      "name": "SQUARE WITH VERTICAL FILL",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9638,
+      "name": "SQUARE WITH ORTHOGONAL CROSSHATCH FILL",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9639,
+      "name": "SQUARE WITH UPPER LEFT TO LOWER RIGHT FILL",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9640,
+      "name": "SQUARE WITH UPPER RIGHT TO LOWER LEFT FILL",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9641,
+      "name": "SQUARE WITH DIAGONAL CROSSHATCH FILL",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9642,
+      "name": "BLACK SMALL SQUARE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9643,
+      "name": "WHITE SMALL SQUARE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9644,
+      "name": "BLACK RECTANGLE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9645,
+      "name": "WHITE RECTANGLE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9646,
+      "name": "BLACK VERTICAL RECTANGLE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9647,
+      "name": "WHITE VERTICAL RECTANGLE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9648,
+      "name": "BLACK PARALLELOGRAM",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9649,
+      "name": "WHITE PARALLELOGRAM",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9650,
+      "name": "BLACK UP-POINTING TRIANGLE",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 9651,
+      "name": "WHITE UP-POINTING TRIANGLE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9652,
+      "name": "BLACK UP-POINTING SMALL TRIANGLE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9653,
+      "name": "WHITE UP-POINTING SMALL TRIANGLE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9654,
+      "name": "BLACK RIGHT-POINTING TRIANGLE",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 9655,
+      "name": "WHITE RIGHT-POINTING TRIANGLE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9656,
+      "name": "BLACK RIGHT-POINTING SMALL TRIANGLE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9657,
+      "name": "WHITE RIGHT-POINTING SMALL TRIANGLE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9658,
+      "name": "BLACK RIGHT-POINTING POINTER",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9659,
+      "name": "WHITE RIGHT-POINTING POINTER",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9660,
+      "name": "BLACK DOWN-POINTING TRIANGLE",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 9661,
+      "name": "WHITE DOWN-POINTING TRIANGLE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9662,
+      "name": "BLACK DOWN-POINTING SMALL TRIANGLE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9663,
+      "name": "WHITE DOWN-POINTING SMALL TRIANGLE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9664,
+      "name": "BLACK LEFT-POINTING TRIANGLE",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 9665,
+      "name": "WHITE LEFT-POINTING TRIANGLE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9666,
+      "name": "BLACK LEFT-POINTING SMALL TRIANGLE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9667,
+      "name": "WHITE LEFT-POINTING SMALL TRIANGLE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9668,
+      "name": "BLACK LEFT-POINTING POINTER",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9669,
+      "name": "WHITE LEFT-POINTING POINTER",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9670,
+      "name": "BLACK DIAMOND",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9671,
+      "name": "WHITE DIAMOND",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9672,
+      "name": "WHITE DIAMOND CONTAINING BLACK SMALL DIAMOND",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9673,
+      "name": "FISHEYE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9674,
+      "name": "LOZENGE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9675,
+      "name": "WHITE CIRCLE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9676,
+      "name": "DOTTED CIRCLE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9677,
+      "name": "CIRCLE WITH VERTICAL FILL",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9678,
+      "name": "BULLSEYE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9679,
+      "name": "BLACK CIRCLE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9680,
+      "name": "CIRCLE WITH LEFT HALF BLACK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9681,
+      "name": "CIRCLE WITH RIGHT HALF BLACK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9682,
+      "name": "CIRCLE WITH LOWER HALF BLACK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9683,
+      "name": "CIRCLE WITH UPPER HALF BLACK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9684,
+      "name": "CIRCLE WITH UPPER RIGHT QUADRANT BLACK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9685,
+      "name": "CIRCLE WITH ALL BUT UPPER LEFT QUADRANT BLACK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9686,
+      "name": "LEFT HALF BLACK CIRCLE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9687,
+      "name": "RIGHT HALF BLACK CIRCLE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9688,
+      "name": "INVERSE BULLET",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9689,
+      "name": "INVERSE WHITE CIRCLE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9690,
+      "name": "UPPER HALF INVERSE WHITE CIRCLE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9691,
+      "name": "LOWER HALF INVERSE WHITE CIRCLE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9692,
+      "name": "UPPER LEFT QUADRANT CIRCULAR ARC",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9693,
+      "name": "UPPER RIGHT QUADRANT CIRCULAR ARC",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9694,
+      "name": "LOWER RIGHT QUADRANT CIRCULAR ARC",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9695,
+      "name": "LOWER LEFT QUADRANT CIRCULAR ARC",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9696,
+      "name": "UPPER HALF CIRCLE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9697,
+      "name": "LOWER HALF CIRCLE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9698,
+      "name": "BLACK LOWER RIGHT TRIANGLE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9699,
+      "name": "BLACK LOWER LEFT TRIANGLE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9700,
+      "name": "BLACK UPPER LEFT TRIANGLE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9701,
+      "name": "BLACK UPPER RIGHT TRIANGLE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9702,
+      "name": "WHITE BULLET",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9703,
+      "name": "SQUARE WITH LEFT HALF BLACK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9704,
+      "name": "SQUARE WITH RIGHT HALF BLACK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9705,
+      "name": "SQUARE WITH UPPER LEFT DIAGONAL HALF BLACK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9706,
+      "name": "SQUARE WITH LOWER RIGHT DIAGONAL HALF BLACK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9707,
+      "name": "WHITE SQUARE WITH VERTICAL BISECTING LINE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9708,
+      "name": "WHITE UP-POINTING TRIANGLE WITH DOT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9709,
+      "name": "UP-POINTING TRIANGLE WITH LEFT HALF BLACK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9710,
+      "name": "UP-POINTING TRIANGLE WITH RIGHT HALF BLACK",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9711,
+      "name": "LARGE CIRCLE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9712,
+      "name": "WHITE SQUARE WITH UPPER LEFT QUADRANT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9713,
+      "name": "WHITE SQUARE WITH LOWER LEFT QUADRANT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9714,
+      "name": "WHITE SQUARE WITH LOWER RIGHT QUADRANT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9715,
+      "name": "WHITE SQUARE WITH UPPER RIGHT QUADRANT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9716,
+      "name": "WHITE CIRCLE WITH UPPER LEFT QUADRANT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9717,
+      "name": "WHITE CIRCLE WITH LOWER LEFT QUADRANT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9718,
+      "name": "WHITE CIRCLE WITH LOWER RIGHT QUADRANT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9719,
+      "name": "WHITE CIRCLE WITH UPPER RIGHT QUADRANT",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9720,
+      "name": "UPPER LEFT TRIANGLE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9721,
+      "name": "UPPER RIGHT TRIANGLE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9722,
+      "name": "LOWER LEFT TRIANGLE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9723,
+      "name": "WHITE MEDIUM SQUARE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9724,
+      "name": "BLACK MEDIUM SQUARE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9725,
+      "name": "WHITE MEDIUM SMALL SQUARE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9726,
+      "name": "BLACK MEDIUM SMALL SQUARE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 9727,
+      "name": "LOWER RIGHT TRIANGLE",
+      "origin": "noto"
+    },
+    {
+      "unicode": 10003,
+      "name": "CHECK MARK",
+      "origin": "afterbyte"
+    },
+    {
+      "unicode": 10240,
+      "name": "BRAILLE PATTERN BLANK",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10241,
+      "name": "BRAILLE PATTERN DOTS-1",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10242,
+      "name": "BRAILLE PATTERN DOTS-2",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10243,
+      "name": "BRAILLE PATTERN DOTS-12",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10244,
+      "name": "BRAILLE PATTERN DOTS-3",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10245,
+      "name": "BRAILLE PATTERN DOTS-13",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10246,
+      "name": "BRAILLE PATTERN DOTS-23",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10247,
+      "name": "BRAILLE PATTERN DOTS-123",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10248,
+      "name": "BRAILLE PATTERN DOTS-4",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10249,
+      "name": "BRAILLE PATTERN DOTS-14",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10250,
+      "name": "BRAILLE PATTERN DOTS-24",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10251,
+      "name": "BRAILLE PATTERN DOTS-124",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10252,
+      "name": "BRAILLE PATTERN DOTS-34",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10253,
+      "name": "BRAILLE PATTERN DOTS-134",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10254,
+      "name": "BRAILLE PATTERN DOTS-234",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10255,
+      "name": "BRAILLE PATTERN DOTS-1234",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10256,
+      "name": "BRAILLE PATTERN DOTS-5",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10257,
+      "name": "BRAILLE PATTERN DOTS-15",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10258,
+      "name": "BRAILLE PATTERN DOTS-25",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10259,
+      "name": "BRAILLE PATTERN DOTS-125",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10260,
+      "name": "BRAILLE PATTERN DOTS-35",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10261,
+      "name": "BRAILLE PATTERN DOTS-135",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10262,
+      "name": "BRAILLE PATTERN DOTS-235",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10263,
+      "name": "BRAILLE PATTERN DOTS-1235",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10264,
+      "name": "BRAILLE PATTERN DOTS-45",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10265,
+      "name": "BRAILLE PATTERN DOTS-145",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10266,
+      "name": "BRAILLE PATTERN DOTS-245",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10267,
+      "name": "BRAILLE PATTERN DOTS-1245",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10268,
+      "name": "BRAILLE PATTERN DOTS-345",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10269,
+      "name": "BRAILLE PATTERN DOTS-1345",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10270,
+      "name": "BRAILLE PATTERN DOTS-2345",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10271,
+      "name": "BRAILLE PATTERN DOTS-12345",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10272,
+      "name": "BRAILLE PATTERN DOTS-6",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10273,
+      "name": "BRAILLE PATTERN DOTS-16",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10274,
+      "name": "BRAILLE PATTERN DOTS-26",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10275,
+      "name": "BRAILLE PATTERN DOTS-126",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10276,
+      "name": "BRAILLE PATTERN DOTS-36",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10277,
+      "name": "BRAILLE PATTERN DOTS-136",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10278,
+      "name": "BRAILLE PATTERN DOTS-236",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10279,
+      "name": "BRAILLE PATTERN DOTS-1236",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10280,
+      "name": "BRAILLE PATTERN DOTS-46",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10281,
+      "name": "BRAILLE PATTERN DOTS-146",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10282,
+      "name": "BRAILLE PATTERN DOTS-246",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10283,
+      "name": "BRAILLE PATTERN DOTS-1246",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10284,
+      "name": "BRAILLE PATTERN DOTS-346",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10285,
+      "name": "BRAILLE PATTERN DOTS-1346",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10286,
+      "name": "BRAILLE PATTERN DOTS-2346",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10287,
+      "name": "BRAILLE PATTERN DOTS-12346",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10288,
+      "name": "BRAILLE PATTERN DOTS-56",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10289,
+      "name": "BRAILLE PATTERN DOTS-156",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10290,
+      "name": "BRAILLE PATTERN DOTS-256",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10291,
+      "name": "BRAILLE PATTERN DOTS-1256",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10292,
+      "name": "BRAILLE PATTERN DOTS-356",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10293,
+      "name": "BRAILLE PATTERN DOTS-1356",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10294,
+      "name": "BRAILLE PATTERN DOTS-2356",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10295,
+      "name": "BRAILLE PATTERN DOTS-12356",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10296,
+      "name": "BRAILLE PATTERN DOTS-456",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10297,
+      "name": "BRAILLE PATTERN DOTS-1456",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10298,
+      "name": "BRAILLE PATTERN DOTS-2456",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10299,
+      "name": "BRAILLE PATTERN DOTS-12456",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10300,
+      "name": "BRAILLE PATTERN DOTS-3456",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10301,
+      "name": "BRAILLE PATTERN DOTS-13456",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10302,
+      "name": "BRAILLE PATTERN DOTS-23456",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10303,
+      "name": "BRAILLE PATTERN DOTS-123456",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10304,
+      "name": "BRAILLE PATTERN DOTS-7",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10305,
+      "name": "BRAILLE PATTERN DOTS-17",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10306,
+      "name": "BRAILLE PATTERN DOTS-27",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10307,
+      "name": "BRAILLE PATTERN DOTS-127",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10308,
+      "name": "BRAILLE PATTERN DOTS-37",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10309,
+      "name": "BRAILLE PATTERN DOTS-137",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10310,
+      "name": "BRAILLE PATTERN DOTS-237",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10311,
+      "name": "BRAILLE PATTERN DOTS-1237",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10312,
+      "name": "BRAILLE PATTERN DOTS-47",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10313,
+      "name": "BRAILLE PATTERN DOTS-147",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10314,
+      "name": "BRAILLE PATTERN DOTS-247",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10315,
+      "name": "BRAILLE PATTERN DOTS-1247",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10316,
+      "name": "BRAILLE PATTERN DOTS-347",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10317,
+      "name": "BRAILLE PATTERN DOTS-1347",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10318,
+      "name": "BRAILLE PATTERN DOTS-2347",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10319,
+      "name": "BRAILLE PATTERN DOTS-12347",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10320,
+      "name": "BRAILLE PATTERN DOTS-57",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10321,
+      "name": "BRAILLE PATTERN DOTS-157",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10322,
+      "name": "BRAILLE PATTERN DOTS-257",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10323,
+      "name": "BRAILLE PATTERN DOTS-1257",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10324,
+      "name": "BRAILLE PATTERN DOTS-357",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10325,
+      "name": "BRAILLE PATTERN DOTS-1357",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10326,
+      "name": "BRAILLE PATTERN DOTS-2357",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10327,
+      "name": "BRAILLE PATTERN DOTS-12357",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10328,
+      "name": "BRAILLE PATTERN DOTS-457",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10329,
+      "name": "BRAILLE PATTERN DOTS-1457",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10330,
+      "name": "BRAILLE PATTERN DOTS-2457",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10331,
+      "name": "BRAILLE PATTERN DOTS-12457",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10332,
+      "name": "BRAILLE PATTERN DOTS-3457",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10333,
+      "name": "BRAILLE PATTERN DOTS-13457",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10334,
+      "name": "BRAILLE PATTERN DOTS-23457",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10335,
+      "name": "BRAILLE PATTERN DOTS-123457",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10336,
+      "name": "BRAILLE PATTERN DOTS-67",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10337,
+      "name": "BRAILLE PATTERN DOTS-167",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10338,
+      "name": "BRAILLE PATTERN DOTS-267",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10339,
+      "name": "BRAILLE PATTERN DOTS-1267",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10340,
+      "name": "BRAILLE PATTERN DOTS-367",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10341,
+      "name": "BRAILLE PATTERN DOTS-1367",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10342,
+      "name": "BRAILLE PATTERN DOTS-2367",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10343,
+      "name": "BRAILLE PATTERN DOTS-12367",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10344,
+      "name": "BRAILLE PATTERN DOTS-467",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10345,
+      "name": "BRAILLE PATTERN DOTS-1467",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10346,
+      "name": "BRAILLE PATTERN DOTS-2467",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10347,
+      "name": "BRAILLE PATTERN DOTS-12467",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10348,
+      "name": "BRAILLE PATTERN DOTS-3467",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10349,
+      "name": "BRAILLE PATTERN DOTS-13467",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10350,
+      "name": "BRAILLE PATTERN DOTS-23467",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10351,
+      "name": "BRAILLE PATTERN DOTS-123467",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10352,
+      "name": "BRAILLE PATTERN DOTS-567",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10353,
+      "name": "BRAILLE PATTERN DOTS-1567",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10354,
+      "name": "BRAILLE PATTERN DOTS-2567",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10355,
+      "name": "BRAILLE PATTERN DOTS-12567",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10356,
+      "name": "BRAILLE PATTERN DOTS-3567",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10357,
+      "name": "BRAILLE PATTERN DOTS-13567",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10358,
+      "name": "BRAILLE PATTERN DOTS-23567",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10359,
+      "name": "BRAILLE PATTERN DOTS-123567",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10360,
+      "name": "BRAILLE PATTERN DOTS-4567",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10361,
+      "name": "BRAILLE PATTERN DOTS-14567",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10362,
+      "name": "BRAILLE PATTERN DOTS-24567",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10363,
+      "name": "BRAILLE PATTERN DOTS-124567",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10364,
+      "name": "BRAILLE PATTERN DOTS-34567",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10365,
+      "name": "BRAILLE PATTERN DOTS-134567",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10366,
+      "name": "BRAILLE PATTERN DOTS-234567",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10367,
+      "name": "BRAILLE PATTERN DOTS-1234567",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10368,
+      "name": "BRAILLE PATTERN DOTS-8",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10369,
+      "name": "BRAILLE PATTERN DOTS-18",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10370,
+      "name": "BRAILLE PATTERN DOTS-28",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10371,
+      "name": "BRAILLE PATTERN DOTS-128",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10372,
+      "name": "BRAILLE PATTERN DOTS-38",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10373,
+      "name": "BRAILLE PATTERN DOTS-138",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10374,
+      "name": "BRAILLE PATTERN DOTS-238",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10375,
+      "name": "BRAILLE PATTERN DOTS-1238",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10376,
+      "name": "BRAILLE PATTERN DOTS-48",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10377,
+      "name": "BRAILLE PATTERN DOTS-148",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10378,
+      "name": "BRAILLE PATTERN DOTS-248",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10379,
+      "name": "BRAILLE PATTERN DOTS-1248",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10380,
+      "name": "BRAILLE PATTERN DOTS-348",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10381,
+      "name": "BRAILLE PATTERN DOTS-1348",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10382,
+      "name": "BRAILLE PATTERN DOTS-2348",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10383,
+      "name": "BRAILLE PATTERN DOTS-12348",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10384,
+      "name": "BRAILLE PATTERN DOTS-58",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10385,
+      "name": "BRAILLE PATTERN DOTS-158",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10386,
+      "name": "BRAILLE PATTERN DOTS-258",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10387,
+      "name": "BRAILLE PATTERN DOTS-1258",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10388,
+      "name": "BRAILLE PATTERN DOTS-358",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10389,
+      "name": "BRAILLE PATTERN DOTS-1358",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10390,
+      "name": "BRAILLE PATTERN DOTS-2358",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10391,
+      "name": "BRAILLE PATTERN DOTS-12358",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10392,
+      "name": "BRAILLE PATTERN DOTS-458",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10393,
+      "name": "BRAILLE PATTERN DOTS-1458",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10394,
+      "name": "BRAILLE PATTERN DOTS-2458",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10395,
+      "name": "BRAILLE PATTERN DOTS-12458",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10396,
+      "name": "BRAILLE PATTERN DOTS-3458",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10397,
+      "name": "BRAILLE PATTERN DOTS-13458",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10398,
+      "name": "BRAILLE PATTERN DOTS-23458",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10399,
+      "name": "BRAILLE PATTERN DOTS-123458",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10400,
+      "name": "BRAILLE PATTERN DOTS-68",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10401,
+      "name": "BRAILLE PATTERN DOTS-168",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10402,
+      "name": "BRAILLE PATTERN DOTS-268",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10403,
+      "name": "BRAILLE PATTERN DOTS-1268",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10404,
+      "name": "BRAILLE PATTERN DOTS-368",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10405,
+      "name": "BRAILLE PATTERN DOTS-1368",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10406,
+      "name": "BRAILLE PATTERN DOTS-2368",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10407,
+      "name": "BRAILLE PATTERN DOTS-12368",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10408,
+      "name": "BRAILLE PATTERN DOTS-468",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10409,
+      "name": "BRAILLE PATTERN DOTS-1468",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10410,
+      "name": "BRAILLE PATTERN DOTS-2468",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10411,
+      "name": "BRAILLE PATTERN DOTS-12468",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10412,
+      "name": "BRAILLE PATTERN DOTS-3468",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10413,
+      "name": "BRAILLE PATTERN DOTS-13468",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10414,
+      "name": "BRAILLE PATTERN DOTS-23468",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10415,
+      "name": "BRAILLE PATTERN DOTS-123468",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10416,
+      "name": "BRAILLE PATTERN DOTS-568",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10417,
+      "name": "BRAILLE PATTERN DOTS-1568",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10418,
+      "name": "BRAILLE PATTERN DOTS-2568",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10419,
+      "name": "BRAILLE PATTERN DOTS-12568",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10420,
+      "name": "BRAILLE PATTERN DOTS-3568",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10421,
+      "name": "BRAILLE PATTERN DOTS-13568",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10422,
+      "name": "BRAILLE PATTERN DOTS-23568",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10423,
+      "name": "BRAILLE PATTERN DOTS-123568",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10424,
+      "name": "BRAILLE PATTERN DOTS-4568",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10425,
+      "name": "BRAILLE PATTERN DOTS-14568",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10426,
+      "name": "BRAILLE PATTERN DOTS-24568",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10427,
+      "name": "BRAILLE PATTERN DOTS-124568",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10428,
+      "name": "BRAILLE PATTERN DOTS-34568",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10429,
+      "name": "BRAILLE PATTERN DOTS-134568",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10430,
+      "name": "BRAILLE PATTERN DOTS-234568",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10431,
+      "name": "BRAILLE PATTERN DOTS-1234568",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10432,
+      "name": "BRAILLE PATTERN DOTS-78",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10433,
+      "name": "BRAILLE PATTERN DOTS-178",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10434,
+      "name": "BRAILLE PATTERN DOTS-278",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10435,
+      "name": "BRAILLE PATTERN DOTS-1278",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10436,
+      "name": "BRAILLE PATTERN DOTS-378",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10437,
+      "name": "BRAILLE PATTERN DOTS-1378",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10438,
+      "name": "BRAILLE PATTERN DOTS-2378",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10439,
+      "name": "BRAILLE PATTERN DOTS-12378",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10440,
+      "name": "BRAILLE PATTERN DOTS-478",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10441,
+      "name": "BRAILLE PATTERN DOTS-1478",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10442,
+      "name": "BRAILLE PATTERN DOTS-2478",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10443,
+      "name": "BRAILLE PATTERN DOTS-12478",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10444,
+      "name": "BRAILLE PATTERN DOTS-3478",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10445,
+      "name": "BRAILLE PATTERN DOTS-13478",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10446,
+      "name": "BRAILLE PATTERN DOTS-23478",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10447,
+      "name": "BRAILLE PATTERN DOTS-123478",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10448,
+      "name": "BRAILLE PATTERN DOTS-578",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10449,
+      "name": "BRAILLE PATTERN DOTS-1578",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10450,
+      "name": "BRAILLE PATTERN DOTS-2578",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10451,
+      "name": "BRAILLE PATTERN DOTS-12578",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10452,
+      "name": "BRAILLE PATTERN DOTS-3578",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10453,
+      "name": "BRAILLE PATTERN DOTS-13578",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10454,
+      "name": "BRAILLE PATTERN DOTS-23578",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10455,
+      "name": "BRAILLE PATTERN DOTS-123578",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10456,
+      "name": "BRAILLE PATTERN DOTS-4578",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10457,
+      "name": "BRAILLE PATTERN DOTS-14578",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10458,
+      "name": "BRAILLE PATTERN DOTS-24578",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10459,
+      "name": "BRAILLE PATTERN DOTS-124578",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10460,
+      "name": "BRAILLE PATTERN DOTS-34578",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10461,
+      "name": "BRAILLE PATTERN DOTS-134578",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10462,
+      "name": "BRAILLE PATTERN DOTS-234578",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10463,
+      "name": "BRAILLE PATTERN DOTS-1234578",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10464,
+      "name": "BRAILLE PATTERN DOTS-678",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10465,
+      "name": "BRAILLE PATTERN DOTS-1678",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10466,
+      "name": "BRAILLE PATTERN DOTS-2678",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10467,
+      "name": "BRAILLE PATTERN DOTS-12678",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10468,
+      "name": "BRAILLE PATTERN DOTS-3678",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10469,
+      "name": "BRAILLE PATTERN DOTS-13678",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10470,
+      "name": "BRAILLE PATTERN DOTS-23678",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10471,
+      "name": "BRAILLE PATTERN DOTS-123678",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10472,
+      "name": "BRAILLE PATTERN DOTS-4678",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10473,
+      "name": "BRAILLE PATTERN DOTS-14678",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10474,
+      "name": "BRAILLE PATTERN DOTS-24678",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10475,
+      "name": "BRAILLE PATTERN DOTS-124678",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10476,
+      "name": "BRAILLE PATTERN DOTS-34678",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10477,
+      "name": "BRAILLE PATTERN DOTS-134678",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10478,
+      "name": "BRAILLE PATTERN DOTS-234678",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10479,
+      "name": "BRAILLE PATTERN DOTS-1234678",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10480,
+      "name": "BRAILLE PATTERN DOTS-5678",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10481,
+      "name": "BRAILLE PATTERN DOTS-15678",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10482,
+      "name": "BRAILLE PATTERN DOTS-25678",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10483,
+      "name": "BRAILLE PATTERN DOTS-125678",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10484,
+      "name": "BRAILLE PATTERN DOTS-35678",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10485,
+      "name": "BRAILLE PATTERN DOTS-135678",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10486,
+      "name": "BRAILLE PATTERN DOTS-235678",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10487,
+      "name": "BRAILLE PATTERN DOTS-1235678",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10488,
+      "name": "BRAILLE PATTERN DOTS-45678",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10489,
+      "name": "BRAILLE PATTERN DOTS-145678",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10490,
+      "name": "BRAILLE PATTERN DOTS-245678",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10491,
+      "name": "BRAILLE PATTERN DOTS-1245678",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10492,
+      "name": "BRAILLE PATTERN DOTS-345678",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10493,
+      "name": "BRAILLE PATTERN DOTS-1345678",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10494,
+      "name": "BRAILLE PATTERN DOTS-2345678",
+      "origin": "braille"
+    },
+    {
+      "unicode": 10495,
+      "name": "BRAILLE PATTERN DOTS-12345678",
+      "origin": "braille"
+    }
+  ]
+}

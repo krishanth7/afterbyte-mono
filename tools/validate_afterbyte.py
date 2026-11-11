@@ -13,7 +13,7 @@ from fontTools.ttLib import TTFont
 from fontTools.pens.recordingPen import RecordingPen
 from shapely.geometry import Polygon,Point,LineString
 from shapely.ops import unary_union
-from build_afterbyte import shape_for
+from build_core import shape_for
 
 ROOT=Path(__file__).resolve().parents[1]
 
@@ -79,7 +79,7 @@ def cff_shape(glyph):
 
 def validate():
     source=json.loads((ROOT/'sources/afterbyte-mono/vectors.json').read_text())
-    directory=ROOT/'fonts/afterbyte-mono';path=directory/'AfterbyteMono-Regular.ttf'
+    directory=ROOT/'build/core';path=directory/'AfterbyteMono-Regular.ttf'
     license_text=(ROOT/'OFL.txt').read_text()
     check('SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007' in license_text,'Wrong font license')
     check((ROOT/'LICENSE').read_text()==license_text==(directory/'LICENSE.txt').read_text(),'License copies differ')

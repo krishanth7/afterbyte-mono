@@ -1,185 +1,60 @@
-<div align="center">
+## Afterbyte Mono v4.0.0 — Multilingual and technical expansion
 
-<img src="assets/afterbyte-mono/hero.svg" alt="Afterbyte Mono 0.3 — actual font specimen. Smooth technical monospace with rounded bowls, a flat-top A, and a dotted zero." width="100%">
+**1,705 glyphs: 1,704 Unicode-mapped glyphs plus one `.notdef` fallback.** One Regular style; genuine CFF OTF, TTF, WOFF and WOFF2. Embedded version is **4.000**. This is a regular release.
 
-# Afterbyte Mono
+### Added characters and coverage
 
-**An independent technical monospace with a corporate character.**
+**1,508 additional Unicode mappings over v3.0.0.** Adds selected Latin, Greek, Cyrillic, currencies, arrows, mathematical/technical operators, full box-drawing and geometric repertoires available in the selected source, and all 256 Braille patterns. Original Afterbyte recipes supply ∏ ∑ ∫.
 
-![Version](https://img.shields.io/badge/version-0.3.0_alpha-006577?style=flat-square)
-[![Font quality checks](https://github.com/krishanth7/afterbyte-mono/actions/workflows/specification.yml/badge.svg)](https://github.com/krishanth7/afterbyte-mono/actions/workflows/specification.yml)
-[![SIL Open Font License 1.1](https://img.shields.io/badge/license-OFL--1.1-334A5B?style=flat-square)](LICENSE)
+| Character group | Count |
+| --- | ---: |
+| Printable ASCII | 95 |
+| Additional Latin and extensions | 431 |
+| Greek | 121 |
+| Cyrillic | 297 |
+| Technical symbols, punctuation, currencies and geometry | 504 |
+| Braille patterns | 256 |
+| **Unicode mappings** | **1,704** |
+| Fallback .notdef | 1 |
+| **Total glyphs** | **1,705** |
 
-**[OTF](https://github.com/krishanth7/afterbyte-mono/raw/refs/heads/main/fonts/afterbyte-mono/AfterbyteMono-Regular.otf)** · **[TTF](https://github.com/krishanth7/afterbyte-mono/raw/refs/heads/main/fonts/afterbyte-mono/AfterbyteMono-Regular.ttf)** · **[WOFF](https://github.com/krishanth7/afterbyte-mono/raw/refs/heads/main/fonts/afterbyte-mono/AfterbyteMono-Regular.woff)** · **[WOFF2](https://github.com/krishanth7/afterbyte-mono/raw/refs/heads/main/fonts/afterbyte-mono/AfterbyteMono-Regular.woff2)** · **[Sponsor](https://github.com/sponsors/krishanth7)** · [Specimen](#specimen) · [Usage](#usage) · [Design provenance](docs/PROVENANCE.md)
 
-</div>
+Examples: `Ł Œ ą ě ŷ` · `Ω Δ λ π` · `Ж Д Я ж д я` · `€ £ ¥ ₹` · `∑ ∏ ∫ ∞ ≠ ≤ ≥` · `← ↑ → ↓ ↔ ↕` · `┌ ┬ ┐ ├ ┼ ┤ └ ┴ ┘` · `⠁ ⠿ ⣿`.
 
-## Overview
+The attached coverage file and source contract list every supported code point and its origin. This is selected multilingual and technical coverage, **not all Unicode symbols**. Combining marks, complex shaping, emoji and CJK are not included. Use supported precomposed characters and fallback fonts. Braille is visual dot-pattern coverage, not a translation or tactile-output system.
 
-Afterbyte Mono is a continuous-vector typeface for software products, technical dashboards, code samples, and measured digital identities. Rounded bowls, open forms, a consistent monolinear rhythm, and equal character advances combine a restrained futuristic character with practical typography.
+### Design and engineering
 
-Version **0.3.0 alpha** establishes a new design direction. The earlier pixel construction has been replaced with original vector centerlines and a different metric system. This is a substantive glyph redesign, not a renamed font or a cosmetic change to the old specimen.
+- Retains all 196 original Afterbyte mapped glyph outlines, including the flat-top A, dotted zero and single-storey a/g.
+- Selected licensed expansion glyphs derive from **Noto Sans Mono 2.014**, weight 300 / width 100, decomposed and scaled into the Afterbyte grid. This is an attributed OFL expansion, not a wholly new set of original drawings.
+- Fixed 650-unit advances on a 1000-UPEM grid; original core cap/x-height 700/500.
+- Enlarged shared line metrics: **1280/−450** to accommodate accents. This changes line spacing from v3. Use approximately 1.75 line height for prose and inspect the result in your application.
+- Explicit coverage/source manifests, fixed timestamps, all four real font containers, CSS and checksums.
 
-Maintained by [Krishanth](https://github.com/krishanth7). Current build: **Regular · 196 Unicode mappings · OTF + TTF + WOFF + WOFF2**.
+### Files and installation
 
-## Signature forms
+Download **AfterbyteMono-v4.0.0.zip** for the complete package: four formats, OFL/copyright notices, CSS, exact coverage, coverage summary, source recipes, licensed source dependency, build/validation tools, pinned requirements and installation instructions. Individual font files and a coverage text file are also attached.
 
-| Detail | Current design |
-| --- | --- |
-| A | Flat upper bridge with long diagonal legs |
-| 0 | Centered dot inside a rounded rectangular bowl |
-| a / g | Single-storey forms with a clear open-descender construction |
-| O / o | Continuous rounded bowls instead of pixel steps |
-| R / Q | Curved upper chambers and deliberate diagonal exits |
-| 1 / I / l | Distinct flag, bars, and asymmetric terminal treatment |
-| Spacing | Equal 650-unit advance for every glyph |
+Install **either OTF or TTF**, not both; they share the same family/style. Replace cached older installations and restart applications. WOFF2 is preferred for websites, with WOFF fallback. `SHA256SUMS` verifies every attached package/font/coverage/license asset except the checksum file itself.
 
-The design specifications and source coordinates are documented in [DESIGN.md](docs/DESIGN.md) and [vectors.json](sources/afterbyte-mono/vectors.json).
+To rebuild this package's fonts, install `requirements-font.txt` and run `python tools/build_afterbyte.py --version 4`. The vendored source permits offline builds after tooling is installed; upstream reconstruction is optional and hash-checked.
 
-## Specimen
+### License and attribution
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/afterbyte-mono/specimen-dark.svg">
-  <img src="assets/afterbyte-mono/specimen-light.svg" alt="Actual Afterbyte Mono 0.3: continuous uppercase and lowercase forms, dotted zero, distinct 1/I/l, punctuation, accented Latin, currencies, arrows, code text, and box drawing." width="100%">
-</picture>
+**SIL Open Font License 1.1.** Copyright 2026 Krishanth; selected expansion glyphs copyright 2022 The Noto Project Authors. The full combined notice is embedded in each font, and the original upstream OFL is retained in the source package. No Reserved Font Names are declared in the supplied notices; dependencies retain their own terms.
 
-All specimen lettering is extracted from the compiled font and rendered as SVG glyph paths. GitHub uses its own typography for the surrounding README text.
+### Validation and limits
 
-```text
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
-abcdefghijklmnopqrstuvwxyz
-0123456789   0O   1Il   a e g
-ÄÖÜ äöü ß   ÀÉÎÑ   æ ø   € £ ¥ ₹
-← → ↑ ↓ ↔ ↕   ✓ ■ □
-```
+Exact counts and coverage; retained core outlines; Braille bit patterns; mathematical style checks where applicable; four-format metadata and bounds; source hashes; each character shaped with HarfBuzz; all nonblank mapped glyphs rendered at 12/24/48 px in each decoded format; matching checksums and deterministic rebuilds. Actual-font specimens were reviewed. These are technical checks, not a complete native-language, accessibility or cross-platform certification. One Regular style; no variable axes, combining-mark positioning, ligatures or bytecode hinting.
 
-[Proofing text](specimen/afterbyte-mono.txt) · [Exact Unicode coverage](fonts/afterbyte-mono/coverage.txt) · [Validation notes](docs/QUALITY.md)
+### Release history
 
-## Downloads
+| Version | Glyphs | Unicode mappings | Milestone |
+| --- | ---: | ---: | --- |
+| [v1.0.0](https://github.com/krishanth7/afterbyte-mono/releases/tag/v1.0.0) | 197 | 196 | Pixel design |
+| [v2.0.0](https://github.com/krishanth7/afterbyte-mono/releases/tag/v2.0.0) | 197 | 196 | Vector redesign |
+| [v3.0.0](https://github.com/krishanth7/afterbyte-mono/releases/tag/v3.0.0) | 197 | 196 | Four-format package |
+| [v4.0.0](https://github.com/krishanth7/afterbyte-mono/releases/tag/v4.0.0) | 1,705 | 1,704 | Multilingual and technical expansion |
+| [v5.0.0](https://github.com/krishanth7/afterbyte-mono/releases/tag/v5.0.0) | 2,500 | 2,499 | Extended scripts and mathematical styles |
 
-| File | Purpose |
-| --- | --- |
-| [AfterbyteMono-Regular.otf](https://github.com/krishanth7/afterbyte-mono/raw/refs/heads/main/fonts/afterbyte-mono/AfterbyteMono-Regular.otf) | Desktop OpenType/CFF font for design applications |
-| [AfterbyteMono-Regular.ttf](https://github.com/krishanth7/afterbyte-mono/raw/refs/heads/main/fonts/afterbyte-mono/AfterbyteMono-Regular.ttf) | Desktop applications, editors, and local installation |
-| [AfterbyteMono-Regular.woff](https://github.com/krishanth7/afterbyte-mono/raw/refs/heads/main/fonts/afterbyte-mono/AfterbyteMono-Regular.woff) | WOFF webfont for compatibility |
-| [AfterbyteMono-Regular.woff2](https://github.com/krishanth7/afterbyte-mono/raw/refs/heads/main/fonts/afterbyte-mono/AfterbyteMono-Regular.woff2) | Self-hosted websites and applications |
-| [afterbyte-mono.css](fonts/afterbyte-mono/afterbyte-mono.css) | Font-face declaration |
-| [SHA256SUMS](fonts/afterbyte-mono/SHA256SUMS) | Binary integrity |
-| [vectors.json](sources/afterbyte-mono/vectors.json) | Editable vector centerline source |
-
-These links point to the current alpha on `main`. No tagged stable release or package-manager distribution is claimed.
-
-## Usage
-
-### Desktop
-
-Download either the TTF or OTF, open it in your system's font viewer, and choose Install. Both contain the same design and family name; install one desktop format to avoid duplicate font entries. Select **Afterbyte Mono — Regular**.
-
-If an earlier version is cached, replace or uninstall it and restart the application. Version 0.3 changes the design, advance, and vertical metrics, so existing layouts may reflow.
-
-### Web
-
-Copy the [font directory](fonts/afterbyte-mono) into your project and load:
-
-```css
-@font-face {
-  font-family: "Afterbyte Mono";
-  src: url("./AfterbyteMono-Regular.woff2") format("woff2"),
-       url("./AfterbyteMono-Regular.woff") format("woff"),
-       url("./AfterbyteMono-Regular.ttf") format("truetype"),
-       url("./AfterbyteMono-Regular.otf") format("opentype");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-.technical-text {
-  font-family: "Afterbyte Mono", monospace;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0;
-  font-synthesis: none;
-}
-```
-
-The font has continuous outlines and does not require pixel-size multiples. Local raster smoke checks cover 12, 16, 24, 32, 48, and 96 px; inspect readability in your actual application.
-
-For connected box-drawing rows, use `line-height: 1.04` and `letter-spacing: 0`. For normal text, allow more vertical space. Resolve font URLs relative to your CSS file and self-host the binaries.
-
-## Technical profile
-
-| Property | Value |
-| --- | --- |
-| Family / style | Afterbyte Mono / Regular |
-| Spacing | True monospace; 650 units |
-| Em / construction | 1000 UPEM / continuous vector centerlines |
-| Structural stroke | 64 units |
-| Cap / x-height | 700 / 500 units |
-| Typographic ascender / descender | 820 / −220 units |
-| Coverage | 196 Unicode mappings + .notdef |
-| Formats | OTF (CFF), TTF, WOFF, WOFF2, CSS |
-| Project source/binary license | OFL-1.1 |
-
-Coverage includes printable ASCII, selected accented Latin, German umlauts and ß, Æ/æ and Ø/ø, €, £, ¥ and ₹, typographic punctuation, arrows, status symbols, box drawing, and stylized stripe/block symbols. It is not complete Latin-1 or universal script support.
-
-## Development
-
-Use Python 3.12 and the pinned dependencies:
-
-```sh
-python -m venv .venv
-# Activate the environment before installing dependencies.
-python -m pip install -r requirements-font.txt
-
-python tools/draw_afterbyte_vector.py
-python tools/build_afterbyte.py
-python tools/validate_afterbyte.py
-python tools/render_afterbyte.py
-```
-
-The editable source is [vectors.json](sources/afterbyte-mono/vectors.json). Running the vector recipe generator overwrites direct JSON edits; run only the build when compiling a manually edited source.
-
-The compiler samples original cubic centerlines, expands their strokes, unions the geometry, and writes integer polygon outlines. OTF (CFF), TTF, WOFF, and WOFF2 are built from the same outlines with fixed timestamps. The OTF contains actual PostScript/CFF charstrings; WOFF and WOFF2 are compressed TrueType containers. It does not load another font, trace its outlines, or convert the old pixel matrices.
-
-[Design specification](docs/DESIGN.md) · [Provenance record](docs/PROVENANCE.md) · [Roadmap](ROADMAP.md) · [Changelog](CHANGELOG.md)
-
-## Quality and scope
-
-Checks cover source-to-binary outline agreement, valid contour topology, fixed advances, names, line metrics, signature glyphs, embedded license text, cross-format OTF/TTF/WOFF/WOFF2 equivalence, HarfBuzz shaping, raster smoke checks, checksums, links, and reproducible builds.
-
-This is an alpha with one Regular style, selected Unicode coverage, no variable axes, no ligatures, and no bytecode hinting. Cross-platform installation, multiple browser engines, independent font validation, and additional language coverage remain open work. Technical checks are not a readability certification or legal clearance.
-
-## Sponsors
-
-**[Support the maintainer on GitHub Sponsors](https://github.com/sponsors/krishanth7).**
-
-Sponsorship helps sustain ongoing open-source development, including type design, glyph coverage, rendering tests, documentation, and maintenance. The linked profile supports Krishanth's wider open-source work, including this project.
-
-The font remains available under the SIL Open Font License 1.1; sponsorship is optional. Payment options and any profile-specific terms are handled on GitHub. Public acknowledgments are added only after the sponsorship and permission to use the name or logo are verified.
-
-[Sponsorship details](SPONSORSHIP.md)
-
-## Contributing
-
-Include the font version, text sample, application, OS, size, zoom/display scale, and optional screenshot in rendering reports. Original glyph proposals and real product examples are welcome.
-
-[Contributing](CONTRIBUTING.md) · [Issue forms](https://github.com/krishanth7/afterbyte-mono/issues/new/choose) · [PR template](.github/pull_request_template.md)
-
-[Code of conduct](CODE_OF_CONDUCT.md) · [Security policy](SECURITY.md) · [Accessibility](ACCESSIBILITY.md)
-
-## License and provenance
-
-Afterbyte Mono font binaries, editable sources, build scripts, artwork, and documentation are distributed under the **[SIL Open Font License 1.1](OFL.txt)**. No Reserved Font Names are declared. The full license is included with the fonts and embedded in all four formats. Build dependencies retain their own licenses.
-
-Commercial use and embedding are permitted under the OFL terms. Redistributed font software must retain the copyright notice and OFL; the font software may not be sold by itself. Documents created with the font are not covered by the font license. Earlier distributions retain the permissions already granted with them.
-
-The previous 0.2 pixel experiment referenced Departure Mono as an aesthetic category. Version 0.3 uses a separate continuous-vector design. Its glyph coordinates were developed for this project with AI assistance; no Departure Mono font binaries, glyph outlines, source matrices, or artwork are included or read by the current build.
-
-The [provenance record](docs/PROVENANCE.md) documents inputs and design changes. It does not certify copyright status, trademark clearance, or absence of third-party claims. This project is independent and makes no affiliation claim.
-
----
-
-<div align="center">
-Afterbyte Mono · Clarity with a distinct character.
-</div>
+[Repository and specimens](https://github.com/krishanth7/afterbyte-mono) · [Sponsor the maintainer](https://github.com/sponsors/krishanth7)

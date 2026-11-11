@@ -1,0 +1,16 @@
+{
+  "project": "Noto Sans Mono",
+  "upstream_version": "2.014",
+  "license": "OFL-1.1",
+  "copyright": "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/latin-greek-cyrillic)",
+  "google_fonts_commit": "097bc1b8c04c3224087c2ae95f7a923859b778cf",
+  "url": "https://raw.githubusercontent.com/google/fonts/097bc1b8c04c3224087c2ae95f7a923859b778cf/ofl/notosansmono/NotoSansMono%5Bwdth%2Cwght%5D.ttf",
+  "download_sha256": "2cb2adb378a8f574213e23df697050b83c54c27df465a2015552740b2769a081",
+  "subset_sha256": "78ee65b8034303ad1f2e67a23ee85d67874b99ed253c277deea6fa4564be3ca7",
+  "instance": {
+    "wght": 300,
+    "wdth": 100
+  },
+  "subset_unicode_count": 1847,
+  "changes": "Static Light instance; subset to the selected spacing characters; layout features dropped. Used as licensed glyph source, not shipped as an unmodified Noto font."
+}

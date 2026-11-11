@@ -2,7 +2,7 @@
 
 ## Supported material
 
-The current maintained branch is main. Afterbyte Mono Regular 0.3.0 alpha is the primary font; earlier experimental files remain in the repository. There is no stable security-support guarantee or promised response time.
+The current maintained branch is main. Afterbyte Mono Regular 5.0.0 is the primary font; earlier experimental files remain in the repository. There is no stable security-support guarantee or promised response time.
 
 ## Reporting
 

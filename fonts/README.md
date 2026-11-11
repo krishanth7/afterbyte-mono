@@ -1,9 +1,7 @@
-# Font files
+# Font builds
 
-[afterbyte-mono](afterbyte-mono) contains the current **Afterbyte Mono Regular / 0.3.0 alpha**, a continuous-vector technical monospace.
+[afterbyte-mono](afterbyte-mono) contains **Afterbyte Mono Regular 4.0.0**: 1705 glyphs, 1704 mapped Unicode characters, fixed 650-unit advances, OTF/CFF, TTF, WOFF and WOFF2.
 
-The directory includes OTF (CFF), TTF, WOFF, WOFF2, CSS, an exact Unicode coverage list, SIL Open Font License 1.1 copy, and checksums. Use the [README](../README.md) for installation and usage.
+The directory includes CSS, complete code-point/origin coverage, a machine-readable summary, full OFL/copyright notice and SHA-256 checksums. Install either desktop format, not both.
 
-The previous pixel version is available in Git history.
-
-Choose either TTF or OTF for desktop installation; they share the same family and style. Prefer WOFF2 for websites, with WOFF for compatibility.
+For the 1705-glyph v4 build, run `python tools/build_afterbyte.py --version 4 --output build/v4/fonts`, or download its release package. See the root [README](../README.md) for release history, source attribution and usage.

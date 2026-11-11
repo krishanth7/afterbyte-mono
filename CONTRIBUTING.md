@@ -1,12 +1,12 @@
 # Contributing
 
-Afterbyte Mono 0.3 is the current continuous-vector monospace. The older pixel study is historical. Identify the font version in issues and pull requests.
+Afterbyte Mono 5.0 is the current continuous-vector monospace. The older pixel study is historical. Identify the font version in issues and pull requests.
 
 ## Original source and provenance
 
 Submit original work with authorship and provenance. Do not trace or rename third-party fonts or assume a new license file removes existing obligations. Disclose any external material and applicable terms before proposing its inclusion. See docs/PROVENANCE.md.
 
-The original current project sources and binaries use LICENSE (OFL-1.1). Dependencies retain their own terms. No legal clearance is claimed by the technical validation process.
+The current project sources and binaries, including the attributed OFL expansion, use LICENSE (OFL-1.1). Dependencies retain their own terms. No legal clearance is claimed by the technical validation process.
 
 ## Build and review
 
