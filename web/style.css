@@ -160,3 +160,6 @@ button[aria-pressed=true]:hover:not(:disabled){background:var(--ink);color:var(-
  .full-keyboard [data-code="NumpadDecimal"]{grid-row:17/span 1;grid-column:9/span 1}
 }
 @media(max-width:360px){.full-keyboard .keyboard-bed .key-word{font-size:7px}.keyboard-leds{gap:8px}.keyboard-leds>span{font-size:5px}.lock-state{font-size:5px}}
+
+/* Keep the interactive keyboard studio on desktop only. */
+@media(max-width:850px){.typewriter-section{display:none}}
